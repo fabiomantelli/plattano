@@ -7,15 +7,17 @@ const About: React.FC = () => {
         <Container>
             <h1>Sobre a Plattano</h1>
             <h2>
-                Somos uma empresa especializada em implementação, gestão e
-                consultoria em infraestrutura de ambientes virtualizados. Nosso
-                objetivo principal é a continuidade do negócio de nossos
-                clientes e parceiros, utilizando as melhores práticas e
-                ferramentas de implementações de soluções, com um suporte
-                extremamente próximo e personalizado. Possibilitamos que as
-                empresas utilizem a tecnologia a favor de seus objetivos.
+                Somos uma empresa especializada em <br />
+                implementação, gestão e consultoria em infraestrutura <br /> de
+                ambientes virtualizados. Nosso objetivo principal é a <br />
+                continuidade do negócio de nossos clientes e <br />
+                parceiros, utilizando as melhores práticas e <br />
+                ferramentas de implementações de soluções, com um <br />
+                suporte extremamente próximo e personalizado. <br />
+                Possibilitamos que as empresas utilizem a tecnologia a <br />
+                favor de seus objetivos.
             </h2>
-            <h3>Leia Mais</h3>
+            <button>Leia Mais</button>
         </Container>
     )
 }

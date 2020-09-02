@@ -6,5 +6,6 @@ export const Container = styled.div`
 
     h1 {
         font-size: 0.77rem;
+        color: ${props => props.theme.colors.background};
     }
 `

@@ -11,7 +11,7 @@ const Management: React.FC = () => {
                 confiáveis de todas as suas aplicações e dados.
             </h2>
 
-            <h2>Saiba Mais</h2>
+            <button>Saiba Mais</button>
         </Container>
     )
 }

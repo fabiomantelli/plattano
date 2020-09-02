@@ -5,9 +5,7 @@ import { Container } from './styles'
 const ServicesFooter: React.FC = () => {
     return (
         <Container>
-            <Link href="/">
-                <a>Serviços</a>
-            </Link>
+            <h1>Serviços</h1>
             <Link href="/">
                 <a>Licenciamentos</a>
             </Link>
