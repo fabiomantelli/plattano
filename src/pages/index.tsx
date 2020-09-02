@@ -62,7 +62,7 @@ export const Column = styled.div<{
     margin-bottom: ${props => props.marginBottom}vw;
     margin-left: ${props => props.marginLeft}vw;
 
-    border: green solid 1px;
+    // border: green solid 1px;
 `
 
 const media = {
