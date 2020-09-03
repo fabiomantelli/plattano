@@ -10,5 +10,6 @@ export const Container = styled.div`
     a {
         font-size: 0.88rem;
         text-decoration: none;
+        color: inherit;
     }
 `

@@ -1,12 +1,14 @@
 import React from 'react'
 
-function DatacenterImage(): JSX.Element {
+import { Container } from './styles'
+
+export default function DatacenterImage(): JSX.Element {
     return (
-        <img
-            src="/assets/datacenter/datacenter-image.png"
-            alt="Datacenter Image"
-        />
+        <Container>
+            <img
+                src="/assets/datacenter/datacenter-image.png"
+                alt="Datacenter Image"
+            />
+        </Container>
     )
 }
-
-export default DatacenterImage

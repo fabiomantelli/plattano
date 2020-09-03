@@ -4,7 +4,6 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    box-shadow: 0px 10px 20px rgba(171, 171, 171, 0.15);
 
     h1 {
         font-size: 1.33rem;

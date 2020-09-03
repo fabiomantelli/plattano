@@ -5,6 +5,6 @@ export const Container = styled.div`
 
     img {
         display: flex;
-        margin: 50px 50px 50px 50px;
+        float: right;
     }
 `

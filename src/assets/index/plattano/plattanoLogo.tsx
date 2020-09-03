@@ -6,7 +6,7 @@ export default function PlattanoImage(): JSX.Element {
     return (
         <Container>
             <img
-                src="/assets/header/plattano-logo.png"
+                src="/assets/header/plattano-logo.svg"
                 alt="Plattano Technologies"
             />
         </Container>

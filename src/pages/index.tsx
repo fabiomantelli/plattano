@@ -12,6 +12,7 @@ import News from '../components/News'
 import Email from '../components/Email'
 import Market from '../components/Market'
 import Licensing from '../components/Licensing'
+import LicensingIcon from '../assets/index/licensing'
 import Vmware from '../components/Vmware'
 import Veeam from '../components/Veeam'
 import AboutImage from '../assets/index/aboutImage'
@@ -23,11 +24,10 @@ import ServicesFooter from '../components/ServicesFooter'
 import ProductsFooter from '../components/ProductsFooter'
 import PartnersFooter from '../components/PartnersFooter'
 import End from '../components/End'
-import PlattanoImage from '../assets/index/plattano/plattanoImage'
+import PlattanoLogo from '../assets/index/plattano/plattanoLogo'
 import ContactIcon from '../assets/index/contactIcon'
 import WhereIcon from '../assets/index/whereIcon'
 import SocialIcon from '../assets/index/socialIcon'
-import LicensingIcon from '../assets/index/licensing'
 import VmwareIcon from '../assets/index/vmware'
 import VeeamIcon from '../assets/index/veeam'
 import PlattanoWhiteIcon from '../assets/index/plattanowhite'
@@ -50,12 +50,20 @@ export const Column = styled.div<{
     marginRight?: number
     marginBottom?: number
     marginLeft?: number
+    boxShadow?: boolean
+    padding?: number
 }>`
     flex: ${props => props.size};
     ${props =>
         props.collapse &&
         media[props.collapse](`display: none;
     `)}
+
+    padding: ${props => props.padding}vw;
+    box-shadow: ${props =>
+        props.boxShadow === true
+            ? '0px 10px 20px rgba(171, 171, 171, 0.15)'
+            : 'none'};
 
     margin-top: ${props => props.marginTop}vw;
     margin-right: ${props => props.marginRight}vw;
@@ -93,7 +101,7 @@ const Home: React.FC = () => {
                 <Grid>
                     <Row>
                         <Column size={1}>
-                            <PlattanoImage />
+                            <PlattanoLogo />
                         </Column>
                         <Column size={3}>
                             <Header />
@@ -142,6 +150,8 @@ const Home: React.FC = () => {
                             marginTop={5}
                             marginBottom={5}
                             marginLeft={5}
+                            boxShadow={true}
+                            padding={2}
                         >
                             <LicensingIcon />
                             <Licensing />
@@ -151,6 +161,8 @@ const Home: React.FC = () => {
                             marginTop={5}
                             marginBottom={5}
                             marginLeft={5}
+                            boxShadow={true}
+                            padding={2}
                         >
                             <VmwareIcon />
                             <Vmware />
@@ -161,6 +173,8 @@ const Home: React.FC = () => {
                             marginRight={5}
                             marginBottom={5}
                             marginLeft={5}
+                            boxShadow={true}
+                            padding={2}
                         >
                             <VeeamIcon />
                             <Veeam />
@@ -175,15 +189,20 @@ const Home: React.FC = () => {
                         </Column>
                     </Row>
                     <Row>
-                        <Column size={1} marginLeft={5}>
+                        <Column size={1} marginLeft={5} padding={2}>
                             <ContactIcon />
                             <Contact />
                         </Column>
-                        <Column size={1} marginLeft={2} marginRight={2}>
+                        <Column
+                            size={1}
+                            marginLeft={2}
+                            marginRight={2}
+                            padding={2}
+                        >
                             <WhereIcon />
                             <Where />
                         </Column>
-                        <Column size={1} marginRight={5}>
+                        <Column size={1} marginRight={5} padding={2}>
                             <SocialIcon />
                             <Social />
                         </Column>
