@@ -8,7 +8,7 @@ export const Container = styled.div`
 
     h1 {
         font-size: 1.33rem;
-        margin-bottom: 15px;
+        margin: 15px 0;
     }
 
     h2 {

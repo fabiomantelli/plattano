@@ -15,7 +15,7 @@ import Licensing from '../components/Licensing'
 import LicensingIcon from '../assets/index/licensing'
 import Vmware from '../components/Vmware'
 import Veeam from '../components/Veeam'
-import AboutImage from '../assets/index/aboutImage'
+import AboutImage from '../assets/index/about/aboutImage'
 import About from '../components/About'
 import Contact from '../components/Contact'
 import Where from '../components/Where'
@@ -23,24 +23,30 @@ import Social from '../components/Social'
 import ServicesFooter from '../components/ServicesFooter'
 import ProductsFooter from '../components/ProductsFooter'
 import PartnersFooter from '../components/PartnersFooter'
-import End from '../components/End'
+import Copyright from '../components/Copyright'
+import Idiom from '../components/Idiom'
 import PlattanoLogo from '../assets/index/plattano/plattanoLogo'
 import ContactIcon from '../assets/index/contactIcon'
 import WhereIcon from '../assets/index/whereIcon'
 import SocialIcon from '../assets/index/socialIcon'
 import VmwareIcon from '../assets/index/vmware'
 import VeeamIcon from '../assets/index/veeam'
-import PlattanoWhiteIcon from '../assets/index/plattanowhite'
+import PlattanoWhiteIcon from '../assets/index/plattanowhite/plattanowhite'
 
 export const Grid = styled.div`
     display: grid;
 `
 
-export const Row = styled.div<{ background?: boolean; position?: string }>`
+export const Row = styled.div<{
+    background?: boolean
+    position?: string
+    marginTop?: number
+}>`
     display: flex;
     background: ${props =>
         props.background === true ? props.theme.colors.gradient : false};
     position: ${props => props.position};
+    margin-top: ${props => props.marginTop}vh;
 `
 
 export const Column = styled.div<{
@@ -70,7 +76,7 @@ export const Column = styled.div<{
     margin-bottom: ${props => props.marginBottom}vw;
     margin-left: ${props => props.marginLeft}vw;
 
-    // border: green solid 1px;
+    border: green solid 1px;
 `
 
 const media = {
@@ -131,7 +137,7 @@ const Home: React.FC = () => {
                         </Column>
                     </Row>
 
-                    <Row background={true}>
+                    <Row background={true} marginTop={5}>
                         <Column size={1}>
                             <News />
                         </Column>
@@ -147,8 +153,8 @@ const Home: React.FC = () => {
                     <Row>
                         <Column
                             size={1}
-                            marginTop={5}
-                            marginBottom={5}
+                            marginTop={1}
+                            marginBottom={1}
                             marginLeft={5}
                             boxShadow={true}
                             padding={2}
@@ -158,8 +164,8 @@ const Home: React.FC = () => {
                         </Column>
                         <Column
                             size={1}
-                            marginTop={5}
-                            marginBottom={5}
+                            marginTop={1}
+                            marginBottom={1}
                             marginLeft={5}
                             boxShadow={true}
                             padding={2}
@@ -169,9 +175,9 @@ const Home: React.FC = () => {
                         </Column>
                         <Column
                             size={1}
-                            marginTop={5}
+                            marginTop={1}
+                            marginBottom={1}
                             marginRight={5}
-                            marginBottom={5}
                             marginLeft={5}
                             boxShadow={true}
                             padding={2}
@@ -180,7 +186,7 @@ const Home: React.FC = () => {
                             <Veeam />
                         </Column>
                     </Row>
-                    <Row>
+                    <Row marginTop={5}>
                         <Column size={1}>
                             <AboutImage />
                         </Column>
@@ -242,7 +248,12 @@ const Home: React.FC = () => {
                         </Column>
                     </Row>
                     <Row background={true}>
-                        <End />
+                        <Column size={1}>
+                            <Copyright />
+                        </Column>
+                        <Column size={1}>
+                            <Idiom />
+                        </Column>
                     </Row>
                 </Grid>
             </body>

@@ -15,6 +15,7 @@ export const Container = styled.div`
     h2 {
         padding: 15px 0px;
         font-weight: 300;
+        line-height: 1.5rem;
     }
     h3 {
         color: ${props => props.theme.colors.primary};

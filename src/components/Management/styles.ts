@@ -21,6 +21,7 @@ export const Container = styled.div`
         font-size: 1.33rem;
         font-weight: normal;
         text-align-last: center;
+        line-height: 2.5rem;
         color: ${props => props.theme.colors.background};
         padding-top: 10px;
     }
