@@ -9,7 +9,7 @@ export const Container = styled.div`
 
     input {
         height: 5.5vh;
-        width: 50vh;
+        width: 40vh;
         margin-right: 1vh;
         text-indent: 1vh;
     }

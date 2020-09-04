@@ -8,7 +8,6 @@ export const Container = styled.div`
     padding-left: 5vw;
     background-image: url('/assets/datacenter/background-datacenter.png');
     background-repeat: no-repeat;
-    background-size: 100%;
     background-position: bottom;
 
     h1 {

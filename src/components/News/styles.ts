@@ -18,4 +18,8 @@ export const Container = styled.div`
         color: ${props => props.theme.colors.background};
         padding-top: 1vh;
     }
+
+    @media only screen and (max-width: 1024px) {
+        align-items: center;
+    }
 `

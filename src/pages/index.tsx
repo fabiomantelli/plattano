@@ -42,8 +42,13 @@ export const Row = styled.div<{
     background?: boolean
     position?: string
     marginTop?: number
+    collapse?: string
 }>`
     display: flex;
+    ${props =>
+        props.collapse &&
+        media[props.collapse](`display: none;
+    `)}
     background: ${props =>
         props.background === true ? props.theme.colors.gradient : false};
     position: ${props => props.position};
@@ -81,13 +86,18 @@ export const Column = styled.div<{
 `
 
 const media = {
-    mobile: (styles: string) => `
-        @media only screen and (max-width: 600px) {
+    desktopoff: (styles: string) => `
+        @media only screen and (max-width: 1024px) {
             ${styles}
         }
     `,
-    desktop: (styles: string) => `
-        @media only screen and (max-width: 1024px) {
+    desktopon: (styles: string) => `
+        @media only screen and (min-width: 1025px) {
+            ${styles}
+        }
+    `,
+    mobile: (styles: string) => `
+        @media only screen and (max-width: 600px) {
             ${styles}
         }
     `
@@ -101,7 +111,7 @@ const Home: React.FC = () => {
     return (
         <>
             <Head>
-                <title>Plattano</title>
+                <title>Plattano Technologies</title>
             </Head>
 
             <body>
@@ -138,11 +148,18 @@ const Home: React.FC = () => {
                         </Column>
                     </Row>
 
-                    <Row background={true} marginTop={5}>
+                    <Row background={true} collapse="desktopoff">
                         <Column size={1}>
                             <News />
                         </Column>
                         <Column size={1}>
+                            <Email />
+                        </Column>
+                    </Row>
+
+                    <Row background={true} collapse="desktopon">
+                        <Column size={1}>
+                            <News />
                             <Email />
                         </Column>
                     </Row>

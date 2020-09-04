@@ -1,10 +1,11 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
+    height: 100vh;
+    vertical-align: middle;
+    display: table-cell;
     img {
-        width: auto;
         max-width: 100%;
-        display: flex;
-        margin: 50px 50px 50px 50px;
+        max-height: 100%;
     }
 `

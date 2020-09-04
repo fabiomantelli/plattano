@@ -7,6 +7,14 @@ export default createGlobalStyle`
      padding: 0;
      box-sizing: border-box;
      font-size: ${props => props.theme.font.size};
+
+     @media only screen and (max-width: 1024px) {
+        font-size: ${props => props.theme.laptop.font.size};
+    }
+
+    @media only screen and (max-width: 768px) {
+        font-size: ${props => props.theme.tablet.font.size};
+    }
  }
 
  body {
