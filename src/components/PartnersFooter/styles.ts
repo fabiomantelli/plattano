@@ -4,6 +4,7 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     line-height: 1.5rem;
+    padding-bottom: 15px;
 
     h1 {
         font-size: 0.77rem;

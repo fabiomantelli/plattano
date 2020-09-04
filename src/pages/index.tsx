@@ -32,6 +32,7 @@ import SocialIcon from '../assets/index/socialIcon'
 import VmwareIcon from '../assets/index/vmware'
 import VeeamIcon from '../assets/index/veeam'
 import PlattanoWhiteIcon from '../assets/index/plattanowhite/plattanowhite'
+import VeeamVmwareIcon from '../assets/index/footer/VeeamVmwareIcon'
 
 export const Grid = styled.div`
     display: grid;
@@ -76,7 +77,7 @@ export const Column = styled.div<{
     margin-bottom: ${props => props.marginBottom}vw;
     margin-left: ${props => props.marginLeft}vw;
 
-    border: green solid 1px;
+    // border: green solid 1px;
 `
 
 const media = {
@@ -245,6 +246,7 @@ const Home: React.FC = () => {
                             marginTop={5}
                         >
                             <PartnersFooter />
+                            <VeeamVmwareIcon />
                         </Column>
                     </Row>
                     <Row background={true}>
