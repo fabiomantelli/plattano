@@ -8,6 +8,7 @@ export default createGlobalStyle`
      box-sizing: border-box;
      font-size: ${props => props.theme.font.size};
 
+
      @media only screen and (max-width: 1024px) {
         font-size: ${props => props.theme.laptop.font.size};
     }
@@ -16,6 +17,10 @@ export default createGlobalStyle`
         font-size: ${props => props.theme.tablet.font.size};
     }
  }
+
+html {
+    scroll-behavior: smooth;
+}
 
  body {
      background: ${props => props.theme.colors.background};

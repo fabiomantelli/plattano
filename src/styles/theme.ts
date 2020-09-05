@@ -11,12 +11,12 @@ const theme = {
     },
     laptop: {
         font: {
-            size: '15px'
+            size: '17px'
         }
     },
     tablet: {
         font: {
-            size: '13px'
+            size: '16px'
         }
     }
 }

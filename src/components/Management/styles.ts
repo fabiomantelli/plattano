@@ -5,11 +5,12 @@ export const Container = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     height: 90vh;
     background-image: url('/assets/management/management-background.png');
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: left -150% bottom -150%;
+    background-position: left -90% bottom -90%;
 
     h1 {
         font-size: 3.88rem;

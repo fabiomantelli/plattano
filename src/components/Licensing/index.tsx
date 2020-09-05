@@ -15,7 +15,9 @@ const Licensing: React.FC = () => {
                 solução e licenciamento de <br />
                 produtos para cada caso.
             </h2>
-            <h3>Leia mais</h3>
+            <h3>
+                <a href="#">Leia mais</a>
+            </h3>
         </Container>
     )
 }

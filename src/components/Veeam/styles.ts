@@ -22,4 +22,14 @@ export const Container = styled.div`
         color: ${props => props.theme.colors.primary};
         margin-top: 10px;
     }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    @media only screen and (max-width: 600px) {
+        align-items: center;
+        text-align: center;
+    }
 `

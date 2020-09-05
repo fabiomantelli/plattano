@@ -20,6 +20,8 @@ export const Container = styled.div`
     }
 
     @media only screen and (max-width: 1024px) {
-        align-items: center;
+        text-align: center;
+        height: 13vh;
+        padding: 10vw;
     }
 `

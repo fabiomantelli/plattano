@@ -29,5 +29,11 @@ export const Container = styled.div`
         border-color: transparent;
         padding: 8px 15px 8px 15px;
         margin-top: 15px;
+        cursor: pointer;
+    }
+
+    @media only screen and (max-width: 600px) {
+        align-items: center;
+        text-align: center;
     }
 `

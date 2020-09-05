@@ -20,5 +20,10 @@ export const Container = styled.div`
         color: white;
         border-color: transparent;
         padding: 8px 15px 8px 15px;
+        cursor: pointer;
+    }
+
+    @media only screen and (max-width: 1024px) {
+        height: 13vh;
     }
 `
