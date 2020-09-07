@@ -11,7 +11,7 @@ export const Container = styled.div`
         margin: 15px 0;
     }
 
-    h2 {
+    span {
         font-size: 0.88rem;
         font-weight: 300;
     }

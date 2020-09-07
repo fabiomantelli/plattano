@@ -37,9 +37,10 @@ html {
      font-size: 1rem;
  }
 
-h2 {
+h2, span {
     font-size: 1rem;
 }
+
 
  h3 {
      font-size: 0.88rem;

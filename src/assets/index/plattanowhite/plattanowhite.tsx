@@ -1,8 +1,15 @@
 import React from 'react'
 
+import { Container } from './styles'
+
 function plattanoWhiteIcon(): JSX.Element {
     return (
-        <img src="/assets/footer/plattanowhite-icon.png" alt="Plattano Icon" />
+        <Container>
+            <img
+                src="/assets/footer/plattanowhite-icon.png"
+                alt="Plattano Icon"
+            />
+        </Container>
     )
 }
 
