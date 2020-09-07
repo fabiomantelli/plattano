@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styled from 'styled-components'
 import Head from 'next/head'
 
@@ -33,6 +33,10 @@ import VmwareIcon from '../assets/index/vmware/vmware'
 import VeeamIcon from '../assets/index/veeam/veeam'
 import PlattanoWhiteIcon from '../assets/index/plattanowhite/plattanowhite'
 import VeeamVmwareIcon from '../assets/index/footer/VeeamVmwareIcon'
+
+import Toggle from '../components/Nav/Toggle'
+
+import Sidebar from '../components/Nav/sidebar'
 
 export const Grid = styled.div`
     display: grid;
@@ -119,6 +123,26 @@ export const Footer = styled.footer`
 `
 
 const Home: React.FC = () => {
+    const [sidebarOpen, setSidebarOpen] = useState(false)
+    const openHandler = () => {
+        if (!sidebarOpen) {
+            setSidebarOpen(true)
+        } else {
+            setSidebarOpen(false)
+        }
+    }
+
+    const sidebarCloseHandler = () => {
+        setSidebarOpen(false)
+    }
+
+    let sidebar
+    let checked
+    if (sidebarOpen) {
+        sidebar = <Sidebar sidebar={'sidebar'} close={sidebarCloseHandler} />
+        checked = true
+    }
+
     return (
         <>
             <Head>
@@ -140,8 +164,11 @@ const Home: React.FC = () => {
                             <Column size={3} collapse="mobileoff">
                                 <Header />
                             </Column>
+                            <Column size={1} collapse="mobileon">
+                                <Toggle click={openHandler} checked={checked} />
+                            </Column>
                         </Row>
-
+                        <Row collapse="mobileon">{sidebar}</Row>
                         <Row background={true}>
                             <Column size={1}>
                                 <Management />
