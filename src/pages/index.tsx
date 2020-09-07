@@ -249,6 +249,7 @@ const Home: React.FC = () => {
                                 marginBottom={1}
                                 marginLeft={10}
                                 marginRight={10}
+                                marginTop={10}
                                 boxShadow={true}
                                 paddingTop={5}
                                 paddingRight={2}
@@ -265,6 +266,7 @@ const Home: React.FC = () => {
                                 marginBottom={1}
                                 marginLeft={10}
                                 marginRight={10}
+                                marginTop={10}
                                 boxShadow={true}
                                 paddingTop={5}
                                 paddingRight={2}
