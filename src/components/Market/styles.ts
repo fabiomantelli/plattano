@@ -5,9 +5,9 @@ export const Container = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 25vh;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
+    height: 20vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
 
     h1 {
         font-size: 2rem;

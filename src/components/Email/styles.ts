@@ -7,7 +7,7 @@ export const Container = styled.div`
     height: 25vh;
 
     input {
-        width: 30vw;
+        width: 28vw;
         height: 5vh;
         margin-right: 1vh;
         text-indent: 1vh;
@@ -23,7 +23,7 @@ export const Container = styled.div`
     }
 
     @media only screen and (max-width: 1024px) {
-        height: 20vh;
+        height: 15vh;
         input {
             width: 40vw;
         }
