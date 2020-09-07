@@ -14,6 +14,7 @@ export const Container = styled.div`
     span {
         font-size: 0.88rem;
         font-weight: 300;
+        white-space: nowrap;
     }
 
     h3 {
