@@ -1,9 +1,11 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-    img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media only screen and (max-width: 600px) {
+        display: flex;
+        justify-content: center;
     }
 `

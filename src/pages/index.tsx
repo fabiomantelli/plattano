@@ -123,6 +123,11 @@ const Home: React.FC = () => {
         <>
             <Head>
                 <title>Plattano Technologies</title>
+                <meta charSet="utf-8" />
+                <meta
+                    name="viewport"
+                    content="initial-scale=1.0, width=device-width"
+                />
             </Head>
 
             <html>
