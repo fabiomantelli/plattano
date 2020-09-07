@@ -18,6 +18,11 @@ const theme = {
         font: {
             size: '16px'
         }
+    },
+    mobile: {
+        font: {
+            size: '14px'
+        }
     }
 }
 

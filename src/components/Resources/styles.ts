@@ -35,5 +35,11 @@ export const Container = styled.div`
     @media only screen and (max-width: 600px) {
         align-items: center;
         text-align: center;
+        height: auto;
+        padding: 5vh;
+
+        br {
+            display: none;
+        }
     }
 `

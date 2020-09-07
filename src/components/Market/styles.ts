@@ -17,4 +17,12 @@ export const Container = styled.div`
         color: ${props => props.theme.colors.primary};
         font-weight: 500;
     }
+
+    @media only screen and (max-width: 600px) {
+        text-align: center;
+
+        br {
+            display: none;
+        }
+    }
 `

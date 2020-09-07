@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Container = styled.div`
     display: flex;
     flex-direction: column;
-    height: 20vh;
+    height: 25vh;
     justify-content: center;
     padding-left: 5vw;
 
@@ -21,7 +21,11 @@ export const Container = styled.div`
 
     @media only screen and (max-width: 1024px) {
         text-align: center;
-        height: 13vh;
-        padding: 10vw;
+        height: 15vh;
+    }
+
+    @media only screen and (max-width: 600px) {
+        height: auto;
+        padding: 5vw;
     }
 `

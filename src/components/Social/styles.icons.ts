@@ -8,5 +8,6 @@ export const ContainerIcons = styled.div`
     @media only screen and (max-width: 600px) {
         align-items: center;
         justify-content: center;
+        margin-bottom: 2vh;
     }
 `

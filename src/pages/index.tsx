@@ -152,7 +152,7 @@ const Home: React.FC = () => {
                             </Column>
                         </Row>
                         <Row>
-                            <Column size={1} paddingRight={10}>
+                            <Column size={1}>
                                 <DataCenter />
                             </Column>
                             <Column size={1} collapse="mobileoff">
@@ -226,11 +226,12 @@ const Home: React.FC = () => {
                             <Column
                                 size={1}
                                 marginBottom={1}
-                                marginLeft={5}
+                                marginLeft={10}
+                                marginRight={10}
                                 boxShadow={true}
-                                paddingTop={2}
+                                paddingTop={5}
                                 paddingRight={2}
-                                paddingBottom={2}
+                                paddingBottom={5}
                                 paddingLeft={2}
                             >
                                 <LicensingIcon />
@@ -241,11 +242,12 @@ const Home: React.FC = () => {
                             <Column
                                 size={1}
                                 marginBottom={1}
-                                marginLeft={5}
+                                marginLeft={10}
+                                marginRight={10}
                                 boxShadow={true}
-                                paddingTop={2}
+                                paddingTop={5}
                                 paddingRight={2}
-                                paddingBottom={2}
+                                paddingBottom={5}
                                 paddingLeft={2}
                             >
                                 <VmwareIcon />
@@ -256,12 +258,12 @@ const Home: React.FC = () => {
                             <Column
                                 size={1}
                                 marginBottom={1}
-                                marginRight={5}
-                                marginLeft={5}
+                                marginLeft={10}
+                                marginRight={10}
                                 boxShadow={true}
-                                paddingTop={2}
+                                paddingTop={5}
                                 paddingRight={2}
-                                paddingBottom={2}
+                                paddingBottom={5}
                                 paddingLeft={2}
                             >
                                 <VeeamIcon />
@@ -297,7 +299,7 @@ const Home: React.FC = () => {
                         </Row>
 
                         <Row collapse="mobileon">
-                            <Column size={1} marginLeft={5} paddingBottom={2}>
+                            <Column size={1} paddingBottom={2}>
                                 <ContactIcon />
                                 <Contact />
                             </Column>
@@ -314,18 +316,13 @@ const Home: React.FC = () => {
                             </Column>
                         </Row>
                         <Row collapse="mobileon">
-                            <Column size={1} marginRight={5} paddingBottom={2}>
+                            <Column size={1} paddingBottom={2}>
                                 <SocialIcon />
                                 <Social />
                             </Column>
                         </Row>
                         <Row background={true} collapse="mobileoff">
-                            <Column
-                                size={1}
-                                marginLeft={5}
-                                marginTop={3}
-                                marginBottom={4}
-                            >
+                            <Column size={1} marginTop={3} marginBottom={4}>
                                 <PlattanoWhiteIcon />
                             </Column>
                             <Column

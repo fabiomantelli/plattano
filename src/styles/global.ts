@@ -16,6 +16,10 @@ export default createGlobalStyle`
     @media only screen and (max-width: 768px) {
         font-size: ${props => props.theme.tablet.font.size};
     }
+
+    @media only screen and (max-width: 600px) {
+        font-size: ${props => props.theme.mobile.font.size};
+    }
  }
 
 html {

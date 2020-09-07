@@ -34,4 +34,20 @@ export const Container = styled.div`
         padding: 8px 15px 8px 15px;
         margin-top: 15px;
     }
+
+    @media only screen and (max-width: 600px) {
+        h1 {
+            font-size: 3rem;
+        }
+
+        h2 {
+            font-size: 1rem;
+            line-height: 2rem;
+            margin: 5vw;
+        }
+
+        br {
+            display: none;
+        }
+    }
 `
