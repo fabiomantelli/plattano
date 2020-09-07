@@ -7,8 +7,8 @@ export const Container = styled.div`
     height: 25vh;
 
     input {
-        height: 5.5vh;
-        width: 40vh;
+        width: 30vw;
+        height: 10vh;
         margin-right: 1vh;
         text-indent: 1vh;
     }
@@ -23,7 +23,10 @@ export const Container = styled.div`
     }
 
     @media only screen and (max-width: 1024px) {
-        height: 10vh;
+        height: 20vh;
+        input {
+            width: 40vw;
+        }
     }
 
     @media only screen and (max-width: 600px) {
@@ -32,6 +35,9 @@ export const Container = styled.div`
         height: auto;
         padding: 5vw;
 
+        input {
+            width: 60vw;
+        }
         button {
             margin-top: 5vw;
         }

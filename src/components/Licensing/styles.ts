@@ -26,6 +26,7 @@ export const Container = styled.div`
     a {
         text-decoration: none;
         color: inherit;
+        white-space: nowrap;
     }
 
     @media only screen and (max-width: 600px) {
