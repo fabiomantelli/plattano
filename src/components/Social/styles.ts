@@ -15,7 +15,6 @@ export const Container = styled.div`
     }
 
     @media only screen and (max-width: 600px) {
-        align-items: center;
         justify-content: center;
     }
 `
