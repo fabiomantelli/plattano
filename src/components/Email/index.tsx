@@ -10,7 +10,6 @@ const Email: React.FC = () => {
                     type="text"
                     name="email"
                     placeholder="Digite seu E-mail"
-                    autoFocus
                 />
             </label>
 
