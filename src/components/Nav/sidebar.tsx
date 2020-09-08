@@ -3,14 +3,9 @@ import Navbar from './Navbar'
 
 import { Container } from './sidebar.styles'
 
-const Sidebar: React.FC = props => {
+const Sidebar: React.FC<{ sidebar: string }> = props => {
     const [sidebarClass, setSidebarClass] = useState(props.sidebar)
 
-    const closeHandler = e => {
-        e.preventDefault()
-        setSidebarClass('sidebar close')
-        props.close()
-    }
     return (
         <Container>
             <div className={sidebarClass}>

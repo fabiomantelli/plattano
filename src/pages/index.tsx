@@ -132,14 +132,11 @@ const Home: React.FC = () => {
         }
     }
 
-    const sidebarCloseHandler = () => {
-        setSidebarOpen(false)
-    }
+    let sidebarValue: JSX.Element
+    let checked: boolean
 
-    let sidebar
-    let checked
     if (sidebarOpen) {
-        sidebar = <Sidebar sidebar={'sidebar'} close={sidebarCloseHandler} />
+        sidebarValue = <Sidebar sidebar="sidebar" />
         checked = true
     }
 
@@ -168,7 +165,7 @@ const Home: React.FC = () => {
                                 <Toggle click={openHandler} checked={checked} />
                             </Column>
                         </Row>
-                        <Row collapse="mobileon">{sidebar}</Row>
+                        <Row collapse="mobileon">{sidebarValue}</Row>
                         <Row background={true}>
                             <Column size={1}>
                                 <Management />

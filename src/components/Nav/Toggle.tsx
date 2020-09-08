@@ -2,14 +2,13 @@ import React, { useState } from 'react'
 
 import { Container } from './toggle.styles'
 
-const Toggle: React.FC = props => {
+const Toggle: React.FC<{
+    checked: boolean
+    sidebar?: string
+    click: () => void
+}> = props => {
     const [sidebarClass, setSidebarClass] = useState(props.sidebar)
 
-    const closeHandler = e => {
-        e.preventDefault()
-        setSidebarClass('sidebar close')
-        props.close()
-    }
     return (
         <Container>
             <div className={sidebarClass}>
