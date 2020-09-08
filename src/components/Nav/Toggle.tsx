@@ -9,6 +9,10 @@ const Toggle: React.FC<{
 }> = props => {
     const [sidebarClass, setSidebarClass] = useState(props.sidebar)
 
+    const closeHandler = e => {
+        e.preventDefault()
+        setSidebarClass('sidebar close')
+    }
     return (
         <Container>
             <div className={sidebarClass}>
