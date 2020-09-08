@@ -22,6 +22,7 @@ export const Container = styled.div`
 
     @media only screen and (max-width: 600px) {
         text-align: center;
+        padding: 8vw;
 
         br {
             display: none;

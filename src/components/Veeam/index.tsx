@@ -2,6 +2,8 @@ import React from 'react'
 
 import { Container } from './styles'
 
+import ReadMore from '../ReadMore'
+
 const Veeam: React.FC = () => {
     return (
         <Container>
@@ -16,9 +18,7 @@ const Veeam: React.FC = () => {
                 Enterprise) com o software <br />
                 premiado da Veeam.
             </h2>
-            <h3>
-                <a href="#">Leia mais</a>
-            </h3>
+            <ReadMore />
         </Container>
     )
 }

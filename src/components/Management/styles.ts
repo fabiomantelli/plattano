@@ -11,6 +11,7 @@ export const Container = styled.div`
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: left -90% bottom -90%;
+    padding: 8vw;
 
     h1 {
         font-size: 3.88rem;
@@ -33,9 +34,12 @@ export const Container = styled.div`
         border-color: white;
         padding: 8px 15px 8px 15px;
         margin-top: 15px;
+        cursor: pointer;
     }
 
     @media only screen and (max-width: 600px) {
+        padding: 8vw;
+
         h1 {
             font-size: 3rem;
         }
@@ -43,7 +47,6 @@ export const Container = styled.div`
         h2 {
             font-size: 1rem;
             line-height: 2rem;
-            margin: 5vw;
         }
 
         br {

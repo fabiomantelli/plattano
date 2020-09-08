@@ -11,6 +11,7 @@ export const Container = styled.div`
         height: 5vh;
         margin-right: 1vh;
         text-indent: 1vh;
+        border: none;
     }
 
     button {

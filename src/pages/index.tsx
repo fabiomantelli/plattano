@@ -33,6 +33,7 @@ import VmwareIcon from '../assets/index/vmware/vmware'
 import VeeamIcon from '../assets/index/veeam/veeam'
 import PlattanoWhiteIcon from '../assets/index/plattanowhite/plattanowhite'
 import VeeamVmwareIcon from '../assets/index/footer/VeeamVmwareIcon'
+import Line from '../components/Line'
 
 import Toggle from '../components/Nav/Toggle'
 
@@ -46,6 +47,8 @@ export const Row = styled.div<{
     background?: boolean
     position?: string
     marginTop?: number
+    marginBottom?: number
+    paddingTop?: number
     collapse?: string
 }>`
     display: flex;
@@ -57,6 +60,8 @@ export const Row = styled.div<{
         props.background === true ? props.theme.colors.gradient : false};
     position: ${props => props.position};
     margin-top: ${props => props.marginTop}vh;
+    padding-top: ${props => props.paddingTop}vh;
+    margin-bottom: ${props => props.marginBottom}vw;
 `
 
 export const Column = styled.div<{
@@ -71,6 +76,8 @@ export const Column = styled.div<{
     paddingRight?: number
     paddingBottom?: number
     paddingLeft?: number
+    padding?: number
+    backgroundColor?: boolean
 }>`
     flex: ${props => props.size};
     ${props =>
@@ -78,10 +85,15 @@ export const Column = styled.div<{
         media[props.collapse](`display: none;
     `)}
 
+    background-color: ${props =>
+        props.backgroundColor === true
+            ? props.theme.colors.background
+            : 'none'};
     padding-top: ${props => props.paddingTop}vw;
     padding-right: ${props => props.paddingRight}vw;
     padding-bottom: ${props => props.paddingBottom}vw;
     padding-left: ${props => props.paddingLeft}vw;
+    padding: ${props => props.padding}vw;
     box-shadow: ${props =>
         props.boxShadow === true
             ? '0px 10px 20px rgba(171, 171, 171, 0.15)'
@@ -290,6 +302,7 @@ const Home: React.FC = () => {
                                 marginBottom={1}
                                 marginLeft={10}
                                 marginRight={10}
+                                marginTop={10}
                                 boxShadow={true}
                                 paddingTop={5}
                                 paddingRight={2}
@@ -308,8 +321,18 @@ const Home: React.FC = () => {
                                 <About />
                             </Column>
                         </Row>
-                        <Row collapse="mobileoff">
-                            <Column size={1} marginLeft={5} paddingBottom={2}>
+                        <Row
+                            collapse="mobileoff"
+                            position="relative"
+                            marginBottom={-10}
+                        >
+                            <Column
+                                size={1}
+                                marginLeft={5}
+                                paddingBottom={2}
+                                backgroundColor={true}
+                                padding={3}
+                            >
                                 <ContactIcon />
                                 <Contact />
                             </Column>
@@ -318,18 +341,31 @@ const Home: React.FC = () => {
                                 marginLeft={2}
                                 marginRight={2}
                                 paddingBottom={2}
+                                backgroundColor={true}
+                                padding={3}
                             >
                                 <WhereIcon />
                                 <Where />
                             </Column>
-                            <Column size={1} marginRight={5} paddingBottom={2}>
+                            <Column
+                                size={1}
+                                marginRight={5}
+                                paddingBottom={2}
+                                backgroundColor={true}
+                                padding={3}
+                            >
                                 <SocialIcon />
                                 <Social />
                             </Column>
                         </Row>
 
                         <Row collapse="mobileon">
-                            <Column size={1} paddingBottom={2}>
+                            <Column
+                                size={1}
+                                paddingBottom={2}
+                                marginLeft={10}
+                                marginRight={10}
+                            >
                                 <ContactIcon />
                                 <Contact />
                             </Column>
@@ -337,48 +373,52 @@ const Home: React.FC = () => {
                         <Row collapse="mobileon">
                             <Column
                                 size={1}
-                                marginLeft={2}
-                                marginRight={2}
                                 paddingBottom={2}
+                                marginLeft={10}
+                                marginRight={10}
                             >
                                 <WhereIcon />
                                 <Where />
                             </Column>
                         </Row>
                         <Row collapse="mobileon">
-                            <Column size={1} paddingBottom={2}>
+                            <Column
+                                size={1}
+                                paddingBottom={2}
+                                marginLeft={10}
+                                marginRight={10}
+                            >
                                 <SocialIcon />
                                 <Social />
                             </Column>
                         </Row>
-                        <Row background={true} collapse="mobileoff">
-                            <Column size={1} marginTop={3} marginBottom={4}>
+                        <Row
+                            background={true}
+                            paddingTop={20}
+                            collapse="mobileoff"
+                        >
+                            <Column size={1} marginTop={3} marginLeft={5}>
                                 <PlattanoWhiteIcon />
                             </Column>
-                            <Column
-                                size={1}
-                                marginLeft={2}
-                                marginTop={3}
-                                marginBottom={4}
-                            >
+                            <Column size={1} marginTop={3}>
                                 <ServicesFooter />
                             </Column>
-                            <Column
-                                size={1}
-                                marginLeft={2}
-                                marginTop={3}
-                                marginBottom={4}
-                            >
+                            <Column size={1} marginTop={3}>
                                 <ProductsFooter />
                             </Column>
-                            <Column
-                                size={1}
-                                marginLeft={2}
-                                marginRight={2}
-                                marginTop={3}
-                            >
+                            <Column size={1} marginRight={5} marginTop={3}>
                                 <PartnersFooter />
                                 <VeeamVmwareIcon />
+                            </Column>
+                        </Row>
+                        <Row background={true}>
+                            <Column
+                                size={1}
+                                marginLeft={5}
+                                marginRight={5}
+                                marginBottom={1}
+                            >
+                                <Line />
                             </Column>
                         </Row>
                         <Row background={true} collapse="mobileoff">

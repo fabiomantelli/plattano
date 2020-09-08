@@ -2,6 +2,8 @@ import React from 'react'
 
 import { Container } from './styles'
 
+import ReadMore from '../ReadMore'
+
 const Vmware: React.FC = () => {
     return (
         <Container>
@@ -16,9 +18,7 @@ const Vmware: React.FC = () => {
                 que há de melhor em <br />
                 tecnologia do mercado.
             </h2>
-            <h3>
-                <a href="#">Leia mais</a>
-            </h3>
+            <ReadMore />
         </Container>
     )
 }

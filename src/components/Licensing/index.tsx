@@ -2,6 +2,8 @@ import React from 'react'
 
 import { Container } from './styles'
 
+import ReadMore from '../ReadMore'
+
 const Licensing: React.FC = () => {
     return (
         <Container>
@@ -15,9 +17,7 @@ const Licensing: React.FC = () => {
                 solução e licenciamento de <br />
                 produtos para cada caso.
             </h2>
-            <h3>
-                <a href="#">Leia mais</a>
-            </h3>
+            <ReadMore />
         </Container>
     )
 }

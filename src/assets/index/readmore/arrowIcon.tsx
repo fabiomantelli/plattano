@@ -3,15 +3,14 @@ import Link from 'next/link'
 
 import { Container } from './styles'
 
-export default function PlattanoImage(): JSX.Element {
+function ManagementImage(): JSX.Element {
     return (
         <Container>
             <Link href="/">
-                <img
-                    src="/assets/header/plattano-logo.svg"
-                    alt="Plattano Technologies"
-                />
+                <img src="/assets/readmore/arrow-icon.png" alt="Arrow Icon" />
             </Link>
         </Container>
     )
 }
+
+export default ManagementImage

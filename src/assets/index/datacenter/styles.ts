@@ -8,4 +8,8 @@ export const Container = styled.div`
         max-width: 100%;
         max-height: 100%;
     }
+
+    @media only screen and (min-width: 1025px) {
+        float: right;
+    }
 `
