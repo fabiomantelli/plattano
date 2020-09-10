@@ -1,30 +1,36 @@
 import React, { useState } from 'react'
-import styled from 'styled-components'
 import Head from 'next/head'
 
+import Row from '../styles/Row'
+import Column from '../styles/Column'
+import Grid from '../styles/Grid'
+
+import Toggle from '../components/Nav/Toggle'
+import Sidebar from '../components/Nav/sidebar'
+
 import Header from '../components/Header'
-import Management from '../components/Management'
-import Resources from '../components/Resources'
+import Management from '../components/index/Management'
+import Resources from '../components/index/Resources'
 import ResorceImage from '../assets/index/resorce/resorceImage'
-import DataCenter from '../components/DataCenter'
+import DataCenter from '../components/index/DataCenter'
 import DatacenterImage from '../assets/index/datacenter/datacenterImage'
-import News from '../components/News'
-import Email from '../components/Email'
-import Market from '../components/Market'
-import Licensing from '../components/Licensing'
+import News from '../components/index/News'
+import Email from '../components/index/Email'
+import Market from '../components/index/Market'
+import Licensing from '../components/index/Licensing'
 import LicensingIcon from '../assets/index/licensing/licensing'
-import Vmware from '../components/Vmware'
-import Veeam from '../components/Veeam'
+import Vmware from '../components/index/Vmware'
+import Veeam from '../components/index/Veeam'
 import AboutImage from '../assets/index/about/aboutImage'
-import About from '../components/About'
+import About from '../components/index/About'
 import Contact from '../components/Contact'
 import Where from '../components/Where'
 import Social from '../components/Social'
 import ServicesFooter from '../components/ServicesFooter'
 import ProductsFooter from '../components/ProductsFooter'
 import PartnersFooter from '../components/PartnersFooter'
-import Copyright from '../components/Copyright'
-import Idiom from '../components/Idiom'
+import Copyright from '../components/index/Copyright'
+import Idiom from '../components/index/Idiom'
 import PlattanoLogo from '../assets/index/plattano/plattanoLogo'
 import ContactIcon from '../assets/index/contact/contactIcon'
 import WhereIcon from '../assets/index/where/whereIcon'
@@ -33,109 +39,11 @@ import VmwareIcon from '../assets/index/vmware/vmware'
 import VeeamIcon from '../assets/index/veeam/veeam'
 import PlattanoWhiteIcon from '../assets/index/plattanowhite/plattanowhite'
 import VeeamVmwareIcon from '../assets/index/footer/VeeamVmwareIcon'
-import Line from '../components/Line'
-
-import Toggle from '../components/Nav/Toggle'
-
-import Sidebar from '../components/Nav/sidebar'
-
-export const Grid = styled.div`
-    display: grid;
-`
-
-export const Row = styled.div<{
-    background?: boolean
-    position?: string
-    marginTop?: number
-    marginBottom?: number
-    paddingTop?: number
-    collapse?: string
-}>`
-    display: flex;
-    ${props =>
-        props.collapse &&
-        media[props.collapse](`display: none;
-    `)}
-    background: ${props =>
-        props.background === true ? props.theme.colors.gradient : false};
-    position: ${props => props.position};
-    margin-top: ${props => props.marginTop}vh;
-    padding-top: ${props => props.paddingTop}vh;
-    margin-bottom: ${props => props.marginBottom}vw;
-`
-
-export const Column = styled.div<{
-    size: number
-    collapse?: string
-    marginTop?: number
-    marginRight?: number
-    marginBottom?: number
-    marginLeft?: number
-    boxShadow?: boolean
-    paddingTop?: number
-    paddingRight?: number
-    paddingBottom?: number
-    paddingLeft?: number
-    padding?: number
-    backgroundColor?: boolean
-}>`
-    flex: ${props => props.size};
-    ${props =>
-        props.collapse &&
-        media[props.collapse](`display: none;
-    `)}
-
-    background-color: ${props =>
-        props.backgroundColor === true
-            ? props.theme.colors.background
-            : 'none'};
-    padding-top: ${props => props.paddingTop}vw;
-    padding-right: ${props => props.paddingRight}vw;
-    padding-bottom: ${props => props.paddingBottom}vw;
-    padding-left: ${props => props.paddingLeft}vw;
-    padding: ${props => props.padding}vw;
-    box-shadow: ${props =>
-        props.boxShadow === true
-            ? '0px 10px 20px rgba(171, 171, 171, 0.15)'
-            : 'none'};
-
-    margin-top: ${props => props.marginTop}vw;
-    margin-right: ${props => props.marginRight}vw;
-    margin-bottom: ${props => props.marginBottom}vw;
-    margin-left: ${props => props.marginLeft}vw;
-
-    // border: green solid 1px;
-`
-
-const media = {
-    desktopoff: (styles: string) => `
-        @media only screen and (max-width: 1024px) {
-            ${styles}
-        }
-    `,
-    desktopon: (styles: string) => `
-        @media only screen and (min-width: 1025px) {
-            ${styles}
-        }
-    `,
-    mobileoff: (styles: string) => `
-        @media only screen and (max-width: 600px) {
-            ${styles}
-        }
-    `,
-    mobileon: (styles: string) => `
-        @media only screen and (min-width: 601px) {
-            ${styles}
-        }
-    `
-}
-
-export const Footer = styled.footer`
-    color: #161616;
-`
+import Line from '../components/index/Line'
 
 const Home: React.FC = () => {
     const [sidebarOpen, setSidebarOpen] = useState(false)
+
     const openHandler = () => {
         if (!sidebarOpen) {
             setSidebarOpen(true)
@@ -166,269 +74,307 @@ const Home: React.FC = () => {
             <html>
                 <body>
                     <Grid>
-                        <Row>
-                            <Column size={1}>
-                                <PlattanoLogo />
-                            </Column>
-                            <Column size={3} collapse="mobileoff">
-                                <Header />
-                            </Column>
-                            <Column size={1} collapse="mobileon">
-                                <Toggle click={openHandler} checked={checked} />
-                            </Column>
-                        </Row>
+                        <header>
+                            <Row>
+                                <Column size={1}>
+                                    <PlattanoLogo />
+                                </Column>
+                                <Column size={3} collapse="mobileoff">
+                                    <Header />
+                                </Column>
+                                <Column size={1} collapse="mobileon">
+                                    <Toggle
+                                        click={openHandler}
+                                        checked={checked}
+                                    />
+                                </Column>
+                            </Row>
+                        </header>
+
                         <Row collapse="mobileon">{sidebarValue}</Row>
-                        <Row background={true}>
-                            <Column size={1}>
-                                <Management />
-                            </Column>
-                        </Row>
 
-                        <Row>
-                            <Column size={1} collapse="mobileoff">
-                                <ResorceImage />
-                            </Column>
-                            <Column size={1}>
-                                <Resources />
-                            </Column>
-                        </Row>
-                        <Row>
-                            <Column size={1}>
-                                <DataCenter />
-                            </Column>
-                            <Column size={1} collapse="mobileoff">
-                                <DatacenterImage />
-                            </Column>
-                        </Row>
+                        <main>
+                            <section>
+                                <Row background={true}>
+                                    <Column size={1}>
+                                        <Management />
+                                    </Column>
+                                </Row>
+                            </section>
 
-                        <Row background={true} collapse="desktopoff">
-                            <Column size={1}>
-                                <News />
-                            </Column>
-                            <Column size={1}>
-                                <Email />
-                            </Column>
-                        </Row>
+                            <section>
+                                <Row>
+                                    <Column size={1} collapse="mobileoff">
+                                        <ResorceImage />
+                                    </Column>
+                                    <Column size={1}>
+                                        <Resources />
+                                    </Column>
+                                </Row>
+                            </section>
 
-                        <Row background={true} collapse="desktopon">
-                            <Column size={1}>
-                                <News />
-                                <Email />
-                            </Column>
-                        </Row>
-                        <Row>
-                            <Column size={1}>
-                                <Market />
-                            </Column>
-                        </Row>
-                        <Row collapse="mobileoff">
-                            <Column
-                                size={1}
-                                marginBottom={1}
-                                marginLeft={5}
-                                boxShadow={true}
-                                paddingTop={2}
-                                paddingRight={2}
-                                paddingBottom={2}
-                                paddingLeft={2}
-                            >
-                                <LicensingIcon />
-                                <Licensing />
-                            </Column>
-                            <Column
-                                size={1}
-                                marginBottom={1}
-                                marginLeft={5}
-                                boxShadow={true}
-                                paddingTop={2}
-                                paddingRight={2}
-                                paddingBottom={2}
-                                paddingLeft={2}
-                            >
-                                <VmwareIcon />
-                                <Vmware />
-                            </Column>
-                            <Column
-                                size={1}
-                                marginBottom={1}
-                                marginRight={5}
-                                marginLeft={5}
-                                boxShadow={true}
-                                paddingTop={2}
-                                paddingRight={2}
-                                paddingBottom={2}
-                                paddingLeft={2}
-                            >
-                                <VeeamIcon />
-                                <Veeam />
-                            </Column>
-                        </Row>
-                        <Row collapse="mobileon">
-                            <Column
-                                size={1}
-                                marginBottom={1}
-                                marginLeft={10}
-                                marginRight={10}
-                                boxShadow={true}
-                                paddingTop={5}
-                                paddingRight={2}
-                                paddingBottom={5}
-                                paddingLeft={2}
-                            >
-                                <LicensingIcon />
-                                <Licensing />
-                            </Column>
-                        </Row>
-                        <Row collapse="mobileon">
-                            <Column
-                                size={1}
-                                marginBottom={1}
-                                marginLeft={10}
-                                marginRight={10}
-                                marginTop={10}
-                                boxShadow={true}
-                                paddingTop={5}
-                                paddingRight={2}
-                                paddingBottom={5}
-                                paddingLeft={2}
-                            >
-                                <VmwareIcon />
-                                <Vmware />
-                            </Column>
-                        </Row>
-                        <Row collapse="mobileon">
-                            <Column
-                                size={1}
-                                marginBottom={1}
-                                marginLeft={10}
-                                marginRight={10}
-                                marginTop={10}
-                                boxShadow={true}
-                                paddingTop={5}
-                                paddingRight={2}
-                                paddingBottom={5}
-                                paddingLeft={2}
-                            >
-                                <VeeamIcon />
-                                <Veeam />
-                            </Column>
-                        </Row>
-                        <Row marginTop={5}>
-                            <Column size={1} collapse="mobileoff">
-                                <AboutImage />
-                            </Column>
-                            <Column size={1}>
-                                <About />
-                            </Column>
-                        </Row>
-                        <Row
-                            collapse="mobileoff"
-                            position="relative"
-                            marginBottom={-10}
-                        >
-                            <Column
-                                size={1}
-                                marginLeft={5}
-                                paddingBottom={2}
-                                backgroundColor={true}
-                                padding={3}
-                            >
-                                <ContactIcon />
-                                <Contact />
-                            </Column>
-                            <Column
-                                size={1}
-                                marginLeft={2}
-                                marginRight={2}
-                                paddingBottom={2}
-                                backgroundColor={true}
-                                padding={3}
-                            >
-                                <WhereIcon />
-                                <Where />
-                            </Column>
-                            <Column
-                                size={1}
-                                marginRight={5}
-                                paddingBottom={2}
-                                backgroundColor={true}
-                                padding={3}
-                            >
-                                <SocialIcon />
-                                <Social />
-                            </Column>
-                        </Row>
+                            <section>
+                                <Row>
+                                    <Column size={1}>
+                                        <DataCenter />
+                                    </Column>
+                                    <Column size={1} collapse="mobileoff">
+                                        <DatacenterImage />
+                                    </Column>
+                                </Row>
+                            </section>
 
-                        <Row collapse="mobileon">
-                            <Column
-                                size={1}
-                                paddingBottom={2}
-                                marginLeft={10}
-                                marginRight={10}
+                            <section>
+                                <Row background={true} collapse="desktopoff">
+                                    <Column size={1}>
+                                        <News />
+                                    </Column>
+                                    <Column size={1}>
+                                        <Email />
+                                    </Column>
+                                </Row>
+
+                                <Row background={true} collapse="desktopon">
+                                    <Column size={1}>
+                                        <News />
+                                        <Email />
+                                    </Column>
+                                </Row>
+                            </section>
+
+                            <section>
+                                <Row>
+                                    <Column size={1}>
+                                        <Market />
+                                    </Column>
+                                </Row>
+
+                                <Row collapse="mobileoff">
+                                    <Column
+                                        size={1}
+                                        marginLeft={5}
+                                        marginBottom={1}
+                                        paddingTop={2}
+                                        paddingRight={2}
+                                        paddingBottom={2}
+                                        paddingLeft={2}
+                                        boxShadow={true}
+                                    >
+                                        <LicensingIcon />
+                                        <Licensing />
+                                    </Column>
+                                    <Column
+                                        size={1}
+                                        marginLeft={5}
+                                        marginBottom={1}
+                                        paddingTop={2}
+                                        paddingRight={2}
+                                        paddingBottom={2}
+                                        paddingLeft={2}
+                                        boxShadow={true}
+                                    >
+                                        <VmwareIcon />
+                                        <Vmware />
+                                    </Column>
+                                    <Column
+                                        size={1}
+                                        marginRight={5}
+                                        marginBottom={1}
+                                        marginLeft={5}
+                                        paddingTop={2}
+                                        paddingRight={2}
+                                        paddingBottom={2}
+                                        paddingLeft={2}
+                                        boxShadow={true}
+                                    >
+                                        <VeeamIcon />
+                                        <Veeam />
+                                    </Column>
+                                </Row>
+
+                                <Row collapse="mobileon">
+                                    <Column
+                                        size={1}
+                                        marginLeft={10}
+                                        marginBottom={1}
+                                        marginRight={10}
+                                        paddingTop={5}
+                                        paddingRight={2}
+                                        paddingBottom={5}
+                                        paddingLeft={2}
+                                        boxShadow={true}
+                                    >
+                                        <LicensingIcon />
+                                        <Licensing />
+                                    </Column>
+                                </Row>
+
+                                <Row collapse="mobileon">
+                                    <Column
+                                        size={1}
+                                        marginTop={10}
+                                        marginRight={10}
+                                        marginBottom={1}
+                                        marginLeft={10}
+                                        paddingTop={5}
+                                        paddingRight={2}
+                                        paddingBottom={5}
+                                        paddingLeft={2}
+                                        boxShadow={true}
+                                    >
+                                        <VmwareIcon />
+                                        <Vmware />
+                                    </Column>
+                                </Row>
+
+                                <Row collapse="mobileon">
+                                    <Column
+                                        size={1}
+                                        marginTop={10}
+                                        marginRight={10}
+                                        marginBottom={1}
+                                        marginLeft={10}
+                                        paddingTop={5}
+                                        paddingRight={2}
+                                        paddingBottom={5}
+                                        paddingLeft={2}
+                                        boxShadow={true}
+                                    >
+                                        <VeeamIcon />
+                                        <Veeam />
+                                    </Column>
+                                </Row>
+                            </section>
+
+                            <section>
+                                <Row marginTop={5}>
+                                    <Column size={1} collapse="mobileoff">
+                                        <AboutImage />
+                                    </Column>
+                                    <Column size={1}>
+                                        <About />
+                                    </Column>
+                                </Row>
+                            </section>
+
+                            <section>
+                                <Row
+                                    collapse="mobileoff"
+                                    position="relative"
+                                    marginBottom={-10}
+                                >
+                                    <Column
+                                        size={1}
+                                        marginLeft={5}
+                                        paddingBottom={2}
+                                        padding={3}
+                                        backgroundColor={true}
+                                    >
+                                        <ContactIcon />
+                                        <Contact />
+                                    </Column>
+                                    <Column
+                                        size={1}
+                                        marginLeft={2}
+                                        marginRight={2}
+                                        paddingBottom={2}
+                                        padding={3}
+                                        backgroundColor={true}
+                                    >
+                                        <WhereIcon />
+                                        <Where />
+                                    </Column>
+                                    <Column
+                                        size={1}
+                                        marginRight={5}
+                                        paddingBottom={2}
+                                        padding={3}
+                                        backgroundColor={true}
+                                    >
+                                        <SocialIcon />
+                                        <Social />
+                                    </Column>
+                                </Row>
+
+                                <Row collapse="mobileon">
+                                    <Column
+                                        size={1}
+                                        paddingBottom={2}
+                                        marginRight={10}
+                                        marginLeft={10}
+                                    >
+                                        <ContactIcon />
+                                        <Contact />
+                                    </Column>
+                                </Row>
+
+                                <Row collapse="mobileon">
+                                    <Column
+                                        size={1}
+                                        paddingBottom={2}
+                                        marginRight={10}
+                                        marginLeft={10}
+                                    >
+                                        <WhereIcon />
+                                        <Where />
+                                    </Column>
+                                </Row>
+
+                                <Row collapse="mobileon">
+                                    <Column
+                                        size={1}
+                                        paddingBottom={2}
+                                        marginRight={10}
+                                        marginLeft={10}
+                                    >
+                                        <SocialIcon />
+                                        <Social />
+                                    </Column>
+                                </Row>
+                            </section>
+                        </main>
+
+                        <footer>
+                            <Row
+                                background={true}
+                                paddingTop={20}
+                                collapse="mobileoff"
                             >
-                                <ContactIcon />
-                                <Contact />
-                            </Column>
-                        </Row>
-                        <Row collapse="mobileon">
-                            <Column
-                                size={1}
-                                paddingBottom={2}
-                                marginLeft={10}
-                                marginRight={10}
-                            >
-                                <WhereIcon />
-                                <Where />
-                            </Column>
-                        </Row>
-                        <Row collapse="mobileon">
-                            <Column
-                                size={1}
-                                paddingBottom={2}
-                                marginLeft={10}
-                                marginRight={10}
-                            >
-                                <SocialIcon />
-                                <Social />
-                            </Column>
-                        </Row>
-                        <Row
-                            background={true}
-                            paddingTop={20}
-                            collapse="mobileoff"
-                        >
-                            <Column size={1} marginTop={3} marginLeft={5}>
-                                <PlattanoWhiteIcon />
-                            </Column>
-                            <Column size={1} marginTop={3}>
-                                <ServicesFooter />
-                            </Column>
-                            <Column size={1} marginTop={3}>
-                                <ProductsFooter />
-                            </Column>
-                            <Column size={1} marginRight={5} marginTop={3}>
-                                <PartnersFooter />
-                                <VeeamVmwareIcon />
-                            </Column>
-                        </Row>
-                        <Row background={true}>
-                            <Column
-                                size={1}
-                                marginLeft={5}
-                                marginRight={5}
-                                marginBottom={1}
-                            >
-                                <Line />
-                            </Column>
-                        </Row>
-                        <Row background={true} collapse="mobileoff">
-                            <Column size={1}>
-                                <Copyright />
-                            </Column>
-                            <Column size={1}>
-                                <Idiom />
-                            </Column>
-                        </Row>
+                                <Column size={1} marginTop={3} marginLeft={5}>
+                                    <PlattanoWhiteIcon />
+                                </Column>
+                                <Column size={1} marginTop={3}>
+                                    <ServicesFooter />
+                                </Column>
+                                <Column size={1} marginTop={3}>
+                                    <ProductsFooter />
+                                </Column>
+                                <Column size={1} marginTop={3} marginRight={5}>
+                                    <PartnersFooter />
+                                    <VeeamVmwareIcon />
+                                </Column>
+                            </Row>
+
+                            <Row background={true}>
+                                <Column
+                                    size={1}
+                                    marginRight={5}
+                                    marginBottom={1}
+                                    marginLeft={5}
+                                >
+                                    <Line />
+                                </Column>
+                            </Row>
+
+                            <Row background={true} collapse="mobileoff">
+                                <Column size={1}>
+                                    <Copyright />
+                                </Column>
+                                <Column size={1}>
+                                    <Idiom />
+                                </Column>
+                            </Row>
+                        </footer>
                     </Grid>
                 </body>
             </html>

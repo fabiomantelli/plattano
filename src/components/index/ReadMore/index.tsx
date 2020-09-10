@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Container } from './styles'
 
-import ArrowIcon from '../../assets/index/readmore/arrowIcon'
+import ArrowIcon from '../../../assets/index/readmore/arrowIcon'
 
 const ReadMore: React.FC = () => {
     return (
