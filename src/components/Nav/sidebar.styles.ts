@@ -8,8 +8,7 @@ export const Container = styled.div`
         height: 100vh;
         width: 100vw;
         background-color: ${props => props.theme.colors.background};
-        opacity: 0.85;
-        color: blue;
+        opacity: 0.95;
         position: fixed;
         z-index: 200;
         left: -100%;
