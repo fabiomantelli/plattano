@@ -9,15 +9,15 @@ export default createGlobalStyle`
      font-size: ${props => props.theme.font.size};
 
 
-    @media only screen and (max-width: 1024px) {
+    @media only screen and (max-width: 82em) {
         font-size: ${props => props.theme.laptop.font.size};
     }
 
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 62em) {
         font-size: ${props => props.theme.tablet.font.size};
     }
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 43em) {
         font-size: ${props => props.theme.mobile.font.size};
     }
  }

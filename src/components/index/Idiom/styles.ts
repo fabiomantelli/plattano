@@ -5,8 +5,7 @@ export const Container = styled.div`
     flex-direction: row;
 
     justify-content: flex-end;
-    padding-left: 5vw;
-    padding-bottom: 2vh;
+    padding-bottom: 1rem;
     margin-right: 5vw;
 
     h1 {

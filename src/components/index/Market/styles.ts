@@ -6,8 +6,7 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
     height: 20vh;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
+    padding: 2rem;
 
     h1 {
         font-size: 2rem;
@@ -20,9 +19,9 @@ export const Container = styled.div`
         font-weight: 500;
     }
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 42.98em) {
         text-align: center;
-        padding: 8vw;
+        padding: 2rem;
 
         br {
             display: none;

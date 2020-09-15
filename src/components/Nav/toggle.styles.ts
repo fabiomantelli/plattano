@@ -5,7 +5,7 @@ export const Container = styled.div`
     justify-content: flex-end;
     align-items: center;
     height: 70px;
-    margin-right: 3vw;
+    margin-right: 2rem;
 
     #checkbox-menu {
         position: absolute;

@@ -10,6 +10,7 @@ const Row = styled.div<{
     collapse?: string
 }>`
     display: flex;
+    justify-content: center;
     ${props =>
         props.collapse &&
         media[props.collapse](`display: none;
@@ -19,9 +20,9 @@ const Row = styled.div<{
         props.background === true ? props.theme.colors.gradient : false};
 
     position: ${props => props.position};
-    padding-top: ${props => props.paddingTop}vh;
-    margin-top: ${props => props.marginTop}vh;
-    margin-bottom: ${props => props.marginBottom}vw;
+    padding-top: ${props => props.paddingTop}rem;
+    margin-top: ${props => props.marginTop}rem;
+    margin-bottom: ${props => props.marginBottom}rem;
 `
 
 export default Row

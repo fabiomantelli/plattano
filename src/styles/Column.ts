@@ -15,6 +15,7 @@ const Column = styled.div<{
     paddingLeft?: number
     padding?: number
     backgroundColor?: boolean
+    maxWidth?: number
 }>`
     flex: ${props => props.size};
 
@@ -22,6 +23,8 @@ const Column = styled.div<{
         props.collapse &&
         media[props.collapse](`display: none;
     `)}
+
+    max-width: ${props => props.maxWidth}px;
 
     background-color: ${props =>
         props.backgroundColor === true
@@ -33,16 +36,16 @@ const Column = styled.div<{
             ? '0px 10px 20px rgba(171, 171, 171, 0.15)'
             : 'none'};
 
-    margin-top: ${props => props.marginTop}vw;
-    margin-right: ${props => props.marginRight}vw;
-    margin-bottom: ${props => props.marginBottom}vw;
-    margin-left: ${props => props.marginLeft}vw;
+    margin-top: ${props => props.marginTop}rem;
+    margin-right: ${props => props.marginRight}rem;
+    margin-bottom: ${props => props.marginBottom}rem;
+    margin-left: ${props => props.marginLeft}rem;
 
-    padding-top: ${props => props.paddingTop}vw;
-    padding-right: ${props => props.paddingRight}vw;
-    padding-bottom: ${props => props.paddingBottom}vw;
-    padding-left: ${props => props.paddingLeft}vw;
-    padding: ${props => props.padding}vw;
+    padding-top: ${props => props.paddingTop}rem;
+    padding-right: ${props => props.paddingRight}rem;
+    padding-bottom: ${props => props.paddingBottom}rem;
+    padding-left: ${props => props.paddingLeft}rem;
+    padding: ${props => props.padding}rem;
 
     border: green solid 1px;
 `

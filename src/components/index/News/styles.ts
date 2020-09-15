@@ -3,9 +3,9 @@ import styled from 'styled-components'
 export const Container = styled.div`
     display: flex;
     flex-direction: column;
-    height: 25vh;
+    height: 30vh;
     justify-content: center;
-    padding-left: 5vw;
+    padding: 2rem;
 
     h1 {
         font-size: 2rem;
@@ -19,14 +19,9 @@ export const Container = styled.div`
         padding-top: 1vh;
     }
 
-    @media only screen and (max-width: 1024px) {
-        text-align: center;
-        height: 10vh;
-        padding-top: 2vw;
-    }
-
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 42.98em) {
         height: auto;
         padding: 5vh 8vw 0 8vw;
+        text-align: center;
     }
 `

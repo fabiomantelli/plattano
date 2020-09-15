@@ -5,7 +5,7 @@ export const Container = styled.div`
     flex-direction: column;
     justify-content: center;
     height: 100vh;
-    padding-left: 5vw;
+    padding: 2rem;
     background-image: url('/assets/datacenter/background-datacenter.png');
     background-repeat: no-repeat;
     background-position: bottom;
@@ -36,7 +36,7 @@ export const Container = styled.div`
         cursor: pointer;
     }
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 42.98em) {
         align-items: center;
         text-align: center;
         height: auto;

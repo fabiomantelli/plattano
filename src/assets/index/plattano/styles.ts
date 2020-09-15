@@ -6,7 +6,7 @@ export const Container = styled.div`
 
     img {
         display: flex;
-        margin-left: 5vw;
+        margin-left: 2rem;
         cursor: pointer;
     }
 `

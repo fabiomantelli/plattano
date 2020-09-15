@@ -76,13 +76,25 @@ const Home: React.FC = () => {
                     <Grid>
                         <header>
                             <Row>
-                                <Column size={1}>
+                                <Column
+                                    size={1}
+                                    maxWidth={414.67}
+                                    marginLeft={2}
+                                    marginRight={2}
+                                >
                                     <PlattanoLogo />
                                 </Column>
-                                <Column size={3} collapse="mobileoff">
+                                <Column
+                                    size={3}
+                                    collapse="desktopOff"
+                                    maxWidth={829.33}
+                                    paddingLeft={5}
+                                    paddingRight={5}
+                                    marginRight={2}
+                                >
                                     <Header />
                                 </Column>
-                                <Column size={1} collapse="mobileon">
+                                <Column size={1} collapse="mobileOff">
                                     <Toggle
                                         click={openHandler}
                                         checked={checked}
@@ -91,7 +103,7 @@ const Home: React.FC = () => {
                             </Row>
                         </header>
 
-                        <Row collapse="mobileon">{sidebarValue}</Row>
+                        <Row>{sidebarValue}</Row>
 
                         <main>
                             <section>
@@ -104,10 +116,20 @@ const Home: React.FC = () => {
 
                             <section>
                                 <Row>
-                                    <Column size={1} collapse="mobileoff">
+                                    <Column
+                                        size={1}
+                                        collapse="mobileOn"
+                                        maxWidth={622}
+                                        marginLeft={2}
+                                    >
                                         <ResorceImage />
                                     </Column>
-                                    <Column size={1}>
+                                    <Column
+                                        size={1}
+                                        maxWidth={622}
+                                        marginRight={2}
+                                        marginLeft={2}
+                                    >
                                         <Resources />
                                     </Column>
                                 </Row>
@@ -115,27 +137,50 @@ const Home: React.FC = () => {
 
                             <section>
                                 <Row>
-                                    <Column size={1}>
+                                    <Column
+                                        size={1}
+                                        maxWidth={622}
+                                        marginLeft={2}
+                                        marginRight={2}
+                                    >
                                         <DataCenter />
                                     </Column>
-                                    <Column size={1} collapse="mobileoff">
+                                    <Column
+                                        size={1}
+                                        collapse="mobileOn"
+                                        maxWidth={622}
+                                        marginRight={2}
+                                    >
                                         <DatacenterImage />
                                     </Column>
                                 </Row>
                             </section>
 
                             <section>
-                                <Row background={true} collapse="desktopoff">
-                                    <Column size={1}>
+                                <Row background={true} collapse="mobileOn">
+                                    <Column
+                                        size={1}
+                                        maxWidth={622}
+                                        marginLeft={2}
+                                        marginRight={2}
+                                    >
                                         <News />
                                     </Column>
-                                    <Column size={1}>
+                                    <Column
+                                        size={1}
+                                        maxWidth={622}
+                                        marginRight={2}
+                                    >
                                         <Email />
                                     </Column>
                                 </Row>
 
-                                <Row background={true} collapse="desktopon">
-                                    <Column size={1}>
+                                <Row background={true} collapse="mobileOff">
+                                    <Column
+                                        size={1}
+                                        marginRight={2}
+                                        marginLeft={2}
+                                    >
                                         <News />
                                         <Email />
                                     </Column>
@@ -144,60 +189,57 @@ const Home: React.FC = () => {
 
                             <section>
                                 <Row>
-                                    <Column size={1}>
+                                    <Column
+                                        size={1}
+                                        marginTop={2}
+                                        marginRight={2}
+                                        marginLeft={2}
+                                        maxWidth={1280}
+                                    >
                                         <Market />
                                     </Column>
                                 </Row>
 
-                                <Row collapse="mobileoff">
+                                <Row collapse="mobileOn">
                                     <Column
                                         size={1}
-                                        marginLeft={5}
-                                        marginBottom={1}
-                                        paddingTop={2}
-                                        paddingRight={2}
-                                        paddingBottom={2}
-                                        paddingLeft={2}
+                                        marginTop={2}
+                                        marginLeft={2}
                                         boxShadow={true}
+                                        maxWidth={402.67}
                                     >
                                         <LicensingIcon />
                                         <Licensing />
                                     </Column>
                                     <Column
                                         size={1}
-                                        marginLeft={5}
-                                        marginBottom={1}
-                                        paddingTop={2}
-                                        paddingRight={2}
-                                        paddingBottom={2}
-                                        paddingLeft={2}
+                                        marginTop={2}
+                                        marginLeft={2}
                                         boxShadow={true}
+                                        maxWidth={402.67}
                                     >
                                         <VmwareIcon />
                                         <Vmware />
                                     </Column>
                                     <Column
                                         size={1}
-                                        marginRight={5}
-                                        marginBottom={1}
-                                        marginLeft={5}
-                                        paddingTop={2}
-                                        paddingRight={2}
-                                        paddingBottom={2}
-                                        paddingLeft={2}
+                                        marginTop={2}
+                                        marginRight={2}
+                                        marginLeft={2}
                                         boxShadow={true}
+                                        maxWidth={402.67}
                                     >
                                         <VeeamIcon />
                                         <Veeam />
                                     </Column>
                                 </Row>
 
-                                <Row collapse="mobileon">
+                                <Row collapse="mobileOff">
                                     <Column
                                         size={1}
-                                        marginLeft={10}
-                                        marginBottom={1}
-                                        marginRight={10}
+                                        marginTop={2}
+                                        marginRight={2}
+                                        marginLeft={2}
                                         paddingTop={5}
                                         paddingRight={2}
                                         paddingBottom={5}
@@ -209,13 +251,12 @@ const Home: React.FC = () => {
                                     </Column>
                                 </Row>
 
-                                <Row collapse="mobileon">
+                                <Row collapse="mobileOff">
                                     <Column
                                         size={1}
-                                        marginTop={10}
-                                        marginRight={10}
-                                        marginBottom={1}
-                                        marginLeft={10}
+                                        marginTop={2}
+                                        marginRight={2}
+                                        marginLeft={2}
                                         paddingTop={5}
                                         paddingRight={2}
                                         paddingBottom={5}
@@ -227,13 +268,12 @@ const Home: React.FC = () => {
                                     </Column>
                                 </Row>
 
-                                <Row collapse="mobileon">
+                                <Row collapse="mobileOff">
                                     <Column
                                         size={1}
-                                        marginTop={10}
-                                        marginRight={10}
-                                        marginBottom={1}
-                                        marginLeft={10}
+                                        marginTop={2}
+                                        marginRight={2}
+                                        marginLeft={2}
                                         paddingTop={5}
                                         paddingRight={2}
                                         paddingBottom={5}
@@ -247,11 +287,22 @@ const Home: React.FC = () => {
                             </section>
 
                             <section>
-                                <Row marginTop={5}>
-                                    <Column size={1} collapse="mobileoff">
+                                <Row marginTop={2}>
+                                    <Column
+                                        size={1}
+                                        collapse="mobileOn"
+                                        maxWidth={622}
+                                        marginLeft={2}
+                                        marginRight={2}
+                                    >
                                         <AboutImage />
                                     </Column>
-                                    <Column size={1}>
+                                    <Column
+                                        size={1}
+                                        maxWidth={622}
+                                        marginRight={2}
+                                        marginLeft={2}
+                                    >
                                         <About />
                                     </Column>
                                 </Row>
@@ -259,73 +310,76 @@ const Home: React.FC = () => {
 
                             <section>
                                 <Row
-                                    collapse="mobileoff"
                                     position="relative"
                                     marginBottom={-10}
+                                    collapse="mobileOn"
                                 >
                                     <Column
                                         size={1}
-                                        marginLeft={5}
-                                        paddingBottom={2}
-                                        padding={3}
                                         backgroundColor={true}
+                                        maxWidth={402.67}
+                                        marginTop={2}
+                                        marginLeft={2}
                                     >
                                         <ContactIcon />
                                         <Contact />
                                     </Column>
                                     <Column
                                         size={1}
-                                        marginLeft={2}
-                                        marginRight={2}
-                                        paddingBottom={2}
-                                        padding={3}
                                         backgroundColor={true}
+                                        maxWidth={402.67}
+                                        marginTop={2}
+                                        marginLeft={2}
                                     >
                                         <WhereIcon />
                                         <Where />
                                     </Column>
                                     <Column
                                         size={1}
-                                        marginRight={5}
-                                        paddingBottom={2}
-                                        padding={3}
                                         backgroundColor={true}
+                                        maxWidth={402.67}
+                                        marginTop={2}
+                                        marginRight={2}
+                                        marginLeft={2}
                                     >
                                         <SocialIcon />
                                         <Social />
                                     </Column>
                                 </Row>
 
-                                <Row collapse="mobileon">
+                                <Row collapse="mobileOff">
                                     <Column
                                         size={1}
                                         paddingBottom={2}
-                                        marginRight={10}
-                                        marginLeft={10}
+                                        marginTop={2}
+                                        marginRight={2}
+                                        marginLeft={2}
                                     >
                                         <ContactIcon />
                                         <Contact />
                                     </Column>
                                 </Row>
 
-                                <Row collapse="mobileon">
+                                <Row collapse="mobileOff">
                                     <Column
                                         size={1}
                                         paddingBottom={2}
-                                        marginRight={10}
-                                        marginLeft={10}
+                                        marginTop={2}
+                                        marginRight={2}
+                                        marginLeft={2}
                                     >
                                         <WhereIcon />
                                         <Where />
                                     </Column>
                                 </Row>
 
-                                <Row collapse="mobileon">
+                                <Row collapse="mobileOff">
                                     <Column
                                         size={1}
                                         paddingBottom={2}
-                                        marginRight={10}
-                                        marginLeft={10}
+                                        marginTop={2}
+                                        marginRight={2}
+                                        marginLeft={2}
                                     >
                                         <SocialIcon />
                                         <Social />
@@ -337,36 +391,56 @@ const Home: React.FC = () => {
                         <footer>
                             <Row
                                 background={true}
-                                paddingTop={20}
-                                collapse="mobileoff"
+                                paddingTop={10}
+                                collapse="mobileOn"
                             >
-                                <Column size={1} marginTop={3} marginLeft={5}>
+                                <Column
+                                    size={1}
+                                    maxWidth={293}
+                                    marginTop={2}
+                                    marginLeft={2}
+                                >
                                     <PlattanoWhiteIcon />
                                 </Column>
-                                <Column size={1} marginTop={3}>
+                                <Column
+                                    size={1}
+                                    maxWidth={293}
+                                    marginTop={2}
+                                    marginLeft={2}
+                                >
                                     <ServicesFooter />
                                 </Column>
-                                <Column size={1} marginTop={3}>
+                                <Column
+                                    size={1}
+                                    maxWidth={293}
+                                    marginTop={2}
+                                    marginLeft={2}
+                                >
                                     <ProductsFooter />
                                 </Column>
-                                <Column size={1} marginTop={3} marginRight={5}>
+                                <Column
+                                    size={1}
+                                    maxWidth={293}
+                                    marginTop={2}
+                                    marginRight={2}
+                                    marginLeft={2}
+                                >
                                     <PartnersFooter />
                                     <VeeamVmwareIcon />
                                 </Column>
                             </Row>
 
-                            <Row background={true}>
+                            <Row background={true} collapse="mobileOn">
                                 <Column
                                     size={1}
                                     marginRight={5}
                                     marginBottom={1}
-                                    marginLeft={5}
                                 >
                                     <Line />
                                 </Column>
                             </Row>
 
-                            <Row background={true} collapse="mobileoff">
+                            <Row background={true} collapse="mobileOn">
                                 <Column size={1}>
                                     <Copyright />
                                 </Column>

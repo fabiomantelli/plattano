@@ -2,15 +2,19 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 25vh;
+    height: 30vh;
+    padding: 2rem;
 
     input {
-        width: 28vw;
-        height: 5vh;
-        margin-right: 1vh;
-        text-indent: 1vh;
+        width: 25vw;
+        max-width: 300px;
+        min-width: 250px;
+        height: 2rem;
+        margin-right: 1rem;
+        text-indent: 0.5rem;
         border: none;
     }
 
@@ -23,14 +27,7 @@ export const Container = styled.div`
         cursor: pointer;
     }
 
-    @media only screen and (max-width: 1024px) {
-        height: 15vh;
-        input {
-            width: 40vw;
-        }
-    }
-
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 42.98em) {
         display: flex;
         flex-direction: column;
         height: auto;

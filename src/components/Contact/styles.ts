@@ -4,6 +4,7 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     line-height: 1.5rem;
+    padding: 0 2rem 2rem 2rem;
 
     h1 {
         font-size: 1.33rem;
@@ -16,7 +17,7 @@ export const Container = styled.div`
         white-space: nowrap;
     }
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 42.98em) {
         align-items: center;
         text-align: center;
     }
