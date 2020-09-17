@@ -18,7 +18,7 @@ export const Container = styled.div`
     }
 
     h3 {
-        padding-top: 10px;
+        padding-top: 0.6rem;
         font-weight: normal;
         color: ${props => props.theme.colors.primary};
     }
@@ -36,6 +36,16 @@ export const Container = styled.div`
 
         br {
             display: none;
+        }
+
+        h3 {
+            padding-top: 0.6rem;
+        }
+    }
+
+    @media only screen and (max-width: 41.98em) {
+        h3 {
+            padding-top: 0.9rem;
         }
     }
 `
