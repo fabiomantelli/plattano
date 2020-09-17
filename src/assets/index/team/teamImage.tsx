@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Container } from './styles'
 
-function ManagementImage(): JSX.Element {
+function TeamImage(): JSX.Element {
     return (
         <Container>
             <img
@@ -13,4 +13,4 @@ function ManagementImage(): JSX.Element {
     )
 }
 
-export default ManagementImage
+export default TeamImage

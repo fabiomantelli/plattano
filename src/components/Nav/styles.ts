@@ -19,4 +19,10 @@ export const Container = styled.div`
             font-size: 20px;
         }
     }
+
+    @media only screen and (max-width: 62.98em) {
+        a {
+            font-size: 0.5rem;
+        }
+    }
 `

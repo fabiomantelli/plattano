@@ -5,7 +5,7 @@ export const Container = styled.div`
     flex-direction: column;
     height: 30vh;
     justify-content: center;
-    padding: 2rem;
+    padding-left: 2rem;
 
     h1 {
         font-size: 2rem;

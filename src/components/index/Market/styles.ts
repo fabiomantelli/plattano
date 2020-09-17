@@ -23,6 +23,10 @@ export const Container = styled.div`
         text-align: center;
         padding: 2rem;
 
+        h1 {
+            font-size: 1.8rem;
+        }
+
         br {
             display: none;
         }

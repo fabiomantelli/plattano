@@ -26,7 +26,8 @@ export const Container = styled.div`
         text-align-last: center;
         line-height: 2.5rem;
         color: ${props => props.theme.colors.background};
-        padding-top: 1rem;
+        padding: 1rem 2rem;
+        max-width: 1280px;
     }
 
     button {

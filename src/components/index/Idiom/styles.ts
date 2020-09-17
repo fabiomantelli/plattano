@@ -6,7 +6,6 @@ export const Container = styled.div`
 
     justify-content: flex-end;
     padding-bottom: 1rem;
-    margin-right: 5vw;
 
     h1 {
         font-size: 0.77rem;

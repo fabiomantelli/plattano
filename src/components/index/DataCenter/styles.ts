@@ -5,7 +5,7 @@ export const Container = styled.div`
     flex-direction: column;
     justify-content: center;
     height: 100vh;
-    padding: 2rem;
+    padding-left: 2rem;
     background-image: url('/assets/datacenter/background-datacenter.png');
     background-repeat: no-repeat;
     background-position: bottom;

@@ -9,7 +9,6 @@ export const Container = styled.div`
     h1 {
         font-size: 1.33rem;
         color: ${props => props.theme.colors.text};
-        margin-top: 10px;
     }
 
     h2 {
@@ -30,7 +29,7 @@ export const Container = styled.div`
         white-space: nowrap;
     }
 
-    @media only screen and (max-width: 42.98em) {
+    @media only screen and (max-width: 61.98em) {
         align-items: center;
         text-align: center;
         padding: 5vw;

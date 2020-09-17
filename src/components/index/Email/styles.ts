@@ -11,9 +11,8 @@ export const Container = styled.div`
     input {
         width: 25vw;
         max-width: 300px;
-        min-width: 250px;
+        min-width: 200px;
         height: 2rem;
-        margin-right: 1rem;
         text-indent: 0.5rem;
         border: none;
     }

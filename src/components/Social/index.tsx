@@ -16,9 +16,12 @@ const Social: React.FC = () => {
                 <h1>Mídias Sociais</h1>
                 <ContainerIcons>
                     <FontAwesomeIcon icon={faInstagram} size="2x" />
-                    <FontAwesomeIcon icon={faFacebook} size="2x" pull="right" />
-                    <FontAwesomeIcon icon={faTwitter} size="2x" pull="right" />
-                    <FontAwesomeIcon icon={faLinkedin} size="2x" pull="right" />
+                    &nbsp;&nbsp;
+                    <FontAwesomeIcon icon={faFacebook} size="2x" />
+                    &nbsp;&nbsp;
+                    <FontAwesomeIcon icon={faTwitter} size="2x" />
+                    &nbsp;&nbsp;
+                    <FontAwesomeIcon icon={faLinkedin} size="2x" />
                 </ContainerIcons>
             </Container>
         </>

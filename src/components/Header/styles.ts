@@ -11,4 +11,10 @@ export const Container = styled.div`
         text-decoration: none;
         color: inherit;
     }
+
+    @media only screen and (max-width: 62.98em) {
+        a {
+            font-size: 0.75rem;
+        }
+    }
 `

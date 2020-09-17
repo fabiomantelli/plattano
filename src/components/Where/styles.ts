@@ -16,6 +16,12 @@ export const Container = styled.div`
         font-weight: 300;
     }
 
+    @media only screen and (max-width: 62.98em) {
+        #week {
+            display: none;
+        }
+    }
+
     @media only screen and (max-width: 42.98em) {
         align-items: center;
         text-align: center;
