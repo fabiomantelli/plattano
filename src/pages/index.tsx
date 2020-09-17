@@ -300,6 +300,7 @@ const Home: React.FC = () => {
                                 maxWidth={402.67}
                                 marginTop={2}
                                 marginLeft={2}
+                                boxShadow={true}
                             >
                                 <ContactIcon />
                                 <Contact />
@@ -310,6 +311,7 @@ const Home: React.FC = () => {
                                 maxWidth={402.67}
                                 marginTop={2}
                                 marginLeft={2}
+                                boxShadow={true}
                             >
                                 <WhereIcon />
                                 <Where />
@@ -321,6 +323,7 @@ const Home: React.FC = () => {
                                 marginTop={2}
                                 marginRight={2}
                                 marginLeft={2}
+                                boxShadow={true}
                             >
                                 <SocialIcon />
                                 <Social />
@@ -334,6 +337,7 @@ const Home: React.FC = () => {
                                 marginTop={2}
                                 marginRight={2}
                                 marginLeft={2}
+                                boxShadow={true}
                             >
                                 <ContactIcon />
                                 <Contact />
@@ -347,6 +351,7 @@ const Home: React.FC = () => {
                                 marginTop={2}
                                 marginRight={2}
                                 marginLeft={2}
+                                boxShadow={true}
                             >
                                 <WhereIcon />
                                 <Where />
@@ -361,6 +366,7 @@ const Home: React.FC = () => {
                                 marginRight={2}
                                 marginLeft={2}
                                 marginBottom={2}
+                                boxShadow={true}
                             >
                                 <SocialIcon />
                                 <Social />

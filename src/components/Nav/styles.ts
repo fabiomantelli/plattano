@@ -14,15 +14,5 @@ export const Container = styled.div`
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-
-        a {
-            font-size: 20px;
-        }
-    }
-
-    @media only screen and (max-width: 62.98em) {
-        a {
-            font-size: 0.5rem;
-        }
     }
 `
