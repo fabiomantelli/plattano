@@ -12,7 +12,7 @@ const Toggle: React.FC<{
                 type="checkbox"
                 id="checkbox-menu"
                 onClick={props.click}
-                defaultChecked={props.checked}
+                defaultChecked={props.defaultChecked}
             />
             <label htmlFor="checkbox-menu">
                 <span></span>
