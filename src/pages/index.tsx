@@ -97,7 +97,7 @@ const Home: React.FC = () => {
                         <Column size={1} collapse="mobileOff">
                             <Toggle
                                 click={openHandler}
-                                checked={defaultChecked}
+                                defaultChecked={defaultChecked}
                             />
                         </Column>
                     </Row>
