@@ -8,13 +8,13 @@ const Reference: React.FC = () => {
     return (
         <Container>
             <h1>
-                Reference Solution <br />
-                Provider Enterprise
+                Referência Nacional <br />
+                em BaaS e DRaas
             </h1>
             <h2>
-                A Plattano adotou a Reference como player de virtualização para
-                oferecer aos clientes o que há de melhor em tecnologia do
-                mercado.
+                A terceirização do backup e DR se tornou uma tendência. Já é
+                comum as empresas utilizarem essa tecnologia para proteção de
+                datacenters.
             </h2>
             <ReadMore />
         </Container>

@@ -55,11 +55,11 @@ const Home: React.FC = () => {
     }
 
     let sidebarValue: JSX.Element
-    let checked: boolean
+    let defaultChecked: boolean
 
     if (sidebarOpen) {
         sidebarValue = <Sidebar sidebar="sidebar" />
-        checked = true
+        defaultChecked = true
     }
 
     return (
@@ -95,7 +95,10 @@ const Home: React.FC = () => {
                             <Header />
                         </Column>
                         <Column size={1} collapse="mobileOff">
-                            <Toggle click={openHandler} checked={checked} />
+                            <Toggle
+                                click={openHandler}
+                                checked={defaultChecked}
+                            />
                         </Column>
                     </Row>
 

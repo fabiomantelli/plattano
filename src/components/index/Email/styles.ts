@@ -22,8 +22,9 @@ export const Container = styled.div`
         background-color: ${props => props.theme.colors.primary};
         color: white;
         border-color: transparent;
-        padding: 8px 15px 8px 15px;
+        padding: 6px 15px 6px 15px;
         cursor: pointer;
+        margin-left: 0.5rem;
     }
 
     @media only screen and (max-width: 42.98em) {

@@ -15,13 +15,37 @@ const Social: React.FC = () => {
             <Container>
                 <h1>Mídias Sociais</h1>
                 <ContainerIcons>
-                    <FontAwesomeIcon icon={faInstagram} size="2x" />
+                    <a
+                        href="https://www.instagram.com/plattanotechnologies/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <FontAwesomeIcon icon={faInstagram} size="2x" />
+                    </a>
                     &nbsp;&nbsp;
-                    <FontAwesomeIcon icon={faFacebook} size="2x" />
+                    <a
+                        href="https://www.facebook.com/plattanotechnologies/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <FontAwesomeIcon icon={faFacebook} size="2x" />
+                    </a>
                     &nbsp;&nbsp;
-                    <FontAwesomeIcon icon={faTwitter} size="2x" />
+                    <a
+                        href="https://twitter.com/PlattanoVM"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <FontAwesomeIcon icon={faTwitter} size="2x" />
+                    </a>
                     &nbsp;&nbsp;
-                    <FontAwesomeIcon icon={faLinkedin} size="2x" />
+                    <a
+                        href="https://www.linkedin.com/company/plattanotechnologies/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <FontAwesomeIcon icon={faLinkedin} size="2x" />
+                    </a>
                 </ContainerIcons>
             </Container>
         </>
