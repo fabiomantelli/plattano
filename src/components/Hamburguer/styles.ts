@@ -11,10 +11,10 @@ export const Container = styled.div`
 
     span {
         display: block;
-        width: 80%;
+        width: 70%;
         box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.3);
         border-radius: 3px;
-        height: 6px;
+        height: 5px;
         background: ${props => props.theme.colors.primary};
         transition: all 0.7s;
         position: relative;
