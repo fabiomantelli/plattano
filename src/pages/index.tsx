@@ -7,10 +7,10 @@ import Row from '../styles/Row'
 import Column from '../styles/Column'
 import Grid from '../styles/Grid'
 
-import Toggle from '../components/Nav/Toggle'
-import Sidebar from '../components/Nav/sidebar'
+import Navbar from '../components/Navbar'
+import Hamburguer from '../components/Hamburguer'
+import MobileMenu from '../components/MobileMenu'
 
-import Header from '../components/Header'
 import Modernity from '../components/index/Modernity'
 import Team from '../components/index/Team'
 import TeamImage from '../assets/index/team/teamImage'
@@ -44,22 +44,19 @@ import VeeamVmwareIcon from '../assets/index/footer/VeeamVmwareIcon'
 import Line from '../components/index/Line'
 
 const Home: React.FC = () => {
-    const [sidebarOpen, setSidebarOpen] = useState(false)
+    const [active, SetActive] = useState('not-active')
+    const [mobile, SetMobile] = useState(false)
 
     const openHandler = () => {
-        if (!sidebarOpen) {
-            setSidebarOpen(true)
+        if (active === 'not-active') {
+            SetActive('active')
+            SetMobile(true)
+            console.log(active)
         } else {
-            setSidebarOpen(false)
+            console.log(active)
+            SetActive('not-active')
+            SetMobile(false)
         }
-    }
-
-    let sidebarValue: JSX.Element
-    let defaultChecked: boolean
-
-    if (sidebarOpen) {
-        sidebarValue = <Sidebar sidebar="sidebar" />
-        defaultChecked = true
     }
 
     return (
@@ -73,7 +70,7 @@ const Home: React.FC = () => {
                 />
             </Head>
 
-            <ScrollLock isActive={sidebarOpen}>
+            <ScrollLock isActive={mobile}>
                 <Grid>
                     <Row>
                         <Column
@@ -92,17 +89,15 @@ const Home: React.FC = () => {
                             paddingRight={2}
                             marginRight={2}
                         >
-                            <Header />
+                            <Navbar />
                         </Column>
-                        <Column size={1} collapse="mobileOff">
-                            <Toggle
-                                click={openHandler}
-                                defaultChecked={defaultChecked}
-                            />
+
+                        <Column size={1} marginRight={2} collapse="mobileOff">
+                            <Hamburguer click={openHandler} isActive={active} />
                         </Column>
                     </Row>
 
-                    <Row>{sidebarValue}</Row>
+                    <MobileMenu isActive={active} />
 
                     <main>
                         <section>

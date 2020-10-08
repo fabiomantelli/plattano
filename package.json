@@ -22,7 +22,7 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-scrolllock": "^5.0.1",
-    "styled-components": "^5.1.1"
+    "styled-components": "^5.2.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^9.1.2",
