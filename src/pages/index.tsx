@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Head from 'next/head'
 
 import ScrollLock from 'react-scrolllock'
@@ -44,18 +44,18 @@ import VeeamVmwareIcon from '../assets/index/footer/VeeamVmwareIcon'
 import Line from '../components/index/Line'
 
 const Home: React.FC = () => {
-    const [active, SetActive] = useState('not-active')
+    const [active, SetActive] = useState('initial')
     const [mobile, SetMobile] = useState(false)
 
     const openHandler = () => {
-        if (active === 'not-active') {
-            SetActive('active')
-            SetMobile(true)
+        if (active === 'active') {
+            SetActive('not-active')
+            SetMobile(false)
             console.log(active)
         } else {
             console.log(active)
-            SetActive('not-active')
-            SetMobile(false)
+            SetActive('active')
+            SetMobile(true)
         }
     }
 

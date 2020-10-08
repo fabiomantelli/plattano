@@ -84,22 +84,22 @@ export const Container = styled.div`
             transform: rotate(0);
         }
         50% {
-            bottom: 12px;
+            bottom: 10px;
             transform: rotate(0);
         }
         100% {
-            bottom: 12px;
+            bottom: 10px;
             transform: rotate(135deg);
         }
     }
 
     @keyframes bottom-2 {
         0% {
-            bottom: 12px;
+            bottom: 10px;
             transform: rotate(135deg);
         }
         50% {
-            bottom: 12px;
+            bottom: 10px;
             transform: rotate(0);
         }
         100% {
