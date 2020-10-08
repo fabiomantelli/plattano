@@ -14,6 +14,7 @@ export const Container = styled.div`
             z-index: 200;
             left: 0;
             animation: slide-closed 0.7s forwards;
+            border: green solid 1px;
         }
         .active {
             height: 100vh;
@@ -23,6 +24,7 @@ export const Container = styled.div`
             z-index: 200;
             left: -100%;
             animation: slide-open 0.7s forwards;
+            border: green solid 1px;
         }
 
         @keyframes slide-open {

@@ -94,7 +94,7 @@ const Home: React.FC = () => {
 
                         <Column size={1} marginRight={2} collapse="mobileOff">
                             <Hamburguer click={openHandler} isActive={active} />
-                            <MobileMenu isActive={active} />
+                            <MobileMenu isActive={active} click={openHandler} />
                         </Column>
                     </Row>
 

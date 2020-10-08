@@ -5,9 +5,10 @@ import { Container } from './styles'
 
 const MobileMenu: React.FC<{
     isActive: string
+    click: () => void
 }> = props => {
     return (
-        <Container>
+        <Container onClick={props.click}>
             <div className={props.isActive}>
                 <Navbar />
             </div>
