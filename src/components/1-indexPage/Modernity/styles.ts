@@ -6,7 +6,7 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 100vh;
+    height: calc(100vh - 70px);
     background-image: url('/assets/management/management-background.png');
     background-repeat: no-repeat;
     background-size: cover;

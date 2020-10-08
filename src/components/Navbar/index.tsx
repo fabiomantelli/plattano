@@ -6,7 +6,7 @@ import { Container } from './styles'
 const Navbar: React.FC = () => {
     return (
         <Container>
-            <Link href="/">
+            <Link href="/sobre">
                 <a>Sobre</a>
             </Link>
             <Link href="/">

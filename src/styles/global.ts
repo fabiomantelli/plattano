@@ -42,4 +42,9 @@ h2, span {
      font-size: 0.88rem;
  }
 
+ a {
+     font-size: 0.88rem;
+ }
+
+
 `

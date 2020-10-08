@@ -8,6 +8,7 @@ const Row = styled.div<{
     marginBottom?: number
     paddingTop?: number
     collapse?: string
+    polygon?: boolean
 }>`
     display: flex;
     justify-content: center;
@@ -23,6 +24,10 @@ const Row = styled.div<{
     padding-top: ${props => props.paddingTop}rem;
     margin-top: ${props => props.marginTop}rem;
     margin-bottom: ${props => props.marginBottom}rem;
+    clip-path: ${props =>
+        props.polygon === true
+            ? 'polygon(100% 0, 0 0, 0 100%, 100% 85%, 100% 100%);'
+            : 'none'};
 `
 
 export default Row

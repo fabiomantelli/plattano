@@ -3,9 +3,15 @@ import styled from 'styled-components'
 export const Container = styled.div`
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+    height: 70px;
     white-space: nowrap;
     justify-items: center;
     align-items: center;
+
+    a {
+        text-decoration: none;
+        color: ${props => props.theme.colors.text};
+    }
 
     @media only screen and (max-width: 42.98em) {
         display: flex;
@@ -21,6 +27,12 @@ export const Container = styled.div`
             border-top: 2px solid rgba(255, 255, 255, 0.1);
             width: 90%;
             padding-top: 10px;
+        }
+    }
+
+    @media only screen and (max-width: 61.98em) {
+        a {
+            font-size: 0.7rem;
         }
     }
 `

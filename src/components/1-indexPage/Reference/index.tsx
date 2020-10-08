@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Container } from './styles'
 
-import ReadMore from '../ReadMore'
+import ReadMore from '../../ReadMore'
 
 const Reference: React.FC = () => {
     return (
