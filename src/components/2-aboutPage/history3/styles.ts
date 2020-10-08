@@ -18,7 +18,7 @@ export const Container = styled.div`
         text-align: center;
         height: auto;
         background-image: none;
-        padding: 8vw;
+        padding: 2rem;
 
         h2 {
             padding: 2vw;
