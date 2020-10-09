@@ -1,12 +1,12 @@
 import React from 'react'
-import ProfessionalServices2Trapezio from '../../../assets/3-services/professionalServices2Trapezio'
+import Trapezio from '../../../assets/trapezio'
 
 import { Container } from './styles'
 
 const ProfessionalServices2: React.FC = () => {
     return (
         <Container>
-            <ProfessionalServices2Trapezio />
+            <Trapezio />
             <h1>Professional Services</h1>
             <p>
                 Temos como meta, auxiliar nossos clientes, integrando soluções
