@@ -15,16 +15,32 @@ export const Container = styled.div`
         font-size: 4rem;
         font-weight: 400;
         color: ${props => props.theme.colors.background};
+        width: 50%;
     }
 
     h2 {
         font-weight: 300;
         line-height: 1.5rem;
         color: ${props => props.theme.colors.background};
+        width: 50%;
+        padding-bottom: 50px;
     }
 
     @media only screen and (max-width: 61.98em) {
-        text-align: center;
         background-image: none;
+        text-align: center;
+        padding: 8vw;
+
+        h1 {
+            font-size: 3rem;
+            width: 100%;
+        }
+
+        h2 {
+            padding-top: 20px;
+            font-size: 1rem;
+            line-height: 2rem;
+            width: 100%;
+        }
     }
 `

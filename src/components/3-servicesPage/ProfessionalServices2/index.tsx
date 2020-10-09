@@ -15,7 +15,7 @@ const ProfessionalServices2: React.FC = () => {
                 entrega das soluções.
             </p>
             <p>
-                ATrabalhamos com: Análise e Planejamento, Implantação,
+                Trabalhamos com: Análise e Planejamento, Implantação,
                 Gerenciamento de Ambientes, Full out-sourcing, Gestão
                 Compartilhada e Treinamentos.
             </p>

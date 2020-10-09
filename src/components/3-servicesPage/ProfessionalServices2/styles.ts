@@ -12,8 +12,8 @@ export const Container = styled.div`
         font-weight: normal;
     }
 
-    h2 {
-        padding: 15px 0px;
+    p {
+        padding-top: 20px;
         font-weight: 300;
         line-height: 1.5rem;
     }
