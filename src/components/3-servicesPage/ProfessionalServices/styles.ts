@@ -11,14 +11,6 @@ export const Container = styled.div`
     background-size: cover;
     background-position: bottom;
 
-    h1 {
-        font-size: 4rem;
-    }
-
-    h2 {
-        font-size: 1rem;
-    }
-
     @media only screen and (max-width: 61.98em) {
         text-align: center;
         background-image: none;
