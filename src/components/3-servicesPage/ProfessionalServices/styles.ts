@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
     height: calc(100vh - 70px);
-    /*display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 2rem;
@@ -10,6 +10,7 @@ export const Container = styled.div`
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
+    /*
     h1 {
         font-size: 4rem;
         font-weight: normal;
