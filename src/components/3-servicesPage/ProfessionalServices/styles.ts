@@ -6,18 +6,16 @@ export const Container = styled.div`
     flex-direction: column;
     justify-content: center;
     padding: 2rem;
-    /* background-image: url('/assets/3-services/profissionalServices/profissionalservice-image.png');
+    background-image: url('/assets/3-services/profissionalServices/profissionalservice-image.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom; */
-
+    background-position: bottom;
     h1 {
         width: 60%;
         font-size: 4rem;
         font-weight: normal;
         color: ${props => props.theme.colors.background};
     }
-
     h2 {
         width: 50%;
         font-size: 1rem;
@@ -27,16 +25,13 @@ export const Container = styled.div`
         padding-bottom: 80px;
         padding-top: 30px;
     }
-
     @media only screen and (max-width: 61.98em) {
         text-align: center;
         background-image: none;
         padding: 8vw;
-
         h1 {
             width: 100%;
         }
-
         h2 {
             padding-top: 1rem;
             width: 100%;
