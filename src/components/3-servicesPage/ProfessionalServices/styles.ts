@@ -6,10 +6,10 @@ export const Container = styled.div`
     flex-direction: column;
     justify-content: center;
     padding: 2rem;
-    background-image: url('/assets/3-services/profissionalServices/profissionalService-image.png');
+    /* background-image: url('/assets/3-services/profissionalServices/profissionalservice-image.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom;
+    background-position: bottom; */
 
     h1 {
         width: 60%;
