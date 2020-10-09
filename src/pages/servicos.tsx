@@ -7,48 +7,42 @@ import Row from '../styles/Row'
 import Column from '../styles/Column'
 import Grid from '../styles/Grid'
 
-import Hamburguer from '../components/Hamburguer'
 import Navbar from '../components/Navbar'
+import Hamburguer from '../components/Hamburguer'
+import MobileMenu from '../components/MobileMenu'
 
 import PlattanoLogo from '../assets/plattano/plattanoLogo'
-import MobileMenu from '../components/MobileMenu'
-import AboutUs from '../components/2-aboutPage/aboutUs'
-import AboutUsImage from '../assets/2-about/aboutus/aboutusImage'
-import AboutPlattano from '../components/2-aboutPage/aboutPlattano'
-import AboutPlattanoText from '../components/2-aboutPage/aboutPlattanoText'
-import MissionIcon from '../assets/2-about/mission/mission'
-import VisionIcon from '../assets/2-about/vision/vision'
-import ValuesIcon from '../assets/2-about/values/values'
-import OurValues from '../components/2-aboutPage/ourvalues'
-import Mission from '../components/2-aboutPage/mission'
-import Vision from '../components/2-aboutPage/vision'
-import Values from '../components/2-aboutPage/values'
+import ProfessionalServices from '../components/3-servicesPage/ProfessionalServices'
+import ProfessionalServices2Image from '../assets/3-services/professionalServices2/professionalServices2Image'
+import ProfessionalService2 from '../components/3-servicesPage/ProfessionalServices2'
 import News from '../components/News'
 import Email from '../components/Email'
-import History from '../components/2-aboutPage/history'
-import HistoryImage from '../assets/2-about/history/historyImage'
-import History2 from '../components/2-aboutPage/history2'
-import History2Image from '../assets/2-about/history2/history2Image'
-import History3 from '../components/2-aboutPage/history3'
-import History3Image from '../assets/2-about/history3/history3Image'
-import ProductsFooter from '../components/ProductsFooter'
-import PartnersFooter from '../components/PartnersFooter'
-import ServicesFooter from '../components/ServicesFooter'
-import Line from '../components/1-indexPage/Line'
+import OurServices from '../components/3-servicesPage/ourServices'
+import SupportImage from '../assets/3-services/support/supportImage'
+import Support from '../components/3-servicesPage/Support'
+import Consultancy from '../components/3-servicesPage/Consultancy'
+import CloudServices from '../components/3-servicesPage/CloudServices'
+import ConsultancyImage from '../assets/3-services/consultancy/consultancyImage'
+import CloudServicesImage from '../assets/3-services/cloudServices/cloudServicesImage'
+import Contact from '../components/Contact'
+import Social from '../components/Social'
 import Where from '../components/Where'
+import ServicesFooter from '../components/ServicesFooter'
+import PartnersFooter from '../components/PartnersFooter'
+import Line from '../components/1-indexPage/Line'
+import ProductsFooter from '../components/ProductsFooter'
+
 import PlattanoWhiteIcon from '../assets/1-index/plattanowhite/plattanowhite'
 import ContactIcon from '../assets/contact/contactIcon'
 import WhereIcon from '../assets/where/whereIcon'
 import SocialIcon from '../assets/social/socialIcon'
 
 import VeeamVmwareIcon from '../assets/footer/VeeamVmwareIcon'
-import Contact from '../components/Contact'
-import Social from '../components/Social'
 
 import Copyright from '../components/1-indexPage/Copyright'
 import Idiom from '../components/1-indexPage/Idiom'
 
-const Sobre: React.FC = () => {
+const Services: React.FC = () => {
     const [active, SetActive] = useState('initial')
     const [mobile, SetMobile] = useState(false)
 
@@ -63,6 +57,7 @@ const Sobre: React.FC = () => {
             SetMobile(true)
         }
     }
+
     return (
         <>
             <Head>
@@ -113,17 +108,9 @@ const Sobre: React.FC = () => {
                                     size={1}
                                     marginLeft={2}
                                     marginRight={2}
-                                    maxWidth={622}
+                                    maxWidth={1280}
                                 >
-                                    <AboutUs />
-                                </Column>
-                                <Column
-                                    size={1}
-                                    marginRight={2}
-                                    maxWidth={622}
-                                    collapse="tabletOn"
-                                >
-                                    <AboutUsImage />
+                                    <ProfessionalServices />
                                 </Column>
                             </Row>
 
@@ -133,46 +120,7 @@ const Sobre: React.FC = () => {
                                 polygon={true}
                             >
                                 <Column size={1} marginLeft={2} marginRight={2}>
-                                    <AboutUs />
-                                </Column>
-                            </Row>
-                        </section>
-
-                        <section>
-                            <Row collapse="mobileOn">
-                                <Column
-                                    size={1}
-                                    marginLeft={2}
-                                    marginRight={2}
-                                    maxWidth={622}
-                                >
-                                    <AboutPlattano />
-                                </Column>
-                                <Column size={1} marginRight={2} maxWidth={622}>
-                                    <AboutPlattanoText />
-                                </Column>
-                            </Row>
-
-                            <Row collapse="mobileOff">
-                                <Column
-                                    size={1}
-                                    marginTop={2}
-                                    marginLeft={2}
-                                    marginRight={2}
-                                    maxWidth={1280}
-                                >
-                                    <AboutPlattano />
-                                </Column>
-                            </Row>
-                            <Row collapse="mobileOff">
-                                <Column
-                                    size={1}
-                                    marginTop={2}
-                                    marginRight={2}
-                                    marginLeft={2}
-                                    maxWidth={1280}
-                                >
-                                    <AboutPlattanoText />
+                                    <ProfessionalServices />
                                 </Column>
                             </Row>
                         </section>
@@ -181,98 +129,19 @@ const Sobre: React.FC = () => {
                             <Row>
                                 <Column
                                     size={1}
-                                    padding={2}
-                                    marginTop={2}
+                                    collapse="mobileOn"
+                                    maxWidth={622}
+                                    marginLeft={2}
+                                >
+                                    <ProfessionalServices2Image />
+                                </Column>
+                                <Column
+                                    size={1}
+                                    maxWidth={622}
                                     marginRight={2}
                                     marginLeft={2}
-                                    maxWidth={1280}
                                 >
-                                    <OurValues />
-                                </Column>
-                            </Row>
-
-                            <Row collapse="tabletOn">
-                                <Column
-                                    size={1}
-                                    marginTop={2}
-                                    marginLeft={2}
-                                    boxShadow={true}
-                                    maxWidth={402.67}
-                                >
-                                    <MissionIcon />
-                                    <Mission />
-                                </Column>
-                                <Column
-                                    size={1}
-                                    marginTop={2}
-                                    marginLeft={2}
-                                    boxShadow={true}
-                                    maxWidth={402.67}
-                                >
-                                    <VisionIcon />
-                                    <Vision />
-                                </Column>
-                                <Column
-                                    size={1}
-                                    marginTop={2}
-                                    marginRight={2}
-                                    marginLeft={2}
-                                    boxShadow={true}
-                                    maxWidth={402.67}
-                                >
-                                    <ValuesIcon />
-                                    <Values />
-                                </Column>
-                            </Row>
-
-                            <Row collapse="tabletOff">
-                                <Column
-                                    size={1}
-                                    marginTop={2}
-                                    marginRight={2}
-                                    marginLeft={2}
-                                    paddingTop={1}
-                                    paddingRight={2}
-                                    paddingBottom={1}
-                                    paddingLeft={2}
-                                    boxShadow={true}
-                                >
-                                    <MissionIcon />
-                                    <Mission />
-                                </Column>
-                            </Row>
-
-                            <Row collapse="tabletOff">
-                                <Column
-                                    size={1}
-                                    marginTop={2}
-                                    marginRight={2}
-                                    marginLeft={2}
-                                    paddingTop={1}
-                                    paddingRight={2}
-                                    paddingBottom={1}
-                                    paddingLeft={2}
-                                    boxShadow={true}
-                                >
-                                    <VisionIcon />
-                                    <Vision />
-                                </Column>
-                            </Row>
-
-                            <Row collapse="tabletOff">
-                                <Column
-                                    size={1}
-                                    marginTop={2}
-                                    marginRight={2}
-                                    marginLeft={2}
-                                    paddingTop={1}
-                                    paddingRight={2}
-                                    paddingBottom={1}
-                                    paddingLeft={2}
-                                    boxShadow={true}
-                                >
-                                    <ValuesIcon />
-                                    <Values />
+                                    <ProfessionalService2 />
                                 </Column>
                             </Row>
                         </section>
@@ -304,19 +173,13 @@ const Sobre: React.FC = () => {
                             <Row>
                                 <Column
                                     size={1}
-                                    maxWidth={622}
+                                    padding={2}
+                                    marginTop={2}
+                                    marginRight={2}
                                     marginLeft={2}
-                                    marginRight={2}
+                                    maxWidth={1280}
                                 >
-                                    <History />
-                                </Column>
-                                <Column
-                                    size={1}
-                                    collapse="mobileOn"
-                                    maxWidth={622}
-                                    marginRight={2}
-                                >
-                                    <HistoryImage />
+                                    <OurServices />
                                 </Column>
                             </Row>
                         </section>
@@ -325,44 +188,110 @@ const Sobre: React.FC = () => {
                             <Row>
                                 <Column
                                     size={1}
-                                    collapse="mobileOn"
-                                    maxWidth={622}
-                                    marginLeft={2}
-                                >
-                                    <History2Image />
-                                </Column>
-                                <Column
-                                    size={1}
-                                    maxWidth={622}
+                                    collapse="tabletOn"
+                                    maxWidth={402.67}
+                                    marginTop={2}
                                     marginRight={2}
                                     marginLeft={2}
                                 >
-                                    <History2 />
+                                    <SupportImage />
+                                </Column>
+                                <Column
+                                    size={1}
+                                    collapse="tabletOn"
+                                    maxWidth={402.67}
+                                    marginTop={2}
+                                    marginRight={2}
+                                >
+                                    <ConsultancyImage />
+                                </Column>
+                                <Column
+                                    size={1}
+                                    collapse="tabletOn"
+                                    maxWidth={402.67}
+                                    marginTop={2}
+                                    marginRight={2}
+                                >
+                                    <CloudServicesImage />
                                 </Column>
                             </Row>
                         </section>
 
                         <section>
-                            <Row>
+                            <Row collapse="tabletOn">
                                 <Column
                                     size={1}
-                                    maxWidth={622}
+                                    marginTop={2}
                                     marginLeft={2}
-                                    marginRight={2}
+                                    maxWidth={402.67}
                                 >
-                                    <History3 />
+                                    <Support />
+                                </Column>
+
+                                <Column
+                                    size={1}
+                                    marginTop={2}
+                                    marginLeft={2}
+                                    maxWidth={402.67}
+                                >
+                                    <Consultancy />
                                 </Column>
                                 <Column
                                     size={1}
-                                    collapse="mobileOn"
-                                    maxWidth={622}
+                                    marginTop={2}
                                     marginRight={2}
+                                    marginLeft={2}
+                                    maxWidth={402.67}
                                 >
-                                    <History3Image />
+                                    <CloudServices />
+                                </Column>
+                            </Row>
+
+                            <Row collapse="tabletOff">
+                                <Column
+                                    size={1}
+                                    marginTop={2}
+                                    marginRight={2}
+                                    marginLeft={2}
+                                    paddingTop={1}
+                                    paddingRight={2}
+                                    paddingBottom={1}
+                                    paddingLeft={2}
+                                >
+                                    <Support />
+                                </Column>
+                            </Row>
+
+                            <Row collapse="tabletOff">
+                                <Column
+                                    size={1}
+                                    marginTop={2}
+                                    marginRight={2}
+                                    marginLeft={2}
+                                    paddingTop={1}
+                                    paddingRight={2}
+                                    paddingBottom={1}
+                                    paddingLeft={2}
+                                >
+                                    <Consultancy />
+                                </Column>
+                            </Row>
+
+                            <Row collapse="tabletOff">
+                                <Column
+                                    size={1}
+                                    marginTop={2}
+                                    marginRight={2}
+                                    marginLeft={2}
+                                    paddingTop={1}
+                                    paddingRight={2}
+                                    paddingBottom={1}
+                                    paddingLeft={2}
+                                >
+                                    <CloudServices />
                                 </Column>
                             </Row>
                         </section>
-
                         <section>
                             <Row
                                 position="relative"
@@ -513,4 +442,4 @@ const Sobre: React.FC = () => {
     )
 }
 
-export default Sobre
+export default Services
