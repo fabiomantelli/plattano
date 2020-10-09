@@ -7,7 +7,7 @@ const ProfessionalServices: React.FC = () => {
         <Container>
             <h1>Serviços Profissionais</h1>
             <h2>
-                Descubra todos os serviços que a <b>Pláttano Technologies</b>
+                Descubra todos os serviços que a Pláttano Technologies
                 disponibiliza em seu portfólio, com as melhores soluções da
                 indústria de TI, e adicione uma camada de qualidade extra ao seu
                 dia a dia, com todo o acompanhamento de nossos experts

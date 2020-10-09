@@ -11,6 +11,18 @@ export const Container = styled.div`
     background-size: cover;
     background-position: bottom;
 
+    h1 {
+        font-size: 4rem;
+        font-weight: normal;
+        color: ${props => props.theme.colors.background};
+    }
+
+    h2 {
+        font-weight: 300;
+        line-height: 1.5rem;
+        color: ${props => props.theme.colors.background};
+    }
+
     @media only screen and (max-width: 61.98em) {
         text-align: center;
         background-image: none;
