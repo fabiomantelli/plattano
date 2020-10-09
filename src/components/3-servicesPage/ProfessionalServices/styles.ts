@@ -11,13 +11,11 @@ export const Container = styled.div`
     background-size: cover;
     background-position: bottom;
     h1 {
-        width: 60%;
         font-size: 4rem;
         font-weight: normal;
         color: ${props => props.theme.colors.background};
     }
     h2 {
-        width: 50%;
         font-size: 1rem;
         font-weight: 400;
         color: ${props => props.theme.colors.background};
@@ -28,14 +26,5 @@ export const Container = styled.div`
     @media only screen and (max-width: 61.98em) {
         text-align: center;
         background-image: none;
-
-        h1 {
-            width: 100%;
-        }
-
-        h2 {
-            padding-top: 1rem;
-            width: 100%;
-        }
     }
 `
