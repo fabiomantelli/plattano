@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-    /* height: calc(100vh - 70px);
+    height: calc(100vh - 70px);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,17 +14,13 @@ export const Container = styled.div`
         width: 60%;
         font-size: 4rem;
         font-weight: normal;
-        color: ${props =>
-        props.theme.colors
-            .background};
+        color: ${props => props.theme.colors.background};
     }
     h2 {
         width: 50%;
         font-size: 1rem;
         font-weight: 400;
-        color: ${props =>
-        props.theme.colors
-            .background};
+        color: ${props => props.theme.colors.background};
         line-height: 1.5rem;
         padding-bottom: 80px;
         padding-top: 30px;
@@ -41,5 +37,5 @@ export const Container = styled.div`
             padding-top: 1rem;
             width: 100%;
         }
-    } */
+    }
 `
