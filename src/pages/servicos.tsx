@@ -378,6 +378,64 @@ const Services: React.FC = () => {
                             </Row>
                         </section>
                     </main>
+
+                    <footer>
+                        <Row
+                            background={true}
+                            paddingTop={10}
+                            collapse="mobileOn"
+                        >
+                            <Column
+                                size={1}
+                                maxWidth={293}
+                                marginTop={2}
+                                marginLeft={2}
+                            >
+                                <PlattanoWhiteIcon />
+                            </Column>
+                            <Column
+                                size={1}
+                                maxWidth={293}
+                                marginTop={2}
+                                marginLeft={2}
+                            >
+                                <ServicesFooter />
+                            </Column>
+                            <Column
+                                size={1}
+                                maxWidth={293}
+                                marginTop={2}
+                                marginLeft={2}
+                            >
+                                <ProductsFooter />
+                            </Column>
+                            <Column
+                                size={1}
+                                maxWidth={293}
+                                marginTop={2}
+                                marginRight={2}
+                                marginLeft={2}
+                            >
+                                <PartnersFooter />
+                                <VeeamVmwareIcon />
+                            </Column>
+                        </Row>
+
+                        <Row background={true} collapse="mobileOn">
+                            <Column size={1} marginBottom={1} maxWidth={1344}>
+                                <Line />
+                            </Column>
+                        </Row>
+
+                        <Row background={true} collapse="mobileOn">
+                            <Column size={1} maxWidth={640} marginLeft={2}>
+                                <Copyright />
+                            </Column>
+                            <Column size={1} maxWidth={640} marginRight={2}>
+                                <Idiom />
+                            </Column>
+                        </Row>
+                    </footer>
                 </Grid>
             </ScrollLock>
         </>
