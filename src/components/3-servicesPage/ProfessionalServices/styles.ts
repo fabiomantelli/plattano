@@ -11,23 +11,20 @@ export const Container = styled.div`
     background-size: cover;
     background-position: bottom;
 
-    /* h1 {
+    .H1 {
         font-size: 4rem;
         font-weight: normal;
-        color: ${props =>
-        props.theme.colors
-            .background};
+        color: ${props => props.theme.colors.background};
     }
-    h2 {
+
+    .H2 {
         font-size: 1rem;
         font-weight: 400;
-        color: ${props =>
-        props.theme.colors
-            .background};
+        color: ${props => props.theme.colors.background};
         line-height: 1.5rem;
         padding-bottom: 80px;
         padding-top: 30px;
-    } */
+    }
 
     @media only screen and (max-width: 61.98em) {
         text-align: center;
