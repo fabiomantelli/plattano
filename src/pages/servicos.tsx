@@ -98,12 +98,8 @@ const Services: React.FC = () => {
                     </Row>
 
                     <main>
-                        {/* <section>
-                            <Row
-                                background={true}
-                                collapse="tabletOn"
-                                polygon={true}
-                            >
+                        <section>
+                            <Row background={true} polygon={true}>
                                 <Column
                                     size={1}
                                     marginLeft={2}
@@ -113,17 +109,7 @@ const Services: React.FC = () => {
                                     <ProfessionalServices />
                                 </Column>
                             </Row>
-
-                            <Row
-                                background={true}
-                                collapse="tabletOff"
-                                polygon={true}
-                            >
-                                <Column size={1} marginLeft={2} marginRight={2}>
-                                    <ProfessionalServices />
-                                </Column>
-                            </Row>
-                        </section> */}
+                        </section>
 
                         <section>
                             <Row>
@@ -146,7 +132,7 @@ const Services: React.FC = () => {
                             </Row>
                         </section>
 
-                        {/* <section>
+                        <section>
                             <Row background={true} collapse="mobileOn">
                                 <Column
                                     size={1}
@@ -376,7 +362,7 @@ const Services: React.FC = () => {
                                     <Social />
                                 </Column>
                             </Row>
-                        </section> */}
+                        </section>
                     </main>
 
                     <footer>
