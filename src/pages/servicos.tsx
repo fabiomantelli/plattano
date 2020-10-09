@@ -98,7 +98,7 @@ const Services: React.FC = () => {
                     </Row>
 
                     <main>
-                        <section>
+                        {/* <section>
                             <Row
                                 background={true}
                                 collapse="tabletOn"
@@ -123,7 +123,7 @@ const Services: React.FC = () => {
                                     <ProfessionalServices />
                                 </Column>
                             </Row>
-                        </section>
+                        </section> */}
 
                         <section>
                             <Row>
