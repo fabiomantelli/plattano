@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Container } from '../ProfessionalServices/styles'
+import { Container } from './styles'
 
 const ProfessionalServices2: React.FC = () => {
     return (

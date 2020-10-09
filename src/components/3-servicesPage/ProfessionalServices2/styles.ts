@@ -1,40 +1,45 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-    height: calc(100vh - 70px);
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: 100vh;
     padding: 2rem;
-    background-image: url('/assets/3-services/profissionalServices/profissionalservice-image.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
+
     h1 {
-        width: 60%;
-        font-size: 4rem;
+        font-size: 2rem;
         font-weight: normal;
-        color: ${props => props.theme.colors.background};
     }
+
     h2 {
-        width: 50%;
-        font-size: 1rem;
-        font-weight: 400;
-        color: ${props => props.theme.colors.background};
+        padding: 15px 0px;
+        font-weight: 300;
         line-height: 1.5rem;
-        padding-bottom: 80px;
-        padding-top: 30px;
     }
-    @media only screen and (max-width: 61.98em) {
+    h3 {
+        color: ${props => props.theme.colors.primary};
+        font-weight: 500;
+    }
+
+    button {
+        width: fit-content;
+        background-color: ${props => props.theme.colors.primary};
+        color: white;
+        border-color: transparent;
+        padding: 8px 15px 8px 15px;
+        margin-top: 15px;
+        cursor: pointer;
+    }
+
+    @media only screen and (max-width: 42.98em) {
+        align-items: center;
         text-align: center;
-        background-image: none;
+        height: auto;
         padding: 8vw;
-        h1 {
-            width: 100%;
-        }
-        h2 {
-            padding-top: 1rem;
-            width: 100%;
+
+        br {
+            display: none;
         }
     }
 `
