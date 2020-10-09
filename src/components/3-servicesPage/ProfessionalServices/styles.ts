@@ -6,7 +6,7 @@ export const Container = styled.div`
     flex-direction: column;
     justify-content: center;
     padding: 2rem;
-    background-image: url('/assets/3-services/profissionalServices/profissionalservice-image.png');
+    background-image: url('/assets/3-services/profissionalServices/profissionalservices-image.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -28,10 +28,11 @@ export const Container = styled.div`
     @media only screen and (max-width: 61.98em) {
         text-align: center;
         background-image: none;
-        padding: 8vw;
+
         h1 {
             width: 100%;
         }
+
         h2 {
             padding-top: 1rem;
             width: 100%;
