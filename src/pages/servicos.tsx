@@ -146,7 +146,7 @@ const Services: React.FC = () => {
                             </Row>
                         </section>
 
-                        <section>
+                        {/* <section>
                             <Row background={true} collapse="mobileOn">
                                 <Column
                                     size={1}
@@ -376,7 +376,7 @@ const Services: React.FC = () => {
                                     <Social />
                                 </Column>
                             </Row>
-                        </section>
+                        </section> */}
                     </main>
 
                     <footer>
