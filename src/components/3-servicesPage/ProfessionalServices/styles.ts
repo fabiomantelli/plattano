@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-    /* height: calc(100vh - 70px);
-    display: flex;
+    height: calc(100vh - 70px);
+    /*display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 2rem;
