@@ -38,7 +38,7 @@ import Line from '../components/1-indexPage/Line'
 import Where from '../components/Where'
 import PlattanoWhiteIcon from '../assets/1-index/plattanowhite/plattanowhite'
 import ContactIcon from '../assets/contact/contactIcon'
-import WhereIcon from '../assets/where/whereIcon'
+import WhereIcon from '../assets//where/whereIcon'
 import SocialIcon from '../assets/social/socialIcon'
 
 import VeeamVmwareIcon from '../assets/footer/VeeamVmwareIcon'

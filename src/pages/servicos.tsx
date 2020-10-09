@@ -24,6 +24,23 @@ import Consultancy from '../components/3-servicesPage/Consultancy'
 import CloudServices from '../components/3-servicesPage/CloudServices'
 import ConsultancyImage from '../assets/3-services/consultancy/consultancyImage'
 import CloudServicesImage from '../assets/3-services/cloudServices/cloudServicesImage'
+import Contact from '../components/Contact'
+import Social from '../components/Social'
+import Where from '../components/Where'
+import ServicesFooter from '../components/ServicesFooter'
+import PartnersFooter from '../components/PartnersFooter'
+import Line from '../components/1-indexPage/Line'
+import ProductsFooter from '../components/ProductsFooter'
+
+import PlattanoWhiteIcon from '../assets/1-index/plattanowhite/plattanowhite'
+import ContactIcon from '../assets/contact/contactIcon'
+import WhereIcon from '../assets/where/whereIcon'
+import SocialIcon from '../assets/social/socialIcon'
+
+import VeeamVmwareIcon from '../assets/footer/VeeamVmwareIcon'
+
+import Copyright from '../components/1-indexPage/Copyright'
+import Idiom from '../components/1-indexPage/Idiom'
 
 const Services: React.FC = () => {
     const [active, SetActive] = useState('initial')
@@ -115,7 +132,7 @@ const Services: React.FC = () => {
                             </Row>
                         </section>
 
-                        {/* <section>
+                        <section>
                             <Row background={true} collapse="mobileOn">
                                 <Column
                                     size={1}
@@ -260,7 +277,7 @@ const Services: React.FC = () => {
                                     <CloudServices />
                                 </Column>
                             </Row>
-                        </section> */}
+                        </section>
                     </main>
                 </Grid>
             </ScrollLock>
