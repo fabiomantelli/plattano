@@ -115,7 +115,7 @@ const Services: React.FC = () => {
                             </Row>
                         </section>
 
-                        <section>
+                        {/* <section>
                             <Row background={true} collapse="mobileOn">
                                 <Column
                                     size={1}
@@ -260,7 +260,7 @@ const Services: React.FC = () => {
                                     <CloudServices />
                                 </Column>
                             </Row>
-                        </section>
+                        </section> */}
                     </main>
                 </Grid>
             </ScrollLock>
