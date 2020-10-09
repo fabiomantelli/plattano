@@ -98,7 +98,7 @@ const Services: React.FC = () => {
                     </Row>
 
                     <main>
-                        {/* <section>
+                        <section>
                             <Row background={true} polygon={true}>
                                 <Column
                                     size={1}
@@ -110,7 +110,7 @@ const Services: React.FC = () => {
                                 </Column>
                             </Row>
                         </section>
-
+                        {/*
                         <section>
                             <Row>
                                 <Column
