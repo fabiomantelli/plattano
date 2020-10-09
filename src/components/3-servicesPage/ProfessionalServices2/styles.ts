@@ -10,6 +10,7 @@ export const Container = styled.div`
     h1 {
         font-size: 2rem;
         font-weight: normal;
+        padding-top: 20px;
     }
 
     p {
