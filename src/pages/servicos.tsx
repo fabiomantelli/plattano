@@ -14,7 +14,7 @@ import MobileMenu from '../components/MobileMenu'
 import PlattanoLogo from '../assets/plattano/plattanoLogo'
 import ProfessionalServices from '../components/3-servicesPage/ProfessionalServices'
 import ProfessionalServices2Image from '../assets/3-services/professionalServices2/professionalServices2Image'
-import ProfessionalService2 from '../components/3-servicesPage/ProfessionalServices2'
+import ProfessionalServices2 from '../components/3-servicesPage/ProfessionalServices2'
 import News from '../components/News'
 import Email from '../components/Email'
 import OurServices from '../components/3-servicesPage/ourServices'
@@ -127,7 +127,7 @@ const Services: React.FC = () => {
                                     marginRight={2}
                                     marginLeft={2}
                                 >
-                                    <ProfessionalService2 />
+                                    <ProfessionalServices2 />
                                 </Column>
                             </Row>
                         </section>

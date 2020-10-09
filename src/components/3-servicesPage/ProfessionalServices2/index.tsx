@@ -1,8 +1,8 @@
 import React from 'react'
 
-import { Container } from './styles'
+import { Container } from '../ProfessionalServices/styles'
 
-const ProfessionalService2: React.FC = () => {
+const ProfessionalServices2: React.FC = () => {
     return (
         <Container>
             <h1>Professional Services</h1>
@@ -24,4 +24,4 @@ const ProfessionalService2: React.FC = () => {
     )
 }
 
-export default ProfessionalService2
+export default ProfessionalServices2
