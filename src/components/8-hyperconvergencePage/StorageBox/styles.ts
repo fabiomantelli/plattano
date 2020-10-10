@@ -16,6 +16,11 @@ export const Container = styled.div`
         margin-left: 1rem;
     }
 
+    @media only screen and (max-width: 61.98em) {
+        p {
+            font-size: 0.85rem;
+        }
+    }
     @media only screen and (max-width: 42.98em) {
         flex-direction: column;
         align-items: center;

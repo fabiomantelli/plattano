@@ -9,7 +9,7 @@ export const Container = styled.div`
         border: 1px solid #d5d5d5;
         box-sizing: border-box;
         box-shadow: 0px 4px 16px rgba(234, 114, 0, 0.16);
-        margin: 24px 0px 0px 24px;
+        margin-top: 1rem;
         padding: 1rem;
     }
 
