@@ -6,7 +6,7 @@ const Hyperconvergence: React.FC = () => {
     return (
         <>
             <Container>
-                <h1>Hiperconvergência</h1>
+                <h1>Hiper&shy;convergência</h1>
                 <h2>
                     Descubra as vantagens da utilização de soluções
                     Hiperconvergentes da <b>VMware</b> e modernize seu

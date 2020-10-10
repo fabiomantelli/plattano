@@ -32,7 +32,8 @@ export const Container = styled.div`
         padding: 8vw;
 
         h1 {
-            font-size: 2.9rem;
+            font-size: 3rem;
+            hyphens: manual;
         }
 
         h2 {
