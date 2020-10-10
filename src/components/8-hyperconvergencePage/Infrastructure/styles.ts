@@ -19,12 +19,6 @@ export const Container = styled.div`
         line-height: 1.5rem;
     }
 
-    @media only screen and (max-width: 61.98em) {
-        h1 {
-            font-size: 1.65rem;
-        }
-    }
-
     @media only screen and (max-width: 42.98em) {
         align-items: center;
         text-align: center;
