@@ -6,6 +6,7 @@ export default createGlobalStyle`
      margin: 0;
      padding: 0;
      box-sizing: border-box;
+     font-family: 'Rubik', sans-serif;
      font-size: ${props => props.theme.font.size};
 
 
@@ -22,10 +23,10 @@ export default createGlobalStyle`
     }
  }
 
- body {
+ body, textarea {
      background: ${props => props.theme.colors.background};
      color: ${props => props.theme.colors.text};
-     font-family: 'Rubik', sans-serif;
+
 
  }
 
