@@ -23,6 +23,5 @@ export const Container = styled.div`
         align-items: center;
         text-align: center;
         height: auto;
-        padding: 8vw;
     }
 `

@@ -16,5 +16,9 @@ export const Container = styled.div`
     @media only screen and (max-width: 61.98em) {
         flex-direction: column;
         text-align: center;
+
+        p {
+            padding-right: 0;
+        }
     }
 `

@@ -20,6 +20,7 @@ export const Container = styled.div`
 
         p {
             width: 100%;
+            padding-right: 0;
         }
     }
 `
