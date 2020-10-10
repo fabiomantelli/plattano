@@ -46,7 +46,7 @@ import Copyright from '../components/1-indexPage/Copyright'
 import Idiom from '../components/1-indexPage/Idiom'
 
 import VmwareLogo from '../assets/5-parners/vmwareLogo/vmwareLogo'
-import VeeamLogo from '../assets/5-parners/veeamlogo/veeamLogo'
+import VeeamLogo from '../assets/5-parners/veeamLogo/veeamLogo'
 import SynnexLogo from '../assets/5-parners/synnexLogo/synnexLogo'
 import AdistecLogo from '../assets/5-parners/adistecLogo/adistecLogo'
 
