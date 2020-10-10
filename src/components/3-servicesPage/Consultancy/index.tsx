@@ -11,7 +11,7 @@ const Consultancy: React.FC = () => {
                 Nosso time de especialistas se especializam com as novidades
                 para entregarmos soluções estratégicas e de valor.
             </h2>
-            <Link href="/">
+            <Link href="/consultoria">
                 <a>Veja mais</a>
             </Link>
         </Container>
