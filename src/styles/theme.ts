@@ -8,6 +8,21 @@ const theme = {
     },
     font: {
         size: '18px'
+    },
+    laptop: {
+        font: {
+            size: '17px'
+        }
+    },
+    tablet: {
+        font: {
+            size: '16px'
+        }
+    },
+    mobile: {
+        font: {
+            size: '14px'
+        }
     }
 }
 

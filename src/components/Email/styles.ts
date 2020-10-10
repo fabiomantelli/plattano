@@ -2,6 +2,42 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    height: 30vh;
+    padding: 2rem;
+
+    input {
+        width: 25vw;
+        max-width: 300px;
+        min-width: 200px;
+        height: 2rem;
+        text-indent: 0.5rem;
+        border: none;
+    }
+
+    button {
+        width: fit-content;
+        background-color: ${props => props.theme.colors.primary};
+        color: white;
+        border-color: transparent;
+        padding: 6px 15px 6px 15px;
+        cursor: pointer;
+        margin-left: 0.5rem;
+    }
+
+    @media only screen and (max-width: 42.98em) {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 5vw;
+
+        input {
+            width: 60vw;
+        }
+        button {
+            margin-top: 5vw;
+        }
+    }
 `

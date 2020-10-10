@@ -6,10 +6,14 @@ const Email: React.FC = () => {
     return (
         <Container>
             <label>
-                <input type="text" name="Digite seu E-mail" />
+                <input
+                    type="text"
+                    name="email"
+                    placeholder="Digite seu E-mail"
+                />
             </label>
 
-            <input type="submit" value="Cadastrar" />
+            <button>Cadastrar</button>
         </Container>
     )
 }
