@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import { Container } from './styles'
 
 const Modernity: React.FC = () => {
@@ -13,7 +14,9 @@ const Modernity: React.FC = () => {
                 Technologies, parceira oficial no Brasil.
             </h2>
 
-            <button>Saiba Mais</button>
+            <Link href="/hiperconvergencia">
+                <button>Saiba Mais</button>
+            </Link>
         </Container>
     )
 }
