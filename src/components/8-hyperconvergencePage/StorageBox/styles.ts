@@ -11,15 +11,18 @@ export const Container = styled.div`
     box-shadow: 0px 4px 16px rgba(234, 114, 0, 0.16);
     margin: 2rem;
 
+    p,
+    h1 {
+        margin-left: 1rem;
+    }
+
     @media only screen and (max-width: 42.98em) {
         flex-direction: column;
         align-items: center;
         text-align: center;
         padding: 2rem;
 
-        h1 {
-            margin-top: 1rem;
-        }
+        h1,
         p {
             margin-top: 1rem;
         }

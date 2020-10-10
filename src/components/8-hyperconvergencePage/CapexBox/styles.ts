@@ -11,6 +11,11 @@ export const Container = styled.div`
     box-shadow: 0px 4px 16px rgba(234, 114, 0, 0.16);
     margin: 2rem;
 
+    p,
+    h1 {
+        margin-left: 1rem;
+    }
+
     @media only screen and (max-width: 42.98em) {
         flex-direction: column;
         align-items: center;
@@ -18,10 +23,8 @@ export const Container = styled.div`
 
         padding: 2rem;
 
+        p,
         h1 {
-            margin-top: 1rem;
-        }
-        p {
             margin-top: 1rem;
         }
     }
