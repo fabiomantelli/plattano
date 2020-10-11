@@ -8,12 +8,15 @@ export const Container = styled.div`
 
     border: 1px solid #d5d5d5;
     box-sizing: border-box;
-    box-shadow: 0px 4px 16px rgba(234, 114, 0, 0.16);
     margin: 2rem;
 
     p,
     h1 {
         margin-left: 1rem;
+    }
+
+    :hover {
+        border: 1px solid ${props => props.theme.colors.primary};
     }
 
     @media only screen and (max-width: 61.98em) {

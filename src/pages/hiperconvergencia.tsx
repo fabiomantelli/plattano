@@ -19,7 +19,7 @@ import Infrastructure2 from '../components/8-hyperconvergencePage/Infrastructure
 import EnvironmentImage from '../assets/8-hyperconvergence/environment/environmentImage'
 import Environment from '../components/8-hyperconvergencePage/Environment'
 import Benefits from '../components/8-hyperconvergencePage/Benefits'
-import BenefitsBoxes from '../components/8-hyperconvergencePage/BenefitsBoxes'
+import BenefitsBoxes from '../components/8-hyperconvergencePage/AlreadyBox/BenefitsBoxes'
 import News from '../components/News'
 import Email from '../components/Email'
 import StorageBox from '../components/8-hyperconvergencePage/StorageBox'

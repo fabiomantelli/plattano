@@ -5,7 +5,7 @@ import { Container } from './styles'
 const BenefitsBoxes: React.FC = () => {
     return (
         <Container>
-            <p id="reduction-p">
+            <p>
                 Redução de silos nos departamentos de TI. Uma equipe consegue
                 gerenciar todo o parque, desde a camada de virtualização de
                 servidores e rede, até o storage. Uma ferramenta central para
