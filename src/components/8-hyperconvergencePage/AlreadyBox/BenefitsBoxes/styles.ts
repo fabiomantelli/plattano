@@ -13,7 +13,7 @@ export const Container = styled.div`
         padding: 1rem;
     }
 
-    #reduction-p {
+    p:hover {
         border: 1px solid ${props => props.theme.colors.primary};
     }
 

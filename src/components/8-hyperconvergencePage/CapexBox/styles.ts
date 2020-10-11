@@ -16,6 +16,10 @@ export const Container = styled.div`
         margin-left: 1rem;
     }
 
+    :hover {
+        border: 1px solid ${props => props.theme.colors.primary};
+    }
+
     @media only screen and (max-width: 61.98em) {
         p {
             font-size: 0.85rem;
