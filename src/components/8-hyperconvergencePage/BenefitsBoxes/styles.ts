@@ -6,7 +6,7 @@ export const Container = styled.div`
     padding: 2rem;
 
     p {
-        border: 1px solid #d5d5d5;
+        border: 1px solid #d5d5d3;
         box-sizing: border-box;
         box-shadow: 0px 4px 16px rgba(234, 114, 0, 0.16);
         margin-top: 1rem;
