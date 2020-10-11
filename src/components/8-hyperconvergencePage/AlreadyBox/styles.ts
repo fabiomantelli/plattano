@@ -8,7 +8,6 @@ export const Container = styled.div`
 
     border: 1px solid #d5d5d5;
     box-sizing: border-box;
-    box-shadow: 0px 4px 16px rgba(234, 114, 0, 0.16);
     margin: 2rem;
 
     p,
