@@ -34,6 +34,12 @@ export const Title = styled.h1`
     font-size: 4rem;
     font-weight: 300;
     color: ${props => props.theme.colors.background};
+
+    @media only screen and (max-width: 61.98em) {
+        br {
+            display: none;
+        }
+    }
 `
 export const SubTitle = styled.h2<{ changedMediaQueries?: string }>`
     font-size: 1rem;

@@ -77,7 +77,7 @@ const Services: React.FC = () => {
                                         url="/assets/3-services/profissionalservices-image.png"
                                         backgroundSize="cover"
                                     >
-                                        {/* <Title>
+                                        <Title>
                                             Serviços <br />
                                             Profissionais
                                         </Title>
@@ -89,7 +89,7 @@ const Services: React.FC = () => {
                                             adicione uma camada de qualidade
                                             extra ao seu dia a dia, com todo o
                                             acompanhamento de nossos experts
-                                        </SubTitle> */}
+                                        </SubTitle>
                                     </MainContainer>
                                 </Column>
                             </Row>
