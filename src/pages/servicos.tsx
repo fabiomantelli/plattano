@@ -65,6 +65,59 @@ const Services: React.FC = () => {
 
                     <main>
                         <section>
+                            <Row>
+                                <Column
+                                    size={1}
+                                    collapse="mobileOn"
+                                    maxWidth={622}
+                                    marginLeft={2}
+                                >
+                                    <ImageContainer>
+                                        <img
+                                            src="/assets/3-services/professionalservices2-image.png"
+                                            alt="Professional Services2 Image"
+                                        />
+                                    </ImageContainer>
+                                </Column>
+                                <Column
+                                    size={1}
+                                    maxWidth={622}
+                                    marginRight={2}
+                                    marginLeft={2}
+                                >
+                                    <HexagonContainer changedMediaQueries="mobileOn">
+                                        <Trapezio />
+                                        <HexagonTitle>
+                                            Professional Services
+                                        </HexagonTitle>
+                                        <HexagonParagraph>
+                                            Temos como meta, auxiliar nossos
+                                            clientes, integrando soluções de
+                                            nossos parceiros com serviços
+                                            especializados, superando os
+                                            desafios e obter melhores resultados
+                                            para os negócios. Nossa metodologia
+                                            de trabalho é usar das melhores
+                                            práticas criadas pelas fabricantes,
+                                            garantindo maior qualidade e
+                                            eficiência na entrega das soluções.
+                                        </HexagonParagraph>
+                                        <HexagonParagraph>
+                                            Trabalhamos com: Análise e
+                                            Planejamento, Implantação,
+                                            Gerenciamento de Ambientes, Full
+                                            out-sourcing, Gestão Compartilhada e
+                                            Treinamentos.
+                                        </HexagonParagraph>
+                                        <ButtonElement>
+                                            Saiba Mais
+                                        </ButtonElement>
+                                    </HexagonContainer>
+                                </Column>
+                            </Row>
+                        </section>
+
+                        <section>
                             <Row background={true} collapse="mobileOn">
                                 <Column
                                     size={1}
