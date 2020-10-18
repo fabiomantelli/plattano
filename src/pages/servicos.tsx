@@ -77,7 +77,10 @@ const Services: React.FC = () => {
                                         url="/assets/3-services/profissionalservices-image.png"
                                         backgroundSize="cover"
                                     >
-                                        <Title>Serviços Profissionais</Title>
+                                        <Title>
+                                            Serviços <br />
+                                            Profissionais
+                                        </Title>
                                         <SubTitle changedMediaQueries="tabletOn">
                                             Descubra todos os serviços que a
                                             Pláttano Technologies disponibiliza
