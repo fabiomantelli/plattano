@@ -65,6 +65,37 @@ const Services: React.FC = () => {
 
                     <main>
                         <section>
+                            <Row background={true} polygon={true}>
+                                <Column
+                                    size={1}
+                                    marginLeft={2}
+                                    marginRight={2}
+                                    maxWidth={1280}
+                                >
+                                    <MainContainer
+                                        changedMediaQueries="tabletOn"
+                                        // url="/assets/3-services/profissionalservices-image.png"
+                                        backgroundSize="cover"
+                                    >
+                                        <Title>
+                                            Serviços <br />
+                                            Profissionais
+                                        </Title>
+                                        <SubTitle changedMediaQueries="tabletOn">
+                                            Descubra todos os serviços que a
+                                            Pláttano Technologies disponibiliza
+                                            em seu portfólio, com as melhores
+                                            soluções da indústria de TI, e
+                                            adicione uma camada de qualidade
+                                            extra ao seu dia a dia, com todo o
+                                            acompanhamento de nossos experts
+                                        </SubTitle>
+                                    </MainContainer>
+                                </Column>
+                            </Row>
+                        </section>
+
+                        <section>
                             <Row>
                                 <Column
                                     size={1}

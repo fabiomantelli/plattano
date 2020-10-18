@@ -1,11 +1,13 @@
 import styled from 'styled-components'
 import media from './media'
 
-export const MainContainer = styled.div<{
+interface IMainContainer {
     changedMediaQueries?: string
     url?: string
     backgroundSize?: string
-}>`
+}
+
+export const MainContainer = styled.div<IMainContainer>`
     height: calc(100vh - 70px);
     display: flex;
     flex-direction: column;
