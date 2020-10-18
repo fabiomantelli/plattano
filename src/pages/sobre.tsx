@@ -7,27 +7,12 @@ import Row from '../styles/Row'
 import Column from '../styles/Column'
 import Grid from '../styles/Grid'
 
-import AboutUsImage from '../assets/2-about/aboutus/aboutusImage'
-import AboutPlattano from '../components/2-aboutPage/aboutPlattano'
-import AboutPlattanoText from '../components/2-aboutPage/aboutPlattanoText'
-import MissionIcon from '../assets/2-about/mission/mission'
-import VisionIcon from '../assets/2-about/vision/vision'
-import ValuesIcon from '../assets/2-about/values/values'
-import OurValues from '../components/2-aboutPage/ourvalues'
-import Mission from '../components/2-aboutPage/mission'
-import Vision from '../components/2-aboutPage/vision'
-import Values from '../components/2-aboutPage/values'
 import News from '../components/News'
 import Email from '../components/Email'
-import History from '../components/2-aboutPage/history'
-import HistoryImage from '../assets/2-about/history/historyImage'
-import History2 from '../components/2-aboutPage/history2'
-import History2Image from '../assets/2-about/history2/history2Image'
-import History3 from '../components/2-aboutPage/history3'
-import History3Image from '../assets/2-about/history3/history3Image'
 
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+
 import {
     HexagonParagraph,
     HexagonTitle,
@@ -35,8 +20,8 @@ import {
     SubTitle,
     Title
 } from '../styles/TextElements'
+
 import {
-    BoxContainer,
     BoxDefaultContainer,
     BoxVisionContainer,
     EntireContainer,
