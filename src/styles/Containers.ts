@@ -370,6 +370,7 @@ export const SpeedTransformationContainer = styled.div`
         flex-direction: column;
         background-image: none;
         text-align: center;
+        padding-left: 0;
 
         h1 {
             font-size: 2rem;
