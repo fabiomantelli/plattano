@@ -7,7 +7,6 @@ import Row from '../styles/Row'
 import Column from '../styles/Column'
 import Grid from '../styles/Grid'
 
-import AboutUs from '../components/2-aboutPage/aboutUs'
 import AboutUsImage from '../assets/2-about/aboutus/aboutusImage'
 import AboutPlattano from '../components/2-aboutPage/aboutPlattano'
 import AboutPlattanoText from '../components/2-aboutPage/aboutPlattanoText'
@@ -29,6 +28,22 @@ import History3Image from '../assets/2-about/history3/history3Image'
 
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import {
+    HexagonParagraph,
+    HexagonTitle,
+    MiniOrangeTitle,
+    SubTitle,
+    Title
+} from '../styles/TextElements'
+import {
+    BoxContainer,
+    BoxDefaultContainer,
+    BoxVisionContainer,
+    EntireContainer,
+    HexagonContainer,
+    ImageContainer,
+    MainContainer
+} from '../styles/Containers'
 
 const Sobre: React.FC = () => {
     const [active, SetActive] = useState('initial')
@@ -71,17 +86,22 @@ const Sobre: React.FC = () => {
                                     size={1}
                                     marginLeft={2}
                                     marginRight={2}
-                                    maxWidth={622}
+                                    maxWidth={1280}
                                 >
-                                    <AboutUs />
-                                </Column>
-                                <Column
-                                    size={1}
-                                    marginRight={2}
-                                    maxWidth={622}
-                                    collapse="tabletOn"
-                                >
-                                    <AboutUsImage />
+                                    <MainContainer
+                                        changedMediaQueries="tabletOn"
+                                        url="/assets/2-about/aboutus.png"
+                                        backgroundSize="50%"
+                                    >
+                                        <Title>Sobre Nós</Title>
+                                        <SubTitle changedMediaQueries="tabletOn">
+                                            Vivemos a era da virtualização, e
+                                            ela já está presente em nossas
+                                            vidas. Queremos ajudá-los a entender
+                                            e entrar em definitivo nesse novo
+                                            conceito de computação.
+                                        </SubTitle>
+                                    </MainContainer>
                                 </Column>
                             </Row>
 
@@ -91,7 +111,16 @@ const Sobre: React.FC = () => {
                                 polygon={true}
                             >
                                 <Column size={1} marginLeft={2} marginRight={2}>
-                                    <AboutUs />
+                                    <MainContainer changedMediaQueries="tabletOn">
+                                        <Title>Sobre Nós</Title>
+                                        <SubTitle changedMediaQueries="tabletOn">
+                                            Vivemos a era da virtualização, e
+                                            ela já está presente em nossas
+                                            vidas. Queremos ajudá-los a entender
+                                            e entrar em definitivo nesse novo
+                                            conceito de computação.
+                                        </SubTitle>
+                                    </MainContainer>
                                 </Column>
                             </Row>
                         </section>
@@ -104,10 +133,55 @@ const Sobre: React.FC = () => {
                                     marginRight={2}
                                     maxWidth={622}
                                 >
-                                    <AboutPlattano />
+                                    <HexagonContainer
+                                        changedMediaQueries="mobileOn"
+                                        height="auto"
+                                    >
+                                        <HexagonTitle>
+                                            Sobre a Plattano <br />
+                                            Technologies
+                                        </HexagonTitle>
+                                    </HexagonContainer>
                                 </Column>
                                 <Column size={1} marginRight={2} maxWidth={622}>
-                                    <AboutPlattanoText />
+                                    <HexagonContainer height="auto">
+                                        <HexagonParagraph>
+                                            A Pláttano Technologies é uma
+                                            empresa especializada na entrega de
+                                            soluções e projetos que envolvam
+                                            virtualização de Datacenters,
+                                            proteção de dados e
+                                            hiperdisponibilidade. Possuímos um
+                                            corpo técnico de engenheiros capaz
+                                            de auxiliar nossos clientes em todas
+                                            as fases, desde as mais iniciais
+                                            como licenciamento, levantamento de
+                                            requisitos e sizing, até a
+                                            implementação, suporte e
+                                            consultoria.
+                                        </HexagonParagraph>
+                                        <HexagonParagraph>
+                                            Vivemos a era da virtualização, e
+                                            ela já está presente em nossas vidas
+                                            há muito tempo. Somos cada vez mais
+                                            digitais, e a segurança de nossos
+                                            dados não é mais item de luxo.
+                                            Queremos ajudá-los a entender e
+                                            entrar em definitivo nesse novo
+                                            conceito de computação e proteção.
+                                        </HexagonParagraph>
+
+                                        <HexagonParagraph>
+                                            Nosso objetivo principal é a
+                                            continuidade do negócio, utilizando
+                                            as melhores práticas e ferramentas
+                                            de implementações de soluções, com
+                                            um suporte extremamente próximo e
+                                            personalizado, possibilitamos que as
+                                            empresas utilizem a tecnologia a
+                                            favor de seus objetivos.
+                                        </HexagonParagraph>
+                                    </HexagonContainer>
                                 </Column>
                             </Row>
 
@@ -119,7 +193,15 @@ const Sobre: React.FC = () => {
                                     marginRight={2}
                                     maxWidth={1280}
                                 >
-                                    <AboutPlattano />
+                                    <HexagonContainer
+                                        changedMediaQueries="mobileOn"
+                                        height="auto"
+                                    >
+                                        <HexagonTitle>
+                                            Sobre a Plattano <br />
+                                            Technologies
+                                        </HexagonTitle>
+                                    </HexagonContainer>
                                 </Column>
                             </Row>
                             <Row collapse="mobileOff">
@@ -130,7 +212,44 @@ const Sobre: React.FC = () => {
                                     marginLeft={2}
                                     maxWidth={1280}
                                 >
-                                    <AboutPlattanoText />
+                                    <HexagonContainer height="auto">
+                                        <HexagonParagraph>
+                                            A Pláttano Technologies é uma
+                                            empresa especializada na entrega de
+                                            soluções e projetos que envolvam
+                                            virtualização de Datacenters,
+                                            proteção de dados e
+                                            hiperdisponibilidade. Possuímos um
+                                            corpo técnico de engenheiros capaz
+                                            de auxiliar nossos clientes em todas
+                                            as fases, desde as mais iniciais
+                                            como licenciamento, levantamento de
+                                            requisitos e sizing, até a
+                                            implementação, suporte e
+                                            consultoria.
+                                        </HexagonParagraph>
+                                        <HexagonParagraph>
+                                            Vivemos a era da virtualização, e
+                                            ela já está presente em nossas vidas
+                                            há muito tempo. Somos cada vez mais
+                                            digitais, e a segurança de nossos
+                                            dados não é mais item de luxo.
+                                            Queremos ajudá-los a entender e
+                                            entrar em definitivo nesse novo
+                                            conceito de computação e proteção.
+                                        </HexagonParagraph>
+
+                                        <HexagonParagraph>
+                                            Nosso objetivo principal é a
+                                            continuidade do negócio, utilizando
+                                            as melhores práticas e ferramentas
+                                            de implementações de soluções, com
+                                            um suporte extremamente próximo e
+                                            personalizado, possibilitamos que as
+                                            empresas utilizem a tecnologia a
+                                            favor de seus objetivos.
+                                        </HexagonParagraph>
+                                    </HexagonContainer>
                                 </Column>
                             </Row>
                         </section>
@@ -145,7 +264,9 @@ const Sobre: React.FC = () => {
                                     marginLeft={2}
                                     maxWidth={1280}
                                 >
-                                    <OurValues />
+                                    <EntireContainer>
+                                        <h1>Nossos Valores</h1>
+                                    </EntireContainer>
                                 </Column>
                             </Row>
 
@@ -157,8 +278,31 @@ const Sobre: React.FC = () => {
                                     boxShadow={true}
                                     maxWidth={402.67}
                                 >
-                                    <MissionIcon />
-                                    <Mission />
+                                    <BoxVisionContainer>
+                                        <ImageContainer
+                                            style={{
+                                                height: 'auto',
+                                                display: 'block',
+                                                paddingTop: '2rem'
+                                            }}
+                                        >
+                                            <img
+                                                src="/assets/2-about/mission-icon.png"
+                                                alt="Mission Icon"
+                                            />
+                                        </ImageContainer>
+                                        <h1>Missão</h1>
+                                        <h2>
+                                            Prestar serviço de gestão
+                                            inteligente e alta disponibilidade
+                                            de dados em ambientes virtualizados,
+                                            entregando confiabilidade e
+                                            resiliência, para que nossos
+                                            clientes foquem em seus objetivos de
+                                            negócio através de um bom
+                                            relacionamento.
+                                        </h2>
+                                    </BoxVisionContainer>
                                 </Column>
                                 <Column
                                     size={1}
@@ -167,8 +311,29 @@ const Sobre: React.FC = () => {
                                     boxShadow={true}
                                     maxWidth={402.67}
                                 >
-                                    <VisionIcon />
-                                    <Vision />
+                                    <BoxVisionContainer>
+                                        <ImageContainer
+                                            style={{
+                                                height: 'auto',
+                                                display: 'block',
+                                                paddingTop: '2rem'
+                                            }}
+                                        >
+                                            <img
+                                                src="/assets/2-about/vision-icon.png"
+                                                alt="Mission Icon"
+                                            />
+                                        </ImageContainer>
+                                        <h1>Visão</h1>
+                                        <h2>
+                                            Ser referência no mercado nacional,
+                                            destacando-se pelo alto grau de
+                                            especialização e reconhecimento,
+                                            através de uma equipe capacitada e
+                                            comprometida com a satisfação de
+                                            nossos clientes.
+                                        </h2>
+                                    </BoxVisionContainer>
                                 </Column>
                                 <Column
                                     size={1}
@@ -178,8 +343,28 @@ const Sobre: React.FC = () => {
                                     boxShadow={true}
                                     maxWidth={402.67}
                                 >
-                                    <ValuesIcon />
-                                    <Values />
+                                    <BoxVisionContainer>
+                                        <ImageContainer
+                                            style={{
+                                                height: 'auto',
+                                                display: 'block',
+                                                paddingTop: '2rem'
+                                            }}
+                                        >
+                                            <img
+                                                src="/assets/2-about/values-icon.png"
+                                                alt="Values Icon"
+                                            />
+                                        </ImageContainer>
+                                        <h1>Valores</h1>
+                                        <h2>
+                                            Atuar com responsabilidade e ética,
+                                            comprometimento e resiliência
+                                            mantendo o foco em um relacionamento
+                                            com o cliente mais próximo do que o
+                                            estritamente profissional.
+                                        </h2>
+                                    </BoxVisionContainer>
                                 </Column>
                             </Row>
 
@@ -195,8 +380,31 @@ const Sobre: React.FC = () => {
                                     paddingLeft={2}
                                     boxShadow={true}
                                 >
-                                    <MissionIcon />
-                                    <Mission />
+                                    <BoxVisionContainer>
+                                        <ImageContainer
+                                            style={{
+                                                height: 'auto',
+                                                display: 'block',
+                                                paddingTop: '2rem'
+                                            }}
+                                        >
+                                            <img
+                                                src="/assets/2-about/mission-icon.png"
+                                                alt="Mission Icon"
+                                            />
+                                        </ImageContainer>
+                                        <h1>Missão</h1>
+                                        <h2>
+                                            Prestar serviço de gestão
+                                            inteligente e alta disponibilidade
+                                            de dados em ambientes virtualizados,
+                                            entregando confiabilidade e
+                                            resiliência, para que nossos
+                                            clientes foquem em seus objetivos de
+                                            negócio através de um bom
+                                            relacionamento.
+                                        </h2>
+                                    </BoxVisionContainer>
                                 </Column>
                             </Row>
 
@@ -212,8 +420,29 @@ const Sobre: React.FC = () => {
                                     paddingLeft={2}
                                     boxShadow={true}
                                 >
-                                    <VisionIcon />
-                                    <Vision />
+                                    <BoxVisionContainer>
+                                        <ImageContainer
+                                            style={{
+                                                height: 'auto',
+                                                display: 'block',
+                                                paddingTop: '2rem'
+                                            }}
+                                        >
+                                            <img
+                                                src="/assets/2-about/vision-icon.png"
+                                                alt="Vision Icon"
+                                            />
+                                        </ImageContainer>
+                                        <h1>Visão</h1>
+                                        <h2>
+                                            Ser referência no mercado nacional,
+                                            destacando-se pelo alto grau de
+                                            especialização e reconhecimento,
+                                            através de uma equipe capacitada e
+                                            comprometida com a satisfação de
+                                            nossos clientes.
+                                        </h2>
+                                    </BoxVisionContainer>
                                 </Column>
                             </Row>
 
@@ -229,8 +458,28 @@ const Sobre: React.FC = () => {
                                     paddingLeft={2}
                                     boxShadow={true}
                                 >
-                                    <ValuesIcon />
-                                    <Values />
+                                    <BoxVisionContainer>
+                                        <ImageContainer
+                                            style={{
+                                                height: 'auto',
+                                                display: 'block',
+                                                paddingTop: '2rem'
+                                            }}
+                                        >
+                                            <img
+                                                src="/assets/2-about/values-icon.png"
+                                                alt="Vision Icon"
+                                            />
+                                        </ImageContainer>
+                                        <h1>Valores</h1>
+                                        <h2>
+                                            Atuar com responsabilidade e ética,
+                                            comprometimento e resiliência
+                                            mantendo o foco em um relacionamento
+                                            com o cliente mais próximo do que o
+                                            estritamente profissional.
+                                        </h2>
+                                    </BoxVisionContainer>
                                 </Column>
                             </Row>
                         </section>
@@ -266,7 +515,27 @@ const Sobre: React.FC = () => {
                                     marginLeft={2}
                                     marginRight={2}
                                 >
-                                    <History />
+                                    <BoxDefaultContainer>
+                                        <MiniOrangeTitle>
+                                            Como começamos
+                                        </MiniOrangeTitle>
+                                        <HexagonTitle>História</HexagonTitle>
+                                        <HexagonParagraph>
+                                            Com o acompanhamento de tendências
+                                            mundiais sobre respeito ao meio
+                                            ambiente, foi necessária uma
+                                            especialização em virtualização de
+                                            servidores para atender a economia
+                                            de energia e redução de emissão de
+                                            calor. A virtualização, seja ela de
+                                            serviços, aplicativos ou de
+                                            servidores, já deixou de ser uma
+                                            tendência para tornar-se uma
+                                            realidade em muitos setores, seja
+                                            dentro ou fora da área da
+                                            tecnologia.
+                                        </HexagonParagraph>
+                                    </BoxDefaultContainer>
                                 </Column>
                                 <Column
                                     size={1}
@@ -274,7 +543,12 @@ const Sobre: React.FC = () => {
                                     maxWidth={622}
                                     marginRight={2}
                                 >
-                                    <HistoryImage />
+                                    <ImageContainer>
+                                        <img
+                                            src="/assets/2-about/history-image.png"
+                                            alt="History Image"
+                                        />
+                                    </ImageContainer>
                                 </Column>
                             </Row>
                         </section>
@@ -287,7 +561,12 @@ const Sobre: React.FC = () => {
                                     maxWidth={622}
                                     marginLeft={2}
                                 >
-                                    <History2Image />
+                                    <ImageContainer>
+                                        <img
+                                            src="/assets/2-about/history2-image.png"
+                                            alt="History2 Image"
+                                        />
+                                    </ImageContainer>
                                 </Column>
                                 <Column
                                     size={1}
@@ -295,7 +574,31 @@ const Sobre: React.FC = () => {
                                     marginRight={2}
                                     marginLeft={2}
                                 >
-                                    <History2 />
+                                    <BoxDefaultContainer>
+                                        <HexagonParagraph>
+                                            Podemos definir virtualização como
+                                            uma forma de se executar vários
+                                            serviços, programas, ou até mesmo
+                                            sistemas operacionais em um único
+                                            equipamento físico. A virtualização{' '}
+                                            <b>possibilita </b>
+                                            inclusive simular hardwares
+                                            diferentes em um equipamento como
+                                            roteadores, switchs, servidores,
+                                            celulares, etc. Hoje, praticamente é
+                                            impossível fazer qualquer serviço na
+                                            internet sem que se tenha passado ou
+                                            utilizado um ou mais servidores
+                                            virtualizados. Um grande exemplo são
+                                            os serviços de{' '}
+                                            <b>Cloud Computing</b>, onde
+                                            servidores em sua maioria
+                                            virtualizados, formam uma grande
+                                            rede distribuída, havendo servidores
+                                            dedicados para cada serviço
+                                            específico.
+                                        </HexagonParagraph>
+                                    </BoxDefaultContainer>
                                 </Column>
                             </Row>
                         </section>
@@ -308,7 +611,22 @@ const Sobre: React.FC = () => {
                                     marginLeft={2}
                                     marginRight={2}
                                 >
-                                    <History3 />
+                                    <BoxDefaultContainer>
+                                        <HexagonParagraph>
+                                            O mundo ficou virtual, e as empresas
+                                            agora são <b>100% digitais</b>.
+                                            Disponibilidade dos dados é item
+                                            obrigatório. Ninguém quer que a
+                                            reputação de sua marca seja afetada
+                                            por falhas de segurança e
+                                            indisponibilidade. A{' '}
+                                            <b>Pláttano Technologies</b>{' '}
+                                            trabalha de uma forma próxima de
+                                            você, trazendo as melhores soluções
+                                            do mercado para alcançarmos esses
+                                            objetivos vitais.
+                                        </HexagonParagraph>
+                                    </BoxDefaultContainer>
                                 </Column>
                                 <Column
                                     size={1}
@@ -316,7 +634,12 @@ const Sobre: React.FC = () => {
                                     maxWidth={622}
                                     marginRight={2}
                                 >
-                                    <History3Image />
+                                    <ImageContainer>
+                                        <img
+                                            src="/assets/2-about/history3-image.png"
+                                            alt="History3 Image"
+                                        />
+                                    </ImageContainer>
                                 </Column>
                             </Row>
                         </section>

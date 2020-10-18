@@ -47,5 +47,10 @@ h2, span {
      font-size: 0.88rem;
  }
 
+ p {
+     font-size: 1rem;
+
+ }
+
 
 `

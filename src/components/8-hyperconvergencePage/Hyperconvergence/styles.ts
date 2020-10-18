@@ -7,10 +7,8 @@ export const Container = styled.div`
     justify-content: center;
     padding: 2rem;
 
-    background-image: url('/assets/8-hyperconvergence/hyperconvergence/hyperconvergence-image.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
+    clip-path: polygon(100% 0, 0 0, 0 100%, 100% 85%, 100% 100%);
+    background-color: ${props => props.theme.colors.primary};
 
     h1 {
         font-size: 3.5rem;
