@@ -251,7 +251,7 @@ export const EntireContainer = styled.div`
 
     h1 {
         font-size: 2rem;
-        font-weight: normal;
+        font-weight: 400;
         text-align-last: center;
     }
 
@@ -286,14 +286,14 @@ export const ItemsIndexContainer = styled.div`
     }
 
     h2 {
-        font-weight: normal;
+        font-weight: 400;
         color: ${props => props.theme.colors.text};
         padding-top: 10px;
     }
 
     h3 {
         padding-top: 0.6rem;
-        font-weight: normal;
+        font-weight: 400;
         color: ${props => props.theme.colors.primary};
     }
 
@@ -407,7 +407,7 @@ export const PartnerContainer = styled.div`
 
     h1 {
         font-size: 2rem;
-        font-weight: normal;
+        font-weight: 400;
         padding-top: 20px;
     }
 
@@ -437,7 +437,7 @@ export const MiniBox = styled.div`
     }
 
     h2 {
-        font-weight: normal;
+        font-weight: 400;
         color: ${props => props.theme.colors.text};
         padding-bottom: 1rem;
     }
@@ -477,14 +477,14 @@ export const BoxVisionContainer = styled.div`
     }
 
     h2 {
-        font-weight: normal;
+        font-weight: 400;
         color: ${props => props.theme.colors.text};
         margin-top: 10px;
     }
 
     h3 {
         padding-top: 0.6rem;
-        font-weight: normal;
+        font-weight: 400;
         color: ${props => props.theme.colors.primary};
     }
 

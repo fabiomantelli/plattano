@@ -260,6 +260,7 @@ const Sobre: React.FC = () => {
                                     size={1}
                                     marginTop={2}
                                     marginLeft={2}
+                                    marginBottom={2}
                                     boxShadow={true}
                                     maxWidth={402.67}
                                 >
@@ -293,6 +294,7 @@ const Sobre: React.FC = () => {
                                     size={1}
                                     marginTop={2}
                                     marginLeft={2}
+                                    marginBottom={2}
                                     boxShadow={true}
                                     maxWidth={402.67}
                                 >
@@ -324,6 +326,7 @@ const Sobre: React.FC = () => {
                                     size={1}
                                     marginTop={2}
                                     marginRight={2}
+                                    marginBottom={2}
                                     marginLeft={2}
                                     boxShadow={true}
                                     maxWidth={402.67}
@@ -437,6 +440,7 @@ const Sobre: React.FC = () => {
                                     marginTop={2}
                                     marginRight={2}
                                     marginLeft={2}
+                                    marginBottom={2}
                                     paddingTop={1}
                                     paddingRight={2}
                                     paddingBottom={1}
