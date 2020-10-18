@@ -36,7 +36,7 @@ export const Title = styled.h1`
     color: ${props => props.theme.colors.background};
 
     @media only screen and (max-width: 61.98em) {
-        font-size: 3.8rem;
+        font-size: 3.6rem;
         br {
             display: none;
         }
