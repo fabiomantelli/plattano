@@ -28,6 +28,7 @@ import {
 
 import Trapezio from '../assets/trapezio'
 import { ButtonElement } from '../styles/Buttons'
+import Link from 'next/link'
 
 const Sobre: React.FC = () => {
     const [active, SetActive] = useState('initial')
@@ -134,9 +135,11 @@ const Sobre: React.FC = () => {
                                             <b>Pláttano</b> o construam e o
                                             gerenciem.
                                         </HexagonParagraph>
-                                        <ButtonElement>
-                                            Saiba Mais
-                                        </ButtonElement>
+                                        <Link href="/baas">
+                                            <ButtonElement>
+                                                Saiba Mais
+                                            </ButtonElement>
+                                        </Link>
                                     </HexagonContainer>
                                 </Column>
                                 <Column
@@ -193,9 +196,11 @@ const Sobre: React.FC = () => {
                                             desastres.
                                         </HexagonParagraph>
 
-                                        <ButtonElement>
-                                            Saiba Mais
-                                        </ButtonElement>
+                                        <Link href="/draas">
+                                            <ButtonElement>
+                                                Saiba Mais
+                                            </ButtonElement>
+                                        </Link>
                                     </HexagonContainer>
                                 </Column>
                             </Row>
@@ -231,9 +236,11 @@ const Sobre: React.FC = () => {
                                             compartilhada
                                         </HexagonParagraph>
 
-                                        <ButtonElement>
-                                            Saiba Mais
-                                        </ButtonElement>
+                                        <Link href="/">
+                                            <ButtonElement>
+                                                Saiba Mais
+                                            </ButtonElement>
+                                        </Link>
                                     </HexagonContainer>
                                 </Column>
                                 <Column
