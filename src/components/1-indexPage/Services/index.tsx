@@ -1,12 +1,10 @@
 import React from 'react'
-
-import { Container } from './styles'
-
-import ReadMore from '../../ReadMore'
+import Link from 'next/link'
+import { ItemsIndexContainer } from '../../../styles/Containers'
 
 const Services: React.FC = () => {
     return (
-        <Container>
+        <ItemsIndexContainer>
             <h1>
                 Serviços <br />
                 Complementares
@@ -16,8 +14,18 @@ const Services: React.FC = () => {
                 Desenvolvimento de Projetos Implementação, Treinamentos e
                 capacitação de equipes.
             </h2>
-            <ReadMore />
-        </Container>
+            <div>
+                <span>Leia mais</span>
+                <Link href="/">
+                    <img
+                        src="/assets/1-index/arrow-icon.png"
+                        alt="Arrow Icon"
+                        style={{ marginLeft: '15px', cursor: 'pointer' }}
+                    />
+                </Link>
+            </div>
+        </ItemsIndexContainer>
     )
 }
+
 export default Services

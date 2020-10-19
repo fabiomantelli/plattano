@@ -1,12 +1,10 @@
 import React from 'react'
-
-import { Container } from './styles'
-
-import ReadMore from '../../ReadMore'
+import Link from 'next/link'
+import { ItemsIndexContainer } from '../../../styles/Containers'
 
 const Licensing: React.FC = () => {
     return (
-        <Container>
+        <ItemsIndexContainer>
             <h1>
                 Licenciamento <br /> e Consultoria
             </h1>
@@ -15,8 +13,18 @@ const Licensing: React.FC = () => {
                 requerimentos, qual a melhor solução e licenciamento de produtos
                 para cada caso.
             </h2>
-            <ReadMore />
-        </Container>
+            <div>
+                <span>Leia mais</span>
+                <Link href="/consultoria">
+                    <img
+                        src="/assets/1-index/arrow-icon.png"
+                        alt="Arrow Icon"
+                        style={{ marginLeft: '15px', cursor: 'pointer' }}
+                    />
+                </Link>
+            </div>
+        </ItemsIndexContainer>
     )
 }
+
 export default Licensing

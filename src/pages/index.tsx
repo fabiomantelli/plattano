@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Head from 'next/head'
+import Link from 'next/link'
 
 import ScrollLock from 'react-scrolllock'
 
@@ -7,25 +8,32 @@ import Row from '../styles/Row'
 import Column from '../styles/Column'
 import Grid from '../styles/Grid'
 
-import Modernity from '../components/1-indexPage/Modernity'
-import Team from '../components/1-indexPage/Team'
-import TeamImage from '../assets/1-index/team/teamImage'
-import DataCenter from '../components/1-indexPage/DataCenter'
-import DatacenterImage from '../assets/1-index/datacenter/datacenterImage'
+import Header from '../components/Header'
+
 import News from '../components/News'
 import Email from '../components/Email'
-import Market from '../components/1-indexPage/Market'
+
 import Licensing from '../components/1-indexPage/Licensing'
-import LicensingIcon from '../assets/1-index/licensing/licensing'
 import Reference from '../components/1-indexPage/Reference'
 import Services from '../components/1-indexPage/Services'
-import ReasonImage from '../assets/1-index/reason/reasonImage'
-import Reason from '../components/1-indexPage/Reason'
 
-import ReferenceIcon from '../assets/1-index/reference/reference'
-import ServicesIcon from '../assets/1-index/services/services'
 import Footer from '../components/Footer'
-import Header from '../components/Header'
+import {
+    BoxDefaultContainer,
+    EntireContainer,
+    ImageContainer,
+    ModernityContainer
+} from '../styles/Containers'
+
+import {
+    HexagonParagraph,
+    HexagonTitle,
+    MainSubTitle,
+    MainTitle,
+    MiniOrangeTitle
+} from '../styles/TextElements'
+
+import { ButtonElement, MainButton } from '../styles/Buttons'
 
 const Home: React.FC = () => {
     const [active, SetActive] = useState('initial')
@@ -62,7 +70,26 @@ const Home: React.FC = () => {
                         <section>
                             <Row background={true}>
                                 <Column size={1}>
-                                    <Modernity />
+                                    <ModernityContainer>
+                                        <MainTitle>
+                                            Modernidade para seu Datacenter
+                                        </MainTitle>
+                                        <MainSubTitle>
+                                            Tenha acesso às melhores e mais
+                                            modernas soluções de virtualização,
+                                            hiperconvergência, proteção de
+                                            dados, e-hiperdisponibilidade de
+                                            Datacenters com as tecnologias da
+                                            Veeam e VMware. Tudo em um único
+                                            local com a equipe da Pláttano
+                                            Technologies, parceira oficial no
+                                            Brasil.
+                                        </MainSubTitle>
+
+                                        <Link href="/hiperconvergencia">
+                                            <MainButton>Saiba Mais</MainButton>
+                                        </Link>
+                                    </ModernityContainer>
                                 </Column>
                             </Row>
                         </section>
@@ -75,7 +102,12 @@ const Home: React.FC = () => {
                                     maxWidth={622}
                                     marginLeft={2}
                                 >
-                                    <TeamImage />
+                                    <ImageContainer>
+                                        <img
+                                            src="/assets/1-index/team-image.png"
+                                            alt="Team Image"
+                                        />
+                                    </ImageContainer>
                                 </Column>
                                 <Column
                                     size={1}
@@ -83,7 +115,28 @@ const Home: React.FC = () => {
                                     marginRight={2}
                                     marginLeft={2}
                                 >
-                                    <Team />
+                                    <BoxDefaultContainer>
+                                        <MiniOrangeTitle>
+                                            Parceiro Licenciado
+                                        </MiniOrangeTitle>
+                                        <HexagonTitle>
+                                            Equipe Especializada
+                                        </HexagonTitle>
+                                        <HexagonParagraph>
+                                            Com nossos níveis avançados de
+                                            parceria com os grandes players do
+                                            mercado em nossa área, somos capazes
+                                            de proporcionar entrega de projetos
+                                            com valor agregado e qualidade
+                                            extrema para nossos clientes,
+                                            fazendo com que seu retorno de
+                                            investimento seja o mais adequado e
+                                            rápido.
+                                        </HexagonParagraph>
+                                        <ButtonElement>
+                                            Saiba Mais
+                                        </ButtonElement>
+                                    </BoxDefaultContainer>
                                 </Column>
                             </Row>
                         </section>
@@ -96,7 +149,30 @@ const Home: React.FC = () => {
                                     marginLeft={2}
                                     marginRight={2}
                                 >
-                                    <DataCenter />
+                                    <BoxDefaultContainer>
+                                        <MiniOrangeTitle>
+                                            Respiramos VMware
+                                        </MiniOrangeTitle>
+                                        <HexagonTitle>
+                                            Data center definido por software
+                                            always-ON
+                                        </HexagonTitle>
+                                        <HexagonParagraph>
+                                            Com as soluções VMware e Veeam, as
+                                            organizações criam experiências
+                                            excepcionais ao mobilizar tudo,
+                                            reagir a oportunidades mais
+                                            rapidamente com dados e aplicativos
+                                            modernos hospedados em nuvens
+                                            híbridas, públicas e privadas.
+                                            Simplifuqe a TI, concentrando
+                                            recursos em inovação ao invés de
+                                            manutenção.
+                                        </HexagonParagraph>
+                                        <ButtonElement>
+                                            Saiba Mais
+                                        </ButtonElement>
+                                    </BoxDefaultContainer>
                                 </Column>
                                 <Column
                                     size={1}
@@ -104,7 +180,12 @@ const Home: React.FC = () => {
                                     maxWidth={622}
                                     marginRight={2}
                                 >
-                                    <DatacenterImage />
+                                    <ImageContainer>
+                                        <img
+                                            src="/assets/datacenter/datacenter-image.png"
+                                            alt="Datacenter Image"
+                                        />
+                                    </ImageContainer>
                                 </Column>
                             </Row>
                         </section>
@@ -142,7 +223,14 @@ const Home: React.FC = () => {
                                     marginLeft={2}
                                     maxWidth={1280}
                                 >
-                                    <Market />
+                                    <EntireContainer>
+                                        <h3>Soluções</h3>
+                                        <h1>
+                                            As melhores soluções do mercado
+                                            <br />
+                                            para sua empresa
+                                        </h1>
+                                    </EntireContainer>
                                 </Column>
                             </Row>
 
@@ -154,7 +242,11 @@ const Home: React.FC = () => {
                                     boxShadow={true}
                                     maxWidth={402.67}
                                 >
-                                    <LicensingIcon />
+                                    <img
+                                        style={{ padding: '2rem 0 0 2rem' }}
+                                        src="/assets/1-index/licensing-icon.png"
+                                        alt="Reference Icon"
+                                    />
                                     <Licensing />
                                 </Column>
                                 <Column
@@ -164,7 +256,11 @@ const Home: React.FC = () => {
                                     boxShadow={true}
                                     maxWidth={402.67}
                                 >
-                                    <ReferenceIcon />
+                                    <img
+                                        style={{ padding: '2rem 0 0 2rem' }}
+                                        src="/assets/1-index/reference-icon.png"
+                                        alt="Reference Icon"
+                                    />
                                     <Reference />
                                 </Column>
                                 <Column
@@ -175,7 +271,11 @@ const Home: React.FC = () => {
                                     boxShadow={true}
                                     maxWidth={402.67}
                                 >
-                                    <ServicesIcon />
+                                    <img
+                                        style={{ padding: '2rem 0 0 2rem' }}
+                                        src="/assets/1-index/services-icon.png"
+                                        alt="Reference Icon"
+                                    />
                                     <Services />
                                 </Column>
                             </Row>
@@ -192,7 +292,15 @@ const Home: React.FC = () => {
                                     paddingLeft={2}
                                     boxShadow={true}
                                 >
-                                    <LicensingIcon />
+                                    <img
+                                        style={{
+                                            display: 'block',
+                                            marginLeft: 'auto',
+                                            marginRight: 'auto'
+                                        }}
+                                        src="/assets/1-index/licensing-icon.png"
+                                        alt="Reference Icon"
+                                    />
                                     <Licensing />
                                 </Column>
                             </Row>
@@ -209,7 +317,15 @@ const Home: React.FC = () => {
                                     paddingLeft={2}
                                     boxShadow={true}
                                 >
-                                    <ReferenceIcon />
+                                    <img
+                                        style={{
+                                            display: 'block',
+                                            marginLeft: 'auto',
+                                            marginRight: 'auto'
+                                        }}
+                                        src="/assets/1-index/reference-icon.png"
+                                        alt="Reference Icon"
+                                    />
                                     <Reference />
                                 </Column>
                             </Row>
@@ -226,7 +342,15 @@ const Home: React.FC = () => {
                                     paddingLeft={2}
                                     boxShadow={true}
                                 >
-                                    <ServicesIcon />
+                                    <img
+                                        style={{
+                                            display: 'block',
+                                            marginLeft: 'auto',
+                                            marginRight: 'auto'
+                                        }}
+                                        src="/assets/1-index/services-icon.png"
+                                        alt="Reference Icon"
+                                    />
                                     <Services />
                                 </Column>
                             </Row>
@@ -240,7 +364,12 @@ const Home: React.FC = () => {
                                     maxWidth={622}
                                     marginLeft={2}
                                 >
-                                    <ReasonImage />
+                                    <ImageContainer>
+                                        <img
+                                            src="/assets/about/about-image.png"
+                                            alt="About Image"
+                                        />
+                                    </ImageContainer>
                                 </Column>
                                 <Column
                                     size={1}
@@ -248,7 +377,24 @@ const Home: React.FC = () => {
                                     marginRight={2}
                                     marginLeft={2}
                                 >
-                                    <Reason />
+                                    <BoxDefaultContainer>
+                                        <HexagonTitle>Nossa razão</HexagonTitle>
+                                        <HexagonParagraph>
+                                            Sendo uma empresa especializada em
+                                            implementação, gestão e consultoria
+                                            em infraestrutura de ambientes
+                                            virtualizados, queremos prover a
+                                            continuidade do negócio de nossos
+                                            clientes utilizando as melhores
+                                            práticas e ferramentas de
+                                            implementações de soluções, com um
+                                            suporte extremamente próximo e
+                                            personalizado, possibilitamos que as
+                                            empresas utilizem a tecnologia a
+                                            favor de seus objetivos.
+                                        </HexagonParagraph>
+                                        <ButtonElement>Leia Mais</ButtonElement>
+                                    </BoxDefaultContainer>
                                 </Column>
                             </Row>
                         </section>

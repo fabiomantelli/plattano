@@ -14,7 +14,7 @@ const Column = styled.div<{
     paddingBottom?: number
     paddingLeft?: number
     padding?: number
-    backgroundColor?: boolean
+    background?: boolean
     maxWidth?: number
 }>`
     flex: ${props => props.size};
@@ -27,9 +27,7 @@ const Column = styled.div<{
     max-width: ${props => props.maxWidth}px;
 
     background-color: ${props =>
-        props.backgroundColor === true
-            ? props.theme.colors.background
-            : 'none'};
+        props.background === true ? props.theme.colors.background : 'none'};
 
     box-shadow: ${props =>
         props.boxShadow === true

@@ -1,12 +1,10 @@
 import React from 'react'
-
-import { Container } from './styles'
-
-import ReadMore from '../../ReadMore'
+import Link from 'next/link'
+import { ItemsIndexContainer } from '../../../styles/Containers'
 
 const Reference: React.FC = () => {
     return (
-        <Container>
+        <ItemsIndexContainer>
             <h1>
                 Referência Nacional <br />
                 em BaaS e DRaas
@@ -16,8 +14,18 @@ const Reference: React.FC = () => {
                 comum as empresas utilizarem essa tecnologia para proteção de
                 datacenters.
             </h2>
-            <ReadMore />
-        </Container>
+            <div>
+                <span>Leia mais</span>
+                <Link href="/">
+                    <img
+                        src="/assets/1-index/arrow-icon.png"
+                        alt="Arrow Icon"
+                        style={{ marginLeft: '15px', cursor: 'pointer' }}
+                    />
+                </Link>
+            </div>
+        </ItemsIndexContainer>
     )
 }
+
 export default Reference

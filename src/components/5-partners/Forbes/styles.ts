@@ -6,7 +6,7 @@ export const Container = styled.div`
     flex-direction: column;
     justify-content: flex-end;
     padding: 2rem;
-    background-image: url('/assets/5-partners/forbes/forbes-image.png');
+    background-image: url('/assets/5-partners/forbes-image.png');
     background-repeat: no-repeat;
     background-size: auto auto;
     background-position: center;

@@ -7,28 +7,28 @@ import Row from '../styles/Row'
 import Column from '../styles/Column'
 import Grid from '../styles/Grid'
 
-import Partners from '../components/5-partners/Partners'
-import SpeedTransformation from '../components/5-partners/SpeedTransformation'
-import SpeedTransformationText from '../components/5-partners/SpeedTransformationText'
-import PartnersAre from '../components/5-partners/PartnersAre'
-import PartnersAreImage from '../assets/5-parners/partnersAre/partnersAreImage'
-import CustomSolutions from '../components/5-partners/CustomSolutions'
-import CustomSolutionsText from '../components/5-partners/CustomSolutionsText'
 import Forbes from '../components/5-partners/Forbes'
-import Cloud100 from '../components/5-partners/Cloud100'
-import Cloud100Image from '../assets/5-parners/cloud100/cloud100Image'
 
 import News from '../components/News'
 import Email from '../components/Email'
-import Distributors from '../components/5-partners/Distributors'
-
-import VmwareLogo from '../assets/5-parners/vmwareLogo/vmwareLogo'
-import VeeamLogo from '../assets/5-parners/veeamLogo/veeamLogo'
-import SynnexLogo from '../assets/5-parners/synnexLogo/synnexLogo'
-import AdistecLogo from '../assets/5-parners/adistecLogo/adistecLogo'
 
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import {
+    ImageContainer,
+    MainContainer,
+    SpeedTransformationContainer,
+    GeneralText,
+    HexagonContainer,
+    BenefitContainer
+} from '../styles/Containers'
+
+import {
+    HexagonParagraph,
+    HexagonTitle,
+    SubTitle,
+    Title
+} from '../styles/TextElements'
 
 const Parceiros: React.FC = () => {
     const [active, SetActive] = useState('initial')
@@ -69,7 +69,24 @@ const Parceiros: React.FC = () => {
                                     marginRight={2}
                                     maxWidth={1280}
                                 >
-                                    <Partners />
+                                    <MainContainer
+                                        changedMediaQueries="tabletOn"
+                                        url="/assets/5-partners/partners-image.png"
+                                        backgroundSize="110% auto"
+                                    >
+                                        <Title>Parceiros</Title>
+                                        <SubTitle changedMediaQueries="tabletOn">
+                                            Em um mundo competitivo, nada melhor
+                                            do que estar aliado com grandes
+                                            players e gigantes da indústria de
+                                            TI. Por isso, a
+                                            <b> Pláttano Technologies</b>{' '}
+                                            aliou-se às melhores fabricantes e
+                                            distribuidores. Venha para o Mundo
+                                            Pláttano e esteja sempre à frente no
+                                            quesito tecnologia
+                                        </SubTitle>
+                                    </MainContainer>
                                 </Column>
                             </Row>
                         </section>
@@ -82,7 +99,16 @@ const Parceiros: React.FC = () => {
                                     marginRight={2}
                                     maxWidth={1280}
                                 >
-                                    <SpeedTransformation />
+                                    <SpeedTransformationContainer>
+                                        <img
+                                            src="/assets/5-partners/vmwareblack-icon.png"
+                                            alt="VMware Black Icon"
+                                        />
+                                        <h1>
+                                            Acelerando a transformação <br />
+                                            digital com a Pláttano e VMware.
+                                        </h1>
+                                    </SpeedTransformationContainer>
                                 </Column>
                             </Row>
                         </section>
@@ -95,7 +121,33 @@ const Parceiros: React.FC = () => {
                                     marginRight={2}
                                     maxWidth={1280}
                                 >
-                                    <SpeedTransformationText />
+                                    <GeneralText>
+                                        <p>
+                                            As decisões tecnológicas que você
+                                            toma hoje para seus negócios
+                                            afetarão diretamente as
+                                            oportunidades que criará para o
+                                            futuro. A escolha da Pláttano
+                                            Technologies como parceira{' '}
+                                            <b>VMware</b>, e com nosso vasto
+                                            conhecimento na área de
+                                            infraestrutura fará com que você
+                                            obtenha o máximo valor e progresso
+                                            para seus negócios por meio das
+                                            soluções <b>VMware</b>.
+                                        </p>
+                                        <p>
+                                            Somos uma empresa especializada para
+                                            ajudá-lo a identificar e implementar
+                                            as soluções <b>VMware</b> certas,
+                                            permitindo que você obtenha o máximo
+                                            valor de suas soluções para poder
+                                            alcançar os objetivos de negócio o
+                                            mais rápido possível. Fornecemos os
+                                            mais amplos serviços e soluções para
+                                            nossos clientes conjuntos.
+                                        </p>
+                                    </GeneralText>
                                 </Column>
                             </Row>
                         </section>
@@ -108,7 +160,28 @@ const Parceiros: React.FC = () => {
                                     marginLeft={2}
                                     marginRight={2}
                                 >
-                                    <PartnersAre />
+                                    <HexagonContainer changedMediaQueries="mobileOn">
+                                        <HexagonTitle>
+                                            Os parceiros são conselheiros
+                                            confiáveis
+                                        </HexagonTitle>
+                                        <HexagonParagraph>
+                                            A <b>VMware</b> está comprometida em
+                                            oferecer a melhor experiência de
+                                            implantação para nossos clientes.
+                                            Temos um longo nível de parceria e
+                                            você pode ter certeza de que temos
+                                            os recursos, o conhecimento, as
+                                            habilidades e as ferramentas
+                                            necessárias para fornecer os
+                                            serviços com êxito. Com a
+                                            experiência adquirida em centenas de
+                                            projetos de outros clientes,
+                                            aproveitamos nosso conhecimento
+                                            sólido para agregar o máximo valor a
+                                            partir das soluções da fabricante.
+                                        </HexagonParagraph>
+                                    </HexagonContainer>
                                 </Column>
                                 <Column
                                     size={1}
@@ -116,7 +189,12 @@ const Parceiros: React.FC = () => {
                                     marginRight={2}
                                     collapse="mobileOn"
                                 >
-                                    <PartnersAreImage />
+                                    <ImageContainer>
+                                        <img
+                                            src="/assets/5-partners/partnersare-image.png"
+                                            alt="Partners Are Image"
+                                        />
+                                    </ImageContainer>
                                 </Column>
                             </Row>
                         </section>
@@ -129,7 +207,16 @@ const Parceiros: React.FC = () => {
                                     marginRight={2}
                                     maxWidth={1280}
                                 >
-                                    <CustomSolutions />
+                                    <SpeedTransformationContainer>
+                                        <img
+                                            src="/assets/5-partners/veeam-logo.png"
+                                            alt="Veeam Logo"
+                                        />
+                                        <h1>
+                                            Soluções personalizadas <br /> com a
+                                            Pláttano e Veeam.
+                                        </h1>
+                                    </SpeedTransformationContainer>
                                 </Column>
                             </Row>
                         </section>
@@ -142,7 +229,42 @@ const Parceiros: React.FC = () => {
                                     marginRight={2}
                                     maxWidth={1280}
                                 >
-                                    <CustomSolutionsText />
+                                    <GeneralText>
+                                        <p>
+                                            A Pláttano Technologies escolheu a{' '}
+                                            <b>Veeam®</b> como parceira em
+                                            soluções de proteção de dados porquê
+                                            ela é a líder no segmento, e nada
+                                            melhor do que entregar aos nossos
+                                            clientes o que há de melhor. A Veeam
+                                            oferece uma plataforma única para
+                                            modernizar o backup, acelerar a
+                                            nuvem híbrida e proteger seus dados.
+                                            Suas soluções são simples de
+                                            instalar e executar, flexíveis o
+                                            bastante para se adequar a qualquer
+                                            ambiente e sempre confiáveis. Temos
+                                            como meta junto à fabricante, ser o
+                                            provedor mais confiável de soluções
+                                            de backup que proporcionam
+                                            gerenciamento de dados na nuvem.
+                                        </p>
+                                        <p>
+                                            Somos parceiros oficiais, podendo
+                                            auxiliar tanto nas etapas iniciais
+                                            que visam entregar o melhor
+                                            licenciamento para você, até nas
+                                            fases de implantação, apoio técnico
+                                            e gestão de sua infraestrutura. Além
+                                            disso, a Pláttano Technologies é um
+                                            dos principais parceiros cloud,
+                                            atuando no seleto programa
+                                            <b>VCSP</b>, o que nos credencia
+                                            para ofertar soluções de Backup em
+                                            Cloud (<b>BaaS</b>) e Recuperação de
+                                            Desastre (<b>DRaaS</b>).
+                                        </p>
+                                    </GeneralText>
                                 </Column>
                             </Row>
                         </section>
@@ -168,7 +290,47 @@ const Parceiros: React.FC = () => {
                                     marginLeft={2}
                                     marginRight={2}
                                 >
-                                    <Cloud100 />
+                                    <HexagonContainer changedMediaQueries="mobileOn">
+                                        <HexagonParagraph changedMediaQueries="tabletOn">
+                                            A Veeam foi classificada na lista
+                                            Cloud 100 da Forbes, como uma das
+                                            100 melhores empresas de nuvem
+                                            privada no mundo. Os vencedores
+                                            foram escolhidos com base em quatro
+                                            fatores:
+                                            <b>
+                                                valor estimado, métricas
+                                                operacionais, pessoas/cultura e
+                                                liderança de mercado
+                                            </b>
+                                            . Entre centenas de indicados, a
+                                            Veeam foi escolhida por um painel de
+                                            100 jurados, incluindo CEOs de
+                                            muitas empresas líderes em nuvens
+                                            públicas.
+                                        </HexagonParagraph>
+                                        <HexagonParagraph changedMediaQueries="tabletOn">
+                                            &ldquo;Temos a honra de entrar na
+                                            lista Cloud 100 da Forbes de novo
+                                            este ano&ldquo;, disse Paul Mattes,
+                                            Vice-presidente Global de Nuvem da
+                                            Veeam. &ldquo;Conforme as empresas
+                                            continuam impulsionando a
+                                            transformação digital e exigindo
+                                            disponibilidade 24.7.365, nosso
+                                            grupo de nuvem se tornou o segmento
+                                            de negócios com crescimento mais
+                                            rápido na Veeam. Com quase 16.000
+                                            VCSPs (Veeam Cloud &amp; Service
+                                            Provider), em nosso ecossistema,
+                                            continuamos alimentando o impulso e
+                                            a demanda que esses parceiros e seus
+                                            clientes geram. A Veeam abraçou
+                                            totalmente o mundo das múltiplas
+                                            nuvens e continuará oferecendo
+                                            soluções focadas em nuvem
+                                        </HexagonParagraph>
+                                    </HexagonContainer>
                                 </Column>
                                 <Column
                                     size={1}
@@ -176,7 +338,12 @@ const Parceiros: React.FC = () => {
                                     marginRight={2}
                                     collapse="mobileOn"
                                 >
-                                    <Cloud100Image />
+                                    <ImageContainer>
+                                        <img
+                                            src="/assets/5-partners/cloud100-image.png"
+                                            alt="Cloud100 Icon"
+                                        />
+                                    </ImageContainer>
                                 </Column>
                             </Row>
                         </section>
@@ -205,14 +372,79 @@ const Parceiros: React.FC = () => {
                         </section>
 
                         <section>
-                            <Row>
+                            <Row collapse="desktopOff">
                                 <Column
                                     size={1}
+                                    maxWidth={415}
                                     marginRight={2}
                                     marginLeft={2}
-                                    maxWidth={1280}
                                 >
-                                    <Distributors />
+                                    <BenefitContainer>
+                                        <HexagonTitle>
+                                            Distribuidores
+                                        </HexagonTitle>
+                                    </BenefitContainer>
+                                </Column>
+                                <Column size={1} maxWidth={830} marginRight={2}>
+                                    <HexagonContainer
+                                        changedMediaQueries="mobileOn"
+                                        height="auto"
+                                    >
+                                        <HexagonParagraph>
+                                            Contamos com o apoio de nossos
+                                            distribuidores especializados para
+                                            ofertar nossa gama de produtos{' '}
+                                            <b>VMware</b> e <b>Veeam</b>. Sempre
+                                            em busca dos melhores preços, formas
+                                            de pagamentos, treinamentos e
+                                            facilidades nas transações, mantemos
+                                            um contato próximo, visando uma
+                                            entrega rápida dos produtos,
+                                            licenciamentos e também no
+                                            faturamento. Contar com um
+                                            distribuidor confiável e ágil é de
+                                            extrema importância, pois toda a
+                                            comunicação entre cliente, parceiro
+                                            e fabricante depende exclusivamente
+                                            de um distribuidor
+                                        </HexagonParagraph>
+                                    </HexagonContainer>
+                                </Column>
+                            </Row>
+
+                            <Row collapse="mobileOff">
+                                <Column
+                                    size={1}
+                                    maxWidth={1280}
+                                    marginRight={2}
+                                    marginLeft={2}
+                                >
+                                    <HexagonContainer
+                                        changedMediaQueries="mobileOn"
+                                        height="auto"
+                                    >
+                                        <HexagonTitle>
+                                            Distribuidores
+                                        </HexagonTitle>
+                                        <HexagonParagraph>
+                                            Contamos com o apoio de nossos
+                                            distribuidores especializados para
+                                            ofertar nossa gama de produtos
+                                            <b>VMware</b> e <b>Veeam</b>. Sempre
+                                            em busca dos melhores preços, formas
+                                            de pagamentos, treinamentos e
+                                            facilidades nas transações, mantemos
+                                            um contato próximo, visando uma
+                                            entrega rápida dos produtos,
+                                            licenciamentos e também no
+                                            faturamento. Contar com um
+                                            distribuidor confiável e ágil é de
+                                            extrema importância, pois toda a
+                                            comunicação entre cliente, parceiro
+                                            e fabricante depende exclusivamente
+                                            de um distribuidor
+                                        </HexagonParagraph>
+                                    </HexagonContainer>
                                 </Column>
                             </Row>
                         </section>
@@ -226,7 +458,15 @@ const Parceiros: React.FC = () => {
                                     marginTop={2}
                                     maxWidth={293}
                                 >
-                                    <VmwareLogo />
+                                    <ImageContainer
+                                        height="auto"
+                                        justifyContent="center"
+                                    >
+                                        <img
+                                            src="/assets/5-partners/vmware-logo.png"
+                                            alt="VMware Logo"
+                                        />
+                                    </ImageContainer>
                                 </Column>
                                 <Column
                                     size={1}
@@ -234,7 +474,15 @@ const Parceiros: React.FC = () => {
                                     marginTop={2}
                                     maxWidth={293}
                                 >
-                                    <VeeamLogo />
+                                    <ImageContainer
+                                        height="auto"
+                                        justifyContent="center"
+                                    >
+                                        <img
+                                            src="/assets/5-partners/veeam-logo.png"
+                                            alt="Veeam Logo"
+                                        />
+                                    </ImageContainer>
                                 </Column>
                                 <Column
                                     size={1}
@@ -242,7 +490,15 @@ const Parceiros: React.FC = () => {
                                     marginTop={2}
                                     maxWidth={293}
                                 >
-                                    <SynnexLogo />
+                                    <ImageContainer
+                                        height="auto"
+                                        justifyContent="center"
+                                    >
+                                        <img
+                                            src="/assets/5-partners/synnex-logo.png"
+                                            alt="Sinnex Logo"
+                                        />
+                                    </ImageContainer>
                                 </Column>
                                 <Column
                                     size={1}
@@ -250,7 +506,15 @@ const Parceiros: React.FC = () => {
                                     marginTop={2}
                                     maxWidth={293}
                                 >
-                                    <AdistecLogo />
+                                    <ImageContainer
+                                        height="auto"
+                                        justifyContent="center"
+                                    >
+                                        <img
+                                            src="/assets/5-partners/adistec-logo.png"
+                                            alt="Adistec Logo"
+                                        />
+                                    </ImageContainer>
                                 </Column>
                             </Row>
 
@@ -262,8 +526,24 @@ const Parceiros: React.FC = () => {
                                     marginTop={2}
                                     maxWidth={293}
                                 >
-                                    <VmwareLogo />
-                                    <VeeamLogo />
+                                    <ImageContainer
+                                        height="auto"
+                                        justifyContent="center"
+                                    >
+                                        <img
+                                            src="/assets/5-partners/vmware-logo.png"
+                                            alt="VMware Logo"
+                                        />
+                                    </ImageContainer>
+                                    <ImageContainer
+                                        height="auto"
+                                        justifyContent="center"
+                                    >
+                                        <img
+                                            src="/assets/5-partners/veeam-logo.png"
+                                            alt="Veeam Logo"
+                                        />
+                                    </ImageContainer>
                                 </Column>
                                 <Column
                                     size={1}
@@ -271,8 +551,24 @@ const Parceiros: React.FC = () => {
                                     marginTop={2}
                                     maxWidth={293}
                                 >
-                                    <SynnexLogo />
-                                    <AdistecLogo />
+                                    <ImageContainer
+                                        height="auto"
+                                        justifyContent="center"
+                                    >
+                                        <img
+                                            src="/assets/5-partners/synnex-logo.png"
+                                            alt="Sinnex Logo"
+                                        />
+                                    </ImageContainer>
+                                    <ImageContainer
+                                        height="auto"
+                                        justifyContent="center"
+                                    >
+                                        <img
+                                            src="/assets/5-partners/adistec-logo.png"
+                                            alt="Adistec Logo"
+                                        />
+                                    </ImageContainer>
                                 </Column>
                             </Row>
                         </section>

@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Head from 'next/head'
+import Link from 'next/link'
 
 import ScrollLock from 'react-scrolllock'
 
@@ -7,21 +8,29 @@ import Row from '../styles/Row'
 import Column from '../styles/Column'
 import Grid from '../styles/Grid'
 
-import ProfessionalServices from '../components/3-servicesPage/ProfessionalServices'
-import ProfessionalServices2Image from '../assets/3-services/professionalServices2/professionalServices2Image'
-import ProfessionalServices2 from '../components/3-servicesPage/ProfessionalServices2'
 import News from '../components/News'
 import Email from '../components/Email'
-import OurServices from '../components/3-servicesPage/ourServices'
-import SupportImage from '../assets/3-services/support/supportImage'
-import Support from '../components/3-servicesPage/Support'
-import Consultancy from '../components/3-servicesPage/Consultancy'
-import CloudServices from '../components/3-servicesPage/CloudServices'
-import ConsultancyImage from '../assets/3-services/consultancy/consultancyImage'
-import CloudServicesImage from '../assets/3-services/cloudServices/cloudServicesImage'
 
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+
+import {
+    EntireContainer,
+    HexagonContainer,
+    ImageContainer,
+    MainContainer,
+    MiniBox
+} from '../styles/Containers'
+
+import {
+    HexagonParagraph,
+    HexagonTitle,
+    SubTitle,
+    Title
+} from '../styles/TextElements'
+
+import Trapezio from '../assets/trapezio'
+import { ButtonElement } from '../styles/Buttons'
 
 const Services: React.FC = () => {
     const [active, SetActive] = useState('initial')
@@ -63,7 +72,25 @@ const Services: React.FC = () => {
                                     marginRight={2}
                                     maxWidth={1280}
                                 >
-                                    <ProfessionalServices />
+                                    <MainContainer
+                                        changedMediaQueries="tabletOn"
+                                        url="/assets/3-services/profissionalservices-image.png"
+                                        backgroundSize="cover"
+                                    >
+                                        <Title>
+                                            Serviços <br />
+                                            Profissionais
+                                        </Title>
+                                        <SubTitle changedMediaQueries="tabletOn">
+                                            Descubra todos os serviços que a
+                                            Pláttano Technologies disponibiliza
+                                            em seu portfólio, com as melhores
+                                            soluções da indústria de TI, e
+                                            adicione uma camada de qualidade
+                                            extra ao seu dia a dia, com todo o
+                                            acompanhamento de nossos experts
+                                        </SubTitle>
+                                    </MainContainer>
                                 </Column>
                             </Row>
                         </section>
@@ -76,7 +103,12 @@ const Services: React.FC = () => {
                                     maxWidth={622}
                                     marginLeft={2}
                                 >
-                                    <ProfessionalServices2Image />
+                                    <ImageContainer>
+                                        <img
+                                            src="/assets/3-services/professionalservices2-image.png"
+                                            alt="Professional Services2 Image"
+                                        />
+                                    </ImageContainer>
                                 </Column>
                                 <Column
                                     size={1}
@@ -84,7 +116,34 @@ const Services: React.FC = () => {
                                     marginRight={2}
                                     marginLeft={2}
                                 >
-                                    <ProfessionalServices2 />
+                                    <HexagonContainer changedMediaQueries="mobileOn">
+                                        <Trapezio />
+                                        <HexagonTitle>
+                                            Professional Services
+                                        </HexagonTitle>
+                                        <HexagonParagraph>
+                                            Temos como meta, auxiliar nossos
+                                            clientes, integrando soluções de
+                                            nossos parceiros com serviços
+                                            especializados, superando os
+                                            desafios e obter melhores resultados
+                                            para os negócios. Nossa metodologia
+                                            de trabalho é usar das melhores
+                                            práticas criadas pelas fabricantes,
+                                            garantindo maior qualidade e
+                                            eficiência na entrega das soluções.
+                                        </HexagonParagraph>
+                                        <HexagonParagraph>
+                                            Trabalhamos com: Análise e
+                                            Planejamento, Implantação,
+                                            Gerenciamento de Ambientes, Full
+                                            out-sourcing, Gestão Compartilhada e
+                                            Treinamentos.
+                                        </HexagonParagraph>
+                                        <ButtonElement>
+                                            Saiba Mais
+                                        </ButtonElement>
+                                    </HexagonContainer>
                                 </Column>
                             </Row>
                         </section>
@@ -122,7 +181,9 @@ const Services: React.FC = () => {
                                     marginLeft={2}
                                     maxWidth={1280}
                                 >
-                                    <OurServices />
+                                    <EntireContainer>
+                                        <h1>Nossos Serviços</h1>
+                                    </EntireContainer>
                                 </Column>
                             </Row>
                         </section>
@@ -137,7 +198,15 @@ const Services: React.FC = () => {
                                     marginRight={2}
                                     marginLeft={2}
                                 >
-                                    <SupportImage />
+                                    <ImageContainer
+                                        height="auto"
+                                        justifyContent="center"
+                                    >
+                                        <img
+                                            src="/assets/3-services/support-image.png"
+                                            alt="Support Image"
+                                        />
+                                    </ImageContainer>
                                 </Column>
                                 <Column
                                     size={1}
@@ -146,7 +215,15 @@ const Services: React.FC = () => {
                                     marginTop={2}
                                     marginRight={2}
                                 >
-                                    <ConsultancyImage />
+                                    <ImageContainer
+                                        height="auto"
+                                        justifyContent="center"
+                                    >
+                                        <img
+                                            src="/assets/3-services/consultancy-image.png"
+                                            alt="Consultancy Image"
+                                        />
+                                    </ImageContainer>
                                 </Column>
                                 <Column
                                     size={1}
@@ -155,7 +232,15 @@ const Services: React.FC = () => {
                                     marginTop={2}
                                     marginRight={2}
                                 >
-                                    <CloudServicesImage />
+                                    <ImageContainer
+                                        height="auto"
+                                        justifyContent="center"
+                                    >
+                                        <img
+                                            src="/assets/3-services/cloudservices-image.png"
+                                            alt="Cloud Services Image"
+                                        />
+                                    </ImageContainer>
                                 </Column>
                             </Row>
                         </section>
@@ -168,7 +253,17 @@ const Services: React.FC = () => {
                                     marginLeft={2}
                                     maxWidth={402.67}
                                 >
-                                    <Support />
+                                    <MiniBox>
+                                        <h1>Supporte</h1>
+                                        <h2>
+                                            Oferecemos horas contratuais,
+                                            suporte avulso e emergencial com os
+                                            melhores especialistas.
+                                        </h2>
+                                        <Link href="/">
+                                            <a>Veja mais</a>
+                                        </Link>
+                                    </MiniBox>
                                 </Column>
 
                                 <Column
@@ -177,7 +272,18 @@ const Services: React.FC = () => {
                                     marginLeft={2}
                                     maxWidth={402.67}
                                 >
-                                    <Consultancy />
+                                    <MiniBox>
+                                        <h1>Consultoria</h1>
+                                        <h2>
+                                            Nosso time de especialistas se
+                                            especializam com as novidades para
+                                            entregarmos soluções estratégicas e
+                                            de valor.
+                                        </h2>
+                                        <Link href="/consultoria">
+                                            <a>Veja mais</a>
+                                        </Link>
+                                    </MiniBox>
                                 </Column>
                                 <Column
                                     size={1}
@@ -186,7 +292,41 @@ const Services: React.FC = () => {
                                     marginLeft={2}
                                     maxWidth={402.67}
                                 >
-                                    <CloudServices />
+                                    <MiniBox>
+                                        <h1>Serviços Cloud</h1>
+                                        <div>
+                                            <span
+                                                style={{ paddingRight: '1rem' }}
+                                            >
+                                                BaaS
+                                            </span>
+                                            <Link href="/">
+                                                <a>Veja mais</a>
+                                            </Link>
+                                        </div>
+
+                                        <div>
+                                            <span
+                                                style={{ paddingRight: '1rem' }}
+                                            >
+                                                DRaaS, replicação
+                                            </span>
+                                            <Link href="/">
+                                                <a>Veja mais</a>
+                                            </Link>
+                                        </div>
+                                        <div>
+                                            <span
+                                                style={{ paddingRight: '1rem' }}
+                                            >
+                                                Locação de Licenças
+                                                pay-as-you-go
+                                            </span>
+                                            <Link href="/">
+                                                <a>Veja mais</a>
+                                            </Link>
+                                        </div>
+                                    </MiniBox>
                                 </Column>
                             </Row>
 
@@ -201,7 +341,17 @@ const Services: React.FC = () => {
                                     paddingBottom={1}
                                     paddingLeft={2}
                                 >
-                                    <Support />
+                                    <MiniBox>
+                                        <h1>Supporte</h1>
+                                        <h2>
+                                            Oferecemos horas contratuais,
+                                            suporte avulso e emergencial com os
+                                            melhores especialistas.
+                                        </h2>
+                                        <Link href="/">
+                                            <a>Veja mais</a>
+                                        </Link>
+                                    </MiniBox>
                                 </Column>
                             </Row>
 
@@ -216,7 +366,18 @@ const Services: React.FC = () => {
                                     paddingBottom={1}
                                     paddingLeft={2}
                                 >
-                                    <Consultancy />
+                                    <MiniBox>
+                                        <h1>Consultoria</h1>
+                                        <h2>
+                                            Nosso time de especialistas se
+                                            especializam com as novidades para
+                                            entregarmos soluções estratégicas e
+                                            de valor.
+                                        </h2>
+                                        <Link href="/consultoria">
+                                            <a>Veja mais</a>
+                                        </Link>
+                                    </MiniBox>
                                 </Column>
                             </Row>
 
@@ -231,7 +392,41 @@ const Services: React.FC = () => {
                                     paddingBottom={1}
                                     paddingLeft={2}
                                 >
-                                    <CloudServices />
+                                    <MiniBox>
+                                        <h1>Serviços Cloud</h1>
+                                        <div>
+                                            <span
+                                                style={{ paddingRight: '1rem' }}
+                                            >
+                                                BaaS
+                                            </span>
+                                            <Link href="/">
+                                                <a>Veja mais</a>
+                                            </Link>
+                                        </div>
+
+                                        <div>
+                                            <span
+                                                style={{ paddingRight: '1rem' }}
+                                            >
+                                                DRaaS, replicação
+                                            </span>
+                                            <Link href="/">
+                                                <a>Veja mais</a>
+                                            </Link>
+                                        </div>
+                                        <div>
+                                            <span
+                                                style={{ paddingRight: '1rem' }}
+                                            >
+                                                Locação de Licenças
+                                                pay-as-you-go
+                                            </span>
+                                            <Link href="/">
+                                                <a>Veja mais</a>
+                                            </Link>
+                                        </div>
+                                    </MiniBox>
                                 </Column>
                             </Row>
                         </section>

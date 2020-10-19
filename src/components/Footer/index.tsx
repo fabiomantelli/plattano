@@ -1,22 +1,23 @@
 import React from 'react'
+import Link from 'next/link'
 
 import Row from '../../styles/Row'
 import Column from '../../styles/Column'
 
-import Contact from '../Contact'
-import Where from '../Where'
-import Social from '../Social'
-import ServicesFooter from '../ServicesFooter'
-import ProductsFooter from '../ProductsFooter'
-import PartnersFooter from '../PartnersFooter'
-import Copyright from '../1-indexPage/Copyright'
-import Idiom from '../1-indexPage/Idiom'
+import Contact from './Contact'
+import Where from './Where'
+import Social from './Social'
+import Copyright from './Copyright'
+import Idiom from './Idiom'
 import ContactIcon from '../../assets/contact/contactIcon'
 import WhereIcon from '../../assets/where/whereIcon'
 import SocialIcon from '../../assets/social/socialIcon'
-import PlattanoWhiteIcon from '../../assets/1-index/plattanowhite/plattanowhite'
-import VeeamVmwareIcon from '../../assets/footer/VeeamVmwareIcon'
-import Line from '../1-indexPage/Line'
+import VeeamVmwareIcon from '../../assets/footer/partners/VeeamVmwareIcon'
+import Line from './Line'
+import { FooterContainer } from '../../styles/Containers'
+import PlattanoWhite from '../../assets/footer/plattanowhite/plattanowhite'
+
+import { TitleFooter } from '../../styles/TextElements'
 
 const Footer: React.FC = () => {
     return (
@@ -25,7 +26,7 @@ const Footer: React.FC = () => {
                 <Row position="relative" marginBottom={-10} collapse="mobileOn">
                     <Column
                         size={1}
-                        backgroundColor={true}
+                        background={true}
                         maxWidth={402.67}
                         marginTop={2}
                         marginLeft={2}
@@ -36,7 +37,7 @@ const Footer: React.FC = () => {
                     </Column>
                     <Column
                         size={1}
-                        backgroundColor={true}
+                        background={true}
                         maxWidth={402.67}
                         marginTop={2}
                         marginLeft={2}
@@ -47,7 +48,7 @@ const Footer: React.FC = () => {
                     </Column>
                     <Column
                         size={1}
-                        backgroundColor={true}
+                        background={true}
                         maxWidth={402.67}
                         marginTop={2}
                         marginRight={2}
@@ -111,7 +112,9 @@ const Footer: React.FC = () => {
                         marginTop={2}
                         marginLeft={2}
                     >
-                        <PlattanoWhiteIcon />
+                        <FooterContainer>
+                            <PlattanoWhite />
+                        </FooterContainer>
                     </Column>
                     <Column
                         size={1}
@@ -119,7 +122,21 @@ const Footer: React.FC = () => {
                         marginTop={2}
                         marginLeft={2}
                     >
-                        <ServicesFooter />
+                        <FooterContainer>
+                            <TitleFooter>Serviços</TitleFooter>
+                            <Link href="/">
+                                <a>Licenciamentos</a>
+                            </Link>
+                            <Link href="/">
+                                <a>Suporte</a>
+                            </Link>
+                            <Link href="/">
+                                <a>Consultoria</a>
+                            </Link>
+                            <Link href="/">
+                                <a>Implementação</a>
+                            </Link>
+                        </FooterContainer>
                     </Column>
                     <Column
                         size={1}
@@ -127,7 +144,24 @@ const Footer: React.FC = () => {
                         marginTop={2}
                         marginLeft={2}
                     >
-                        <ProductsFooter />
+                        <FooterContainer>
+                            <TitleFooter>Produtos</TitleFooter>
+                            <Link href="/">
+                                <a>BaaS</a>
+                            </Link>
+                            <Link href="/">
+                                <a>DRaaS</a>
+                            </Link>
+                            <Link href="/">
+                                <a>Intelligent Backup</a>
+                            </Link>
+                            <Link href="/">
+                                <a>VMware</a>
+                            </Link>
+                            <Link href="/">
+                                <a>Veeam</a>
+                            </Link>
+                        </FooterContainer>
                     </Column>
                     <Column
                         size={1}
@@ -136,7 +170,9 @@ const Footer: React.FC = () => {
                         marginRight={2}
                         marginLeft={2}
                     >
-                        <PartnersFooter />
+                        <FooterContainer>
+                            <TitleFooter>Nossos Parceiros</TitleFooter>
+                        </FooterContainer>
                         <VeeamVmwareIcon />
                     </Column>
                 </Row>
