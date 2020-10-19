@@ -112,3 +112,15 @@ export const TitleFooter = styled.h1`
     font-size: 0.77rem;
     color: ${props => props.theme.colors.background};
 `
+
+export const SupportTitle = styled.h1`
+    font-size: 1.33rem;
+    font-weight: 300;
+    color: ${props => props.theme.colors.text};
+
+    @media only screen and (max-width: 42.98em) {
+        h1 {
+            font-size: 1rem;
+        }
+    }
+`
