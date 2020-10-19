@@ -14,6 +14,7 @@ import {
     ImageContainer,
     MainContainer
 } from '../styles/Containers'
+
 import {
     HexagonParagraph,
     HexagonTitle,
