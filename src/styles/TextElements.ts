@@ -117,3 +117,25 @@ export const SupportTitle = styled.h1`
         }
     }
 `
+
+interface IListaImage {
+    changedMediaQueries?: string
+}
+
+export const ListaImage = styled.ul<IListaImage>`
+    list-style-image: url('/assets/trapeziomini-icon.png');
+
+    @media only screen and (max-width: 61.98em) {
+        list-style-image: none;
+        list-style-type: none;
+    }
+`
+
+export const ListaOrangeImage = styled.ul<IListaImage>`
+    list-style-image: url('/assets/trapeziominiorange-icon.png');
+
+    @media only screen and (max-width: 61.98em) {
+        list-style-image: none;
+        list-style-type: none;
+    }
+`
