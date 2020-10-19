@@ -734,6 +734,7 @@ const Baas: React.FC = () => {
                                     marginTop={2}
                                     marginLeft={2}
                                     marginRight={2}
+                                    marginBottom={2}
                                     maxWidth={1280}
                                 >
                                     <CloudBackup />
