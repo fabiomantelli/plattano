@@ -11,7 +11,7 @@ export const MainButton = styled.button`
 
 export const ButtonElement = styled.button`
     width: fit-content;
-    background-color: ${props => props.theme.colors.primary};
+    background: ${props => props.theme.colors.primary};
     color: white;
     border-color: transparent;
     padding: 8px 15px 8px 15px;

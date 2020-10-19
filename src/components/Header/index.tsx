@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 import Row from '../../styles/Row'
 import Column from '../../styles/Column'
@@ -9,13 +9,15 @@ import MobileMenu from '../MobileMenu'
 
 import PlattanoLogo from '../../assets/plattano/plattanoLogo'
 
-const Header: React.FC<{
+interface IHeader {
     active: string
     click: () => void
-}> = props => {
+}
+
+const Header: React.FC<IHeader> = props => {
     return (
         <>
-            <Row>
+            <Row zIndex={300}>
                 <Column
                     size={1}
                     maxWidth={414.67}

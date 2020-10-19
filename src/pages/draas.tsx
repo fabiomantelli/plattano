@@ -8,6 +8,8 @@ import Column from '../styles/Column'
 import Grid from '../styles/Grid'
 
 import Header from '../components/Header'
+import Footer from '../components/Footer'
+
 import {
     BoxItemsContainer,
     HexagonContainer,
@@ -29,7 +31,6 @@ import SupportBoxIcon from '../assets/10-draas/supportbox/supportboxicon'
 import RecoveryBoxIcon from '../assets/10-draas/recoverybox/recoveryboxicon'
 import ProtectionBoxIcon from '../assets/10-draas/protectionbox/protectionboxicon'
 import Recovery2BoxIcon from '../assets/10-draas/recoverybox2/recovery2boxicon'
-import Footer from '../components/Footer'
 
 const Draas: React.FC = () => {
     const [active, SetActive] = useState('initial')
@@ -46,7 +47,6 @@ const Draas: React.FC = () => {
             SetMobile(true)
         }
     }
-
     return (
         <>
             <Head>
