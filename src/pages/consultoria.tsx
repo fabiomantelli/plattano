@@ -61,7 +61,7 @@ const Consultoria: React.FC = () => {
                                 >
                                     <MainContainer
                                         changedMediaQueries="tabletOn"
-                                        url="/assets/7-consultancy/consultancy/consultancy-background.png"
+                                        url="/assets/7-consultancy/consultancy-background.png"
                                         backgroundSize="cover"
                                     >
                                         <Title>Consultoria</Title>

@@ -41,6 +41,18 @@ export const Title = styled.h1`
             display: none;
         }
     }
+
+    @media only screen and (max-width: 75em) {
+        /* para a figura à direita não bater em responsividade */
+        font-size: 2.8rem;
+    }
+
+    @media only screen and (max-width: 61.98em) {
+        font-size: 3.6rem;
+        br {
+            display: none;
+        }
+    }
 `
 export const SubTitle = styled.h2<{ changedMediaQueries?: string }>`
     font-size: 1rem;

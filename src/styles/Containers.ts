@@ -5,11 +5,13 @@ interface IMainContainer {
     changedMediaQueries?: string
     url?: string
     backgroundSize?: string
+    position?: string
 }
 
 export const MainContainer = styled.div<IMainContainer>`
     height: calc(100vh - 70px);
     display: flex;
+    position: ${props => (props.position ? props.position : 'none')};
     flex-direction: column;
     justify-content: center;
     padding: 2rem;
@@ -25,6 +27,34 @@ export const MainContainer = styled.div<IMainContainer>`
             padding: 8vw;
             background-image: none;
         `)}
+`
+
+interface IMainGeometricContainer {
+    changedMediaQueries?: string
+}
+
+export const MainGeometricContainer = styled.div<IMainGeometricContainer>`
+    position: relative;
+
+    ${props =>
+        props.changedMediaQueries &&
+        media[props.changedMediaQueries](`
+            img {
+                display: none;
+            }
+        `)}
+`
+
+export const PolygonContainer = styled.div`
+    height: calc(100vh - 70px);
+    clip-path: polygon(0 0, 100% 0, 41% 100%, 0% 100%);
+    z-index: 1;
+    background: ${props => props.theme.colors.gradient};
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
 `
 
 interface IHexagonContainer {
@@ -142,7 +172,6 @@ export const BoxContainer = styled.div<{ changedMediaQueries?: string }>`
     p {
         border: 1px solid #d5d5d3;
         box-sizing: border-box;
-        box-shadow: 0px 4px 16px rgba(234, 114, 0, 0.16);
         margin-top: 1rem;
         padding: 1rem;
     }
@@ -248,8 +277,6 @@ export const EntireContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 20vh;
-    padding: 2rem;
 
     h1 {
         font-size: 2rem;
@@ -260,19 +287,6 @@ export const EntireContainer = styled.div`
     h3 {
         color: ${props => props.theme.colors.primary};
         font-weight: 500;
-    }
-
-    @media only screen and (max-width: 42.98em) {
-        text-align: center;
-        padding: 2rem;
-
-        h1 {
-            font-size: 1.8rem;
-        }
-
-        br {
-            display: none;
-        }
     }
 `
 

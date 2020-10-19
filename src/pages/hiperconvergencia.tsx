@@ -7,20 +7,28 @@ import Row from '../styles/Row'
 import Column from '../styles/Column'
 import Grid from '../styles/Grid'
 
-import Hyperconvergence from '../components/8-hyperconvergencePage/Hyperconvergence'
-
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+
 import {
     BenefitContainer,
     BoxContainer,
     BoxItemsContainer,
     HexagonContainer,
-    ImageContainer
+    ImageContainer,
+    MainContainer,
+    MainGeometricContainer,
+    PolygonContainer
 } from '../styles/Containers'
 
 import Trapezio from '../assets/trapezio'
-import { HexagonParagraph, HexagonTitle } from '../styles/TextElements'
+import {
+    HexagonParagraph,
+    HexagonTitle,
+    SubTitle,
+    Title
+} from '../styles/TextElements'
+
 import StorageBoxIcon from '../assets/8-hyperconvergence/storagebox/storageIcon'
 import CapexBoxIcon from '../assets/8-hyperconvergence/capexbox/capexboxIcon'
 import AlreadyBoxIcon from '../assets/8-hyperconvergence/alreadybox/alreadyboxIcon'
@@ -66,8 +74,66 @@ const Hiperconvergencia: React.FC = () => {
                                     marginLeft={2}
                                     marginRight={2}
                                     maxWidth={1280}
+                                    collapse="tabletOn"
                                 >
-                                    <Hyperconvergence />
+                                    <MainGeometricContainer>
+                                        <PolygonContainer>
+                                            <Title>
+                                                Hiper&shy;convergência
+                                            </Title>
+                                            <SubTitle>
+                                                Descubra as vantagens da
+                                                utilização de soluções
+                                                Hiperconvergentes da{' '}
+                                                <b>VMware</b> e modernize seu
+                                                Datacenter com a ajuda da{' '}
+                                                <b>Pláttano Technologies</b>
+                                            </SubTitle>
+                                        </PolygonContainer>
+                                        <img
+                                            src="/assets/8-hyperconvergence/hyperconvergence-background.png"
+                                            alt="Hyperconvergence Image"
+                                            style={{
+                                                position: 'absolute',
+                                                width: '100%',
+                                                bottom: 0,
+                                                zIndex: 20
+                                            }}
+                                        />
+                                        <img
+                                            src="/assets/8-hyperconvergence/hyperconvergence-image.png"
+                                            alt="Hyperconvergence Image"
+                                            style={{
+                                                position: 'absolute',
+                                                right: 0,
+                                                bottom: '5vh',
+                                                zIndex: 10,
+                                                height: '90%',
+                                                width: 'auto'
+                                            }}
+                                        />
+                                    </MainGeometricContainer>
+                                </Column>
+                            </Row>
+
+                            <Row background={true} polygon={true}>
+                                <Column
+                                    size={1}
+                                    marginLeft={2}
+                                    marginRight={2}
+                                    maxWidth={1280}
+                                    collapse="tabletOff"
+                                >
+                                    <MainContainer changedMediaQueries="tabletOn">
+                                        <Title>Hiper&shy;convergência</Title>
+                                        <SubTitle changedMediaQueries="tabletOn">
+                                            Descubra as vantagens da utilização
+                                            de soluções Hiperconvergentes da{' '}
+                                            <b>VMware</b> e modernize seu
+                                            Datacenter com a ajuda da{' '}
+                                            <b>Pláttano Technologies</b>
+                                        </SubTitle>
+                                    </MainContainer>
                                 </Column>
                             </Row>
                         </section>

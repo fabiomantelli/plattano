@@ -70,7 +70,7 @@ const Sobre: React.FC = () => {
                                 >
                                     <MainContainer
                                         changedMediaQueries="tabletOn"
-                                        url="/assets/4-products/products/products-image.png"
+                                        url="/assets/4-products/products-image.png"
                                         backgroundSize="cover"
                                     >
                                         <Title>Produtos</Title>
