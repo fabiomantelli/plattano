@@ -311,7 +311,7 @@ const Services: React.FC = () => {
                                             >
                                                 DRaaS, replicação
                                             </span>
-                                            <Link href="/">
+                                            <Link href="/draas">
                                                 <a>Veja mais</a>
                                             </Link>
                                         </div>
