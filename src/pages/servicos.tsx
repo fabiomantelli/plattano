@@ -260,7 +260,7 @@ const Services: React.FC = () => {
                                             suporte avulso e emergencial com os
                                             melhores especialistas.
                                         </h2>
-                                        <Link href="/">
+                                        <Link href="/suporte">
                                             <a>Veja mais</a>
                                         </Link>
                                     </MiniBox>
@@ -300,7 +300,7 @@ const Services: React.FC = () => {
                                             >
                                                 BaaS
                                             </span>
-                                            <Link href="/">
+                                            <Link href="/baas">
                                                 <a>Veja mais</a>
                                             </Link>
                                         </div>
@@ -348,7 +348,7 @@ const Services: React.FC = () => {
                                             suporte avulso e emergencial com os
                                             melhores especialistas.
                                         </h2>
-                                        <Link href="/">
+                                        <Link href="/suporte">
                                             <a>Veja mais</a>
                                         </Link>
                                     </MiniBox>
@@ -400,7 +400,7 @@ const Services: React.FC = () => {
                                             >
                                                 BaaS
                                             </span>
-                                            <Link href="/">
+                                            <Link href="/baas">
                                                 <a>Veja mais</a>
                                             </Link>
                                         </div>
@@ -411,7 +411,7 @@ const Services: React.FC = () => {
                                             >
                                                 DRaaS, replicação
                                             </span>
-                                            <Link href="/">
+                                            <Link href="/draas">
                                                 <a>Veja mais</a>
                                             </Link>
                                         </div>
