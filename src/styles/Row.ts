@@ -9,8 +9,10 @@ const Row = styled.div<{
     paddingTop?: number
     collapse?: string
     polygon?: boolean
+    zIndex?: number
 }>`
     display: flex;
+    z-index: ${props => props.zIndex};
     justify-content: center;
     ${props =>
         props.collapse &&
