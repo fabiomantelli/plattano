@@ -59,7 +59,7 @@ const Suporte: React.FC = () => {
                     <Header click={openHandler} active={active} />
 
                     <main>
-                        {/* <section>
+                        <section>
                             <Row background={true} polygon={true}>
                                 <Column
                                     size={1}
@@ -79,7 +79,7 @@ const Suporte: React.FC = () => {
                                     </MainContainer>
                                 </Column>
                             </Row>
-                        </section> */}
+                        </section>
 
                         <section>
                             <Row>

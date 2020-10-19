@@ -45,7 +45,7 @@ const Column = styled.div<{
     padding-left: ${props => props.paddingLeft}rem;
     padding: ${props => props.padding}rem;
 
-    border: green solid 1px;
+    // border: green solid 1px;
 `
 
 export default Column
