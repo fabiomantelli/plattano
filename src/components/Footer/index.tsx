@@ -12,7 +12,6 @@ import Idiom from './Idiom'
 import ContactIcon from '../../assets/contact/contactIcon'
 import WhereIcon from '../../assets/where/whereIcon'
 import SocialIcon from '../../assets/social/socialIcon'
-import VeeamVmwareIcon from '../../assets/footer/partners/VeeamVmwareIcon'
 import Line from './Line'
 import { FooterContainer } from '../../styles/Containers'
 import PlattanoWhite from '../../assets/footer/plattanowhite/plattanowhite'
@@ -118,9 +117,7 @@ const Footer: React.FC = () => {
                                     style={{
                                         display: 'flex',
                                         cursor: 'pointer',
-                                        width: 'auto',
-                                        height: 'auto',
-                                        maxWidth: '100%'
+                                        width: '95%'
                                     }}
                                     src="/assets/footer/plattanowhite-icon.png"
                                     alt="Plattano Icon"
@@ -194,7 +191,7 @@ const Footer: React.FC = () => {
                                         display: 'flex',
                                         cursor: 'pointer',
                                         maxWidth: '100%',
-                                        paddingTop: '1rem'
+                                        paddingTop: '0.5rem'
                                     }}
                                     src="/assets/footer/veeamwhite-logo.png"
                                     alt="Veeam Logo"
