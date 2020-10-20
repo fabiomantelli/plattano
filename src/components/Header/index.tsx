@@ -9,6 +9,8 @@ import MobileMenu from '../MobileMenu'
 
 import PlattanoLogo from '../../assets/plattano/plattanoLogo'
 
+import { Container } from './styles'
+
 interface IHeader {
     active: string
     click: () => void
@@ -16,14 +18,13 @@ interface IHeader {
 
 const Header: React.FC<IHeader> = props => {
     return (
-        <>
+        <Container>
             <Row
                 style={{
                     position: 'fixed',
                     top: '0%',
                     width: '100%',
-                    backgroundColor: '#fff',
-                    zIndex: '10000'
+                    backgroundColor: '#fff'
                 }}
             >
                 <Column
@@ -50,7 +51,7 @@ const Header: React.FC<IHeader> = props => {
                     <MobileMenu isActive={props.active} click={props.click} />
                 </Column>
             </Row>
-        </>
+        </Container>
     )
 }
 
