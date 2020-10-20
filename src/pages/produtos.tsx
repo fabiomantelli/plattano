@@ -322,9 +322,11 @@ const Sobre: React.FC = () => {
                                             ambiente.
                                         </HexagonParagraph>
 
-                                        <ButtonElement>
-                                            Saiba Mais
-                                        </ButtonElement>
+                                        <Link href="/veeam">
+                                            <ButtonElement>
+                                                Saiba Mais
+                                            </ButtonElement>
+                                        </Link>
                                     </HexagonContainer>
                                 </Column>
                             </Row>
