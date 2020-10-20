@@ -24,6 +24,7 @@ import { ButtonElement } from '../styles/Buttons'
 
 import Trapezio from '../assets/trapezio'
 import Footer from '../components/Footer'
+import Link from 'next/link'
 
 const Vmware: React.FC = () => {
     const [active, SetActive] = useState('initial')
@@ -129,9 +130,11 @@ const Vmware: React.FC = () => {
                                             com a ajuda da Pláttano
                                             Technologies.
                                         </HexagonParagraph>
-                                        <ButtonElement>
-                                            Saiba Mais
-                                        </ButtonElement>
+                                        <Link href="/hiperconvergencia">
+                                            <ButtonElement>
+                                                Saiba Mais
+                                            </ButtonElement>
+                                        </Link>
                                     </HexagonContainer>
                                 </Column>
                                 <Column
@@ -183,9 +186,11 @@ const Vmware: React.FC = () => {
                                             qualquer aplicativo em qualquer
                                             smartphone, tablet ou laptop.
                                         </HexagonParagraph>
-                                        <ButtonElement>
-                                            Saiba Mais
-                                        </ButtonElement>
+                                        <Link href="/workspaceone">
+                                            <ButtonElement>
+                                                Saiba Mais
+                                            </ButtonElement>
+                                        </Link>
                                     </HexagonContainer>
                                 </Column>
                             </Row>

@@ -29,6 +29,7 @@ import {
     SubTitle,
     Title
 } from '../styles/TextElements'
+import Link from 'next/link'
 
 const Parceiros: React.FC = () => {
     const [active, SetActive] = useState('initial')
@@ -236,22 +237,31 @@ const Parceiros: React.FC = () => {
                                     <GeneralText>
                                         <p>
                                             A Pláttano Technologies escolheu a{' '}
-                                            <b>Veeam®</b> como parceira em
-                                            soluções de proteção de dados porquê
-                                            ela é a líder no segmento, e nada
-                                            melhor do que entregar aos nossos
-                                            clientes o que há de melhor. A Veeam
-                                            oferece uma plataforma única para
-                                            modernizar o backup, acelerar a
-                                            nuvem híbrida e proteger seus dados.
-                                            Suas soluções são simples de
-                                            instalar e executar, flexíveis o
-                                            bastante para se adequar a qualquer
-                                            ambiente e sempre confiáveis. Temos
-                                            como meta junto à fabricante, ser o
-                                            provedor mais confiável de soluções
-                                            de backup que proporcionam
-                                            gerenciamento de dados na nuvem.
+                                            <Link href="/veeam">
+                                                <b
+                                                    style={{
+                                                        cursor: 'pointer'
+                                                    }}
+                                                >
+                                                    Veeam®
+                                                </b>
+                                            </Link>{' '}
+                                            como parceira em soluções de
+                                            proteção de dados porquê ela é a
+                                            líder no segmento, e nada melhor do
+                                            que entregar aos nossos clientes o
+                                            que há de melhor. A Veeam oferece
+                                            uma plataforma única para modernizar
+                                            o backup, acelerar a nuvem híbrida e
+                                            proteger seus dados. Suas soluções
+                                            são simples de instalar e executar,
+                                            flexíveis o bastante para se adequar
+                                            a qualquer ambiente e sempre
+                                            confiáveis. Temos como meta junto à
+                                            fabricante, ser o provedor mais
+                                            confiável de soluções de backup que
+                                            proporcionam gerenciamento de dados
+                                            na nuvem.
                                         </p>
                                         <p>
                                             Somos parceiros oficiais, podendo
@@ -263,10 +273,29 @@ const Parceiros: React.FC = () => {
                                             disso, a Pláttano Technologies é um
                                             dos principais parceiros cloud,
                                             atuando no seleto programa
-                                            <b>VCSP</b>, o que nos credencia
+                                            <b> VCSP</b>, o que nos credencia
                                             para ofertar soluções de Backup em
-                                            Cloud (<b>BaaS</b>) e Recuperação de
-                                            Desastre (<b>DRaaS</b>).
+                                            Cloud (
+                                            <Link href="/baas">
+                                                <b
+                                                    style={{
+                                                        cursor: 'pointer'
+                                                    }}
+                                                >
+                                                    BaaS
+                                                </b>
+                                            </Link>
+                                            ) e Recuperação de Desastre (
+                                            <Link href="/draas">
+                                                <b
+                                                    style={{
+                                                        cursor: 'pointer'
+                                                    }}
+                                                >
+                                                    DRaaS
+                                                </b>
+                                            </Link>
+                                            ).
                                         </p>
                                     </GeneralText>
                                 </Column>
@@ -301,7 +330,7 @@ const Parceiros: React.FC = () => {
                                             100 melhores empresas de nuvem
                                             privada no mundo. Os vencedores
                                             foram escolhidos com base em quatro
-                                            fatores:
+                                            fatores:{' '}
                                             <b>
                                                 valor estimado, métricas
                                                 operacionais, pessoas/cultura e
@@ -398,14 +427,32 @@ const Parceiros: React.FC = () => {
                                             Contamos com o apoio de nossos
                                             distribuidores especializados para
                                             ofertar nossa gama de produtos{' '}
-                                            <b>VMware</b> e <b>Veeam</b>. Sempre
-                                            em busca dos melhores preços, formas
-                                            de pagamentos, treinamentos e
-                                            facilidades nas transações, mantemos
-                                            um contato próximo, visando uma
-                                            entrega rápida dos produtos,
-                                            licenciamentos e também no
-                                            faturamento. Contar com um
+                                            <Link href="/vmware">
+                                                <b
+                                                    style={{
+                                                        cursor: 'pointer'
+                                                    }}
+                                                >
+                                                    VMware
+                                                </b>
+                                            </Link>{' '}
+                                            e{' '}
+                                            <Link href="/veeam">
+                                                <b
+                                                    style={{
+                                                        cursor: 'pointer'
+                                                    }}
+                                                >
+                                                    Veeam
+                                                </b>
+                                            </Link>
+                                            . Sempre em busca dos melhores
+                                            preços, formas de pagamentos,
+                                            treinamentos e facilidades nas
+                                            transações, mantemos um contato
+                                            próximo, visando uma entrega rápida
+                                            dos produtos, licenciamentos e
+                                            também no faturamento. Contar com um
                                             distribuidor confiável e ágil é de
                                             extrema importância, pois toda a
                                             comunicação entre cliente, parceiro

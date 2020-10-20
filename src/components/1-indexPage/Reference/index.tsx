@@ -16,7 +16,7 @@ const Reference: React.FC = () => {
             </h2>
             <div>
                 <span>Leia mais</span>
-                <Link href="/baas">
+                <Link href="/produtos">
                     <img
                         src="/assets/1-index/arrow-icon.png"
                         alt="Arrow Icon"
