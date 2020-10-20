@@ -49,7 +49,11 @@ const Licenciamento: React.FC = () => {
                     <Header click={openHandler} active={active} />
                     <main>
                         <section>
-                            <Row background={true} polygon={true}>
+                            <Row
+                                background={true}
+                                polygon={true}
+                                style={{ marginTop: '70px' }}
+                            >
                                 <Column
                                     size={1}
                                     marginLeft={2}

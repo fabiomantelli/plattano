@@ -66,6 +66,7 @@ const Sobre: React.FC = () => {
                                 background={true}
                                 collapse="tabletOn"
                                 polygon={true}
+                                style={{ marginTop: '70px' }}
                             >
                                 <Column
                                     size={1}

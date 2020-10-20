@@ -64,7 +64,7 @@ const Draas: React.FC = () => {
 
                     <main>
                         <section>
-                            <Row>
+                            <Row style={{ marginTop: '70px' }}>
                                 <Column
                                     size={1}
                                     marginLeft={2}

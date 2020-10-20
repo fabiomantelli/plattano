@@ -68,7 +68,10 @@ const Home: React.FC = () => {
 
                     <main>
                         <section>
-                            <Row background={true}>
+                            <Row
+                                background={true}
+                                style={{ marginTop: '70px' }}
+                            >
                                 <Column size={1}>
                                     <ModernityContainer>
                                         <MainTitle>
