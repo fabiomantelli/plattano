@@ -13,7 +13,6 @@ import Header from '../components/Header'
 import News from '../components/News'
 import Email from '../components/Email'
 
-import Licensing from '../components/1-indexPage/Licensing'
 import Reference from '../components/1-indexPage/Reference'
 import Services from '../components/1-indexPage/Services'
 
@@ -34,6 +33,7 @@ import {
 } from '../styles/TextElements'
 
 import { ButtonElement, MainButton } from '../styles/Buttons'
+import Consulting from '../components/1-indexPage/Consulting'
 
 const Home: React.FC = () => {
     const [active, SetActive] = useState('initial')
@@ -247,10 +247,10 @@ const Home: React.FC = () => {
                                 >
                                     <img
                                         style={{ padding: '2rem 0 0 2rem' }}
-                                        src="/assets/1-index/licensing-icon.png"
-                                        alt="Reference Icon"
+                                        src="/assets/1-index/consulting-icon.png"
+                                        alt="Consulting Icon"
                                     />
-                                    <Licensing />
+                                    <Consulting />
                                 </Column>
                                 <Column
                                     size={1}
@@ -296,15 +296,11 @@ const Home: React.FC = () => {
                                     boxShadow={true}
                                 >
                                     <img
-                                        style={{
-                                            display: 'block',
-                                            marginLeft: 'auto',
-                                            marginRight: 'auto'
-                                        }}
-                                        src="/assets/1-index/licensing-icon.png"
-                                        alt="Reference Icon"
+                                        style={{ padding: '2rem 0 0 2rem' }}
+                                        src="/assets/1-index/consulting-icon.png"
+                                        alt="Consulting Icon"
                                     />
-                                    <Licensing />
+                                    <Consulting />
                                 </Column>
                             </Row>
 

@@ -25,6 +25,7 @@ import {
 import Trapezio from '../assets/trapezio'
 import { ButtonElement } from '../styles/Buttons'
 import Footer from '../components/Footer'
+import Link from 'next/link'
 
 const Veeam: React.FC = () => {
     const [active, SetActive] = useState('initial')
@@ -253,9 +254,11 @@ const Veeam: React.FC = () => {
                                             confiáveis para todas as suas
                                             aplicações e dados.
                                         </HexagonParagraph>
-                                        <ButtonElement>
-                                            Saiba Mais
-                                        </ButtonElement>
+                                        <Link href="/vbr">
+                                            <ButtonElement>
+                                                Saiba Mais
+                                            </ButtonElement>
+                                        </Link>
                                     </HexagonContainer>
                                 </Column>
                                 <Column

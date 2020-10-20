@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import { ItemsIndexContainer } from '../../../styles/Containers'
 
-const Licensing: React.FC = () => {
+const Consulting: React.FC = () => {
     return (
         <ItemsIndexContainer>
             <h1>
@@ -15,7 +15,7 @@ const Licensing: React.FC = () => {
             </h2>
             <div>
                 <span>Leia mais</span>
-                <Link href="/licenciamento">
+                <Link href="/consultoria">
                     <img
                         src="/assets/1-index/arrow-icon.png"
                         alt="Arrow Icon"
@@ -27,4 +27,4 @@ const Licensing: React.FC = () => {
     )
 }
 
-export default Licensing
+export default Consulting
