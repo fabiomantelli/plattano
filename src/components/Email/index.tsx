@@ -7,7 +7,7 @@ const Email: React.FC = () => {
         <Container>
             <label>
                 <input
-                    type="text"
+                    type="email"
                     name="email"
                     placeholder="Digite seu E-mail"
                 />
