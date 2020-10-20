@@ -3,12 +3,12 @@ import Head from 'next/head'
 
 import ScrollLock from 'react-scrolllock'
 
-import Row from '../styles/Row'
-import Column from '../styles/Column'
-import Grid from '../styles/Grid'
+import Row from '../../styles/Row'
+import Column from '../../styles/Column'
+import Grid from '../../styles/Grid'
 
-import Header from '../components/Header'
-import Footer from '../components/Footer'
+import Header from '../../components/Header'
+import Footer from '../../components/Footer'
 
 import {
     BoxItemsContainer,
@@ -16,21 +16,21 @@ import {
     MainContainer,
     MainGeometricContainer,
     PolygonContainer
-} from '../styles/Containers'
+} from '../../styles/Containers'
 import {
     HexagonParagraph,
     HexagonTitle,
     SubTitle,
     Title
-} from '../styles/TextElements'
+} from '../../styles/TextElements'
 
-import Drsimple from '../components/10-draas/Drsimple'
-import DrSimpleText from '../components/10-draas/DrsimpleText'
-import StreamlineBoxIcon from '../assets/10-draas/streamlinebox/streamlineboxicon'
-import SupportBoxIcon from '../assets/10-draas/supportbox/supportboxicon'
-import RecoveryBoxIcon from '../assets/10-draas/recoverybox/recoveryboxicon'
-import ProtectionBoxIcon from '../assets/10-draas/protectionbox/protectionboxicon'
-import Recovery2BoxIcon from '../assets/10-draas/recoverybox2/recovery2boxicon'
+import Drsimple from '../../components/10-draas/Drsimple'
+import DrSimpleText from '../../components/10-draas/DrsimpleText'
+import StreamlineBoxIcon from '../../assets/10-draas/streamlinebox/streamlineboxicon'
+import SupportBoxIcon from '../../assets/10-draas/supportbox/supportboxicon'
+import RecoveryBoxIcon from '../../assets/10-draas/recoverybox/recoveryboxicon'
+import ProtectionBoxIcon from '../../assets/10-draas/protectionbox/protectionboxicon'
+import Recovery2BoxIcon from '../../assets/10-draas/recoverybox2/recovery2boxicon'
 
 const Draas: React.FC = () => {
     const [active, SetActive] = useState('initial')

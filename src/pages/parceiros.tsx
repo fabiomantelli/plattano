@@ -105,10 +105,16 @@ const Parceiros: React.FC = () => {
                                     maxWidth={1280}
                                 >
                                     <SpeedTransformationContainer>
-                                        <img
-                                            src="/assets/5-partners/vmwareblack-icon.png"
-                                            alt="VMware Black Icon"
-                                        />
+                                        <a
+                                            href="https://www.vmware.com/br.html"
+                                            target="_blank"
+                                            rel="noreferrer"
+                                        >
+                                            <img
+                                                src="/assets/5-partners/vmware-logo.png"
+                                                alt="VMware Logo"
+                                            />
+                                        </a>
                                         <h1>
                                             Acelerando a transformação <br />
                                             digital com a Pláttano e VMware.
@@ -213,10 +219,16 @@ const Parceiros: React.FC = () => {
                                     maxWidth={1280}
                                 >
                                     <SpeedTransformationContainer>
-                                        <img
-                                            src="/assets/5-partners/veeam-logo.png"
-                                            alt="Veeam Logo"
-                                        />
+                                        <a
+                                            href="https://www.veeam.com/br"
+                                            target="_blank"
+                                            rel="noreferrer"
+                                        >
+                                            <img
+                                                src="/assets/5-partners/veeam-logo.png"
+                                                alt="Veeam Logo"
+                                            />
+                                        </a>
                                         <h1>
                                             Soluções personalizadas <br /> com a
                                             Pláttano e Veeam.
@@ -361,7 +373,7 @@ const Parceiros: React.FC = () => {
                                             clientes geram. A Veeam abraçou
                                             totalmente o mundo das múltiplas
                                             nuvens e continuará oferecendo
-                                            soluções focadas em nuvem
+                                            soluções focadas em nuvem.
                                         </HexagonParagraph>
                                     </HexagonContainer>
                                 </Column>
@@ -457,7 +469,7 @@ const Parceiros: React.FC = () => {
                                             extrema importância, pois toda a
                                             comunicação entre cliente, parceiro
                                             e fabricante depende exclusivamente
-                                            de um distribuidor
+                                            de um distribuidor.
                                         </HexagonParagraph>
                                     </HexagonContainer>
                                 </Column>
@@ -493,7 +505,7 @@ const Parceiros: React.FC = () => {
                                             extrema importância, pois toda a
                                             comunicação entre cliente, parceiro
                                             e fabricante depende exclusivamente
-                                            de um distribuidor
+                                            de um distribuidor.
                                         </HexagonParagraph>
                                     </HexagonContainer>
                                 </Column>
@@ -513,10 +525,16 @@ const Parceiros: React.FC = () => {
                                         height="auto"
                                         justifyContent="center"
                                     >
-                                        <img
-                                            src="/assets/5-partners/vmware-logo.png"
-                                            alt="VMware Logo"
-                                        />
+                                        <a
+                                            href="https://www.vmware.com/br.html"
+                                            target="_blank"
+                                            rel="noreferrer"
+                                        >
+                                            <img
+                                                src="/assets/5-partners/vmware-logo.png"
+                                                alt="VMware Logo"
+                                            />
+                                        </a>
                                     </ImageContainer>
                                 </Column>
                                 <Column
@@ -529,10 +547,16 @@ const Parceiros: React.FC = () => {
                                         height="auto"
                                         justifyContent="center"
                                     >
-                                        <img
-                                            src="/assets/5-partners/veeam-logo.png"
-                                            alt="Veeam Logo"
-                                        />
+                                        <a
+                                            href="https://www.veeam.com/br"
+                                            target="_blank"
+                                            rel="noreferrer"
+                                        >
+                                            <img
+                                                src="/assets/5-partners/veeam-logo.png"
+                                                alt="Veeam Logo"
+                                            />
+                                        </a>
                                     </ImageContainer>
                                 </Column>
                                 <Column
@@ -545,10 +569,16 @@ const Parceiros: React.FC = () => {
                                         height="auto"
                                         justifyContent="center"
                                     >
-                                        <img
-                                            src="/assets/5-partners/synnex-logo.png"
-                                            alt="Sinnex Logo"
-                                        />
+                                        <a
+                                            href="https://www.synnexcorp.com/"
+                                            target="_blank"
+                                            rel="noreferrer"
+                                        >
+                                            <img
+                                                src="/assets/5-partners/synnex-logo.png"
+                                                alt="Sinnex Logo"
+                                            />
+                                        </a>
                                     </ImageContainer>
                                 </Column>
                                 <Column
@@ -561,10 +591,16 @@ const Parceiros: React.FC = () => {
                                         height="auto"
                                         justifyContent="center"
                                     >
-                                        <img
-                                            src="/assets/5-partners/adistec-logo.png"
-                                            alt="Adistec Logo"
-                                        />
+                                        <a
+                                            href="https://www.adistec.com/br"
+                                            target="_blank"
+                                            rel="noreferrer"
+                                        >
+                                            <img
+                                                src="/assets/5-partners/adistec-logo.png"
+                                                alt="Adistec Logo"
+                                            />
+                                        </a>
                                     </ImageContainer>
                                 </Column>
                             </Row>
@@ -581,19 +617,31 @@ const Parceiros: React.FC = () => {
                                         height="auto"
                                         justifyContent="center"
                                     >
-                                        <img
-                                            src="/assets/5-partners/vmware-logo.png"
-                                            alt="VMware Logo"
-                                        />
+                                        <a
+                                            href="https://www.vmware.com/br.html"
+                                            target="_blank"
+                                            rel="noreferrer"
+                                        >
+                                            <img
+                                                src="/assets/5-partners/vmware-logo.png"
+                                                alt="VMware Logo"
+                                            />
+                                        </a>
                                     </ImageContainer>
                                     <ImageContainer
                                         height="auto"
                                         justifyContent="center"
                                     >
-                                        <img
-                                            src="/assets/5-partners/veeam-logo.png"
-                                            alt="Veeam Logo"
-                                        />
+                                        <a
+                                            href="https://www.veeam.com/br"
+                                            target="_blank"
+                                            rel="noreferrer"
+                                        >
+                                            <img
+                                                src="/assets/5-partners/veeam-logo.png"
+                                                alt="Veeam Logo"
+                                            />
+                                        </a>
                                     </ImageContainer>
                                 </Column>
                                 <Column
@@ -606,19 +654,31 @@ const Parceiros: React.FC = () => {
                                         height="auto"
                                         justifyContent="center"
                                     >
-                                        <img
-                                            src="/assets/5-partners/synnex-logo.png"
-                                            alt="Sinnex Logo"
-                                        />
+                                        <a
+                                            href="https://www.synnexcorp.com/"
+                                            target="_blank"
+                                            rel="noreferrer"
+                                        >
+                                            <img
+                                                src="/assets/5-partners/synnex-logo.png"
+                                                alt="Sinnex Logo"
+                                            />
+                                        </a>
                                     </ImageContainer>
                                     <ImageContainer
                                         height="auto"
                                         justifyContent="center"
                                     >
-                                        <img
-                                            src="/assets/5-partners/adistec-logo.png"
-                                            alt="Adistec Logo"
-                                        />
+                                        <a
+                                            href="https://www.adistec.com/br"
+                                            target="_blank"
+                                            rel="noreferrer"
+                                        >
+                                            <img
+                                                src="/assets/5-partners/adistec-logo.png"
+                                                alt="Adistec Logo"
+                                            />
+                                        </a>
                                     </ImageContainer>
                                 </Column>
                             </Row>

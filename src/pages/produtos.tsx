@@ -122,7 +122,17 @@ const Sobre: React.FC = () => {
                                             , podemos oferecer com toda a
                                             segurança e confiabilidade, serviços
                                             de proteção de dados local e em{' '}
-                                            <b>nuvem (BaaS)</b>. Nossa equipe é
+                                            <b>nuvem (</b>
+                                            <Link href="/produtos/baas">
+                                                <b
+                                                    style={{
+                                                        cursor: 'pointer'
+                                                    }}
+                                                >
+                                                    BaaS
+                                                </b>
+                                            </Link>
+                                            <b>)</b> . Nossa equipe é
                                             certificada nas versões atuais da
                                             ferramenta, e treinada para
                                             gerenciar ambientes internos e em
@@ -139,7 +149,7 @@ const Sobre: React.FC = () => {
                                             <b>Pláttano</b> o construam e o
                                             gerenciem.
                                         </HexagonParagraph>
-                                        <Link href="/baas">
+                                        <Link href="/produtos/baas">
                                             <ButtonElement>
                                                 Saiba Mais
                                             </ButtonElement>
@@ -190,17 +200,26 @@ const Sobre: React.FC = () => {
                                             Recovery
                                         </HexagonTitle>
                                         <HexagonParagraph>
-                                            O <b>DRaaS</b> da Pláttano
-                                            Technologies com a tecnologia da
-                                            Veeam integra seu ambiente local
-                                            como uma extensão da infraestrutura
-                                            de nuvem, fornecendo recursos de
-                                            replicação e failover seguros e
-                                            robustos para a recuperação de
-                                            desastres.
+                                            O{' '}
+                                            <Link href="/produtos/draas">
+                                                <b
+                                                    style={{
+                                                        cursor: 'pointer'
+                                                    }}
+                                                >
+                                                    DRaaS
+                                                </b>
+                                            </Link>{' '}
+                                            da Pláttano Technologies com a
+                                            tecnologia da Veeam integra seu
+                                            ambiente local como uma extensão da
+                                            infraestrutura de nuvem, fornecendo
+                                            recursos de replicação e failover
+                                            seguros e robustos para a
+                                            recuperação de desastres.
                                         </HexagonParagraph>
 
-                                        <Link href="/draas">
+                                        <Link href="/produtos/draas">
                                             <ButtonElement>
                                                 Saiba Mais
                                             </ButtonElement>
@@ -295,10 +314,16 @@ const Sobre: React.FC = () => {
                                     collapse="mobileOn"
                                 >
                                     <ImageContainer>
-                                        <img
-                                            src="/assets/4-products/veeam-image.png"
-                                            alt="Veeam Image"
-                                        />
+                                        <a
+                                            href="https://www.veeam.com/br"
+                                            target="_blank"
+                                            rel="noreferrer"
+                                        >
+                                            <img
+                                                src="/assets/4-products/veeam-image.png"
+                                                alt="Veeam Image"
+                                            />
+                                        </a>
                                     </ImageContainer>
                                 </Column>
                                 <Column
@@ -401,10 +426,16 @@ const Sobre: React.FC = () => {
                                     collapse="mobileOn"
                                 >
                                     <ImageContainer>
-                                        <img
-                                            src="/assets/4-products/vmware-image.png"
-                                            alt="VMware Image"
-                                        />
+                                        <a
+                                            href="https://www.vmware.com/br.html"
+                                            target="_blank"
+                                            rel="noreferrer"
+                                        >
+                                            <img
+                                                src="/assets/4-products/vmware-image.png"
+                                                alt="VMware Image"
+                                            />
+                                        </a>
                                     </ImageContainer>
                                 </Column>
                             </Row>
