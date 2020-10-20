@@ -146,19 +146,19 @@ const Footer: React.FC = () => {
                     >
                         <FooterContainer>
                             <TitleFooter>Produtos</TitleFooter>
-                            <Link href="/">
+                            <Link href="/produtos/baas">
                                 <a>BaaS</a>
                             </Link>
-                            <Link href="/">
+                            <Link href="/produtos/draas">
                                 <a>DRaaS</a>
                             </Link>
                             <Link href="/">
                                 <a>Intelligent Backup</a>
                             </Link>
-                            <Link href="/">
+                            <Link href="/vmware">
                                 <a>VMware</a>
                             </Link>
-                            <Link href="/">
+                            <Link href="/veeam">
                                 <a>Veeam</a>
                             </Link>
                         </FooterContainer>
