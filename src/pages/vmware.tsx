@@ -66,8 +66,7 @@ const Vmware: React.FC = () => {
                                 >
                                     <MainGeometricContainer>
                                         <PolygonContainer>
-                                            <Title>DRaaS</Title>
-                                            <SubTitle>VMware</SubTitle>
+                                            <Title>VMware</Title>
                                         </PolygonContainer>
                                         <img
                                             src="/assets/15-vmware/vmware-background.png"
@@ -104,11 +103,7 @@ const Vmware: React.FC = () => {
                                     collapse="tabletOff"
                                 >
                                     <MainContainer changedMediaQueries="tabletOn">
-                                        <Title>DRaaS</Title>
-                                        <SubTitle changedMediaQueries="tabletOn">
-                                            DRaaS simples e flexível como
-                                            apertar um botão.
-                                        </SubTitle>
+                                        <Title>VMware</Title>
                                     </MainContainer>
                                 </Column>
                             </Row>

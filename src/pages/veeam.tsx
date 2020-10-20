@@ -116,10 +116,17 @@ const Veeam: React.FC = () => {
                                     collapse="tabletOff"
                                 >
                                     <MainContainer changedMediaQueries="tabletOn">
-                                        <Title>DRaaS</Title>
+                                        <Title>Veeam</Title>
                                         <SubTitle changedMediaQueries="tabletOn">
-                                            DRaaS simples e flexível como
-                                            apertar um botão.
+                                            A Veeam® oferece vários produtos
+                                            para as suas necessidades de
+                                            proteção de dados, no local e/ou na
+                                            nuvem, incluindo: VMware, Hyper-V e
+                                            Nutanix AHV para VMs; AWS, Azure e
+                                            outras cargas de trabalho em nuvem
+                                            nativa; servidores físicos e
+                                            estações de trabalho; aplicações
+                                            corporativas; e dados de NAS.​
                                         </SubTitle>
                                     </MainContainer>
                                 </Column>
