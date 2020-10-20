@@ -15,7 +15,7 @@ const Licensing: React.FC = () => {
             </h2>
             <div>
                 <span>Leia mais</span>
-                <Link href="/consultoria">
+                <Link href="/licenciamento">
                     <img
                         src="/assets/1-index/arrow-icon.png"
                         alt="Arrow Icon"

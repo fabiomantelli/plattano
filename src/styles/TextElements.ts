@@ -76,8 +76,14 @@ export const HexagonParagraph = styled.p<{ changedMediaQueries?: string }>`
         props.changedMediaQueries &&
         media[props.changedMediaQueries](`
             font-size: 0.8rem;
+            line-height: 1.2rem;
 
         `)}
+
+    @media only screen and (max-width: 42.98em) {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
 `
 
 export const ContactTitle = styled.h1`
