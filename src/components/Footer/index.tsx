@@ -12,7 +12,6 @@ import Idiom from './Idiom'
 import ContactIcon from '../../assets/contact/contactIcon'
 import WhereIcon from '../../assets/where/whereIcon'
 import SocialIcon from '../../assets/social/socialIcon'
-import VeeamVmwareIcon from '../../assets/footer/partners/VeeamVmwareIcon'
 import Line from './Line'
 import { FooterContainer } from '../../styles/Containers'
 import PlattanoWhite from '../../assets/footer/plattanowhite/plattanowhite'
@@ -113,7 +112,17 @@ const Footer: React.FC = () => {
                         marginLeft={2}
                     >
                         <FooterContainer>
-                            <PlattanoWhite />
+                            <Link href="/">
+                                <img
+                                    style={{
+                                        display: 'flex',
+                                        cursor: 'pointer',
+                                        width: '95%'
+                                    }}
+                                    src="/assets/footer/plattanowhite-icon.png"
+                                    alt="Plattano Icon"
+                                />
+                            </Link>
                         </FooterContainer>
                     </Column>
                     <Column
@@ -127,7 +136,7 @@ const Footer: React.FC = () => {
                             <Link href="/">
                                 <a>Licenciamentos</a>
                             </Link>
-                            <Link href="/">
+                            <Link href="/suporte">
                                 <a>Suporte</a>
                             </Link>
                             <Link href="/">
@@ -172,8 +181,40 @@ const Footer: React.FC = () => {
                     >
                         <FooterContainer>
                             <TitleFooter>Nossos Parceiros</TitleFooter>
+                            <a
+                                href="https://www.veeam.com/br"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <img
+                                    style={{
+                                        display: 'flex',
+                                        cursor: 'pointer',
+                                        maxWidth: '100%',
+                                        paddingTop: '0.5rem'
+                                    }}
+                                    src="/assets/footer/veeamwhite-logo.png"
+                                    alt="Veeam Logo"
+                                />
+                            </a>
+
+                            <a
+                                href="https://www.vmware.com/br.html"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <img
+                                    style={{
+                                        display: 'flex',
+                                        cursor: 'pointer',
+                                        maxWidth: '100%',
+                                        paddingTop: '1rem'
+                                    }}
+                                    src="/assets/footer/vmwarewhite-icon.png"
+                                    alt="VMware Logo"
+                                />
+                            </a>
                         </FooterContainer>
-                        <VeeamVmwareIcon />
                     </Column>
                 </Row>
 

@@ -262,7 +262,7 @@ const Services: React.FC = () => {
                                         <h2>
                                             Oferecemos horas contratuais,
                                             suporte avulso e emergencial com os
-                                            melhores especialistas.
+                                            melhores especialistas do mercado.
                                         </h2>
                                         <Link href="/suporte">
                                             <a>Veja mais</a>
@@ -279,10 +279,10 @@ const Services: React.FC = () => {
                                     <MiniBox>
                                         <h1>Consultoria</h1>
                                         <h2>
-                                            Nosso time de especialistas se
-                                            especializam com as novidades para
-                                            entregarmos soluções estratégicas e
-                                            de valor.
+                                            Nosso time de engenheiros de pré e
+                                            pós vendas se especializam com as
+                                            novidades para entregarmos soluções
+                                            estratégicas e de valor.
                                         </h2>
                                         <Link href="/consultoria">
                                             <a>Veja mais</a>
@@ -325,6 +325,16 @@ const Services: React.FC = () => {
                                             >
                                                 Locação de Licenças
                                                 pay-as-you-go
+                                            </span>
+                                            <Link href="/">
+                                                <a>Veja mais</a>
+                                            </Link>
+                                        </div>
+                                        <div>
+                                            <span
+                                                style={{ paddingRight: '1rem' }}
+                                            >
+                                                Licenciamentos Diversos
                                             </span>
                                             <Link href="/">
                                                 <a>Veja mais</a>
@@ -373,10 +383,10 @@ const Services: React.FC = () => {
                                     <MiniBox>
                                         <h1>Consultoria</h1>
                                         <h2>
-                                            Nosso time de especialistas se
-                                            especializam com as novidades para
-                                            entregarmos soluções estratégicas e
-                                            de valor.
+                                            Nosso time de engenheiros de pré e
+                                            pós vendas se especializam com as
+                                            novidades para entregarmos soluções
+                                            estratégicas e de valor.
                                         </h2>
                                         <Link href="/consultoria">
                                             <a>Veja mais</a>
@@ -425,6 +435,16 @@ const Services: React.FC = () => {
                                             >
                                                 Locação de Licenças
                                                 pay-as-you-go
+                                            </span>
+                                            <Link href="/">
+                                                <a>Veja mais</a>
+                                            </Link>
+                                        </div>
+                                        <div>
+                                            <span
+                                                style={{ paddingRight: '1rem' }}
+                                            >
+                                                Licenciamentos Diversos
                                             </span>
                                             <Link href="/">
                                                 <a>Veja mais</a>
