@@ -3,11 +3,11 @@ import Head from 'next/head'
 
 import ScrollLock from 'react-scrolllock'
 
-import Row from '../styles/Row'
-import Column from '../styles/Column'
-import Grid from '../styles/Grid'
+import Row from '../../styles/Row'
+import Column from '../../styles/Column'
+import Grid from '../../styles/Grid'
 
-import Header from '../components/Header'
+import Header from '../../components/Header'
 import {
     BenefitContainer,
     BoxDefaultContainer,
@@ -17,24 +17,24 @@ import {
     MainContainer,
     MainGeometricContainer,
     PolygonContainer
-} from '../styles/Containers'
+} from '../../styles/Containers'
 import {
     HexagonParagraph,
     HexagonTitle,
     SubTitle,
     Title
-} from '../styles/TextElements'
+} from '../../styles/TextElements'
 
-import Trapezio from '../assets/trapezio'
-import HexagonIcon from '../components/9-baas/HexagonIcon'
-import CloudBackup from '../components/9-baas/CloudBackup'
-import News from '../components/News'
-import Email from '../components/Email'
-import EnhanceBoxIcon from '../assets/9-baas/enhance/enhanceboxicon'
-import DiscoverBoxIcon from '../assets/9-baas/discoverbox/discoverboxIcon'
-import AccomplishBoxIcon from '../assets/9-baas/accomplishbox/accomplishBoxIcon'
-import TryBoxIcon from '../assets/9-baas/trybox/tryIcon'
-import Footer from '../components/Footer'
+import Trapezio from '../../assets/trapezio'
+import HexagonIcon from '../../components/9-baas/HexagonIcon'
+import CloudBackup from '../../components/9-baas/CloudBackup'
+import News from '../../components/News'
+import Email from '../../components/Email'
+import EnhanceBoxIcon from '../../assets/9-baas/enhance/enhanceboxicon'
+import DiscoverBoxIcon from '../../assets/9-baas/discoverbox/discoverboxIcon'
+import AccomplishBoxIcon from '../../assets/9-baas/accomplishbox/accomplishBoxIcon'
+import TryBoxIcon from '../../assets/9-baas/trybox/tryIcon'
+import Footer from '../../components/Footer'
 
 const Baas: React.FC = () => {
     const [active, SetActive] = useState('initial')

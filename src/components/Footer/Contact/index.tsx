@@ -9,7 +9,17 @@ const Contact: React.FC = () => {
             <span>(48) 3197-9877</span>
             <span>(48) 99961-0729</span>
             <span>(48) 99684-9944</span>
-            <span>contato@plattano.com.br</span>
+            <span>
+                <a
+                    href="mailto:contato@plattano.com.br"
+                    style={{
+                        color: '#161616',
+                        textDecoration: 'none'
+                    }}
+                >
+                    contato@plattano.com.br
+                </a>
+            </span>
         </Container>
     )
 }

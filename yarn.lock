@@ -3539,6 +3539,11 @@ fragment-cache@^0.2.1:
   dependencies:
     map-cache "^0.2.2"
 
+framer@^1.2.8:
+  version "1.2.8"
+  resolved "https://registry.yarnpkg.com/framer/-/framer-1.2.8.tgz#e6ef3fce024f40b0ae140d8f8ca04353f51ae69e"
+  integrity sha512-vqUdAGTaH2W+8b+EdLFFg1ETLgYRpzBa7r0Ki/FkKm7xg7M5Dd9kXL7sVEjiBFnrSkNs2dhUmgORcwRphdALwA==
+
 from2@^2.1.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/from2/-/from2-2.3.0.tgz#8bfb5502bde4a4d36cfdeea007fcca21d7e382af"
