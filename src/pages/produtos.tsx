@@ -381,9 +381,11 @@ const Sobre: React.FC = () => {
                                             </b>
                                         </HexagonParagraph>
 
-                                        <ButtonElement>
-                                            Saiba Mais
-                                        </ButtonElement>
+                                        <Link href="/vmware">
+                                            <ButtonElement>
+                                                Saiba Mais
+                                            </ButtonElement>
+                                        </Link>
                                     </HexagonContainer>
                                 </Column>
                                 <Column
