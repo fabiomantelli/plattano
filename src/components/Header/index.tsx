@@ -17,7 +17,15 @@ interface IHeader {
 const Header: React.FC<IHeader> = props => {
     return (
         <>
-            <Row zIndex={300}>
+            <Row
+                style={{
+                    position: 'fixed',
+                    top: '0%',
+                    width: '100%',
+                    backgroundColor: '#fff',
+                    zIndex: '10000'
+                }}
+            >
                 <Column
                     size={1}
                     maxWidth={414.67}

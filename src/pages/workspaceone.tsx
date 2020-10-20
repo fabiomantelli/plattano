@@ -54,7 +54,7 @@ const Workspaceone: React.FC = () => {
                     <Header click={openHandler} active={active} />
                     <main>
                         <section>
-                            <Row>
+                            <Row style={{ marginTop: '70px' }}>
                                 <Column
                                     size={1}
                                     marginLeft={2}
