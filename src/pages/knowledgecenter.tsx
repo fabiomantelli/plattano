@@ -37,14 +37,38 @@ import {
     BlogLinkMini
 } from '../styles/BlogElements'
 
+interface ISmall {
+    url: string
+}
+
+interface IThumbnail {
+    url: string
+}
+
+interface IMedium {
+    url: string
+}
+
+interface IFormats {
+    thumbnail: IThumbnail
+    medium: IMedium
+    small: ISmall
+}
+
+interface IImage {
+    id: number
+    formats: IFormats
+}
+
 interface IDataTwoLastPosts {
     id: number
     title: string
+    tag: string
     updateDate: string
     abstract: string
     description: string
     created_at: string
-    image: string[]
+    image: IImage[]
     markdown?: string
 }
 
