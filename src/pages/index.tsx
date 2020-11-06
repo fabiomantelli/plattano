@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
 
@@ -41,6 +41,15 @@ const Home: React.FC = () => {
     const [active, SetActive] = useState('initial')
     const [mobile, SetMobile] = useState(false)
 
+    useEffect(() => {
+        if (window.RDStationForms) {
+            new window.RDStationForms(
+                'email-6ba5ba65524d58557361',
+                'UA-116458599-1'
+            ).createForm()
+        }
+    })
+
     const openHandler = () => {
         if (active === 'active') {
             SetActive('not-active')
@@ -62,6 +71,10 @@ const Home: React.FC = () => {
                     name="viewport"
                     content="initial-scale=1.0, width=device-width"
                 />
+                <script
+                    type="text/javascript"
+                    src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js"
+                ></script>
             </Head>
 
             <ScrollLock isActive={mobile}>
@@ -213,24 +226,40 @@ const Home: React.FC = () => {
                         </section>
 
                         <section>
-                            <Row background={true} collapse="mobileOn">
+                            <Row background={true} collapse="mobileOff">
+                                <Column size={1} marginRight={2} marginLeft={2}>
+                                    <News />
+                                </Column>
+                            </Row>
+                            <Row background={true} collapse="mobileOff">
                                 <Column
                                     size={1}
+                                    collapse="mobileOn"
                                     maxWidth={622}
                                     marginLeft={2}
                                     marginRight={2}
                                 >
                                     <News />
                                 </Column>
-                                <Column size={1} maxWidth={622} marginRight={2}>
-                                    <Email />
-                                </Column>
                             </Row>
 
-                            <Row background={true} collapse="mobileOff">
-                                <Column size={1} marginRight={2} marginLeft={2}>
+                            <Row background={true}>
+                                <Column
+                                    size={1}
+                                    collapse="mobileOn"
+                                    maxWidth={622}
+                                    marginLeft={2}
+                                    marginRight={2}
+                                >
                                     <News />
-                                    <Email />
+                                </Column>
+
+                                <Column size={1} maxWidth={622} marginRight={2}>
+                                    <div
+                                        role="main"
+                                        id="email-6ba5ba65524d58557361"
+                                    ></div>
+                                    {/* <Email /> */}
                                 </Column>
                             </Row>
                         </section>

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Head from 'next/head'
 
 import ScrollLock from 'react-scrolllock'
@@ -30,6 +30,15 @@ const Contato: React.FC = () => {
     const [active, SetActive] = useState('initial')
     const [mobile, SetMobile] = useState(false)
 
+    useEffect(() => {
+        if (window.RDStationForms) {
+            new window.RDStationForms(
+                'contact-adc4e9a53f04d5d7f6e7',
+                'UA-116458599-1'
+            ).createForm()
+        }
+    })
+
     const openHandler = () => {
         if (active === 'active') {
             SetActive('not-active')
@@ -41,6 +50,7 @@ const Contato: React.FC = () => {
             SetMobile(true)
         }
     }
+
     return (
         <>
             <Head>
@@ -50,6 +60,10 @@ const Contato: React.FC = () => {
                     name="viewport"
                     content="initial-scale=1.0, width=device-width"
                 />
+                <script
+                    type="text/javascript"
+                    src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js"
+                ></script>
             </Head>
 
             <ScrollLock isActive={mobile}>
@@ -133,7 +147,7 @@ const Contato: React.FC = () => {
                                 </Column>
 
                                 <Column size={1} maxWidth={622} marginRight={2}>
-                                    <SendContainer>
+                                    {/* <SendContainer>
                                         <label htmlFor="name">Seu nome</label>
                                         <input
                                             type="text"
@@ -178,7 +192,11 @@ const Contato: React.FC = () => {
                                         ></textarea>
 
                                         <button>Enviar</button>
-                                    </SendContainer>
+                                    </SendContainer> */}
+                                    <div
+                                        role="main"
+                                        id="contact-adc4e9a53f04d5d7f6e7"
+                                    ></div>
                                 </Column>
                             </Row>
 
@@ -215,7 +233,7 @@ const Contato: React.FC = () => {
                                     marginRight={2}
                                     marginTop={2}
                                 >
-                                    <SendContainer>
+                                    {/* <SendContainer>
                                         <label htmlFor="name">Seu nome</label>
                                         <input
                                             type="text"
@@ -260,7 +278,7 @@ const Contato: React.FC = () => {
                                         ></textarea>
 
                                         <button>Enviar</button>
-                                    </SendContainer>
+                                    </SendContainer> */}
                                 </Column>
                             </Row>
                         </section>
