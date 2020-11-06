@@ -257,7 +257,12 @@ const Home: React.FC = () => {
                                     <News />
                                 </Column>
 
-                                <Column size={1} maxWidth={622} marginRight={2}>
+                                <Column
+                                    size={1}
+                                    maxWidth={622}
+                                    marginRight={2}
+                                    marginLeft={2}
+                                >
                                     <div
                                         role="main"
                                         id="email-6ba5ba65524d58557361"
