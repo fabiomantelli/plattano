@@ -37,6 +37,12 @@ import Consulting from '../components/1-indexPage/Consulting'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 
+declare global {
+    interface Window {
+        RDStationForms: any
+    }
+}
+
 const Home: React.FC = () => {
     const [active, SetActive] = useState('initial')
     const [mobile, SetMobile] = useState(false)
