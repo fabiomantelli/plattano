@@ -121,85 +121,6 @@ const Contato: React.FC = () => {
                         </section>
 
                         <section>
-                            <Row collapse="mobileOn">
-                                <Column
-                                    size={1}
-                                    maxWidth={622}
-                                    marginLeft={2}
-                                    marginRight={2}
-                                >
-                                    <HelpContainer>
-                                        <MiniOrangeTitle>
-                                            Fale Conosco
-                                        </MiniOrangeTitle>
-                                        <ContactTitle>
-                                            Como podemos ajudar?
-                                        </ContactTitle>
-                                        <ContactSubTitle>
-                                            Informe seus dados para que um de
-                                            nossos especialistas entre em
-                                            contato o mais rápido possível.
-                                        </ContactSubTitle>
-                                        <ContactSpan>
-                                            *Atendemos em todo o Brasil
-                                        </ContactSpan>
-                                    </HelpContainer>
-                                </Column>
-
-                                <Column size={1} maxWidth={622} marginRight={2}>
-                                    {/* <SendContainer>
-                                        <label htmlFor="name">Seu nome</label>
-                                        <input
-                                            type="text"
-                                            id="name"
-                                            placeholder="Digite seu nome"
-                                        />
-
-                                        <label htmlFor="phone">Telefone</label>
-                                        <input
-                                            type="tel"
-                                            id="phone"
-                                            placeholder="Digite seu telefone"
-                                        />
-
-                                        <label htmlFor="mail">E-mail</label>
-                                        <input
-                                            type="email"
-                                            id="mail"
-                                            placeholder="Digite seu e-mail"
-                                        />
-
-                                        <label htmlFor="assunto">Assunto</label>
-                                        <input
-                                            list="perguntas"
-                                            id="assunto"
-                                            placeholder="Selecione o assunto"
-                                        />
-                                        <datalist id="perguntas">
-                                            <option>
-                                                Licensiamento VMware
-                                            </option>
-                                            <option>Licensiamento Veeam</option>
-                                            <option>
-                                                Renovação de Licenças
-                                            </option>
-                                        </datalist>
-
-                                        <textarea
-                                            name="comment"
-                                            form="usrform"
-                                            placeholder="Escreva sua mensagem"
-                                        ></textarea>
-
-                                        <button>Enviar</button>
-                                    </SendContainer> */}
-                                    <div
-                                        role="main"
-                                        id="contact-adc4e9a53f04d5d7f6e7"
-                                    ></div>
-                                </Column>
-                            </Row>
-
                             <Row collapse="mobileOff">
                                 <Column
                                     size={1}
@@ -225,60 +146,38 @@ const Contato: React.FC = () => {
                                     </HelpContainer>
                                 </Column>
                             </Row>
-                            <Row collapse="mobileOff">
+
+                            <Row>
                                 <Column
                                     size={1}
                                     maxWidth={622}
                                     marginLeft={2}
                                     marginRight={2}
-                                    marginTop={2}
+                                    collapse="mobileOn"
                                 >
-                                    {/* <SendContainer>
-                                        <label htmlFor="name">Seu nome</label>
-                                        <input
-                                            type="text"
-                                            id="name"
-                                            placeholder="Digite seu nome"
-                                        />
+                                    <HelpContainer>
+                                        <MiniOrangeTitle>
+                                            Fale Conosco
+                                        </MiniOrangeTitle>
+                                        <ContactTitle>
+                                            Como podemos ajudar?
+                                        </ContactTitle>
+                                        <ContactSubTitle>
+                                            Informe seus dados para que um de
+                                            nossos especialistas entre em
+                                            contato o mais rápido possível.
+                                        </ContactSubTitle>
+                                        <ContactSpan>
+                                            *Atendemos em todo o Brasil
+                                        </ContactSpan>
+                                    </HelpContainer>
+                                </Column>
 
-                                        <label htmlFor="phone">Telefone</label>
-                                        <input
-                                            type="tel"
-                                            id="phone"
-                                            placeholder="Digite seu telefone"
-                                        />
-
-                                        <label htmlFor="mail">E-mail</label>
-                                        <input
-                                            type="email"
-                                            id="mail"
-                                            placeholder="Digite seu e-mail"
-                                        />
-
-                                        <label htmlFor="assunto">Assunto</label>
-                                        <input
-                                            list="perguntas"
-                                            id="assunto"
-                                            placeholder="Selecione o assunto"
-                                        />
-                                        <datalist id="perguntas">
-                                            <option>
-                                                Licensiamento VMware
-                                            </option>
-                                            <option>Licensiamento Veeam</option>
-                                            <option>
-                                                Renovação de Licenças
-                                            </option>
-                                        </datalist>
-
-                                        <textarea
-                                            name="comment"
-                                            form="usrform"
-                                            placeholder="Escreva sua mensagem"
-                                        ></textarea>
-
-                                        <button>Enviar</button>
-                                    </SendContainer> */}
+                                <Column size={1} maxWidth={622} marginRight={2}>
+                                    <div
+                                        role="main"
+                                        id="contact-adc4e9a53f04d5d7f6e7"
+                                    ></div>
                                 </Column>
                             </Row>
                         </section>
