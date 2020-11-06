@@ -11,7 +11,6 @@ import Grid from '../styles/Grid'
 import Header from '../components/Header'
 
 import News from '../components/News'
-import Email from '../components/Email'
 
 import Reference from '../components/1-indexPage/Reference'
 import Services from '../components/1-indexPage/Services'
@@ -48,13 +47,11 @@ const Home: React.FC = () => {
     const [mobile, SetMobile] = useState(false)
 
     useEffect(() => {
-        if (window.RDStationForms) {
-            new window.RDStationForms(
-                'email-6ba5ba65524d58557361',
-                'UA-116458599-1'
-            ).createForm()
-        }
-    })
+        new window.RDStationForms(
+            'email-6ba5ba65524d58557361',
+            'UA-116458599-1'
+        ).createForm()
+    }, [active])
 
     const openHandler = () => {
         if (active === 'active') {

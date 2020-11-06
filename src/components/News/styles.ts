@@ -6,6 +6,7 @@ export const Container = styled.div`
     height: 30vh;
     justify-content: center;
     padding-left: 2rem;
+    margin-bottom: 2rem;
 
     h1 {
         font-size: 2rem;

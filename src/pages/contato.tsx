@@ -9,11 +9,7 @@ import Grid from '../styles/Grid'
 
 import Header from '../components/Header'
 import Footer from '../components/Footer'
-import {
-    HelpContainer,
-    MainContainer,
-    SendContainer
-} from '../styles/Containers'
+import { HelpContainer, MainContainer } from '../styles/Containers'
 import {
     ContactSpan,
     ContactSubTitle,
@@ -37,7 +33,7 @@ const Contato: React.FC = () => {
                 'UA-116458599-1'
             ).createForm()
         }
-    })
+    }, [active])
 
     const openHandler = () => {
         if (active === 'active') {
