@@ -52,5 +52,9 @@ h2, span {
 
  }
 
+.text-markdown {
+    font-weight: 400;
+    line-height: 160%;
+}
 
 `

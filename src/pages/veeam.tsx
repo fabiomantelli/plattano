@@ -27,6 +27,9 @@ import { ButtonElement } from '../styles/Buttons'
 import Footer from '../components/Footer'
 import Link from 'next/link'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
+
 const Veeam: React.FC = () => {
     const [active, SetActive] = useState('initial')
     const [mobile, SetMobile] = useState(false)
@@ -56,6 +59,26 @@ const Veeam: React.FC = () => {
             <ScrollLock isActive={mobile}>
                 <Grid>
                     <Header click={openHandler} active={active} />
+
+                    <a
+                        href="https://wa.me/5548999610729?text=Gostaria%20de%20obter%20mais%20informações%20sobre%20os%20produtos%20e%20serviços%20da%20Pláttano%20Technologies."
+                        target="_blank"
+                        rel="noreferrer"
+                        style={{
+                            position: 'fixed',
+                            bottom: '20px',
+                            right: '30px'
+                        }}
+                    >
+                        <FontAwesomeIcon
+                            icon={faWhatsapp}
+                            size="4x"
+                            style={{
+                                color: '#25D366'
+                            }}
+                        />
+                    </a>
+
                     <main>
                         <section>
                             <Row style={{ marginTop: '70px' }}>
