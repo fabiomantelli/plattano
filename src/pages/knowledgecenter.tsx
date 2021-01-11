@@ -27,7 +27,6 @@ import { ButtonElement } from '../styles/Buttons'
 import News from '../components/News'
 import Email from '../components/Email'
 import Footer from '../components/Footer'
-import Link from 'next/link'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
