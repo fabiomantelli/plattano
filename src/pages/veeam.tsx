@@ -176,7 +176,8 @@ const Veeam: React.FC = () => {
                                             Oferece a experiência de
                                             gerenciamento unificado com
                                             monitoramento e geração de
-                                            relatórios. Proteja e monitore suas
+                                            relatórios. <br /> <br />
+                                            Proteja e monitore suas
                                             cargas de trabalho físicas, virtuais
                                             e na nuvem, com baixa sobrecarga
                                             operacional.
