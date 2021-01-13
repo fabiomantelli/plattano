@@ -106,7 +106,7 @@ const Contato: React.FC = () => {
                                         <SubTitle changedMediaQueries="tabletOn">
                                             Procurando por licenciamento,
                                             renovações de software, serviços
-                                            técnicos e suporter? Deixe sua
+                                            técnicos e suporte? Deixe sua
                                             mensagem. Logo logo um especialista
                                             dará toda a atenção necessária para
                                             atendê-lo com excelência
