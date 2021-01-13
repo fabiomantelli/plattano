@@ -662,14 +662,16 @@ const Vbr: React.FC = () => {
                                         <ListaOrangeImage>
                                             <li
                                                 style={{
-                                                    paddingBottom: '1rem'
+                                                    paddingBottom: '1rem',
+                                                    color: '#F48200'
                                                 }}
                                             >
                                                 Nuvem - AWS e Microsoft Azure
                                             </li>
                                             <li
                                                 style={{
-                                                    paddingBottom: '1rem'
+                                                    paddingBottom: '1rem',
+                                                    color: '#F48200'
                                                 }}
                                             >
                                                 Físico - Veeam Agent for
@@ -686,7 +688,8 @@ const Vbr: React.FC = () => {
                                         <ListaOrangeImage>
                                             <li
                                                 style={{
-                                                    paddingBottom: '1rem'
+                                                    paddingBottom: '1rem',
+                                                    color: '#F48200'
                                                 }}
                                             >
                                                 Virtual - VMware vSphere,
@@ -694,7 +697,8 @@ const Vbr: React.FC = () => {
                                             </li>
                                             <li
                                                 style={{
-                                                    paddingBottom: '1rem'
+                                                    paddingBottom: '1rem',
+                                                    color: '#F48200'
                                                 }}
                                             >
                                                 Aplicações - Microsoft, Oracle e
