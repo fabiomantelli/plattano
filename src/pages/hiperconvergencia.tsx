@@ -230,7 +230,7 @@ const Hiperconvergencia: React.FC = () => {
                                             Infraestruturas definidas por
                                             software ou hiperconvergentes trazem
                                             a possibilidade da automação e a
-                                            nuvem hibrida.
+                                            nuvem híbrida.
                                         </HexagonParagraph>
                                     </HexagonContainer>
                                 </Column>
@@ -284,7 +284,7 @@ const Hiperconvergencia: React.FC = () => {
                                             (Esta solução simplificada usa
                                             software e servidores x86 para
                                             substituir o hardware de custo
-                                            elevado e fins específicos. Com a
+                                            elevado e fins específicos). Com a
                                             infraestrutura hiperconvergente,
                                             você reduz a complexidade do data
                                             center e aumenta o dimensionamento.
@@ -473,15 +473,16 @@ const Hiperconvergencia: React.FC = () => {
                                     <BoxItemsContainer>
                                         <StorageBoxIcon />
                                         <div>
-                                            <h1>
+                                            <h1 style={{ color: '#F48200'}}>
                                                 Armazenamento definido por
                                                 software (SDS)
                                             </h1>
+                                            <br />
                                             <p>
                                                 O SDS substitui o hardware
                                                 estático e ineficiente por
                                                 soluções dinâmicas, ágeis e
-                                                automatizadas. Astecnologias SDS
+                                                automatizadas. As tecnologias SDS
                                                 simples e inteligentes da VMware
                                                 oferecem uma solução de
                                                 armazenamento mais
@@ -504,7 +505,8 @@ const Hiperconvergencia: React.FC = () => {
                                     <BoxItemsContainer>
                                         <CapexBoxIcon />
                                         <div>
-                                            <h1>CapEx e OpEx baixo</h1>
+                                        <h1 style={{ color: '#F48200'}}>CapEx e OpEx baixo</h1>
+                                        <br />
                                             <p>
                                                 Baixo investimento inicial,
                                                 aproveitando-se de servidores
@@ -528,7 +530,8 @@ const Hiperconvergencia: React.FC = () => {
                                     <BoxItemsContainer>
                                         <AlreadyBoxIcon />
                                         <div>
-                                            <h1>Pronto para a nuvem</h1>
+                                        <h1 style={{ color: '#F48200'}}>Pronto para a nuvem</h1>
+                                        <br />
                                             <p>
                                                 Use a HCI em qualquer lugar com
                                                 o ecossistema mais amplo do
@@ -553,7 +556,8 @@ const Hiperconvergencia: React.FC = () => {
                                     <BoxItemsContainer>
                                         <EvolutionBoxIcon />
                                         <div>
-                                            <h1>Evolução e Modernidade</h1>
+                                        <h1 style={{ color: '#F48200'}}>Evolução e Modernidade</h1>
+                                        <br />
                                             <p>
                                                 O dimensionamento de datacenter
                                                 pode ser um processo caro e
@@ -579,7 +583,7 @@ const Hiperconvergencia: React.FC = () => {
                                 >
                                     <BenefitContainer>
                                         <Trapezio />
-                                        <HexagonTitle>
+                                        <HexagonTitle style={{ color: '#F48200'}}>
                                             Mas afinal, o que é o VMware vSan?
                                         </HexagonTitle>
                                     </BenefitContainer>
