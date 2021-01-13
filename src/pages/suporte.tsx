@@ -119,7 +119,7 @@ const Suporte: React.FC = () => {
                                     <HexagonContainer changedMediaQueries="mobileOn">
                                         <Trapezio />
                                         <HexagonTitle>
-                                            Veeam Cloud Service Provider
+                                            Cloud Service Provider
                                         </HexagonTitle>
                                         <HexagonParagraph>
                                             Tenha um ambiente 100% seguro e
