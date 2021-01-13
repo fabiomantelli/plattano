@@ -87,7 +87,7 @@ const Baas: React.FC = () => {
                                                 segurança e disponibilidade para
                                                 suas informações. Os dados são o
                                                 maior patrimônio das empresas, e
-                                                por quê não dar uma atenção
+                                                por que não dar uma atenção
                                                 especial para eles?
                                             </SubTitle>
                                         </PolygonContainer>
@@ -396,7 +396,7 @@ const Baas: React.FC = () => {
                                             mas eles nem sempre são valorizados
                                             como “prioridades estratégicas de
                                             TI” (Mesmo que achemos que deveriam
-                                            ser!). A Pláttano, como provedor de
+                                            ser!). A <strong>Pláttano</strong>, como provedor de
                                             serviço oficial da Veeam pode tirar
                                             as obrigações de backup e
                                             recuperação de suas mãos, dando mais
