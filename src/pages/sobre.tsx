@@ -536,7 +536,7 @@ const Sobre: React.FC = () => {
                                             Com o acompanhamento de tendências
                                             mundiais sobre respeito ao meio
                                             ambiente, foi necessária uma
-                                            especialização em virtualização de
+                                            especialização em <strong>virtualização</strong> de
                                             servidores para atender a economia
                                             de energia e redução de emissão de
                                             calor. A virtualização, seja ela de
@@ -627,7 +627,7 @@ const Sobre: React.FC = () => {
                                         <HexagonParagraph>
                                             O mundo ficou virtual, e as empresas
                                             agora são <b>100% digitais</b>.
-                                            Disponibilidade dos dados é item
+                                            Disponibi lidade dos dados é item
                                             obrigatório. Ninguém quer que a
                                             reputação de sua marca seja afetada
                                             por falhas de segurança e
