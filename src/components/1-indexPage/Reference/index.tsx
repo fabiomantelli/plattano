@@ -15,7 +15,7 @@ const Reference: React.FC = () => {
                 datacenters.
             </h2>
             <div>
-                <span>Leia mais</span>
+                <span style={{ color: '#F48200' }}>Leia mais</span>
                 <Link href="/produtos">
                     <img
                         src="/assets/1-index/arrow-icon.png"

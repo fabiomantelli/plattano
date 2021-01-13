@@ -116,7 +116,7 @@ const Home: React.FC = () => {
                                             Tenha acesso às melhores e mais
                                             modernas soluções de virtualização,
                                             hiperconvergência, proteção de
-                                            dados, e-hiperdisponibilidade de
+                                            dados, e hiperdisponibilidade de
                                             Datacenters com as tecnologias da
                                             Veeam e VMware. Tudo em um único
                                             local com a equipe da Pláttano
@@ -203,7 +203,7 @@ const Home: React.FC = () => {
                                             rapidamente com dados e aplicativos
                                             modernos hospedados em nuvens
                                             híbridas, públicas e privadas.
-                                            Simplifuqe a TI, concentrando
+                                            Simplifique a TI, concentrando
                                             recursos em inovação ao invés de
                                             manutenção.
                                         </HexagonParagraph>

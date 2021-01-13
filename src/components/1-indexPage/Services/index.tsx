@@ -15,7 +15,7 @@ const Services: React.FC = () => {
                 capacitação de equipes.
             </h2>
             <div>
-                <span>Leia mais</span>
+                <span style={{ color: '#F48200' }}>Leia mais</span>
                 <Link href="/">
                     <img
                         src="/assets/1-index/arrow-icon.png"
