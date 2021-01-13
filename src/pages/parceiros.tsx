@@ -270,7 +270,7 @@ const Parceiros: React.FC = () => {
                                 >
                                     <GeneralText>
                                         <p>
-                                            A Pláttano Technologies escolheu a{' '}
+                                            A <strong>Pláttano Technologies</strong> escolheu a{' '}
                                             <Link href="/veeam">
                                                 <b
                                                     style={{
@@ -291,7 +291,8 @@ const Parceiros: React.FC = () => {
                                             são simples de instalar e executar,
                                             flexíveis o bastante para se adequar
                                             a qualquer ambiente e sempre
-                                            confiáveis. Temos como meta junto à
+                                            confiáveis. <br /><br />
+                                            Temos como meta junto à
                                             fabricante, ser o provedor mais
                                             confiável de soluções de backup que
                                             proporcionam gerenciamento de dados
