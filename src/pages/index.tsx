@@ -123,10 +123,6 @@ const Home: React.FC = () => {
                                             Technologies, parceira oficial no
                                             Brasil.
                                         </MainSubTitle>
-
-                                        <Link href="/hiperconvergencia">
-                                            <MainButton>Saiba Mais</MainButton>
-                                        </Link>
                                     </ModernityContainer>
                                 </Column>
                             </Row>
@@ -171,9 +167,12 @@ const Home: React.FC = () => {
                                             investimento seja o mais adequado e
                                             rápido.
                                         </HexagonParagraph>
-                                        <ButtonElement>
-                                            Saiba Mais
-                                        </ButtonElement>
+                                        <Link href="/parceiros">
+                                            <ButtonElement>
+                                                Saiba Mais
+                                            </ButtonElement>
+                                        </Link>
+                                        
                                     </BoxDefaultContainer>
                                 </Column>
                             </Row>
@@ -207,9 +206,6 @@ const Home: React.FC = () => {
                                             recursos em inovação ao invés de
                                             manutenção.
                                         </HexagonParagraph>
-                                        <ButtonElement>
-                                            Saiba Mais
-                                        </ButtonElement>
                                     </BoxDefaultContainer>
                                 </Column>
                                 <Column
@@ -457,7 +453,9 @@ const Home: React.FC = () => {
                                             empresas utilizem a tecnologia a
                                             favor de seus objetivos.
                                         </HexagonParagraph>
-                                        <ButtonElement>Leia Mais</ButtonElement>
+                                        <Link href="/sobre">
+                                            <ButtonElement>Leia Mais</ButtonElement>
+                                        </Link>
                                     </BoxDefaultContainer>
                                 </Column>
                             </Row>
