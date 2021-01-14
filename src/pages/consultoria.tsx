@@ -163,22 +163,20 @@ const Consultoria: React.FC = () => {
                                             nosso portfólio
                                         </HexagonTitle>
                                         <HexagonParagraph>
-                                            Nosso negócio é inovação, e queremos
-                                            levá-la até você e sua empresa. A
-                                            transformação digital já está
-                                            acontecendo e queremos melhorar a
-                                            experiência de seus usuários e
-                                            equipes. Vamos além da virtualização
-                                            e backup. Queremos abranger recursos
-                                            de nuvem, processamento, rede,
-                                            segurança e espaços de trabalho
-                                            digital. Desejamos modernizar seu
-                                            Datacenter. Por isso, nos
-                                            especializamos cada vez mais para
-                                            poder apresentar-lhes o que há de
-                                            melhor, e queremos atuar como apoio
-                                            consultivo junto às organizações.
-                                            Modernização é o nosso lema.
+                                        “Nosso negócio é inovação, e queremos 
+                                        levá-la até você e sua empresa. A transformação 
+                                        digital já está acontecendo e queremos melhorar 
+                                        a experiência de seus usuários e equipes. Vamos 
+                                        além da virtualização e backup. Queremos abranger 
+                                        recursos de nuvem, processamento, rede, segurança 
+                                        e espaços de trabalho digital. Desejamos modernizar 
+                                        seu Datacenter. Por isso, nos especializamos cada 
+                                        vez mais para poder apresentar-lhes o que há de melhor, 
+                                        e queremos atuar como apoio consultivo junto às 
+                                        organizações. Modernização é o nosso lema.”
+                                        </HexagonParagraph>
+                                        <HexagonParagraph>
+                                            <strong>Eduardo K. Scheffer, CIO</strong>
                                         </HexagonParagraph>
                                     </HexagonContainer>
                                 </Column>
