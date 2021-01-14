@@ -122,24 +122,19 @@ const Suporte: React.FC = () => {
                                             Cloud Service Provider
                                         </HexagonTitle>
                                         <HexagonParagraph>
-                                            Tenha um ambiente 100% seguro e
-                                            protegido com o Veeam suportado
-                                            pelos especialistas da Pláttano.
-                                            Troque as aquisições e compras
-                                            complexas e pague mensalmente de
-                                            acordo com o seu consumo de
-                                            licenças. Esse é um novo conceito de
-                                            utilização de licenciamento e vem se
-                                            tornando um padrão a cada dia. Além
-                                            de contratar a melhor solução, você
-                                            ainda terá suporte total junto ao
-                                            nosso time de engenheiros para
-                                            manter seu ambiente monitorado e
-                                            gerido. Diga adeus às aberturas de
-                                            chamados junto aos fabricantes e
-                                            libere seu time de TI para focar no
-                                            que realmente importa: o seu
-                                            negócio.
+                                            Tenha um ambiente 100% seguro e protegido 
+                                            com o Veeam suportado pelos especialistas 
+                                            da Pláttano. Troque as aquisições e compras 
+                                            complexas e <b> pague mensalmente</b> de acordo com 
+                                            o seu consumo de licenças (<b>opEx</b>). Esse é um 
+                                            novo conceito de utilização de licenciamento 
+                                            e vem se tornando um padrão a cada dia. Além 
+                                            de contratar a melhor solução, você ainda terá 
+                                            suporte total junto ao nosso time de engenheiros 
+                                            para manter seu ambiente monitorado e gerido. Diga 
+                                            adeus às aberturas de chamados junto aos fabricantes 
+                                            e libere seu time de TI para focar no que realmente 
+                                            importa: o seu negócio.
                                         </HexagonParagraph>
                                     </HexagonContainer>
                                 </Column>
