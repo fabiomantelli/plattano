@@ -158,28 +158,24 @@ const Baas: React.FC = () => {
                                             <span style={{ color: '#F48200' }}>
                                                 <b>Veeam Cloud</b>
                                             </span>
-                                            , podemos oferecer com toda a
-                                            segurança e confiabilidade, serviços
-                                            de proteção de dados em nuvem. Nossa
-                                            equipe é certificada nas versões
-                                            atuais da ferramenta, e treinada
-                                            para gerenciar ambientes em nuvem
-                                            para oferecer BaaS (Backup as a
-                                            Service).
+                                            ,  podemos oferecer com toda a segurança 
+                                            e confiabilidade, serviços de proteção 
+                                            de dados em nuvem. Nossa equipe é certificada 
+                                            nas versões atuais da ferramenta, e 
+                                            treinada para gerenciar ambientes em nuvem 
+                                            para oferecer BaaS (Backup as a Service).
                                         </HexagonParagraph>
                                         <HexagonParagraph>
-                                            Faça seus backups e réplicas Veeam
-                                            em ambientes externos.
+                                            Faça seus backups e réplicas Veeam em ambientes 
+                                            externos.
                                         </HexagonParagraph>
                                         <HexagonParagraph>
-                                            Vamos ser objetivos? Quem quer
-                                            construir e manter um site
-                                            secundário, quando se pode enviar
-                                            seus backups e réplicas para um
-                                            ambiente externo num provedor de
-                                            serviços confiável. Deixe que os
-                                            especialistas e engenheiros Veeam da
-                                            Pláttano o construam e o gerenciem.
+                                            Vamos ser objetivos? Quem quer construir e manter 
+                                            um site secundário, quando se pode enviar seus 
+                                            backups e réplicas para um ambiente externo num 
+                                            provedor de serviços confiável. Deixe que os 
+                                            especialistas e engenheiros da <b>Pláttano </b> o construam 
+                                            e o gerenciem.
                                         </HexagonParagraph>
                                     </BoxDefaultContainer>
                                 </Column>
@@ -192,29 +188,23 @@ const Baas: React.FC = () => {
                                 >
                                     <BoxDefaultContainer>
                                         <HexagonParagraph>
-                                            Não importa onde seus dados estejam
-                                            armazenados – você tem controle
-                                            sobre eles – com criptografia AES de
-                                            256 bits durante o backup, durante a
-                                            transferência de dados e quando
-                                            armazenados na nuvem.
+                                            Não importa onde seus dados estejam armazenados – 
+                                            você tem controle sobre eles – com criptografia 
+                                            AES de 256 bits durante o backup, durante a 
+                                            transferência de dados e quando armazenados 
+                                            na nuvem.
                                         </HexagonParagraph>
                                         <HexagonParagraph>
-                                            Reduza a complexidade de sua
-                                            infraestrutura local e fique mais
-                                            protegido caso algo aconteça em seu
-                                            ambiente e, além disso, libere sua
-                                            equipe para trabalhar em outros
+                                            Reduza a complexidade de sua infraestrutura local e 
+                                            fique mais protegido caso algo aconteça em seu ambiente 
+                                            e, além disso, libere sua equipe para trabalhar em outros 
                                             projetos.
                                         </HexagonParagraph>
                                         <HexagonParagraph>
-                                            Pare de usar e gerenciar fitas,
-                                            robôs e tape libraries complexas,
-                                            salas cofres, pois é muito caro de
-                                            se manter e difícil de manipular.
-                                            Venha para o novo conceito de
-                                            proteção de dados. Venha para a
-                                            Plattano Cloud.
+                                            Pare de usar e gerenciar fitas, robôs e tape libraries complexas, 
+                                            salas cofres, pois é muito caro de se manter e difícil de manipular. 
+                                            Venha para o novo conceito de proteção de dados. Venha para a 
+                                            <b> Plattano Cloud</b>.
                                         </HexagonParagraph>
                                     </BoxDefaultContainer>
                                 </Column>
@@ -362,7 +352,7 @@ const Baas: React.FC = () => {
                                     <HexagonContainer changedMediaQueries="mobileOn">
                                         <Trapezio />
                                         <HexagonTitle>
-                                            Backup externo
+                                            Backup externo garantindo sua disponibilidade
                                         </HexagonTitle>
                                         <HexagonParagraph>
                                             Entendemos que suas necessidades de
