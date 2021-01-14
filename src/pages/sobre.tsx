@@ -99,7 +99,7 @@ const Sobre: React.FC = () => {
                                     <MainContainer
                                         changedMediaQueries="tabletOn"
                                         url="/assets/2-about/aboutus.png"
-                                        backgroundSize="55%"
+                                        backgroundSize="cover"
                                     >
                                         <Title>Sobre Nós</Title>
                                         <SubTitle changedMediaQueries="tabletOn">

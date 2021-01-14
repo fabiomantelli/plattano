@@ -77,6 +77,7 @@ const Consultoria: React.FC = () => {
                                 // background={true}
                                 polygon={true}
                                 style={{ marginTop: '70px' }}
+                                collapse="tabletOn"
                             >
                                 <Column
                                     size={1}
@@ -88,6 +89,26 @@ const Consultoria: React.FC = () => {
                                         changedMediaQueries="tabletOn"
                                         url="/assets/7-consultancy/consultancy-background.png"
                                         backgroundSize="cover"
+                                    >
+                                        <Title>Consultoria</Title>
+                                    </MainContainer>
+                                </Column>
+                            </Row>
+
+                            <Row
+                                background={true}
+                                polygon={true}
+                                style={{ marginTop: '70px' }}
+                                collapse="tabletOff"
+                            >
+                                <Column
+                                    size={1}
+                                    marginLeft={2}
+                                    marginRight={2}
+                                    maxWidth={1280}
+                                >
+                                    <MainContainer
+                                        changedMediaQueries="tabletOn"
                                     >
                                         <Title>Consultoria</Title>
                                     </MainContainer>

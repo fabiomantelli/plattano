@@ -15,9 +15,9 @@ export const MainContainer = styled.div<IMainContainer>`
     flex-direction: column;
     justify-content: center;
     padding: 2rem;
-    background: url(${props => props.url});
+    background: url(${props => props.url}) center center;
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: center right;
     background-size: ${props => props.backgroundSize};
 
     ${props =>

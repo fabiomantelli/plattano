@@ -99,7 +99,7 @@ const Parceiros: React.FC = () => {
                                     <MainContainer
                                         changedMediaQueries="tabletOn"
                                         url="/assets/5-partners/partners-image.png"
-                                        backgroundSize="110% auto"
+                                        backgroundSize="cover"
                                     >
                                         <Title>Parceiros</Title>
                                         <SubTitle changedMediaQueries="tabletOn">

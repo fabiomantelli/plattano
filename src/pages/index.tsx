@@ -286,7 +286,7 @@ const Home: React.FC = () => {
                                 >
                                     <EntireContainer>
                                         <h3>Soluções</h3>
-                                        <h1>
+                                        <h1 style={{ textAlign: 'center'}}>
                                             As melhores soluções do mercado
                                             <br />
                                             para sua empresa
@@ -354,7 +354,11 @@ const Home: React.FC = () => {
                                     boxShadow={true}
                                 >
                                     <img
-                                        style={{ padding: '2rem 0 0 2rem' }}
+                                        style={{
+                                            display: 'block',
+                                            marginLeft: 'auto',
+                                            marginRight: 'auto'
+                                        }}
                                         src="/assets/1-index/consulting-icon.png"
                                         alt="Consulting Icon"
                                     />

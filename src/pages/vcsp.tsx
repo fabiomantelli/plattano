@@ -85,6 +85,7 @@ const Suporte: React.FC = () => {
                         <section>
                             <Row
                                 // background={true}
+                                collapse="tabletOn"
                                 polygon={true}
                                 style={{ marginTop: '70px' }}
                             >
@@ -100,6 +101,28 @@ const Suporte: React.FC = () => {
                                         backgroundSize="cover"
                                     >
                                         <Title style={{ fontSize: '3.5rem'}}>
+                                            Licenciamento como <br />
+                                            Assinatura
+                                        </Title>
+                                    </MainContainer>
+                                </Column>
+                            </Row>
+
+                            <Row
+                                background={true}
+                                collapse="tabletOff"
+                                polygon={true}
+                                style={{ marginTop: '70px' }}
+                            >
+                                <Column
+                                    size={1}
+                                    marginLeft={2}
+                                    marginRight={2}
+                                >
+                                    <MainContainer
+                                        changedMediaQueries="tabletOn"
+                                    >
+                                        <Title style={{ fontSize: '3rem'}}>
                                             Licenciamento como <br />
                                             Assinatura
                                         </Title>

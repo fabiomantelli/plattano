@@ -74,6 +74,7 @@ const Licenciamento: React.FC = () => {
                                 // background={true}
                                 polygon={true}
                                 style={{ marginTop: '70px' }}
+                                collapse="tabletOn"
                             >
                                 <Column
                                     size={1}
@@ -85,6 +86,29 @@ const Licenciamento: React.FC = () => {
                                         changedMediaQueries="tabletOn"
                                         url="/assets/14-licensing/licensing-background.png"
                                         backgroundSize="cover"
+                                    >
+                                        <Title>
+                                            Licenciamento e <br />
+                                            Renovações
+                                        </Title>
+                                    </MainContainer>
+                                </Column>
+                            </Row>
+
+                            <Row
+                                background={true}
+                                polygon={true}
+                                style={{ marginTop: '70px' }}
+                                collapse="tabletOff"
+                            >
+                                <Column
+                                    size={1}
+                                    marginLeft={2}
+                                    marginRight={2}
+                                    maxWidth={1280}
+                                >
+                                    <MainContainer
+                                        changedMediaQueries="tabletOn"
                                     >
                                         <Title>
                                             Licenciamento e <br />

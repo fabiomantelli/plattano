@@ -10,6 +10,7 @@ export const Container = styled.div`
     background-repeat: no-repeat;
     background-size: auto auto;
     background-position: center;
+    margin-bottom: 35px;
 
     h1 {
         font-size: 2.22rem;
