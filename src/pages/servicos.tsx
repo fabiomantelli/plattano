@@ -367,13 +367,11 @@ const Services: React.FC = () => {
                                     <MiniBox>
                                         <h1>Supporte</h1>
                                         <h2>
-                                            Oferecemos horas contratuais,
-                                            suporte avulso e emergencial com os
-                                            melhores especialistas.
+                                            Oferecemos horas contratuais, suporte avulso e 
+                                            emergencial com os melhores especialistas do mercado, 
+                                            todos certificados e com todos os requisitos para lhe 
+                                            atender com excelência.
                                         </h2>
-                                        <Link href="/suporte">
-                                            <a>Veja mais</a>
-                                        </Link>
                                     </MiniBox>
                                 </Column>
                             </Row>
@@ -397,9 +395,6 @@ const Services: React.FC = () => {
                                             novidades para entregarmos soluções
                                             estratégicas e de valor.
                                         </h2>
-                                        <Link href="/consultoria">
-                                            <a>Veja mais</a>
-                                        </Link>
                                     </MiniBox>
                                 </Column>
                             </Row>
@@ -416,14 +411,14 @@ const Services: React.FC = () => {
                                     paddingLeft={2}
                                 >
                                     <MiniBox>
-                                        <h1>Serviços Cloud</h1>
+                                        <h1>Serviços</h1>
                                         <div>
                                             <span
                                                 style={{ paddingRight: '1rem' }}
                                             >
                                                 BaaS
                                             </span>
-                                            <Link href="/baas">
+                                            <Link href="/produtos/baas">
                                                 <a>Veja mais</a>
                                             </Link>
                                         </div>
@@ -432,9 +427,9 @@ const Services: React.FC = () => {
                                             <span
                                                 style={{ paddingRight: '1rem' }}
                                             >
-                                                DRaaS, replicação
+                                                DRaaS
                                             </span>
-                                            <Link href="/draas">
+                                            <Link href="/produtos/draas">
                                                 <a>Veja mais</a>
                                             </Link>
                                         </div>
@@ -445,7 +440,7 @@ const Services: React.FC = () => {
                                                 Locação de Licenças
                                                 pay-as-you-go
                                             </span>
-                                            <Link href="/">
+                                            <Link href="/vcsp">
                                                 <a>Veja mais</a>
                                             </Link>
                                         </div>
@@ -453,11 +448,8 @@ const Services: React.FC = () => {
                                             <span
                                                 style={{ paddingRight: '1rem' }}
                                             >
-                                                Licenciamentos Diversos
+                                                Licenciamentos e Renovação de Software
                                             </span>
-                                            <Link href="/">
-                                                <a>Veja mais</a>
-                                            </Link>
                                         </div>
                                     </MiniBox>
                                 </Column>
