@@ -127,10 +127,6 @@ const Licenciamento: React.FC = () => {
                                             necessário, sem contar a economia de
                                             investimentos.
                                         </HexagonParagraph>
-
-                                        <ButtonElement>
-                                            Saiba Mais
-                                        </ButtonElement>
                                     </HexagonContainer>
                                 </Column>
                                 <Column
@@ -207,10 +203,6 @@ const Licenciamento: React.FC = () => {
                                             que fazem as organizações
                                             funcionarem.
                                         </HexagonParagraph>
-
-                                        <ButtonElement>
-                                            Saiba Mais
-                                        </ButtonElement>
                                     </HexagonContainer>
                                 </Column>
                             </Row>
