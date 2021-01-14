@@ -220,7 +220,7 @@ const Vmware: React.FC = () => {
                         </section>
 
                         <section>
-                            {/* <Row>
+                            <Row>
                                 <Column
                                     size={1}
                                     maxWidth={622}
@@ -229,19 +229,29 @@ const Vmware: React.FC = () => {
                                 >
                                     <HexagonContainer changedMediaQueries="mobileOn">
                                         <Trapezio />
-                                        <HexagonTitle>Edições</HexagonTitle>
+                                        <HexagonTitle>
+                                            vSphere
+                                        </HexagonTitle>
                                         <HexagonParagraph>
-                                            Lorem ipsum dolor sit amet,
-                                            consectetur adipiscing elit, sed do
-                                            eiusmod tempor incididunt ut labore
-                                            et dolore magna aliqua. Ut enim ad
-                                            minim veniam, quis nostrud
-                                            exercitation ullamco laboris nisi ut
-                                            aliquip ex ea commodo consequat.
+                                            O VMware vSphere, plataforma de virtualização líder do setor, 
+                                            permite que os usuários virtualizem aplicativos de dimensionamento 
+                                            vertical e horizontal com confiança, redefine o significado de 
+                                            disponibilidade e simplifica o data center virtual. O resultado é 
+                                            uma infraestrutura altamente disponível, resiliente e sob demanda 
+                                            que é a base ideal de qualquer ambiente de nuvem. Isso pode reduzir 
+                                            os custos do data center, aumentar o tempo de atividade do sistema 
+                                            e do aplicativo e simplificar consideravelmente a maneira que a TI 
+                                            administra o data center. O vSphere foi projetado especificamente 
+                                            para a próxima geração de aplicativos e funciona como o bloco de construção 
+                                            de base fundamental para o data center definido por software. O vSphere 
+                                            acelera a mudança de data centers existentes para a computação em nuvem, 
+                                            além de fornecer sustentação às ofertas de nuvem pública compatíveis, 
+                                            formando a base para o único modelo de nuvem híbrida do setor. Com o suporte 
+                                            de mais de 3 mil aplicativos de mais de 2 mil fornecedores de software 
+                                            independentes (ISVs, independent software vendors), o vSphere é a plataforma 
+                                            confiável para qualquer aplicativo.
                                         </HexagonParagraph>
-                                        <ButtonElement>
-                                            Saiba Mais
-                                        </ButtonElement>
+                                        
                                     </HexagonContainer>
                                 </Column>
                                 <Column
@@ -252,12 +262,12 @@ const Vmware: React.FC = () => {
                                 >
                                     <ImageContainer>
                                         <img
-                                            src="/assets/15-vmware/edition.png"
-                                            alt="Edition Image"
+                                            src="/assets/15-vmware/vmware-vsphere.png"
+                                            alt="vSphere Image"
                                         />
                                     </ImageContainer>
                                 </Column>
-                            </Row> */}
+                            </Row>
                         </section>
                     </main>
                     <Footer />
