@@ -156,18 +156,13 @@ const Parceiros: React.FC = () => {
                                 >
                                     <GeneralText>
                                         <p>
-                                            As decisões tecnológicas que você
-                                            toma hoje para seus negócios
-                                            afetarão diretamente as
-                                            oportunidades que criará para o
-                                            futuro. A escolha da Pláttano
-                                            Technologies como parceira{' '}
-                                            <b>VMware</b>, e com nosso vasto
-                                            conhecimento na área de
-                                            infraestrutura fará com que você
-                                            obtenha o máximo valor e progresso
-                                            para seus negócios por meio das
-                                            soluções <b>VMware</b>.
+                                        As decisões tecnológicas que você toma hoje 
+                                        para seus negócios afetarão diretamente as 
+                                        oportunidades que criará para o futuro. A escolha 
+                                        da <b style={{ color: '#F48200'}}>Pláttano Technologies </b> 
+                                        como parceira <b>VMware</b>, e com nosso vasto conhecimento na área de 
+                                        infraestrutura fará com que você obtenha o máximo valor e progresso 
+                                        para seus negócios por meio das soluções <b>VMware</b>.
                                         </p>
                                         <p>
                                             Somos uma empresa especializada para
@@ -199,20 +194,15 @@ const Parceiros: React.FC = () => {
                                             confiáveis
                                         </HexagonTitle>
                                         <HexagonParagraph>
-                                            A <b>VMware</b> está comprometida em
-                                            oferecer a melhor experiência de
-                                            implantação para nossos clientes.
-                                            Temos um longo nível de parceria e
-                                            você pode ter certeza de que temos
-                                            os recursos, o conhecimento, as
-                                            habilidades e as ferramentas
-                                            necessárias para fornecer os
-                                            serviços com êxito. Com a
-                                            experiência adquirida em centenas de
-                                            projetos de outros clientes,
-                                            aproveitamos nosso conhecimento
-                                            sólido para agregar o máximo valor a
-                                            partir das soluções da fabricante.
+                                            A <b>VMware </b> está comprometida em oferecer a melhor 
+                                            experiência de uso para nossos clientes. Temos um 
+                                            elevado nível de parceria e você pode ter certeza 
+                                            de que temos os recursos, o conhecimento, as 
+                                            habilidades e as ferramentas necessárias para 
+                                            fornecer os serviços com êxito. Com a experiência 
+                                            adquirida em centenas de projetos, aproveitamos 
+                                            nosso conhecimento sólido para agregar o máximo 
+                                            valor a partir das soluções da fabricante.
                                         </HexagonParagraph>
                                     </HexagonContainer>
                                 </Column>
@@ -280,37 +270,30 @@ const Parceiros: React.FC = () => {
                                                     Veeam®
                                                 </b>
                                             </Link>{' '}
-                                            como parceira em soluções de
-                                            proteção de dados porquê ela é a
-                                            líder no segmento, e nada melhor do
-                                            que entregar aos nossos clientes o
-                                            que há de melhor. A Veeam oferece
-                                            uma plataforma única para modernizar
-                                            o backup, acelerar a nuvem híbrida e
-                                            proteger seus dados. Suas soluções
-                                            são simples de instalar e executar,
-                                            flexíveis o bastante para se adequar
-                                            a qualquer ambiente e sempre
-                                            confiáveis. <br /><br />
-                                            Temos como meta junto à
-                                            fabricante, ser o provedor mais
-                                            confiável de soluções de backup que
-                                            proporcionam gerenciamento de dados
-                                            na nuvem.
+                                            como parceira em soluções de proteção 
+                                            de dados porquê ela é a líder no segmento,  
+                                            e nada melhor do que entregar aos nossos 
+                                            clientes o que há de melhor. A Veeam oferece 
+                                            uma plataforma única para modernizar o backup, 
+                                            acelerar a nuvem híbrida e proteger seus dados. 
+                                            Suas soluções são simples de instalar e executar, 
+                                            flexíveis o bastante para se adequar a qualquer 
+                                            ambiente e sempre confiáveis. <br /><br />
+                                            Temos como meta junto à fabricante, ser o provedor 
+                                            mais confiável de soluções de backup que proporcionam 
+                                            gerenciamento de dados na nuvem.
+
                                         </p>
                                         <p>
-                                            Somos parceiros oficiais, podendo
-                                            auxiliar tanto nas etapas iniciais
-                                            que visam entregar o melhor
-                                            licenciamento para você, até nas
-                                            fases de implantação, apoio técnico
-                                            e gestão de sua infraestrutura. Além
-                                            disso, a Pláttano Technologies é um
-                                            dos principais parceiros cloud,
-                                            atuando no seleto programa
-                                            <b> VCSP</b>, o que nos credencia
-                                            para ofertar soluções de Backup em
-                                            Cloud (
+                                        Somos parceiros oficiais, podendo auxiliar 
+                                        tanto nas etapas iniciais que visam entregar 
+                                        o melhor licenciamento para você, até nas 
+                                        fases de implantação, apoio técnico e gestão 
+                                        de sua infraestrutura. Além disso, a Pláttano 
+                                        Technologies é um dos principais parceiros cloud, 
+                                        atuando no seleto programa <b>VCSP </b> e <b>VASP</b>, 
+                                        o que nos credencia para ofertar soluções de Backup 
+                                        em Cloud (
                                             <Link href="/baas">
                                                 <b
                                                     style={{
