@@ -154,22 +154,20 @@ const Sobre: React.FC = () => {
                                                     BaaS
                                                 </b>
                                             </Link>
-                                            <b>)</b> . Nossa equipe é
-                                            certificada nas versões atuais da
-                                            ferramenta, e treinada para
-                                            gerenciar ambientes internos e em
-                                            nuvem.
+                                            <b>)</b> . Nossa equipe é certificada 
+                                            nas versões atuais da ferramenta, e 
+                                            treinada para gerenciar ambientes 
+                                            internos e em nuvem.
+
                                         </HexagonParagraph>
                                         <HexagonParagraph>
-                                            Vamos ser objetivos? Quem quer
-                                            construir e manter um site
-                                            secundário, quando se pode enviar
-                                            seus backups para um ambiente
-                                            externo num provedor de serviços
-                                            confiável. Deixe que os
-                                            especialistas e engenheiros Veeam da{' '}
-                                            <b>Pláttano</b> o construam e o
-                                            gerenciem.
+                                            Vamos ser objetivos? Quem quer construir 
+                                            e manter um site secundário, quando se pode 
+                                            enviar seus backups para um ambiente externo 
+                                            num provedor de serviços confiável. Deixe 
+                                            que os especialistas e engenheiros Veeam da 
+                                            {' '}<b>Pláttano</b> o construam e o gerenciem.
+
                                         </HexagonParagraph>
                                         <Link href="/produtos/baas">
                                             <ButtonElement>
@@ -232,13 +230,13 @@ const Sobre: React.FC = () => {
                                                     DRaaS
                                                 </b>
                                             </Link>{' '}
-                                            da Pláttano Technologies com a
-                                            tecnologia da Veeam integra seu
-                                            ambiente local como uma extensão da
-                                            infraestrutura de nuvem, fornecendo
-                                            recursos de replicação e failover
-                                            seguros e robustos para a
-                                            recuperação de desastres.
+                                            da Pláttano Technologies com a 
+                                            tecnologia da Veeam integra seu 
+                                            ambiente local como uma extensão 
+                                            da infraestrutura de nuvem, fornecendo 
+                                            recursos de replicação e failover seguros 
+                                            e robustos para a recuperação de desastres 
+                                            em instantes.
                                         </HexagonParagraph>
 
                                         <Link href="/produtos/draas">
@@ -269,12 +267,12 @@ const Sobre: React.FC = () => {
                                             <b>OpEx</b> em soluções de backup
                                             conosco. Entregamos as licenças
                                             Veeam para você e sua empresa no
-                                            formato rental ou aluguel mensal,
+                                            formato <i>rental</i> ou aluguel mensal,
                                             onde você paga pelo consumo mensal
                                             no modelo <b>pay-as-you go</b>. Você
                                             ainda escolhe se deseja terceirizar
                                             a gestão ou fazê-la de forma
-                                            compartilhada
+                                            compartilhada.
                                         </HexagonParagraph>
 
                                         <Link href="/">
