@@ -223,7 +223,11 @@ const Baas: React.FC = () => {
                                             BaaS - Backup como Serviço
                                         </HexagonTitle>
                                         <HexagonParagraph>
-                                            Como parceira Veeam Cloud, podemos
+                                            Como parceira{' '}
+                                            <span style={{ color: '#F48200' }}>
+                                                <b>Veeam Cloud</b>
+                                            </span>
+                                            , podemos
                                             oferecer com toda a segurança e
                                             confiabilidade, serviços de proteção
                                             de dados em nuvem. Nossa equipe é
@@ -243,8 +247,8 @@ const Baas: React.FC = () => {
                                             seus backups e réplicas para um
                                             ambiente externo num provedor de
                                             serviços confiável. Deixe que os
-                                            especialistas e engenheiros Veeam da
-                                            Pláttano o construam e o gerenciem.
+                                            especialistas e engenheiros da
+                                            <b> Pláttano</b> o construam e o gerenciem.
                                         </HexagonParagraph>
                                         <HexagonParagraph>
                                             Não importa onde seus dados estejam
@@ -269,7 +273,7 @@ const Baas: React.FC = () => {
                                             se manter e difícil de manipular.
                                             Venha para o novo conceito de
                                             proteção de dados. Venha para a
-                                            Plattano Cloud.
+                                            <b> Plattano Cloud</b>.
                                         </HexagonParagraph>
                                     </BoxDefaultContainer>
                                 </Column>
@@ -306,7 +310,7 @@ const Baas: React.FC = () => {
                                         </HexagonParagraph>
                                         <HexagonParagraph>
                                             A <b>Pláttano</b> juntamente com a
-                                            <b>Veeam</b> oferece expertise em
+                                            <b> Veeam</b> oferece expertise em
                                             backup como serviço, também
                                             conhecida pela sigla BaaS.
                                         </HexagonParagraph>
