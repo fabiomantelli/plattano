@@ -151,21 +151,19 @@ const Home: React.FC = () => {
                                 >
                                     <BoxDefaultContainer>
                                         <MiniOrangeTitle>
-                                            Parceiro Licenciado
+                                            Parceiro Licenciado Veeam, VMware e Zadara
                                         </MiniOrangeTitle>
                                         <HexagonTitle>
                                             Equipe Especializada
                                         </HexagonTitle>
                                         <HexagonParagraph>
-                                            Com nossos níveis avançados de
-                                            parceria com os grandes players do
-                                            mercado em nossa área, somos capazes
-                                            de proporcionar entrega de projetos
-                                            com valor agregado e qualidade
-                                            extrema para nossos clientes,
-                                            fazendo com que seu retorno de
-                                            investimento seja o mais adequado e
-                                            rápido.
+                                            Com nossos níveis avançados de parceria 
+                                            com os grandes players do mercado em nossa 
+                                            área de Virtualização e Backup, somos capazes 
+                                            de proporcionar entrega de projetos com valor 
+                                            agregado e qualidade extrema para nossos clientes, 
+                                            fazendo com que seu retorno de investimento seja o 
+                                            mais adequado e rápido.
                                         </HexagonParagraph>
                                         <Link href="/parceiros">
                                             <ButtonElement>
@@ -188,22 +186,21 @@ const Home: React.FC = () => {
                                 >
                                     <BoxDefaultContainer>
                                         <MiniOrangeTitle>
-                                            Respiramos VMware
+                                            Respiramos VMware e Veeam
                                         </MiniOrangeTitle>
                                         <HexagonTitle>
                                             Data center definido por software
                                             always-ON
                                         </HexagonTitle>
                                         <HexagonParagraph>
-                                            Com as soluções VMware e Veeam, as
-                                            organizações criam experiências
-                                            excepcionais ao mobilizar tudo,
-                                            reagir a oportunidades mais
-                                            rapidamente com dados e aplicativos
-                                            modernos hospedados em nuvens
-                                            híbridas, públicas e privadas.
-                                            Simplifique a TI, concentrando
-                                            recursos em inovação ao invés de
+                                        Com as soluções da <strong>VMware</strong> e <strong>Veeam</strong>, as 
+                                        organizações criam experiências excepcionais 
+                                        ao mobilizar tudo, reagir a oportunidades mais 
+                                        rapidamente com dados e aplicativos modernos 
+                                        hospedados em nuvens híbridas, públicas e 
+                                        privadas e com toda a segurança e proteção 
+                                        desejada. Simplifique a TI, concentrando 
+                                        recursos em inovação ao invés de manutenção.
                                             manutenção.
                                         </HexagonParagraph>
                                     </BoxDefaultContainer>

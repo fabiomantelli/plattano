@@ -8,12 +8,12 @@ const Reference: React.FC = () => {
         <ItemsIndexContainer>
             <h1>
                 Referência Nacional <br />
-                em BaaS e DRaas
+                em BaaS
             </h1>
             <h2>
-                A terceirização do backup e DR se tornou uma tendência. Já é
-                comum as empresas utilizarem essa tecnologia para proteção de
-                datacenters.
+            O  uso da nuvem para backup Off-Site se tornou uma 
+            tendência mundial. Já é comum as empresas utilizarem 
+            essa tecnologia para proteção de datacentes.
             </h2>
             <div>
                 <Link href="/produtos/baas">
