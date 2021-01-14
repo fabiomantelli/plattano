@@ -227,10 +227,17 @@ const Hiperconvergencia: React.FC = () => {
                                             Por que não o Storage?
                                         </HexagonTitle>
                                         <HexagonParagraph>
-                                            Infraestruturas definidas por
-                                            software ou hiperconvergentes trazem
-                                            a possibilidade da automação e a
-                                            nuvem híbrida.
+                                            Infraestruturas definidas por software ou hiperconvergentes 
+                                            trazem a possibilidade da automação e a nuvem hibrida. O vSAN 
+                                            é um software de virtualização de armazenamento de nível 
+                                            corporativo que, combinado com o vSphere, permite gerenciar o 
+                                            processamento e o armazenamento em uma única plataforma. Com o vSAN, 
+                                            é possível reduzir o custo e a complexidade do armazenamento 
+                                            tradicional e escolher o caminho mais fácil para a infraestrutura 
+                                            hiperconvergente e a nuvem híbrida. Evolua para uma solução 
+                                            integrada de infraestrutura hiperconvergente com o vSAN para 
+                                            melhorar a agilidade comercial, acelerar as operações e reduzir 
+                                            os custos.
                                         </HexagonParagraph>
                                     </HexagonContainer>
                                 </Column>
@@ -428,11 +435,11 @@ const Hiperconvergencia: React.FC = () => {
                                 >
                                     <HexagonContainer changedMediaQueries="mobileOn">
                                         <p>
-                                            Em ambientes HCI com vSAN, você pode
-                                            dimensionar sua infraestrutura de
-                                            forma elástica e sem interrupções,
-                                            aproveitando os servidores x86 para
-                                            armazenamento.
+                                            Em ambientes HCI com vSAN, você pode dimensionar 
+                                            sua infraestrutura de forma elástica e sem interrupções, 
+                                            aproveitando os servidores x86 para armazenamento além 
+                                            de simplificar a gestão de seu parque e diminuir o espaço 
+                                            físico em seu Datacenter.
                                         </p>
                                     </HexagonContainer>
                                 </Column>
@@ -599,23 +606,22 @@ const Hiperconvergencia: React.FC = () => {
                                         height="auto"
                                     >
                                         <HexagonParagraph>
-                                            O vSAN é um software de
-                                            virtualização de armazenamento de
-                                            nível corporativo que, combinado com
-                                            o vSphere, permite gerenciar o
-                                            processamento e o armazenamento em
-                                            uma única plataforma. Com o vSAN, é
-                                            possível reduzir o custo e a
-                                            complexidade do armazenamento
-                                            tradicional e escolher o caminho
-                                            mais fácil para a infraestrutura
-                                            hiperconvergente e a nuvem híbrida.
-                                            Evolua para uma solução integrada de
-                                            infraestrutura hiperconvergente
-                                            (HCI, pela sigla em inglês) com o
-                                            vSAN a fim de melhorar a agilidade
-                                            comercial, acelerar as operações e
-                                            reduzir os custos.
+                                            Para entender de maneira rápida o que é a 
+                                            tecnologia VMware vSAN  (Virtual SAN) e 
+                                            como funciona, a fabricante afirma oficialmente: 
+                                            “O WMware vSAN é uma solução de armazenamento 
+                                            compartilhada simples e de nível corporativo para 
+                                            uma infraestrutura hiperconvergente, otimizada 
+                                            para desempenho de tudo em flash”.
+                                        </HexagonParagraph>
+                                        <HexagonParagraph>
+                                            Explicando esse conceito, é uma tecnologia que 
+                                            utiliza os discos locais dos servidores Vsphere 
+                                            ESXI para armazenar as VMs com bastante performance, 
+                                            eliminando assim a necessidade de adquirir Storages 
+                                            caros, você terá uma redução de até 50% do TCO 
+                                            (Custo Total de Propriedade) comparado com soluções 
+                                            atuais de armazenamento.
                                         </HexagonParagraph>
                                     </HexagonContainer>
                                 </Column>
