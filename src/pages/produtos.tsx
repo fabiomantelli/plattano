@@ -353,18 +353,13 @@ const Sobre: React.FC = () => {
                                         <HexagonTitle>Veeam</HexagonTitle>
                                         <h2>Proteção é nosso objetivo</h2>
                                         <HexagonParagraph>
-                                            Nossa expertise vai além do
-                                            licenciamento e auxílio em
-                                            renovações de suporte. Somos uma
-                                            empresa referência junto à Veeam
-                                            Software e sua equipe mundial, e
-                                            nosso corpo técnico é capaz de
-                                            entregar com excelência projetos de
-                                            todos os portes, com acompanhamento
-                                            em todas as etapas, desde a
-                                            aquisição do melhor produto até a
-                                            implementação e gestão em seu
-                                            ambiente.
+                                            Nossa expertise vai além do licenciamento e auxílio em 
+                                            renovações de suporte. Somos uma empresa <strong>referência </strong> 
+                                            junto à Veeam Software, e nosso corpo técnico é capaz de entregar 
+                                            com excelência projetos de todos os portes, com acompanhamento em 
+                                            todas as etapas, desde a aquisição do melhor produto até a implementação 
+                                            e gestão em seu ambiente. Somos parceiros nivel GOLD, VCSP 
+                                            e <strong>VASP</strong>.
                                         </HexagonParagraph>
 
                                         <Link href="/veeam">
