@@ -116,17 +116,13 @@ const Home: React.FC = () => {
                                             Tenha acesso às melhores e mais
                                             modernas soluções de virtualização,
                                             hiperconvergência, proteção de
-                                            dados, e-hiperdisponibilidade de
+                                            dados, e hiperdisponibilidade de
                                             Datacenters com as tecnologias da
                                             Veeam e VMware. Tudo em um único
                                             local com a equipe da Pláttano
                                             Technologies, parceira oficial no
                                             Brasil.
                                         </MainSubTitle>
-
-                                        <Link href="/hiperconvergencia">
-                                            <MainButton>Saiba Mais</MainButton>
-                                        </Link>
                                     </ModernityContainer>
                                 </Column>
                             </Row>
@@ -171,9 +167,12 @@ const Home: React.FC = () => {
                                             investimento seja o mais adequado e
                                             rápido.
                                         </HexagonParagraph>
-                                        <ButtonElement>
-                                            Saiba Mais
-                                        </ButtonElement>
+                                        <Link href="/parceiros">
+                                            <ButtonElement>
+                                                Saiba Mais
+                                            </ButtonElement>
+                                        </Link>
+                                        
                                     </BoxDefaultContainer>
                                 </Column>
                             </Row>
@@ -203,13 +202,10 @@ const Home: React.FC = () => {
                                             rapidamente com dados e aplicativos
                                             modernos hospedados em nuvens
                                             híbridas, públicas e privadas.
-                                            Simplifuqe a TI, concentrando
+                                            Simplifique a TI, concentrando
                                             recursos em inovação ao invés de
                                             manutenção.
                                         </HexagonParagraph>
-                                        <ButtonElement>
-                                            Saiba Mais
-                                        </ButtonElement>
                                     </BoxDefaultContainer>
                                 </Column>
                                 <Column
@@ -457,7 +453,9 @@ const Home: React.FC = () => {
                                             empresas utilizem a tecnologia a
                                             favor de seus objetivos.
                                         </HexagonParagraph>
-                                        <ButtonElement>Leia Mais</ButtonElement>
+                                        <Link href="/sobre">
+                                            <ButtonElement>Leia Mais</ButtonElement>
+                                        </Link>
                                     </BoxDefaultContainer>
                                 </Column>
                             </Row>

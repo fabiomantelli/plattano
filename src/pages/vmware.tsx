@@ -220,7 +220,7 @@ const Vmware: React.FC = () => {
                         </section>
 
                         <section>
-                            <Row>
+                            {/* <Row>
                                 <Column
                                     size={1}
                                     maxWidth={622}
@@ -257,7 +257,7 @@ const Vmware: React.FC = () => {
                                         />
                                     </ImageContainer>
                                 </Column>
-                            </Row>
+                            </Row> */}
                         </section>
                     </main>
                     <Footer />

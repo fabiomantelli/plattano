@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import { ItemsIndexContainer } from '../../../styles/Containers'
+import { ButtonElement } from '../../../styles/Buttons'
 
 const Services: React.FC = () => {
     return (
@@ -15,13 +16,8 @@ const Services: React.FC = () => {
                 capacitação de equipes.
             </h2>
             <div>
-                <span>Leia mais</span>
-                <Link href="/">
-                    <img
-                        src="/assets/1-index/arrow-icon.png"
-                        alt="Arrow Icon"
-                        style={{ marginLeft: '15px', cursor: 'pointer' }}
-                    />
+                <Link href="/consultoria">
+                    <ButtonElement>Leia Mais</ButtonElement>
                 </Link>
             </div>
         </ItemsIndexContainer>

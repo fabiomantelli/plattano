@@ -107,8 +107,8 @@ const Sobre: React.FC = () => {
                                             auxiliamos nossos clientes na busca
                                             pela excelência e segurança de suas
                                             informações e disponibilidade. Com a
-                                            ajuda das fabricantes, a Pláttano
-                                            Technologies disponibiliza o que há
+                                            ajuda das fabricantes, a <strong>Pláttano
+                                            Technologies</strong> disponibiliza o que há
                                             de melhor
                                         </SubTitle>
                                     </MainContainer>
@@ -264,10 +264,6 @@ const Sobre: React.FC = () => {
                                         <HexagonTitle>
                                             Intelligent Backup On-Promise
                                         </HexagonTitle>
-                                        <h2>
-                                            Faça seus backups Veeam localmente
-                                            ou em cloud.
-                                        </h2>
                                         <HexagonParagraph>
                                             Troque o <b>CapEx</b> pelo{' '}
                                             <b>OpEx</b> em soluções de backup

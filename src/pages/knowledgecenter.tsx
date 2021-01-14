@@ -27,7 +27,6 @@ import { ButtonElement } from '../styles/Buttons'
 import News from '../components/News'
 import Email from '../components/Email'
 import Footer from '../components/Footer'
-import Link from 'next/link'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
@@ -105,16 +104,16 @@ const Knowledgecenter: React.FC = () => {
                                             Knowledge <br /> Center
                                         </Title>
                                         <SubTitle changedMediaQueries="tabletOn">
-                                            “O desejo profundo da humanidade
+                                            <i>“O desejo profundo da humanidade
                                             pelo conhecimento é justificativa
                                             suficiente para nossa busca
-                                            contínua.” <b>STEPHEN HAWKING </b>
+                                            contínua.”</i> <b> STEPHEN HAWKING</b>
                                         </SubTitle>
                                         <SubTitle
                                             changedMediaQueries="tabletOn"
                                             style={{ marginTop: '2rem' }}
                                         >
-                                            Acompanhe a Pláttano em nosso blog
+                                            Acompanhe a <strong>Pláttano</strong> em nosso blog
                                             oficial e tenha também acesso
                                             exclusivo aos nossos materiais
                                             exclusivos

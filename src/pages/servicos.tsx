@@ -166,9 +166,11 @@ const Services: React.FC = () => {
                                             out-sourcing, Gestão Compartilhada e
                                             Treinamentos.
                                         </HexagonParagraph>
-                                        <ButtonElement>
-                                            Saiba Mais
-                                        </ButtonElement>
+                                        <Link href="/consultoria">
+                                            <ButtonElement>
+                                                Saiba Mais
+                                            </ButtonElement>
+                                        </Link>
                                     </HexagonContainer>
                                 </Column>
                             </Row>
@@ -280,15 +282,12 @@ const Services: React.FC = () => {
                                     maxWidth={402.67}
                                 >
                                     <MiniBox>
-                                        <h1>Supporte</h1>
+                                        <h1>Suporte</h1>
                                         <h2>
                                             Oferecemos horas contratuais,
                                             suporte avulso e emergencial com os
                                             melhores especialistas do mercado.
                                         </h2>
-                                        <Link href="/suporte">
-                                            <a>Veja mais</a>
-                                        </Link>
                                     </MiniBox>
                                 </Column>
 
@@ -306,9 +305,6 @@ const Services: React.FC = () => {
                                             novidades para entregarmos soluções
                                             estratégicas e de valor.
                                         </h2>
-                                        <Link href="/consultoria">
-                                            <a>Veja mais</a>
-                                        </Link>
                                     </MiniBox>
                                 </Column>
                                 <Column
@@ -326,7 +322,7 @@ const Services: React.FC = () => {
                                             >
                                                 BaaS
                                             </span>
-                                            <Link href="/baas">
+                                            <Link href="/produtos/baas">
                                                 <a>Veja mais</a>
                                             </Link>
                                         </div>
@@ -337,7 +333,7 @@ const Services: React.FC = () => {
                                             >
                                                 DRaaS, replicação
                                             </span>
-                                            <Link href="/draas">
+                                            <Link href="/produtos/draas">
                                                 <a>Veja mais</a>
                                             </Link>
                                         </div>
@@ -348,7 +344,7 @@ const Services: React.FC = () => {
                                                 Locação de Licenças
                                                 pay-as-you-go
                                             </span>
-                                            <Link href="/">
+                                            <Link href="/vcsp">
                                                 <a>Veja mais</a>
                                             </Link>
                                         </div>
@@ -358,9 +354,6 @@ const Services: React.FC = () => {
                                             >
                                                 Licenciamentos Diversos
                                             </span>
-                                            <Link href="/">
-                                                <a>Veja mais</a>
-                                            </Link>
                                         </div>
                                     </MiniBox>
                                 </Column>
