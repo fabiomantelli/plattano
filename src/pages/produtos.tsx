@@ -275,7 +275,7 @@ const Sobre: React.FC = () => {
                                             compartilhada.
                                         </HexagonParagraph>
 
-                                        <Link href="/">
+                                        <Link href="/vcsp">
                                             <ButtonElement>
                                                 Saiba Mais
                                             </ButtonElement>

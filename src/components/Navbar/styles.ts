@@ -23,11 +23,12 @@ export const Container = styled.div`
         display: flex;
         flex-direction: column;
         height: calc(100vh - 70px);
-        justify-content: space-evenly;
         align-items: flex-start;
         padding-left: 30px;
-
+        padding-top: 40px;
+        
         a {
+            padding-bottom: 6vh;
             font-size: 1.2rem;
             color: ${props => props.theme.colors.background};
             border-top: 2px solid rgba(255, 255, 255, 0.1);

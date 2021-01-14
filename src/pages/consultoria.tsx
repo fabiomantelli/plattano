@@ -74,7 +74,7 @@ const Consultoria: React.FC = () => {
                     <main>
                         <section>
                             <Row
-                                background={true}
+                                // background={true}
                                 polygon={true}
                                 style={{ marginTop: '70px' }}
                             >

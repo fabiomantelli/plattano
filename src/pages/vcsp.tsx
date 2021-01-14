@@ -84,7 +84,7 @@ const Suporte: React.FC = () => {
                     <main>
                         <section>
                             <Row
-                                background={true}
+                                // background={true}
                                 polygon={true}
                                 style={{ marginTop: '70px' }}
                             >
@@ -99,8 +99,8 @@ const Suporte: React.FC = () => {
                                         url="/assets/11-support/support-background.png"
                                         backgroundSize="cover"
                                     >
-                                        <Title>
-                                            Licensiamento como <br />
+                                        <Title style={{ fontSize: '3.5rem'}}>
+                                            Licenciamento como <br />
                                             Assinatura
                                         </Title>
                                     </MainContainer>

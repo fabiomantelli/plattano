@@ -13,7 +13,6 @@ import {
     MainContainer
 } from '../styles/Containers'
 import { HexagonParagraph, HexagonTitle, Title } from '../styles/TextElements'
-import { ButtonElement } from '../styles/Buttons'
 
 import Trapezio from '../assets/trapezio'
 import Footer from '../components/Footer'
@@ -72,7 +71,7 @@ const Licenciamento: React.FC = () => {
                     <main>
                         <section>
                             <Row
-                                background={true}
+                                // background={true}
                                 polygon={true}
                                 style={{ marginTop: '70px' }}
                             >

@@ -28,7 +28,7 @@ const Row = styled.div<{
     margin-bottom: ${props => props.marginBottom}rem;
     clip-path: ${props =>
         props.polygon === true
-            ? 'polygon(100% 0, 0 0, 0 100%, 100% 85%, 100% 100%);'
+            ? 'polygon(100% 0, 0 0, 0 100%, 100% 75%, 100% 100%);'
             : 'none'};
 `
 

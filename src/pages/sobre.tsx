@@ -99,7 +99,7 @@ const Sobre: React.FC = () => {
                                     <MainContainer
                                         changedMediaQueries="tabletOn"
                                         url="/assets/2-about/aboutus.png"
-                                        backgroundSize="50%"
+                                        backgroundSize="55%"
                                     >
                                         <Title>Sobre Nós</Title>
                                         <SubTitle changedMediaQueries="tabletOn">
@@ -117,6 +117,7 @@ const Sobre: React.FC = () => {
                                 background={true}
                                 collapse="tabletOff"
                                 polygon={true}
+                                style={{ marginTop: '70px' }}
                             >
                                 <Column size={1} marginLeft={2} marginRight={2}>
                                     <MainContainer changedMediaQueries="tabletOn">
