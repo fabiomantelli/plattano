@@ -168,23 +168,25 @@ const Veeam: React.FC = () => {
                                     <HexagonContainer changedMediaQueries="mobileOn">
                                         <Trapezio />
                                         <HexagonTitle>
-                                            Veeam Backup Essentials
+                                            Veeam Backup &amp; Replication
                                         </HexagonTitle>
                                         <HexagonParagraph>
-                                            A melhor solução de backup e
-                                            recuperação para pequenas empresas.
-                                            Oferece a experiência de
-                                            gerenciamento unificado com
-                                            monitoramento e geração de
-                                            relatórios. <br /> <br />
-                                            Proteja e monitore suas
-                                            cargas de trabalho físicas, virtuais
-                                            e na nuvem, com baixa sobrecarga
-                                            operacional.
+                                            O Veeam&reg; Backup &amp;
+                                            Replication&trade; oferece
+                                            disponibilidade para TODAS as suas
+                                            cargas de trabalho em nuvem,
+                                            virtuais e físicas. Com um console
+                                            de gerenciamento simples, é possível
+                                            obter facilmente backup, recuperação
+                                            e replicação rápidos, flexíveis e
+                                            confiáveis para todas as suas
+                                            aplicações e dados.
                                         </HexagonParagraph>
-                                        <ButtonElement>
-                                            Saiba Mais
-                                        </ButtonElement>
+                                        <Link href="/vbr">
+                                            <ButtonElement>
+                                                Saiba Mais
+                                            </ButtonElement>
+                                        </Link>
                                     </HexagonContainer>
                                 </Column>
                                 <Column
@@ -195,8 +197,8 @@ const Veeam: React.FC = () => {
                                 >
                                     <ImageContainer>
                                         <img
-                                            src="/assets/16-veeam/veeambackup.png"
-                                            alt="Veeam Backup Image"
+                                            src="/assets/16-veeam/veeamreplication.png"
+                                            alt="Veeam Replication Image"
                                         />
                                     </ImageContainer>
                                 </Column>
@@ -245,9 +247,6 @@ const Veeam: React.FC = () => {
                                             foque menos em backups e mais em
                                             impulsionar seu negócio.
                                         </HexagonParagraph>
-                                        <ButtonElement>
-                                            Saiba Mais
-                                        </ButtonElement>
                                     </HexagonContainer>
                                 </Column>
                             </Row>
@@ -264,25 +263,20 @@ const Veeam: React.FC = () => {
                                     <HexagonContainer changedMediaQueries="mobileOn">
                                         <Trapezio />
                                         <HexagonTitle>
-                                            Veeam Backup &amp; Replication
+                                            Veeam Backup Essentials
                                         </HexagonTitle>
                                         <HexagonParagraph>
-                                            O Veeam&reg; Backup &amp;
-                                            Replication&trade; oferece
-                                            disponibilidade para TODAS as suas
-                                            cargas de trabalho em nuvem,
-                                            virtuais e físicas. Com um console
-                                            de gerenciamento simples, é possível
-                                            obter facilmente backup, recuperação
-                                            e replicação rápidos, flexíveis e
-                                            confiáveis para todas as suas
-                                            aplicações e dados.
+                                            A melhor solução de backup e
+                                            recuperação para pequenas empresas.
+                                            Oferece a experiência de
+                                            gerenciamento unificado com
+                                            monitoramento e geração de
+                                            relatórios. <br /> <br />
+                                            Proteja e monitore suas
+                                            cargas de trabalho físicas, virtuais
+                                            e na nuvem, com baixa sobrecarga
+                                            operacional.
                                         </HexagonParagraph>
-                                        <Link href="/vbr">
-                                            <ButtonElement>
-                                                Saiba Mais
-                                            </ButtonElement>
-                                        </Link>
                                     </HexagonContainer>
                                 </Column>
                                 <Column
@@ -293,8 +287,8 @@ const Veeam: React.FC = () => {
                                 >
                                     <ImageContainer>
                                         <img
-                                            src="/assets/16-veeam/veeamreplication.png"
-                                            alt="Veeam Replication Image"
+                                            src="/assets/16-veeam/veeambackup.png"
+                                            alt="Veeam Backup Image"
                                         />
                                     </ImageContainer>
                                 </Column>
@@ -320,6 +314,7 @@ const Veeam: React.FC = () => {
                                 </Column>
                             </Row>
                         </section>
+                        
                     </main>
                     <Footer />
                 </Grid>
