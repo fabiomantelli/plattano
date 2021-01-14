@@ -148,23 +148,17 @@ const Services: React.FC = () => {
                                             Professional Services
                                         </HexagonTitle>
                                         <HexagonParagraph>
-                                            Temos como meta, auxiliar nossos
-                                            clientes, integrando soluções de
-                                            nossos parceiros com serviços
-                                            especializados, superando os
-                                            desafios e obter melhores resultados
-                                            para os negócios. Nossa metodologia
-                                            de trabalho é usar das melhores
-                                            práticas criadas pelas fabricantes,
-                                            garantindo maior qualidade e
-                                            eficiência na entrega das soluções.
+                                            Temos como meta, auxiliar nossos clientes integrando soluções 
+                                            de nossos parceiros com serviços especializados, superando os 
+                                            desafios e obter melhores resultados para os negócios. Nossa 
+                                            metodologia de trabalho é usar das melhores práticas criadas 
+                                            pelas fabricantes, garantindo maior qualidade e eficiência na 
+                                            entrega das soluções. 
                                         </HexagonParagraph>
                                         <HexagonParagraph>
-                                            Trabalhamos com: Análise e
-                                            Planejamento, Implantação,
-                                            Gerenciamento de Ambientes, Full
-                                            out-sourcing, Gestão Compartilhada e
-                                            Treinamentos.
+                                            Trabalhamos com: Análise e Planejamento, Implantação, 
+                                            Gerenciamento de Ambientes, Full out-sourcing, Gestão 
+                                            Compartilhada, Treinamentos.
                                         </HexagonParagraph>
                                         <Link href="/consultoria">
                                             <ButtonElement>
@@ -284,9 +278,10 @@ const Services: React.FC = () => {
                                     <MiniBox>
                                         <h1>Suporte</h1>
                                         <h2>
-                                            Oferecemos horas contratuais,
-                                            suporte avulso e emergencial com os
-                                            melhores especialistas do mercado.
+                                            Oferecemos horas contratuais, suporte avulso e 
+                                            emergencial com os melhores especialistas do mercado, 
+                                            todos certificados e com todos os requisitos para lhe 
+                                            atender com excelência.
                                         </h2>
                                     </MiniBox>
                                 </Column>
@@ -300,10 +295,9 @@ const Services: React.FC = () => {
                                     <MiniBox>
                                         <h1>Consultoria</h1>
                                         <h2>
-                                            Nosso time de engenheiros de pré e
-                                            pós vendas se especializam com as
-                                            novidades para entregarmos soluções
-                                            estratégicas e de valor.
+                                            Nosso time de engenheiros  de pré e pós vendas 
+                                            se especializam com as novidades  para entregarmos 
+                                            soluções estratégicas e de valor. 
                                         </h2>
                                     </MiniBox>
                                 </Column>
@@ -315,7 +309,7 @@ const Services: React.FC = () => {
                                     maxWidth={402.67}
                                 >
                                     <MiniBox>
-                                        <h1>Serviços Cloud</h1>
+                                        <h1>Serviços</h1>
                                         <div>
                                             <span
                                                 style={{ paddingRight: '1rem' }}
@@ -331,7 +325,7 @@ const Services: React.FC = () => {
                                             <span
                                                 style={{ paddingRight: '1rem' }}
                                             >
-                                                DRaaS, replicação
+                                                DRaaS
                                             </span>
                                             <Link href="/produtos/draas">
                                                 <a>Veja mais</a>
@@ -352,7 +346,7 @@ const Services: React.FC = () => {
                                             <span
                                                 style={{ paddingRight: '1rem' }}
                                             >
-                                                Licenciamentos Diversos
+                                                Licenciamentos e Renovação de Software
                                             </span>
                                         </div>
                                     </MiniBox>
