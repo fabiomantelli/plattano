@@ -1,20 +1,23 @@
-import React from 'react'
-
-import { Container } from './styles'
+import React, { useEffect } from 'react'
 
 const Email: React.FC = () => {
-    return (
-        <Container>
-            <label>
-                <input
-                    type="email"
-                    name="email"
-                    placeholder="Digite seu E-mail"
-                />
-            </label>
 
-            <button>Cadastrar</button>
-        </Container>
+    useEffect(() => {
+        if (window.RDStationForms) {
+            new window.RDStationForms(
+                'email-6ba5ba65524d58557361',
+                'UA-116458599-1'
+            ).createForm()
+
+            console.log(`teste`)
+        }
+    }, [])
+
+    return (
+        <div
+            role="main"
+            id="email-6ba5ba65524d58557361"
+        ></div>
     )
 }
 

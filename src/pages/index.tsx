@@ -35,6 +35,7 @@ import { ButtonElement, MainButton } from '../styles/Buttons'
 import Consulting from '../components/1-indexPage/Consulting'
 
 import Whatsapp from '../components/Whatsapp'
+import Email from '../components/Email'
 
 declare global {
     interface Window {
@@ -45,13 +46,6 @@ declare global {
 const Home: React.FC = () => {
     const [active, SetActive] = useState('initial')
     const [mobile, SetMobile] = useState(false)
-
-    useEffect(() => {
-        new window.RDStationForms(
-            'email-6ba5ba65524d58557361',
-            'UA-116458599-1'
-        ).createForm()
-    }, [active])
 
     const openHandler = () => {
         if (active === 'active') {
@@ -74,10 +68,6 @@ const Home: React.FC = () => {
                     name="viewport"
                     content="initial-scale=1.0, width=device-width"
                 />
-                <script
-                    type="text/javascript"
-                    src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js"
-                ></script>
             </Head>
 
             <ScrollLock isActive={mobile}>
@@ -248,10 +238,7 @@ const Home: React.FC = () => {
                                         marginRight={2}
                                         marginLeft={2}
                                     >
-                                        <div
-                                            role="main"
-                                            id="email-6ba5ba65524d58557361"
-                                        ></div>
+                                        <Email />
                                     </Column>
                                 </Row>
                             </div>

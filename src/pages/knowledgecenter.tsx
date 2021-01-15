@@ -146,26 +146,53 @@ const Knowledgecenter: React.FC = () => {
                         </section>
 
                         <section>
-                            <Row background={true} collapse="mobileOn">
+                            <Row background={true} collapse="mobileOff">
                                 <Column
                                     size={1}
+                                    collapse="mobileOn"
                                     maxWidth={622}
                                     marginLeft={2}
                                     marginRight={2}
                                 >
                                     <News />
                                 </Column>
-                                <Column size={1} maxWidth={622} marginRight={2}>
-                                    <Email />
-                                </Column>
                             </Row>
+                            <div
+                                style={{
+                                    background:
+                                        'linear-gradient(117.16deg, #F08F08 6.49%, #F08F08 6.49%, #E66B00 95.65%)'
+                                }}
+                            >
+                                <Row collapse="mobileOff">
+                                    <Column
+                                        size={1}
+                                        marginRight={2}
+                                        marginLeft={2}
+                                    >
+                                        <News />
+                                    </Column>
+                                </Row>
+                                <Row>
+                                    <Column
+                                        size={1}
+                                        collapse="mobileOn"
+                                        maxWidth={622}
+                                        marginLeft={2}
+                                        marginRight={2}
+                                    >
+                                        <News />
+                                    </Column>
 
-                            <Row background={true} collapse="mobileOff">
-                                <Column size={1} marginRight={2} marginLeft={2}>
-                                    <News />
-                                    <Email />
-                                </Column>
-                            </Row>
+                                    <Column
+                                        size={1}
+                                        maxWidth={622}
+                                        marginRight={2}
+                                        marginLeft={2}
+                                    >
+                                        <Email />
+                                    </Column>
+                                </Row>
+                            </div>
                         </section>
                     </main>
                     <Footer />

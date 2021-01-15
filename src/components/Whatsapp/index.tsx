@@ -2,8 +2,6 @@ import React from 'react'
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-import { Container } from './styles'
-
 const Whatsapp: React.FC = () => {
     return (
             <a
