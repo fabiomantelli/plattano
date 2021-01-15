@@ -32,8 +32,7 @@ import {
 import Trapezio from '../assets/trapezio'
 import { ButtonElement } from '../styles/Buttons'
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
+import Whatsapp from '../components/Whatsapp'
 
 const Services: React.FC = () => {
     const [active, SetActive] = useState('initial')
@@ -65,25 +64,7 @@ const Services: React.FC = () => {
             <ScrollLock isActive={mobile}>
                 <Grid>
                     <Header click={openHandler} active={active} />
-
-                    <a
-                        href="https://wa.me/5548999610729?text=Gostaria%20de%20obter%20mais%20informações%20sobre%20os%20produtos%20e%20serviços%20da%20Pláttano%20Technologies."
-                        target="_blank"
-                        rel="noreferrer"
-                        style={{
-                            position: 'fixed',
-                            bottom: '20px',
-                            right: '30px'
-                        }}
-                    >
-                        <FontAwesomeIcon
-                            icon={faWhatsapp}
-                            size="4x"
-                            style={{
-                                color: '#25D366'
-                            }}
-                        />
-                    </a>
+                    <Whatsapp />
 
                     <main>
                         <section>
