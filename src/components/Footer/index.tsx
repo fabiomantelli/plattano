@@ -107,7 +107,8 @@ const Footer: React.FC = () => {
                 <Row background={true} paddingTop={10} collapse="mobileOn">
                     <Column
                         size={1}
-                        maxWidth={293}
+                        maxWidth={391}
+                        // maxWidth={293}
                         marginTop={2}
                         marginLeft={2}
                     >
@@ -125,7 +126,7 @@ const Footer: React.FC = () => {
                             </Link>
                         </FooterContainer>
                     </Column>
-                    <Column
+                    {/* <Column
                         size={1}
                         maxWidth={293}
                         marginTop={2}
@@ -146,10 +147,11 @@ const Footer: React.FC = () => {
                                 <a>Implementação</a>
                             </Link>
                         </FooterContainer>
-                    </Column>
+                    </Column> */}
                     <Column
                         size={1}
-                        maxWidth={293}
+                        maxWidth={391}
+                        // maxWidth={293}
                         marginTop={2}
                         marginLeft={2}
                     >
@@ -174,7 +176,8 @@ const Footer: React.FC = () => {
                     </Column>
                     <Column
                         size={1}
-                        maxWidth={293}
+                        maxWidth={391}
+                        // maxWidth={293}
                         marginTop={2}
                         marginRight={2}
                         marginLeft={2}

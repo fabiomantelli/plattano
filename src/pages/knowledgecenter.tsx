@@ -29,6 +29,7 @@ import Email from '../components/Email'
 import Footer from '../components/Footer'
 
 import Whatsapp from '../components/Whatsapp'
+import Link from 'next/link'
 
 const Knowledgecenter: React.FC = () => {
     const [active, SetActive] = useState('initial')
@@ -109,6 +110,85 @@ const Knowledgecenter: React.FC = () => {
                             <Row>
                                 <Column
                                     size={1}
+                                    maxWidth={622}
+                                    marginLeft={2}  
+                                    marginRight={2}  
+                                >
+                                    <HexagonContainer changedMediaQueries="mobileOn">
+                                        <HexagonTitle>
+                                            Nosso Portfólio
+                                        </HexagonTitle>
+                                        <HexagonParagraph>
+                                            Descubra mais sobre nossos produtos e expertises
+                                        </HexagonParagraph>
+
+                                        <ButtonElement>
+                                            <a
+                                                href="https://plattano-site.s3.amazonaws.com/knowledge-center/2020-PLATTANO-APRESENTACAO-OFICIAL-V4.pptx"
+                                                target="_blank"
+                                                rel="noreferrer"
+                                                style={{ textDecoration: 'none', color: '#fff'}}
+                                            >Portfólio</a>
+                                        </ButtonElement>
+                                    </HexagonContainer>
+                                </Column>
+                                <Column
+                                    size={1}
+                                    maxWidth={622}
+                                    marginRight={2}   
+                                    collapse="mobileOn" 
+                                >
+                                    <HexagonContainer changedMediaQueries="mobileOn">
+                                        <HexagonTitle>
+                                            Compliance
+                                        </HexagonTitle>
+                                        <HexagonParagraph>
+                                            Código de ética e conduta
+                                        </HexagonParagraph>
+
+                                        <ButtonElement>
+                                            <a
+                                                href="https://www.veeam.com/br"
+                                                target="_blank"
+                                                rel="noreferrer"
+                                                style={{ textDecoration: 'none', color: '#fff'}}
+                                            >Ética</a>
+                                        </ButtonElement>
+                                    </HexagonContainer>
+                                </Column>
+                            </Row>
+                            <Row collapse="mobileOff">
+                                <Column
+                                    size={1}
+                                    maxWidth={622}
+                                    marginRight={2}   
+                                    marginLeft={2}
+                                >
+                                    <HexagonContainer changedMediaQueries="mobileOn">
+                                        <HexagonTitle>
+                                            Compliance
+                                        </HexagonTitle>
+                                        <HexagonParagraph>
+                                            Código de ética e conduta
+                                        </HexagonParagraph>
+
+                                        <ButtonElement>
+                                            <a
+                                                href="https://www.veeam.com/br"
+                                                target="_blank"
+                                                rel="noreferrer"
+                                                style={{ textDecoration: 'none', color: '#fff'}}
+                                            >Ética</a>
+                                        </ButtonElement>
+                                    </HexagonContainer>
+                                </Column>
+                            </Row>
+                        </section>
+
+                        <section>
+                            <Row>
+                                <Column
+                                    size={1}
                                     collapse="mobileOn"
                                     maxWidth={622}
                                     marginLeft={2}
@@ -138,7 +218,12 @@ const Knowledgecenter: React.FC = () => {
                                         </HexagonParagraph>
 
                                         <ButtonElement>
-                                            Saiba Mais
+                                            <a
+                                                href="https://www.veeam.com/br"
+                                                target="_blank"
+                                                rel="noreferrer"
+                                                style={{ textDecoration: 'none', color: '#fff'}}
+                                            >Saiba Mais</a>
                                         </ButtonElement>
                                     </HexagonContainer>
                                 </Column>
