@@ -1,5 +1,5 @@
 import React from 'react'
-import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
+import { faWhatsappSquare } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Whatsapp: React.FC = () => {
@@ -15,7 +15,7 @@ const Whatsapp: React.FC = () => {
                 }}
             >
                 <FontAwesomeIcon
-                    icon={faWhatsapp}
+                    icon={faWhatsappSquare}
                     size="4x"
                     style={{
                         color: '#25D366'

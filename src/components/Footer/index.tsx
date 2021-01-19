@@ -161,7 +161,7 @@ const Footer: React.FC = () => {
                             <Link href="/produtos/draas">
                                 <a>DRaaS</a>
                             </Link>
-                            <Link href="/">
+                            <Link href="/vcsp">
                                 <a>Intelligent Backup</a>
                             </Link>
                             <Link href="/vmware">

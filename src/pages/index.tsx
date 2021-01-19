@@ -162,7 +162,7 @@ const Home: React.FC = () => {
                                             Respiramos VMware e Veeam
                                         </MiniOrangeTitle>
                                         <HexagonTitle>
-                                            Data center definido por software
+                                            Datacenter definido por software
                                             always-ON
                                         </HexagonTitle>
                                         <HexagonParagraph>
