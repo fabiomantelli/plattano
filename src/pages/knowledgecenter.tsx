@@ -114,7 +114,7 @@ const Knowledgecenter: React.FC = () => {
                                     marginLeft={2}  
                                     marginRight={2}  
                                 >
-                                    <HexagonContainer changedMediaQueries="mobileOn">
+                                    <HexagonContainer changedMediaQueries="mobileOn" height="auto">
                                         <HexagonTitle>
                                             Nosso Portfólio
                                         </HexagonTitle>
@@ -138,7 +138,7 @@ const Knowledgecenter: React.FC = () => {
                                     marginRight={2}   
                                     collapse="mobileOn" 
                                 >
-                                    <HexagonContainer changedMediaQueries="mobileOn">
+                                    <HexagonContainer changedMediaQueries="mobileOn" height="auto">
                                         <HexagonTitle>
                                             Compliance
                                         </HexagonTitle>
