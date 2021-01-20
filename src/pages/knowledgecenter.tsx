@@ -11,6 +11,7 @@ import Grid from '../styles/Grid'
 import Header from '../components/Header'
 
 import {
+    EntireContainer,
     HexagonContainer,
     ImageContainer,
     MainContainer
@@ -30,6 +31,7 @@ import Footer from '../components/Footer'
 
 import Whatsapp from '../components/Whatsapp'
 import Link from 'next/link'
+import Ebooks from '../components/Ebooks'
 
 const Knowledgecenter: React.FC = () => {
     const [active, SetActive] = useState('initial')
@@ -278,6 +280,25 @@ const Knowledgecenter: React.FC = () => {
                                     </Column>
                                 </Row>
                             </div>
+                        </section>
+
+                        <section>
+                            <Row>
+                                <Column
+                                    size={1}
+                                    maxWidth={1280}
+                                    marginLeft={2}
+                                    marginRight={2}
+                                >
+                                    <HexagonContainer height="auto" changedMediaQueries="mobileOn">
+                                        <EntireContainer>
+                                            <h1>Materiais Gratuitos e e-books</h1>
+                                        </EntireContainer>
+                                    </HexagonContainer>
+
+                                    <Ebooks />
+                                </Column>
+                            </Row>
                         </section>
                     </main>
                     <Footer />
