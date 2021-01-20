@@ -424,6 +424,34 @@ const Baas: React.FC = () => {
                                     marginLeft={2}
                                     marginRight={2}
                                 >
+                                    <HexagonContainer changedMediaQueries="mobileOn" height="auto">
+                                        <HexagonTitle>
+                                            Calculadora de Preço para <br />
+                                            Backup na Nuvem com Veeam
+                                        </HexagonTitle>
+                                        <HexagonParagraph>
+                                            1. Selecione um destino na nuvem para seu backup:
+                                        </HexagonParagraph>
+                                        <HexagonParagraph>
+                                            2. Selecione o total de terabytes para backup (1 TB = 1000 GB)
+                                        </HexagonParagraph>
+                                        <HexagonParagraph>
+                                            3. Selecione o tempo de contrato (meses)
+                                        </HexagonParagraph>
+                                    </HexagonContainer>
+                                </Column>
+                            </Row>
+
+                        </section>
+
+                        <section>
+                            <Row>
+                                <Column
+                                    size={1}
+                                    maxWidth={1280}
+                                    marginLeft={2}
+                                    marginRight={2}
+                                >
                                     <HexagonContainer
                                         height="auto"
                                         changedMediaQueries="mobileOn"
