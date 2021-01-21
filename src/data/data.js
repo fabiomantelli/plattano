@@ -26,7 +26,7 @@ const data = {
             "index": 3,
             "image": "https://plattano-site.s3.amazonaws.com/knowledge-center/WHITEPAPER-PLATTANO-VBR-IMG.png",
             "text": "Com disponibilidade avançada para todas as cargas de trabalho é uma solução simples, flexível e confiável.",
-            "link": "https://plattano-site.s3.amazonaws.com/knowledge-center/WHITEPAPER-PLATTANO-VBR.pptx"
+            "link": "https://plattano-site.s3.amazonaws.com/knowledge-center/WHITEPAPER-PLATTANO-VBR.pdf"
         }
     ]
 }
