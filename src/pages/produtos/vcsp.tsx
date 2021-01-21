@@ -3,37 +3,37 @@ import Head from 'next/head'
 
 import Router from 'next/router';
 
-import { GTMPageView } from '../utils/gtm';
+import { GTMPageView } from '../../utils/gtm';
 
 import ScrollLock from 'react-scrolllock'
 
-import Row from '../styles/Row'
-import Column from '../styles/Column'
-import Grid from '../styles/Grid'
+import Row from '../../styles/Row'
+import Column from '../../styles/Column'
+import Grid from '../../styles/Grid'
 
-import Header from '../components/Header'
+import Header from '../../components/Header'
 import {
     GeneralText,
     HexagonContainer,
     ImageContainer,
     MainContainer
-} from '../styles/Containers'
+} from '../../styles/Containers'
 
 import {
     HexagonParagraph,
     HexagonTitle,
     SupportTitle,
     Title
-} from '../styles/TextElements'
+} from '../../styles/TextElements'
 
-import Trapezio from '../assets/trapezio'
-import SupportBoxIcon from '../assets/11-support/supportbox/supportBoxIcon'
-import PurposelessBoxIcon from '../assets/11-support/purposelessbox/purposelessBoxIcon'
-import UpdatesBoxIcon from '../assets/11-support/updatesbox/updatesBoxIcon'
-import CapexBoxIcon from '../assets/11-support/capexbox/capexBoxIcon'
-import Footer from '../components/Footer'
+import Trapezio from '../../assets/trapezio'
+import SupportBoxIcon from '../../assets/11-support/supportbox/supportBoxIcon'
+import PurposelessBoxIcon from '../../assets/11-support/purposelessbox/purposelessBoxIcon'
+import UpdatesBoxIcon from '../../assets/11-support/updatesbox/updatesBoxIcon'
+import CapexBoxIcon from '../../assets/11-support/capexbox/capexBoxIcon'
+import Footer from '../../components/Footer'
 
-import Whatsapp from '../components/Whatsapp'
+import Whatsapp from '../../components/Whatsapp'
 
 const Suporte: React.FC = () => {
     const [active, SetActive] = useState('initial')

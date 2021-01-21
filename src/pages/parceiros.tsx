@@ -121,16 +121,13 @@ const Parceiros: React.FC = () => {
                                     maxWidth={1280}
                                 >
                                     <SpeedTransformationContainer>
-                                        <a
-                                            href="https://www.vmware.com/br.html"
-                                            target="_blank"
-                                            rel="noreferrer"
-                                        >
+                                        <Link href="/vmware">
                                             <img
                                                 src="/assets/5-partners/vmware-logo.png"
                                                 alt="VMware Logo"
+                                                style={{ cursor: 'pointer' }}
                                             />
-                                        </a>
+                                        </Link>
                                         <h1>
                                             Acelerando a transformação <br />
                                             digital com a Pláttano e VMware.
@@ -225,16 +222,14 @@ const Parceiros: React.FC = () => {
                                     maxWidth={1280}
                                 >
                                     <SpeedTransformationContainer>
-                                        <a
-                                            href="https://www.veeam.com/br"
-                                            target="_blank"
-                                            rel="noreferrer"
-                                        >
+                                        <Link href="/veeam">
                                             <img
                                                 src="/assets/5-partners/veeam-logo.png"
                                                 alt="Veeam Logo"
+                                                style={{ cursor: 'pointer'}}
                                             />
-                                        </a>
+                                        </Link>
+                                            
                                         <h1>
                                             Soluções personalizadas <br /> com a
                                             Pláttano e Veeam.

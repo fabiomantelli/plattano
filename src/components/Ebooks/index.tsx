@@ -8,7 +8,6 @@ import { Container } from './container'
 
 const Ebooks: React.FC = () => {
     const [ property, setProperty ] = useState(data.properties[1])
-    console.log(property)
 
     const nextProperty = () => {
         const newIndex = property.index + 1

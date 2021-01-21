@@ -3,14 +3,14 @@ import Head from 'next/head'
 
 import Router from 'next/router';
 
-import { GTMPageView } from '../utils/gtm';
+import { GTMPageView } from '../../utils/gtm';
 
 import ScrollLock from 'react-scrolllock'
 
-import Row from '../styles/Row'
-import Column from '../styles/Column'
-import Grid from '../styles/Grid'
-import Header from '../components/Header'
+import Row from '../../styles/Row'
+import Column from '../../styles/Column'
+import Grid from '../../styles/Grid'
+import Header from '../../components/Header'
 import {
     EntireContainer,
     HexagonContainer,
@@ -18,7 +18,7 @@ import {
     MainContainer,
     MainGeometricContainer,
     PolygonContainer
-} from '../styles/Containers'
+} from '../../styles/Containers'
 import {
     HexagonParagraph,
     HexagonTitle,
@@ -26,16 +26,16 @@ import {
     ListaOrangeImage,
     SubTitle,
     Title
-} from '../styles/TextElements'
+} from '../../styles/TextElements'
 
-import Trapezio from '../assets/trapezio'
-import TrapezioWhite from '../assets/trapeziowhite'
-import Software from '../components/13-vbrPage/Software'
-import News from '../components/News'
-import Email from '../components/Email'
-import Footer from '../components/Footer'
+import Trapezio from '../../assets/trapezio'
+import TrapezioWhite from '../../assets/trapeziowhite'
+import Software from '../../components/13-vbrPage/Software'
+import News from '../../components/News'
+import Email from '../../components/Email'
+import Footer from '../../components/Footer'
 
-import Whatsapp from '../components/Whatsapp'
+import Whatsapp from '../../components/Whatsapp'
 
 const Vbr: React.FC = () => {
     const [active, SetActive] = useState('initial')

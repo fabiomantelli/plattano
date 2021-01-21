@@ -161,7 +161,7 @@ const Knowledgecenter: React.FC = () => {
 
                                         <ButtonElement>
                                             <a
-                                                href="https://www.veeam.com/br"
+                                                href="https://plattano-site.s3.amazonaws.com/knowledge-center/CODIGO_ETICA_CONDUTA.pdf"
                                                 target="_blank"
                                                 rel="noreferrer"
                                                 style={{ textDecoration: 'none', color: '#fff'}}
@@ -231,12 +231,13 @@ const Knowledgecenter: React.FC = () => {
                                         </HexagonParagraph>
 
                                         <ButtonElement>
-                                            <a
+                                            {/* <a
                                                 href="https://www.veeam.com/br"
                                                 target="_blank"
                                                 rel="noreferrer"
                                                 style={{ textDecoration: 'none', color: '#fff'}}
-                                            >Saiba Mais</a>
+                                            >Saiba Mais</a> */}
+                                            Em Breve
                                         </ButtonElement>
                                     </HexagonContainer>
                                 </Column>
