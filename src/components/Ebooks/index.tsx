@@ -28,7 +28,7 @@ const Ebooks: React.FC = () => {
                         position: 'relative',
                         // top: '50%',
                         left: 0,
-                        zIndex: 23422
+                        zIndex: 150
                     }}
                     onClick={() => prevProperty()}
                     disabled={property.index === 0}
@@ -43,7 +43,7 @@ const Ebooks: React.FC = () => {
                     position: 'relative',
                     // top: '50%',
                     left: 'calc(100% - 80px)',
-                    zIndex: 23422
+                    zIndex: 150
                 }}
                 onClick={() => nextProperty()}
                 disabled={property.index === data.properties.length-1}
