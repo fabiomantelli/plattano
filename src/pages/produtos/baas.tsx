@@ -1,5 +1,8 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Head from 'next/head'
+import Router from 'next/router'
+
+import { GTMPageView } from '../../utils/gtm'
 
 import ScrollLock from 'react-scrolllock'
 
@@ -39,6 +42,15 @@ import Footer from '../../components/Footer'
 const Baas: React.FC = () => {
     const [active, SetActive] = useState('initial')
     const [mobile, SetMobile] = useState(false)
+
+    // Initiate GTM
+    useEffect(() => {
+        const handleRouteChange = (url: string) => GTMPageView(url);
+        Router.events.on('routeChangeComplete', handleRouteChange);
+        return () => {
+            Router.events.off('routeChangeComplete', handleRouteChange);
+        };
+    }, []);
 
     const openHandler = () => {
         if (active === 'active') {
