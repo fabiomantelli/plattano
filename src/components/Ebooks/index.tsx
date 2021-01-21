@@ -27,7 +27,7 @@ const Ebooks: React.FC = () => {
                         all: 'unset', 
                         cursor: 'pointer',
                         position: 'relative',
-                        top: '50%',
+                        // top: '50%',
                         left: 0,
                         zIndex: 23422
                     }}
@@ -42,7 +42,7 @@ const Ebooks: React.FC = () => {
                     all: 'unset', 
                     cursor: 'pointer',
                     position: 'relative',
-                    top: '50%',
+                    // top: '50%',
                     left: 'calc(100% - 80px)',
                     zIndex: 23422
                 }}

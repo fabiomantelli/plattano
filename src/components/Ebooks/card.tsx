@@ -18,7 +18,11 @@ const Card: React.FC<IProperty> = props => {
                     href={props.link}
                     target="_blank"
                     rel="noreferrer"
-                    style={{ textDecoration: 'none', color: '#fff', cursor: 'pointer'}}
+                    style={{ 
+                        textDecoration: 'none', 
+                        color: '#fff', 
+                        cursor: 'pointer'
+                    }}
                 >Download</a>
             </ButtonElement>
         </div>
