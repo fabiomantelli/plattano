@@ -4,14 +4,14 @@ const data = {
             "_id": "076c4547-7264-4de1-a3ce-ea5c5cd2afee",
             "index": 0,
             "image": "https://plattano-site.s3.amazonaws.com/knowledge-center/WHITEPAPPER-PLATTANO-BAAS-IMG.png",
-            "text": "Entenda melhor o conceito de DRaaS em nosso Whitepaper. DRaaS smiples e flexível como apertar um botão.",
+            "text": "Leia nosso Whitepaper sobre BaaS e adicione uma camada extra de segurança com a Pláttano.",
             "link": "https://plattano-site.s3.amazonaws.com/knowledge-center/WHITEPAPPER-PLATTANO-BAAS.pdf"
         },
         {
             "_id": "458d689f-6c07-44bd-8643-838e886a87c5",
             "index": 1,
             "image": "https://plattano-site.s3.amazonaws.com/knowledge-center/WHITEPAPER-PLATTANO-DRAAS-IMG.png",
-            "text": "Leia nosso Whitepaper sobre BaaS e adicione uma camada extra de segurança com a Pláttano.",
+            "text": "Entenda melhor o conceito de DRaaS em nosso Whitepaper. DRaaS smiples e flexível como apertar um botão.",
             "link": "https://plattano-site.s3.amazonaws.com/knowledge-center/WHITEPAPER-PLATTANO-DRAAS.pdf"
         },
         {
