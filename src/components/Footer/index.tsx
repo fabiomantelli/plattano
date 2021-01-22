@@ -113,7 +113,7 @@ const Footer: React.FC = () => {
                     >
                         <Link href="/">
                             <img 
-                                src="./assets/footer/plattanowhite-icon.svg" 
+                                src="../assets/footer/plattanowhite-icon.svg" 
                                 alt="Pláttano Logo" 
                                 style={{ 
                                     cursor: 'pointer',
