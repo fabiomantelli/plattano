@@ -16,7 +16,6 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
                     <GlobalStyle />
                 </ThemeProvider>
             </GoogleTagManager>
-            
             <script
                 type="text/javascript"
                 src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js"
