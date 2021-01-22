@@ -34,7 +34,7 @@ const Header: React.FC<IHeader> = props => {
                 >
                     <Link href="/">
                         <img 
-                            src="./assets/header/plattano-logo.svg" 
+                            src="../assets/header/plattano-logo.svg" 
                             alt="Pláttano Logo" 
                             style={{ position: 
                                 'relative', 
