@@ -7,9 +7,8 @@ import Navbar from '../Navbar'
 import Hamburguer from '../Hamburguer'
 import MobileMenu from '../MobileMenu'
 
-import PlattanoLogo from '../../assets/plattano/plattanoLogo'
-
 import { Container } from './styles'
+import Link from 'next/link'
 
 interface IHeader {
     active: string
@@ -33,7 +32,19 @@ const Header: React.FC<IHeader> = props => {
                     marginLeft={2}
                     marginRight={2}
                 >
-                    <PlattanoLogo />
+                    <Link href="/">
+                        <img 
+                            src="./assets/header/plattano-logo.svg" 
+                            alt="Pláttano Logo" 
+                            style={{ position: 
+                                'relative', 
+                                top: '50%', 
+                                transform: 'translateY(-50%)', 
+                                left: '30px',
+                                cursor: 'pointer'
+                            }}
+                        />
+                    </Link>
                 </Column>
                 <Column
                     size={3}

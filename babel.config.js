@@ -8,6 +8,6 @@ module.exports = {
                 "preprocess": false,
                 "minify": false
             }
-        ]
+        ],
     ]
 }

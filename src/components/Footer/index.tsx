@@ -14,7 +14,6 @@ import WhereIcon from '../../assets/where/whereIcon'
 import SocialIcon from '../../assets/social/socialIcon'
 import Line from './Line'
 import { FooterContainer } from '../../styles/Containers'
-import PlattanoWhite from '../../assets/footer/plattanowhite/plattanowhite'
 
 import { TitleFooter } from '../../styles/TextElements'
 
@@ -107,24 +106,20 @@ const Footer: React.FC = () => {
                 <Row background={true} paddingTop={10} collapse="mobileOn">
                     <Column
                         size={1}
-                        maxWidth={391}
+                        maxWidth={402.67}
                         // maxWidth={293}
                         marginTop={2}
                         marginLeft={2}
                     >
-                        <FooterContainer>
-                            <Link href="/">
-                                <img
-                                    style={{
-                                        display: 'flex',
-                                        cursor: 'pointer',
-                                        width: '95%'
-                                    }}
-                                    src="/assets/footer/plattanowhite-icon.png"
-                                    alt="Plattano Icon"
-                                />
-                            </Link>
-                        </FooterContainer>
+                        <Link href="/">
+                            <img 
+                                src="./assets/footer/plattanowhite-icon.svg" 
+                                alt="Pláttano Logo" 
+                                style={{ 
+                                    cursor: 'pointer',
+                                }}
+                            />
+                        </Link>
                     </Column>
                     {/* <Column
                         size={1}
@@ -150,7 +145,7 @@ const Footer: React.FC = () => {
                     </Column> */}
                     <Column
                         size={1}
-                        maxWidth={391}
+                        maxWidth={402.67}
                         // maxWidth={293}
                         marginTop={2}
                         marginLeft={2}
@@ -176,7 +171,7 @@ const Footer: React.FC = () => {
                     </Column>
                     <Column
                         size={1}
-                        maxWidth={391}
+                        maxWidth={402.67}
                         // maxWidth={293}
                         marginTop={2}
                         marginRight={2}
