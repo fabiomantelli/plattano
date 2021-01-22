@@ -1,10 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Head from 'next/head'
 
-import Router from 'next/router';
-
-import { GTMPageView } from '../utils/gtm';
-
 import ScrollLock from 'react-scrolllock'
 
 import Row from '../styles/Row'
@@ -37,15 +33,6 @@ const Veeam: React.FC = () => {
     const [active, SetActive] = useState('initial')
     const [mobile, SetMobile] = useState(false)
 
-     // Initiate GTM
-     useEffect(() => {
-        const handleRouteChange = (url: string) => GTMPageView(url);
-        Router.events.on('routeChangeComplete', handleRouteChange);
-        return () => {
-            Router.events.off('routeChangeComplete', handleRouteChange);
-        };
-    }, []);
-    
     const openHandler = () => {
         if (active === 'active') {
             SetActive('not-active')
@@ -176,7 +163,7 @@ const Veeam: React.FC = () => {
                                             confiáveis para todas as suas
                                             aplicações e dados.
                                         </HexagonParagraph>
-                                        <Link href="/vbr">
+                                        <Link href="/veeam/vbr">
                                             <ButtonElement>
                                                 Saiba Mais
                                             </ButtonElement>
