@@ -428,7 +428,7 @@ const Baas: React.FC = () => {
                             </Row>
                         </section>
 
-                        <section>
+                        {/* <section>
                             <Row>
                                 <Column
                                     size={1}
@@ -454,7 +454,7 @@ const Baas: React.FC = () => {
                                 </Column>
                             </Row>
 
-                        </section>
+                        </section> */}
 
                         <section>
                             <Row>
