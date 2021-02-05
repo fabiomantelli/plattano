@@ -124,7 +124,7 @@ const Knowledgecenter: React.FC = () => {
 
                                         <ButtonElement>
                                             <a
-                                                href="https://plattano-site.s3.amazonaws.com/knowledge-center/2020-PLATTANO-APRESENTACAO-OFICIAL-V4.pptx"
+                                                href="https://plattano-site.s3.amazonaws.com/knowledge-center/PORTFOLIO.pdf"
                                                 target="_blank"
                                                 rel="noreferrer"
                                                 style={{ textDecoration: 'none', color: '#fff'}}
