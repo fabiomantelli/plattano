@@ -31,7 +31,6 @@ import UpdatesBoxIcon from '../../assets/11-support/updatesbox/updatesBoxIcon'
 import CapexBoxIcon from '../../assets/11-support/capexbox/capexBoxIcon'
 import Footer from '../../components/Footer'
 
-import Whatsapp from '../../components/Whatsapp'
 
 const Suporte: React.FC = () => {
     const [active, SetActive] = useState('initial')
@@ -62,7 +61,6 @@ const Suporte: React.FC = () => {
             <ScrollLock isActive={mobile}>
                 <Grid>
                     <Header click={openHandler} active={active} />
-                    <Whatsapp />
 
                     <main>
                         <section>

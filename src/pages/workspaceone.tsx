@@ -23,8 +23,6 @@ import Email from '../components/Email'
 import Trapezio from '../assets/trapezio'
 import Footer from '../components/Footer'
 
-import Whatsapp from '../components/Whatsapp'
-
 const Workspaceone: React.FC = () => {
     const [active, SetActive] = useState('initial')
     const [mobile, SetMobile] = useState(false)
@@ -54,7 +52,6 @@ const Workspaceone: React.FC = () => {
             <ScrollLock isActive={mobile}>
                 <Grid>
                     <Header click={openHandler} active={active} />
-                    <Whatsapp />
 
                     <main>
                         <section>

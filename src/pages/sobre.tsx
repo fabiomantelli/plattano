@@ -30,8 +30,6 @@ import {
     MainContainer
 } from '../styles/Containers'
 
-import Whatsapp from '../components/Whatsapp'
-
 const Sobre: React.FC = () => {
     const [active, SetActive] = useState('initial')
     const [mobile, SetMobile] = useState(false)
@@ -61,7 +59,6 @@ const Sobre: React.FC = () => {
             <ScrollLock isActive={mobile}>
                 <Grid>
                     <Header click={openHandler} active={active} />
-                    <Whatsapp />
 
                     <main>
                         <section>

@@ -32,8 +32,6 @@ import {
 import Trapezio from '../assets/trapezio'
 import { ButtonElement } from '../styles/Buttons'
 
-import Whatsapp from '../components/Whatsapp'
-
 const Services: React.FC = () => {
     const [active, SetActive] = useState('initial')
     const [mobile, SetMobile] = useState(false)
@@ -64,7 +62,6 @@ const Services: React.FC = () => {
             <ScrollLock isActive={mobile}>
                 <Grid>
                     <Header click={openHandler} active={active} />
-                    <Whatsapp />
 
                     <main>
                         <section>

@@ -33,8 +33,6 @@ import News from '../../components/News'
 import Email from '../../components/Email'
 import Footer from '../../components/Footer'
 
-import Whatsapp from '../../components/Whatsapp'
-
 const Vbr: React.FC = () => {
     const [active, SetActive] = useState('initial')
     const [mobile, SetMobile] = useState(false)
@@ -64,7 +62,6 @@ const Vbr: React.FC = () => {
             <ScrollLock isActive={mobile}>
                 <Grid>
                     <Header click={openHandler} active={active} />
-                    <Whatsapp />
 
                     <main>
                         <section>

@@ -36,8 +36,6 @@ import EvolutionBoxIcon from '../assets/8-hyperconvergence/evolutionbox/evolutio
 import News from '../components/News'
 import Email from '../components/Email'
 
-import Whatsapp from '../components/Whatsapp'
-
 const Hiperconvergencia: React.FC = () => {
     const [active, SetActive] = useState('initial')
     const [mobile, SetMobile] = useState(false)
@@ -67,7 +65,6 @@ const Hiperconvergencia: React.FC = () => {
             <ScrollLock isActive={mobile}>
                 <Grid>
                     <Header click={openHandler} active={active} />
-                    <Whatsapp />
 
                     <main>
                         <section>

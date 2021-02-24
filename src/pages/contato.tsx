@@ -19,8 +19,6 @@ import {
     Title
 } from '../styles/TextElements'
 
-import Whatsapp from '../components/Whatsapp'
-
 const Contato: React.FC = () => {
     const [active, SetActive] = useState('initial')
     const [mobile, SetMobile] = useState(false)
@@ -64,7 +62,6 @@ const Contato: React.FC = () => {
             <ScrollLock isActive={mobile}>
                 <Grid>
                     <Header click={openHandler} active={active} />
-                    <Whatsapp />
 
                     <main>
                         <section>
