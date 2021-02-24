@@ -27,8 +27,6 @@ import { ButtonElement } from '../styles/Buttons'
 import Footer from '../components/Footer'
 import Link from 'next/link'
 
-import Whatsapp from '../components/Whatsapp'
-
 const Veeam: React.FC = () => {
     const [active, SetActive] = useState('initial')
     const [mobile, SetMobile] = useState(false)
@@ -58,7 +56,6 @@ const Veeam: React.FC = () => {
             <ScrollLock isActive={mobile}>
                 <Grid>
                     <Header click={openHandler} active={active} />
-                    <Whatsapp />
 
                     <main>
                         <section>

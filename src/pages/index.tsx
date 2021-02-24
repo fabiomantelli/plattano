@@ -34,7 +34,6 @@ import {
 import { ButtonElement, MainButton } from '../styles/Buttons'
 import Consulting from '../components/1-indexPage/Consulting'
 
-import Whatsapp from '../components/Whatsapp'
 import Email from '../components/Email'
 
 declare global {
@@ -73,7 +72,6 @@ const Home: React.FC = () => {
             <ScrollLock isActive={mobile}>
                 <Grid>
                     <Header click={openHandler} active={active} />
-                    <Whatsapp />
                     <main>
                         <section>
                             <Row

@@ -47,6 +47,9 @@ export default class MyDocument extends Document {
             }}
           />
         </Head>
+
+        <script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/2ae0587c-f351-4f14-ab26-c60bc9574c0a-loader.js" ></script>
+
         <body>
           <noscript>
             <iframe 

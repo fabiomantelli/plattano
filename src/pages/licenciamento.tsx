@@ -17,8 +17,6 @@ import { HexagonParagraph, HexagonTitle, Title } from '../styles/TextElements'
 import Trapezio from '../assets/trapezio'
 import Footer from '../components/Footer'
 
-import Whatsapp from '../components/Whatsapp'
-
 const Licenciamento: React.FC = () => {
     const [active, SetActive] = useState('initial')
     const [mobile, SetMobile] = useState(false)
@@ -48,7 +46,6 @@ const Licenciamento: React.FC = () => {
             <ScrollLock isActive={mobile}>
                 <Grid>
                     <Header click={openHandler} active={active} />
-                    <Whatsapp />
 
                     <main>
                         <section>

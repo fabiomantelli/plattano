@@ -28,7 +28,6 @@ import News from '../components/News'
 import Email from '../components/Email'
 import Footer from '../components/Footer'
 
-import Whatsapp from '../components/Whatsapp'
 import Ebooks from '../components/Ebooks'
 
 const Knowledgecenter: React.FC = () => {
@@ -63,7 +62,6 @@ const Knowledgecenter: React.FC = () => {
             <ScrollLock isActive={mobile}>
                 <Grid>
                     <Header click={openHandler} active={active} />
-                    <Whatsapp />
 
                     <main>
                         <section>
