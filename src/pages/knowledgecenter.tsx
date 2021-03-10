@@ -206,23 +206,20 @@ const Knowledgecenter: React.FC = () => {
                                 >
                                     <HexagonContainer changedMediaQueries="mobileOn">
                                         <HexagonTitle>
-                                            Documentação
+                                            Blog
                                         </HexagonTitle>
                                         <HexagonParagraph>
-                                            Acesse nosso conteúdo de materiais,
-                                            manuais e procedimentos. Descubra
-                                            como configurar nossos serviços e
-                                            produtos aqui
+                                            Acesse o blog da Pláttano Technologies e acompanhe 
+                                            todas as as novidades.
                                         </HexagonParagraph>
 
                                         <ButtonElement>
-                                            {/* <a
-                                                href="https://www.veeam.com/br"
+                                            <a
+                                                href="http://blog.plattano.com.br"
                                                 target="_blank"
                                                 rel="noreferrer"
                                                 style={{ textDecoration: 'none', color: '#fff'}}
-                                            >Saiba Mais</a> */}
-                                            Em Breve
+                                            >Acessar</a>
                                         </ButtonElement>
                                     </HexagonContainer>
                                 </Column>
