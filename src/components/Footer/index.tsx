@@ -167,6 +167,12 @@ const Footer: React.FC = () => {
                             <Link href="/veeam">
                                 <a>Veeam</a>
                             </Link>
+                            <Link href="/exagrid">
+                                <a>ExaGrid</a>
+                            </Link>
+                            <Link href="/zadara">
+                                <a>Zadara</a>
+                            </Link>
                         </FooterContainer>
                     </Column>
                     <Column
