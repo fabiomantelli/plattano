@@ -172,7 +172,6 @@ const Home: React.FC = () => {
                                         privadas e com toda a segurança e proteção 
                                         desejada. Simplifique a TI, concentrando 
                                         recursos em inovação ao invés de manutenção.
-                                            manutenção.
                                         </HexagonParagraph>
                                     </BoxDefaultContainer>
                                 </Column>
