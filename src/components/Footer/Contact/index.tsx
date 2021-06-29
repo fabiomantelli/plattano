@@ -11,13 +11,13 @@ const Contact: React.FC = () => {
             <span>(48) 99684-9944</span>
             <span>
                 <a
-                    href="mailto:contato@plattano.com.br"
+                    href="mailto:comercial@plattano.com.br"
                     style={{
                         color: '#161616',
                         textDecoration: 'none'
                     }}
                 >
-                    contato@plattano.com.br
+                    comercial@plattano.com.br
                 </a>
             </span>
         </Container>
