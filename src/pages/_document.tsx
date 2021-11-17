@@ -1,10 +1,13 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 import { ServerStyleSheet } from 'styled-components'
+import { useEffect } from 'react'
 
 import { GTM_ID } from '../lib/gtm'
 import { GA_TRACKING_ID } from '../lib/gtag'
 
 export default class MyDocument extends Document {
+
+
   static async getInitialProps(ctx) {
     const sheet = new ServerStyleSheet()
     const originalRenderPage = ctx.renderPage
@@ -32,7 +35,10 @@ export default class MyDocument extends Document {
   }
 
   render() {
+
+
     return (
+
       <Html>
         <Head>
           {/* Google Tag Manager - Global base code */}
@@ -65,16 +71,18 @@ export default class MyDocument extends Document {
           `
             }}
           />
+
+
         </Head>
 
-        <script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/2ae0587c-f351-4f14-ab26-c60bc9574c0a-loader.js" ></script>
+        {/* <script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/2ae0587c-f351-4f14-ab26-c60bc9574c0a-loader.js" ></script> */}
 
         <body>
           <noscript>
-            <iframe 
+            <iframe
               src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}
-              height="0" 
-              width="0" 
+              height="0"
+              width="0"
               style={{ display: 'none', visibility: 'hidden' }}
             />
           </noscript>

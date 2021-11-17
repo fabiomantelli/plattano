@@ -31,16 +31,16 @@ import {
     MiniOrangeTitle
 } from '../styles/TextElements'
 
-import { ButtonElement, MainButton } from '../styles/Buttons'
+import { ButtonElement } from '../styles/Buttons'
 import Consulting from '../components/1-indexPage/Consulting'
 
 import Email from '../components/Email'
 
-declare global {
-    interface Window {
-        RDStationForms: any
-    }
-}
+// declare global {
+//     interface Window {
+//         RDStationForms: any
+//     }
+// }
 
 const Home: React.FC = () => {
     const [active, SetActive] = useState('initial')
@@ -50,9 +50,7 @@ const Home: React.FC = () => {
         if (active === 'active') {
             SetActive('not-active')
             SetMobile(false)
-            console.log(active)
         } else {
-            console.log(active)
             SetActive('active')
             SetMobile(true)
         }
@@ -128,12 +126,12 @@ const Home: React.FC = () => {
                                             Equipe Especializada
                                         </HexagonTitle>
                                         <HexagonParagraph>
-                                            Com nossos níveis avançados de parceria 
-                                            com os grandes players do mercado em nossa 
-                                            área de Virtualização e Backup, somos capazes 
-                                            de proporcionar entrega de projetos com valor 
-                                            agregado e qualidade extrema para nossos clientes, 
-                                            fazendo com que seu retorno de investimento seja o 
+                                            Com nossos níveis avançados de parceria
+                                            com os grandes players do mercado em nossa
+                                            área de Virtualização e Backup, somos capazes
+                                            de proporcionar entrega de projetos com valor
+                                            agregado e qualidade extrema para nossos clientes,
+                                            fazendo com que seu retorno de investimento seja o
                                             mais adequado e rápido.
                                         </HexagonParagraph>
                                         <Link href="/parceiros">
@@ -141,7 +139,7 @@ const Home: React.FC = () => {
                                                 Saiba Mais
                                             </ButtonElement>
                                         </Link>
-                                        
+
                                     </BoxDefaultContainer>
                                 </Column>
                             </Row>
@@ -164,13 +162,13 @@ const Home: React.FC = () => {
                                             always-ON
                                         </HexagonTitle>
                                         <HexagonParagraph>
-                                        Com as soluções da <strong>VMware</strong> e <strong>Veeam</strong>, as 
-                                        organizações criam experiências excepcionais 
-                                        ao mobilizar tudo, reagir a oportunidades mais 
-                                        rapidamente com dados e aplicativos modernos 
-                                        hospedados em nuvens híbridas, públicas e 
-                                        privadas e com toda a segurança e proteção 
-                                        desejada. Simplifique a TI, concentrando 
+                                        Com as soluções da <strong>VMware</strong> e <strong>Veeam</strong>, as
+                                        organizações criam experiências excepcionais
+                                        ao mobilizar tudo, reagir a oportunidades mais
+                                        rapidamente com dados e aplicativos modernos
+                                        hospedados em nuvens híbridas, públicas e
+                                        privadas e com toda a segurança e proteção
+                                        desejada. Simplifique a TI, concentrando
                                         recursos em inovação ao invés de manutenção.
                                         </HexagonParagraph>
                                     </BoxDefaultContainer>
