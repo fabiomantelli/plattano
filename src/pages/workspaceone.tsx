@@ -6,6 +6,7 @@ import ScrollLock from 'react-scrolllock'
 import Row from '../styles/Row'
 import Column from '../styles/Column'
 import Grid from '../styles/Grid'
+
 import {
     BoxContainer,
     BoxDefaultContainer,
@@ -15,10 +16,9 @@ import {
     MainGeometricContainer,
     PolygonContainer
 } from '../styles/Containers'
+
 import { HexagonParagraph, SubTitle, Title } from '../styles/TextElements'
 import Header from '../components/Header'
-import News from '../components/News'
-import Email from '../components/Email'
 
 import Trapezio from '../assets/trapezio'
 import Footer from '../components/Footer'
@@ -26,7 +26,7 @@ import Footer from '../components/Footer'
 const Workspaceone: React.FC = () => {
     const [active, SetActive] = useState('initial')
     const [mobile, SetMobile] = useState(false)
-    
+
     const openHandler = () => {
         if (active === 'active') {
             SetActive('not-active')
@@ -151,56 +151,6 @@ const Workspaceone: React.FC = () => {
                                     </BoxDefaultContainer>
                                 </Column>
                             </Row>
-                        </section>
-
-                        <section>
-                            <Row background={true} collapse="mobileOff">
-                                <Column
-                                    size={1}
-                                    collapse="mobileOn"
-                                    maxWidth={622}
-                                    marginLeft={2}
-                                    marginRight={2}
-                                >
-                                    <News />
-                                </Column>
-                            </Row>
-                            <div
-                                style={{
-                                    background:
-                                        'linear-gradient(117.16deg, #F08F08 6.49%, #F08F08 6.49%, #E66B00 95.65%)'
-                                }}
-                            >
-                                <Row collapse="mobileOff">
-                                    <Column
-                                        size={1}
-                                        marginRight={2}
-                                        marginLeft={2}
-                                    >
-                                        <News />
-                                    </Column>
-                                </Row>
-                                <Row>
-                                    <Column
-                                        size={1}
-                                        collapse="mobileOn"
-                                        maxWidth={622}
-                                        marginLeft={2}
-                                        marginRight={2}
-                                    >
-                                        <News />
-                                    </Column>
-
-                                    <Column
-                                        size={1}
-                                        maxWidth={622}
-                                        marginRight={2}
-                                        marginLeft={2}
-                                    >
-                                        <Email />
-                                    </Column>
-                                </Row>
-                            </div>
                         </section>
 
                         <section>

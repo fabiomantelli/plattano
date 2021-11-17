@@ -1,8 +1,6 @@
 import React, { useState } from 'react'
 import Head from 'next/head'
 
-import Router from 'next/router';
-
 import ScrollLock from 'react-scrolllock'
 
 import Row from '../../styles/Row'
@@ -19,6 +17,7 @@ import {
     MainGeometricContainer,
     PolygonContainer
 } from '../../styles/Containers'
+
 import {
     HexagonParagraph,
     HexagonTitle,
@@ -162,23 +161,23 @@ const Draas: React.FC = () => {
                                             <span style={{ color: '#F48200' }}>
                                                 Advanced DRaaS
                                             </span>{' '}
-                                            da Pláttano Technologies com Veeam 
-                                            integra seu ambiente local com uma 
-                                            extensão da infraestrutura de nuvem, 
-                                            fornecendo recursos de replicação e 
-                                            failover seguros e robustos para a 
+                                            da Pláttano Technologies com Veeam
+                                            integra seu ambiente local com uma
+                                            extensão da infraestrutura de nuvem,
+                                            fornecendo recursos de replicação e
+                                            failover seguros e robustos para a
                                             recuperação de desastres.
                                         </HexagonParagraph>
                                         <HexagonParagraph>
-                                            Nossa infraestrutura permite que suas 
-                                            cargas de trabalho de TI sejam replicadas 
-                                            de ambientes físicos ou virtuais on-premise 
-                                            para nossa cloud. Com anos de experiência em 
-                                            recuperação de desastres, podemos ir muito 
-                                            além do backup simples para garantir que 
-                                            todas as suas cargas de trabalho principais 
-                                            sejam protegidas e o processo de recuperação 
-                                            de desastres é ajustado às prioridades de 
+                                            Nossa infraestrutura permite que suas
+                                            cargas de trabalho de TI sejam replicadas
+                                            de ambientes físicos ou virtuais on-premise
+                                            para nossa cloud. Com anos de experiência em
+                                            recuperação de desastres, podemos ir muito
+                                            além do backup simples para garantir que
+                                            todas as suas cargas de trabalho principais
+                                            sejam protegidas e o processo de recuperação
+                                            de desastres é ajustado às prioridades de
                                             negócios e às necessidades de conformidade.
                                         </HexagonParagraph>
                                     </HexagonContainer>
@@ -187,14 +186,14 @@ const Draas: React.FC = () => {
                                 <Column size={1} marginRight={2} maxWidth={622}>
                                     <HexagonContainer height="auto">
                                         <HexagonParagraph>
-                                            Sabemos por experiência que os planos 
-                                            de recuperação de desastres são diferentes 
-                                            para cada organização. Nossas soluções são 
-                                            construídas em torno dessa premissa. Nossos 
-                                            engenheiros e analistas ajudarão a guiá-lo 
-                                            por todo o processo, desde o design até a 
-                                            implementação. No momento do primeiro clique 
-                                            até o failover, estamos sempre juntos e 
+                                            Sabemos por experiência que os planos
+                                            de recuperação de desastres são diferentes
+                                            para cada organização. Nossas soluções são
+                                            construídas em torno dessa premissa. Nossos
+                                            engenheiros e analistas ajudarão a guiá-lo
+                                            por todo o processo, desde o design até a
+                                            implementação. No momento do primeiro clique
+                                            até o failover, estamos sempre juntos e
                                             acompanhando seus esforços.
                                         </HexagonParagraph>
                                     </HexagonContainer>

@@ -8,9 +8,6 @@ import Row from '../styles/Row'
 import Column from '../styles/Column'
 import Grid from '../styles/Grid'
 
-import News from '../components/News'
-import Email from '../components/Email'
-
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 
@@ -126,16 +123,16 @@ const Services: React.FC = () => {
                                             Professional Services
                                         </HexagonTitle>
                                         <HexagonParagraph>
-                                            Temos como meta, auxiliar nossos clientes integrando soluções 
-                                            de nossos parceiros com serviços especializados, superando os 
-                                            desafios e obter melhores resultados para os negócios. Nossa 
-                                            metodologia de trabalho é usar das melhores práticas criadas 
-                                            pelas fabricantes, garantindo maior qualidade e eficiência na 
-                                            entrega das soluções. 
+                                            Temos como meta, auxiliar nossos clientes integrando soluções
+                                            de nossos parceiros com serviços especializados, superando os
+                                            desafios e obter melhores resultados para os negócios. Nossa
+                                            metodologia de trabalho é usar das melhores práticas criadas
+                                            pelas fabricantes, garantindo maior qualidade e eficiência na
+                                            entrega das soluções.
                                         </HexagonParagraph>
                                         <HexagonParagraph>
-                                            Trabalhamos com: Análise e Planejamento, Implantação, 
-                                            Gerenciamento de Ambientes, Full out-sourcing, Gestão 
+                                            Trabalhamos com: Análise e Planejamento, Implantação,
+                                            Gerenciamento de Ambientes, Full out-sourcing, Gestão
                                             Compartilhada, Treinamentos.
                                         </HexagonParagraph>
                                         <Link href="/consultoria">
@@ -146,56 +143,6 @@ const Services: React.FC = () => {
                                     </HexagonContainer>
                                 </Column>
                             </Row>
-                        </section>
-
-                        <section>
-                            <Row background={true} collapse="mobileOff">
-                                <Column
-                                    size={1}
-                                    collapse="mobileOn"
-                                    maxWidth={622}
-                                    marginLeft={2}
-                                    marginRight={2}
-                                >
-                                    <News />
-                                </Column>
-                            </Row>
-                            <div
-                                style={{
-                                    background:
-                                        'linear-gradient(117.16deg, #F08F08 6.49%, #F08F08 6.49%, #E66B00 95.65%)'
-                                }}
-                            >
-                                <Row collapse="mobileOff">
-                                    <Column
-                                        size={1}
-                                        marginRight={2}
-                                        marginLeft={2}
-                                    >
-                                        <News />
-                                    </Column>
-                                </Row>
-                                <Row>
-                                    <Column
-                                        size={1}
-                                        collapse="mobileOn"
-                                        maxWidth={622}
-                                        marginLeft={2}
-                                        marginRight={2}
-                                    >
-                                        <News />
-                                    </Column>
-
-                                    <Column
-                                        size={1}
-                                        maxWidth={622}
-                                        marginRight={2}
-                                        marginLeft={2}
-                                    >
-                                        <Email />
-                                    </Column>
-                                </Row>
-                            </div>
                         </section>
 
                         <section>
@@ -283,9 +230,9 @@ const Services: React.FC = () => {
                                     <MiniBox>
                                         <h1>Suporte</h1>
                                         <h2>
-                                            Oferecemos horas contratuais, suporte avulso e 
-                                            emergencial com os melhores especialistas do mercado, 
-                                            todos certificados e com todos os requisitos para lhe 
+                                            Oferecemos horas contratuais, suporte avulso e
+                                            emergencial com os melhores especialistas do mercado,
+                                            todos certificados e com todos os requisitos para lhe
                                             atender com excelência.
                                         </h2>
                                     </MiniBox>
@@ -300,9 +247,9 @@ const Services: React.FC = () => {
                                     <MiniBox>
                                         <h1>Consultoria</h1>
                                         <h2>
-                                            Nosso time de engenheiros  de pré e pós vendas 
-                                            se especializam com as novidades  para entregarmos 
-                                            soluções estratégicas e de valor. 
+                                            Nosso time de engenheiros  de pré e pós vendas
+                                            se especializam com as novidades  para entregarmos
+                                            soluções estratégicas e de valor.
                                         </h2>
                                     </MiniBox>
                                 </Column>
@@ -372,9 +319,9 @@ const Services: React.FC = () => {
                                     <MiniBox>
                                         <h1>Supporte</h1>
                                         <h2>
-                                            Oferecemos horas contratuais, suporte avulso e 
-                                            emergencial com os melhores especialistas do mercado, 
-                                            todos certificados e com todos os requisitos para lhe 
+                                            Oferecemos horas contratuais, suporte avulso e
+                                            emergencial com os melhores especialistas do mercado,
+                                            todos certificados e com todos os requisitos para lhe
                                             atender com excelência.
                                         </h2>
                                     </MiniBox>

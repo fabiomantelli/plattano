@@ -7,9 +7,6 @@ import Row from '../styles/Row'
 import Column from '../styles/Column'
 import Grid from '../styles/Grid'
 
-import News from '../components/News'
-import Email from '../components/Email'
-
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 
@@ -133,29 +130,29 @@ const Sobre: React.FC = () => {
                                 <Column size={1} marginRight={2} maxWidth={622}>
                                     <HexagonContainer height="auto">
                                         <HexagonParagraph>
-                                            “A <strong>Pláttano Technologies</strong> é uma empresa especializada na 
-                                            entrega de soluções e projetos que envolvam virtualização 
-                                            de Datacenters, proteção de dados e hiperdisponibilidade. 
-                                            Possuímos um corpo técnico de engenheiros capaz de auxiliar 
-                                            nossos clientes em todas as fases, desde as mais iniciais 
-                                            como licenciamento, levantamento de requisitos e sizing, até 
+                                            “A <strong>Pláttano Technologies</strong> é uma empresa especializada na
+                                            entrega de soluções e projetos que envolvam virtualização
+                                            de Datacenters, proteção de dados e hiperdisponibilidade.
+                                            Possuímos um corpo técnico de engenheiros capaz de auxiliar
+                                            nossos clientes em todas as fases, desde as mais iniciais
+                                            como licenciamento, levantamento de requisitos e sizing, até
                                             a implementação, suporte e consultoria.
                                         </HexagonParagraph>
-                                       
+
                                         <HexagonParagraph>
-                                            Vivemos a era da virtualização, e ela já está presente em nossas 
-                                            vidas há muito tempo. Somos cada vez mais digitais, e a segurança 
-                                            de nossos dados não é mais item de luxo. Queremos ajudá-los a 
-                                            entender e entrar em definitivo nesse novo conceito de computação 
+                                            Vivemos a era da virtualização, e ela já está presente em nossas
+                                            vidas há muito tempo. Somos cada vez mais digitais, e a segurança
+                                            de nossos dados não é mais item de luxo. Queremos ajudá-los a
+                                            entender e entrar em definitivo nesse novo conceito de computação
                                             e proteção.
                                         </HexagonParagraph>
 
                                         <HexagonParagraph>
-                                            Nosso objetivo principal é a continuidade do negócio, utilizando 
-                                            as melhores práticas e ferramentas de implementações de soluções, 
-                                            com um suporte extremamente próximo e personalizado, possibilitamos 
+                                            Nosso objetivo principal é a continuidade do negócio, utilizando
+                                            as melhores práticas e ferramentas de implementações de soluções,
+                                            com um suporte extremamente próximo e personalizado, possibilitamos
                                             que as empresas utilizem a tecnologia a favor de seus objetivos.”
-                                           
+
                                         </HexagonParagraph>
                                             <br />
                                             <strong>Giovanni Mantelli, CEO</strong>
@@ -195,29 +192,29 @@ const Sobre: React.FC = () => {
                                 >
                                     <HexagonContainer height="auto">
                                         <HexagonParagraph>
-                                            “A <strong>Pláttano Technologies</strong> é uma empresa especializada na 
-                                            entrega de soluções e projetos que envolvam virtualização 
-                                            de Datacenters, proteção de dados e hiperdisponibilidade. 
-                                            Possuímos um corpo técnico de engenheiros capaz de auxiliar 
-                                            nossos clientes em todas as fases, desde as mais iniciais 
-                                            como licenciamento, levantamento de requisitos e sizing, até 
+                                            “A <strong>Pláttano Technologies</strong> é uma empresa especializada na
+                                            entrega de soluções e projetos que envolvam virtualização
+                                            de Datacenters, proteção de dados e hiperdisponibilidade.
+                                            Possuímos um corpo técnico de engenheiros capaz de auxiliar
+                                            nossos clientes em todas as fases, desde as mais iniciais
+                                            como licenciamento, levantamento de requisitos e sizing, até
                                             a implementação, suporte e consultoria.
                                         </HexagonParagraph>
-                                        
+
                                         <HexagonParagraph>
-                                            Vivemos a era da virtualização, e ela já está presente em nossas 
-                                            vidas há muito tempo. Somos cada vez mais digitais, e a segurança 
-                                            de nossos dados não é mais item de luxo. Queremos ajudá-los a 
-                                            entender e entrar em definitivo nesse novo conceito de computação 
+                                            Vivemos a era da virtualização, e ela já está presente em nossas
+                                            vidas há muito tempo. Somos cada vez mais digitais, e a segurança
+                                            de nossos dados não é mais item de luxo. Queremos ajudá-los a
+                                            entender e entrar em definitivo nesse novo conceito de computação
                                             e proteção.
                                         </HexagonParagraph>
 
                                         <HexagonParagraph>
-                                            Nosso objetivo principal é a continuidade do negócio, utilizando 
-                                            as melhores práticas e ferramentas de implementações de soluções, 
-                                            com um suporte extremamente próximo e personalizado, possibilitamos 
+                                            Nosso objetivo principal é a continuidade do negócio, utilizando
+                                            as melhores práticas e ferramentas de implementações de soluções,
+                                            com um suporte extremamente próximo e personalizado, possibilitamos
                                             que as empresas utilizem a tecnologia a favor de seus objetivos.”
-                                            
+
                                         </HexagonParagraph>
                                             <br />
                                             <strong>Giovanni Mantelli, CEO</strong>
@@ -464,56 +461,6 @@ const Sobre: React.FC = () => {
                         </section>
 
                         <section>
-                            <Row background={true} collapse="mobileOff">
-                                <Column
-                                    size={1}
-                                    collapse="mobileOn"
-                                    maxWidth={622}
-                                    marginLeft={2}
-                                    marginRight={2}
-                                >
-                                    <News />
-                                </Column>
-                            </Row>
-                            <div
-                                style={{
-                                    background:
-                                        'linear-gradient(117.16deg, #F08F08 6.49%, #F08F08 6.49%, #E66B00 95.65%)'
-                                }}
-                            >
-                                <Row collapse="mobileOff">
-                                    <Column
-                                        size={1}
-                                        marginRight={2}
-                                        marginLeft={2}
-                                    >
-                                        <News />
-                                    </Column>
-                                </Row>
-                                <Row>
-                                    <Column
-                                        size={1}
-                                        collapse="mobileOn"
-                                        maxWidth={622}
-                                        marginLeft={2}
-                                        marginRight={2}
-                                    >
-                                        <News />
-                                    </Column>
-
-                                    <Column
-                                        size={1}
-                                        maxWidth={622}
-                                        marginRight={2}
-                                        marginLeft={2}
-                                    >
-                                        <Email />
-                                    </Column>
-                                </Row>
-                            </div>
-                        </section>
-
-                        <section>
                             <Row>
                                 <Column
                                     size={1}
@@ -527,17 +474,17 @@ const Sobre: React.FC = () => {
                                         </MiniOrangeTitle>
                                         <HexagonTitle>História</HexagonTitle>
                                         <HexagonParagraph>
-                                            Com o acompanhamento de tendências mundiais sobre 
-                                            respeito ao meio ambiente, foi necessária uma 
-                                            especialização em <strong>virtualização</strong> de 
-                                            servidores para atender a economia de energia e redução 
-                                            de emissão de calor. A virtualização, seja ela de serviços, 
-                                            aplicativos ou de servidores, já deixou de ser uma tendência 
-                                            para tornar-se uma realidade em muitos setores, seja dentro 
-                                            ou fora da área da tecnologia. Aliada a isso, também focamos 
-                                            na camada de segurança e disponibilidade da informação, pois 
-                                            hoje os dados são o bem mais valioso para toda e qualquer 
-                                            empresa e pessoa. O dado é o novo petróleo, e precisamos manter 
+                                            Com o acompanhamento de tendências mundiais sobre
+                                            respeito ao meio ambiente, foi necessária uma
+                                            especialização em <strong>virtualização</strong> de
+                                            servidores para atender a economia de energia e redução
+                                            de emissão de calor. A virtualização, seja ela de serviços,
+                                            aplicativos ou de servidores, já deixou de ser uma tendência
+                                            para tornar-se uma realidade em muitos setores, seja dentro
+                                            ou fora da área da tecnologia. Aliada a isso, também focamos
+                                            na camada de segurança e disponibilidade da informação, pois
+                                            hoje os dados são o bem mais valioso para toda e qualquer
+                                            empresa e pessoa. O dado é o novo petróleo, e precisamos manter
                                             sua integridade.
                                         </HexagonParagraph>
                                     </BoxDefaultContainer>

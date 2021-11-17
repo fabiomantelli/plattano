@@ -10,8 +10,6 @@ import Grid from '../styles/Grid'
 
 import Header from '../components/Header'
 
-import News from '../components/News'
-
 import Reference from '../components/1-indexPage/Reference'
 import Services from '../components/1-indexPage/Services'
 
@@ -33,14 +31,6 @@ import {
 
 import { ButtonElement } from '../styles/Buttons'
 import Consulting from '../components/1-indexPage/Consulting'
-
-import Email from '../components/Email'
-
-// declare global {
-//     interface Window {
-//         RDStationForms: any
-//     }
-// }
 
 const Home: React.FC = () => {
     const [active, SetActive] = useState('initial')
@@ -187,56 +177,6 @@ const Home: React.FC = () => {
                                     </ImageContainer>
                                 </Column>
                             </Row>
-                        </section>
-
-                        <section>
-                            <Row background={true} collapse="mobileOff">
-                                <Column
-                                    size={1}
-                                    collapse="mobileOn"
-                                    maxWidth={622}
-                                    marginLeft={2}
-                                    marginRight={2}
-                                >
-                                    <News />
-                                </Column>
-                            </Row>
-                            <div
-                                style={{
-                                    background:
-                                        'linear-gradient(117.16deg, #F08F08 6.49%, #F08F08 6.49%, #E66B00 95.65%)'
-                                }}
-                            >
-                                <Row collapse="mobileOff">
-                                    <Column
-                                        size={1}
-                                        marginRight={2}
-                                        marginLeft={2}
-                                    >
-                                        <News />
-                                    </Column>
-                                </Row>
-                                <Row>
-                                    <Column
-                                        size={1}
-                                        collapse="mobileOn"
-                                        maxWidth={622}
-                                        marginLeft={2}
-                                        marginRight={2}
-                                    >
-                                        <News />
-                                    </Column>
-
-                                    <Column
-                                        size={1}
-                                        maxWidth={622}
-                                        marginRight={2}
-                                        marginLeft={2}
-                                    >
-                                        <Email />
-                                    </Column>
-                                </Row>
-                            </div>
                         </section>
 
                         <section>
