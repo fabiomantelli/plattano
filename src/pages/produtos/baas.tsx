@@ -8,6 +8,7 @@ import Column from '../../styles/Column'
 import Grid from '../../styles/Grid'
 
 import Header from '../../components/Header'
+
 import {
     BenefitContainer,
     BoxDefaultContainer,
@@ -18,6 +19,7 @@ import {
     MainGeometricContainer,
     PolygonContainer
 } from '../../styles/Containers'
+
 import {
     HexagonParagraph,
     HexagonTitle,
@@ -28,8 +30,6 @@ import {
 import Trapezio from '../../assets/trapezio'
 import HexagonIcon from '../../components/9-baas/HexagonIcon'
 import CloudBackup from '../../components/9-baas/CloudBackup'
-import News from '../../components/News'
-import Email from '../../components/Email'
 import EnhanceBoxIcon from '../../assets/9-baas/enhance/enhanceboxicon'
 import DiscoverBoxIcon from '../../assets/9-baas/discoverbox/discoverboxIcon'
 import AccomplishBoxIcon from '../../assets/9-baas/accomplishbox/accomplishBoxIcon'
@@ -416,34 +416,6 @@ const Baas: React.FC = () => {
                             </Row>
                         </section>
 
-                        {/* <section>
-                            <Row>
-                                <Column
-                                    size={1}
-                                    maxWidth={1280}
-                                    marginLeft={2}
-                                    marginRight={2}
-                                >
-                                    <HexagonContainer changedMediaQueries="mobileOn" height="auto">
-                                        <HexagonTitle>
-                                            Calculadora de Preço para <br />
-                                            Backup na Nuvem com Veeam
-                                        </HexagonTitle>
-                                        <HexagonParagraph>
-                                            1. Selecione um destino na nuvem para seu backup:
-                                        </HexagonParagraph>
-                                        <HexagonParagraph>
-                                            2. Selecione o total de terabytes para backup (1 TB = 1000 GB)
-                                        </HexagonParagraph>
-                                        <HexagonParagraph>
-                                            3. Selecione o tempo de contrato (meses)
-                                        </HexagonParagraph>
-                                    </HexagonContainer>
-                                </Column>
-                            </Row>
-
-                        </section> */}
-
                         <section>
                             <Row>
                                 <Column
@@ -745,56 +717,6 @@ const Baas: React.FC = () => {
                                     <CloudBackup />
                                 </Column>
                             </Row>
-                        </section>
-
-                        <section>
-                            <Row background={true} collapse="mobileOff">
-                                <Column
-                                    size={1}
-                                    collapse="mobileOn"
-                                    maxWidth={622}
-                                    marginLeft={2}
-                                    marginRight={2}
-                                >
-                                    <News />
-                                </Column>
-                            </Row>
-                            <div
-                                style={{
-                                    background:
-                                        'linear-gradient(117.16deg, #F08F08 6.49%, #F08F08 6.49%, #E66B00 95.65%)'
-                                }}
-                            >
-                                <Row collapse="mobileOff">
-                                    <Column
-                                        size={1}
-                                        marginRight={2}
-                                        marginLeft={2}
-                                    >
-                                        <News />
-                                    </Column>
-                                </Row>
-                                <Row>
-                                    <Column
-                                        size={1}
-                                        collapse="mobileOn"
-                                        maxWidth={622}
-                                        marginLeft={2}
-                                        marginRight={2}
-                                    >
-                                        <News />
-                                    </Column>
-
-                                    <Column
-                                        size={1}
-                                        maxWidth={622}
-                                        marginRight={2}
-                                        marginLeft={2}
-                                    >
-                                        <Email />
-                                    </Column>
-                                </Row>
-                            </div>
                         </section>
 
                         <section>
