@@ -24,6 +24,16 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
         };
     }, [router.events]);
 
+
+    useEffect(() => {
+        if (typeof window !== 'undefined') {
+            (function(w,d,u){
+                var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);
+                var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+        })(window,document,'https://cdn.bitrix24.com.br/b17869893/crm/form/loader_27.js');
+        }
+    }, [])
+
     return (
         <>
             <GoogleTagManager>
@@ -32,10 +42,8 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
                     <GlobalStyle />
                 </ThemeProvider>
             </GoogleTagManager>
-            <script
-                type="text/javascript"
-                src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js"
-            ></script>
+
+            <script data-b24-form="auto/27/m0ebno" data-skip-moving="true" />
         </>
     )
 }

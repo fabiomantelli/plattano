@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import Head from 'next/head'
 
 import ScrollLock from 'react-scrolllock'
@@ -33,8 +33,6 @@ import StorageBoxIcon from '../assets/8-hyperconvergence/storagebox/storageIcon'
 import CapexBoxIcon from '../assets/8-hyperconvergence/capexbox/capexboxIcon'
 import AlreadyBoxIcon from '../assets/8-hyperconvergence/alreadybox/alreadyboxIcon'
 import EvolutionBoxIcon from '../assets/8-hyperconvergence/evolutionbox/evolutionBoxIcon'
-import News from '../components/News'
-import Email from '../components/Email'
 
 const Hiperconvergencia: React.FC = () => {
     const [active, SetActive] = useState('initial')
@@ -206,16 +204,16 @@ const Hiperconvergencia: React.FC = () => {
                                             Por que não o Storage?
                                         </HexagonTitle>
                                         <HexagonParagraph>
-                                            Infraestruturas definidas por software ou hiperconvergentes 
-                                            trazem a possibilidade da automação e a nuvem hibrida. O vSAN 
-                                            é um software de virtualização de armazenamento de nível 
-                                            corporativo que, combinado com o vSphere, permite gerenciar o 
-                                            processamento e o armazenamento em uma única plataforma. Com o vSAN, 
-                                            é possível reduzir o custo e a complexidade do armazenamento 
-                                            tradicional e escolher o caminho mais fácil para a infraestrutura 
-                                            hiperconvergente e a nuvem híbrida. Evolua para uma solução 
-                                            integrada de infraestrutura hiperconvergente com o vSAN para 
-                                            melhorar a agilidade comercial, acelerar as operações e reduzir 
+                                            Infraestruturas definidas por software ou hiperconvergentes
+                                            trazem a possibilidade da automação e a nuvem hibrida. O vSAN
+                                            é um software de virtualização de armazenamento de nível
+                                            corporativo que, combinado com o vSphere, permite gerenciar o
+                                            processamento e o armazenamento em uma única plataforma. Com o vSAN,
+                                            é possível reduzir o custo e a complexidade do armazenamento
+                                            tradicional e escolher o caminho mais fácil para a infraestrutura
+                                            hiperconvergente e a nuvem híbrida. Evolua para uma solução
+                                            integrada de infraestrutura hiperconvergente com o vSAN para
+                                            melhorar a agilidade comercial, acelerar as operações e reduzir
                                             os custos.
                                         </HexagonParagraph>
                                     </HexagonContainer>
@@ -414,65 +412,15 @@ const Hiperconvergencia: React.FC = () => {
                                 >
                                     <HexagonContainer changedMediaQueries="mobileOn">
                                         <p>
-                                            Em ambientes HCI com vSAN, você pode dimensionar 
-                                            sua infraestrutura de forma elástica e sem interrupções, 
-                                            aproveitando os servidores x86 para armazenamento além 
-                                            de simplificar a gestão de seu parque e diminuir o espaço 
+                                            Em ambientes HCI com vSAN, você pode dimensionar
+                                            sua infraestrutura de forma elástica e sem interrupções,
+                                            aproveitando os servidores x86 para armazenamento além
+                                            de simplificar a gestão de seu parque e diminuir o espaço
                                             físico em seu Datacenter.
                                         </p>
                                     </HexagonContainer>
                                 </Column>
                             </Row>
-                        </section>
-
-                        <section>
-                            <Row background={true} collapse="mobileOff">
-                                <Column
-                                    size={1}
-                                    collapse="mobileOn"
-                                    maxWidth={622}
-                                    marginLeft={2}
-                                    marginRight={2}
-                                >
-                                    <News />
-                                </Column>
-                            </Row>
-                            <div
-                                style={{
-                                    background:
-                                        'linear-gradient(117.16deg, #F08F08 6.49%, #F08F08 6.49%, #E66B00 95.65%)'
-                                }}
-                            >
-                                <Row collapse="mobileOff">
-                                    <Column
-                                        size={1}
-                                        marginRight={2}
-                                        marginLeft={2}
-                                    >
-                                        <News />
-                                    </Column>
-                                </Row>
-                                <Row>
-                                    <Column
-                                        size={1}
-                                        collapse="mobileOn"
-                                        maxWidth={622}
-                                        marginLeft={2}
-                                        marginRight={2}
-                                    >
-                                        <News />
-                                    </Column>
-
-                                    <Column
-                                        size={1}
-                                        maxWidth={622}
-                                        marginRight={2}
-                                        marginLeft={2}
-                                    >
-                                        <Email />
-                                    </Column>
-                                </Row>
-                            </div>
                         </section>
 
                         <section>
@@ -612,21 +560,21 @@ const Hiperconvergencia: React.FC = () => {
                                         height="auto"
                                     >
                                         <HexagonParagraph>
-                                            Para entender de maneira rápida o que é a 
-                                            tecnologia VMware vSAN  (Virtual SAN) e 
-                                            como funciona, a fabricante afirma oficialmente: 
-                                            “O WMware vSAN é uma solução de armazenamento 
-                                            compartilhada simples e de nível corporativo para 
-                                            uma infraestrutura hiperconvergente, otimizada 
+                                            Para entender de maneira rápida o que é a
+                                            tecnologia VMware vSAN  (Virtual SAN) e
+                                            como funciona, a fabricante afirma oficialmente:
+                                            “O WMware vSAN é uma solução de armazenamento
+                                            compartilhada simples e de nível corporativo para
+                                            uma infraestrutura hiperconvergente, otimizada
                                             para desempenho de tudo em flash”.
                                         </HexagonParagraph>
                                         <HexagonParagraph>
-                                            Explicando esse conceito, é uma tecnologia que 
-                                            utiliza os discos locais dos servidores Vsphere 
-                                            ESXI para armazenar as VMs com bastante performance, 
-                                            eliminando assim a necessidade de adquirir Storages 
-                                            caros, você terá uma redução de até 50% do TCO 
-                                            (Custo Total de Propriedade) comparado com soluções 
+                                            Explicando esse conceito, é uma tecnologia que
+                                            utiliza os discos locais dos servidores Vsphere
+                                            ESXI para armazenar as VMs com bastante performance,
+                                            eliminando assim a necessidade de adquirir Storages
+                                            caros, você terá uma redução de até 50% do TCO
+                                            (Custo Total de Propriedade) comparado com soluções
                                             atuais de armazenamento.
                                         </HexagonParagraph>
                                     </HexagonContainer>

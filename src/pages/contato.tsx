@@ -24,12 +24,13 @@ const Contato: React.FC = () => {
     const [mobile, SetMobile] = useState(false)
 
     useEffect(() => {
-        if (window.RDStationForms) {
-            new window.RDStationForms(
-                'contact-adc4e9a53f04d5d7f6e7',
-                'UA-116458599-1'
-            ).createForm()
-        }
+            (function(w,d,u){
+                var s=d.createElement('script');
+                s.async=true;
+                s.src=u+'?'+(Date.now()/180000|0);
+                var h=d.getElementsByTagName('script')[0];
+                h.parentNode.insertBefore(s,h);
+        })(window,document,'https://cdn.bitrix24.com.br/b17869893/crm/form/loader_41.js');
     }, [active])
 
     const openHandler = () => {
@@ -53,10 +54,11 @@ const Contato: React.FC = () => {
                     name="viewport"
                     content="initial-scale=1.0, width=device-width"
                 />
-                <script
+
+                {/* <script
                     type="text/javascript"
                     src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js"
-                ></script>
+                ></script> */}
             </Head>
 
             <ScrollLock isActive={mobile}>
@@ -148,11 +150,10 @@ const Contato: React.FC = () => {
                                     </HelpContainer>
                                 </Column>
 
-                                <Column size={1} maxWidth={622} marginRight={2}>
-                                    <div
-                                        role="main"
-                                        id="contact-adc4e9a53f04d5d7f6e7"
-                                    ></div>
+                                <Column size={1} maxWidth={622} marginRight={2} marginLeft={2}>
+                                    <div>
+                                        <script data-b24-form="inline/41/sxd1nv" data-skip-moving="true" />
+                                    </div>
                                 </Column>
                             </Row>
                         </section>

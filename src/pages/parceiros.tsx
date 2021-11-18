@@ -10,11 +10,9 @@ import Grid from '../styles/Grid'
 
 import Forbes from '../components/5-partners/Forbes'
 
-import News from '../components/News'
-import Email from '../components/Email'
-
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+
 import {
     ImageContainer,
     MainContainer,
@@ -131,12 +129,12 @@ const Parceiros: React.FC = () => {
                                 >
                                     <GeneralText>
                                         <p>
-                                        As decisões tecnológicas que você toma hoje 
-                                        para seus negócios afetarão diretamente as 
-                                        oportunidades que criará para o futuro. A escolha 
-                                        da <b style={{ color: '#F48200'}}>Pláttano Technologies </b> 
-                                        como parceira <b>VMware</b>, e com nosso vasto conhecimento na área de 
-                                        infraestrutura fará com que você obtenha o máximo valor e progresso 
+                                        As decisões tecnológicas que você toma hoje
+                                        para seus negócios afetarão diretamente as
+                                        oportunidades que criará para o futuro. A escolha
+                                        da <b style={{ color: '#F48200'}}>Pláttano Technologies </b>
+                                        como parceira <b>VMware</b>, e com nosso vasto conhecimento na área de
+                                        infraestrutura fará com que você obtenha o máximo valor e progresso
                                         para seus negócios por meio das soluções <b>VMware</b>.
                                         </p>
                                         <p>
@@ -169,14 +167,14 @@ const Parceiros: React.FC = () => {
                                             confiáveis
                                         </HexagonTitle>
                                         <HexagonParagraph>
-                                            A <b>VMware </b> está comprometida em oferecer a melhor 
-                                            experiência de uso para nossos clientes. Temos um 
-                                            elevado nível de parceria e você pode ter certeza 
-                                            de que temos os recursos, o conhecimento, as 
-                                            habilidades e as ferramentas necessárias para 
-                                            fornecer os serviços com êxito. Com a experiência 
-                                            adquirida em centenas de projetos, aproveitamos 
-                                            nosso conhecimento sólido para agregar o máximo 
+                                            A <b>VMware </b> está comprometida em oferecer a melhor
+                                            experiência de uso para nossos clientes. Temos um
+                                            elevado nível de parceria e você pode ter certeza
+                                            de que temos os recursos, o conhecimento, as
+                                            habilidades e as ferramentas necessárias para
+                                            fornecer os serviços com êxito. Com a experiência
+                                            adquirida em centenas de projetos, aproveitamos
+                                            nosso conhecimento sólido para agregar o máximo
                                             valor a partir das soluções da fabricante.
                                         </HexagonParagraph>
                                     </HexagonContainer>
@@ -213,7 +211,7 @@ const Parceiros: React.FC = () => {
                                                 style={{ cursor: 'pointer'}}
                                             />
                                         </Link>
-                                            
+
                                         <h1>
                                             Soluções personalizadas <br /> com a
                                             Pláttano e Veeam.
@@ -243,29 +241,29 @@ const Parceiros: React.FC = () => {
                                                     Veeam®
                                                 </b>
                                             </Link>{' '}
-                                            como parceira em soluções de proteção 
-                                            de dados porquê ela é a líder no segmento,  
-                                            e nada melhor do que entregar aos nossos 
-                                            clientes o que há de melhor. A Veeam oferece 
-                                            uma plataforma única para modernizar o backup, 
-                                            acelerar a nuvem híbrida e proteger seus dados. 
-                                            Suas soluções são simples de instalar e executar, 
-                                            flexíveis o bastante para se adequar a qualquer 
+                                            como parceira em soluções de proteção
+                                            de dados porquê ela é a líder no segmento,
+                                            e nada melhor do que entregar aos nossos
+                                            clientes o que há de melhor. A Veeam oferece
+                                            uma plataforma única para modernizar o backup,
+                                            acelerar a nuvem híbrida e proteger seus dados.
+                                            Suas soluções são simples de instalar e executar,
+                                            flexíveis o bastante para se adequar a qualquer
                                             ambiente e sempre confiáveis. <br /><br />
-                                            Temos como meta junto à fabricante, ser o provedor 
-                                            mais confiável de soluções de backup que proporcionam 
+                                            Temos como meta junto à fabricante, ser o provedor
+                                            mais confiável de soluções de backup que proporcionam
                                             gerenciamento de dados na nuvem.
 
                                         </p>
                                         <p>
-                                        Somos parceiros oficiais, podendo auxiliar 
-                                        tanto nas etapas iniciais que visam entregar 
-                                        o melhor licenciamento para você, até nas 
-                                        fases de implantação, apoio técnico e gestão 
-                                        de sua infraestrutura. Além disso, a Pláttano 
-                                        Technologies é um dos principais parceiros cloud, 
-                                        atuando no seleto programa <b>VCSP </b> e <b>VASP</b>, 
-                                        o que nos credencia para ofertar soluções de Backup 
+                                        Somos parceiros oficiais, podendo auxiliar
+                                        tanto nas etapas iniciais que visam entregar
+                                        o melhor licenciamento para você, até nas
+                                        fases de implantação, apoio técnico e gestão
+                                        de sua infraestrutura. Além disso, a Pláttano
+                                        Technologies é um dos principais parceiros cloud,
+                                        atuando no seleto programa <b>VCSP </b> e <b>VASP</b>,
+                                        o que nos credencia para ofertar soluções de Backup
                                         em Cloud (
                                             <Link href="/baas">
                                                 <b
@@ -370,56 +368,6 @@ const Parceiros: React.FC = () => {
                                     </ImageContainer>
                                 </Column>
                             </Row>
-                        </section>
-
-                        <section>
-                            <Row background={true} collapse="mobileOff">
-                                <Column
-                                    size={1}
-                                    collapse="mobileOn"
-                                    maxWidth={622}
-                                    marginLeft={2}
-                                    marginRight={2}
-                                >
-                                    <News />
-                                </Column>
-                            </Row>
-                            <div
-                                style={{
-                                    background:
-                                        'linear-gradient(117.16deg, #F08F08 6.49%, #F08F08 6.49%, #E66B00 95.65%)'
-                                }}
-                            >
-                                <Row collapse="mobileOff">
-                                    <Column
-                                        size={1}
-                                        marginRight={2}
-                                        marginLeft={2}
-                                    >
-                                        <News />
-                                    </Column>
-                                </Row>
-                                <Row>
-                                    <Column
-                                        size={1}
-                                        collapse="mobileOn"
-                                        maxWidth={622}
-                                        marginLeft={2}
-                                        marginRight={2}
-                                    >
-                                        <News />
-                                    </Column>
-
-                                    <Column
-                                        size={1}
-                                        maxWidth={622}
-                                        marginRight={2}
-                                        marginLeft={2}
-                                    >
-                                        <Email />
-                                    </Column>
-                                </Row>
-                            </div>
                         </section>
 
                         <section>

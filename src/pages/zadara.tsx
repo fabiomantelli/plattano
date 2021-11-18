@@ -7,6 +7,7 @@ import Row from '../styles/Row'
 import Column from '../styles/Column'
 import Grid from '../styles/Grid'
 import Header from '../components/Header'
+
 import {
     HexagonContainer,
     ImageContainer,
@@ -14,16 +15,15 @@ import {
     MainGeometricContainer,
     PolygonContainer
 } from '../styles/Containers'
+
 import {
     HexagonParagraph,
     HexagonTitle,
     Title
 } from '../styles/TextElements'
-import { ButtonElement } from '../styles/Buttons'
 
 import Trapezio from '../assets/trapezio'
 import Footer from '../components/Footer'
-import Link from 'next/link'
 
 const Vmware: React.FC = () => {
     const [active, SetActive] = useState('initial')
@@ -124,20 +124,20 @@ const Vmware: React.FC = () => {
                                             Construído para velocidade, segurança e escalabilidade.
                                         </HexagonTitle>
                                         <HexagonParagraph>
-                                            Zadara é uma empresa de computação em nuvem fundada em 2011, 
-                                            com sede em Irvine, Califórnia. A empresa desenvolve software 
-                                            de computador que comercializa como armazenamento como serviço, 
-                                            que pode ser usado para nuvem ou servidores locais, um modelo às 
+                                            Zadara é uma empresa de computação em nuvem fundada em 2011,
+                                            com sede em Irvine, Califórnia. A empresa desenvolve software
+                                            de computador que comercializa como armazenamento como serviço,
+                                            que pode ser usado para nuvem ou servidores locais, um modelo às
                                             vezes chamado de nuvem privada.
                                         </HexagonParagraph>
                                         <HexagonParagraph>
-                                            Juntamente com a <strong>Pláttano Technologies</strong> aliada, o 
-                                            Zadara Cloud Platform usa uma combinação de hardware padrão da indústria 
-                                            e software Zadara patenteado para oferecer velocidade, segurança 
-                                            e escalabilidade de classe empresarial - junto com a conveniência 
-                                            da nuvem. Opere com confiança. Qualquer tipo de dados. Qualquer 
-                                            protocolo. Qualquer local. Com Zadara, seu sistema de armazenamento 
-                                            e gerenciamento de dados está sempre em sincronia com suas 
+                                            Juntamente com a <strong>Pláttano Technologies</strong> aliada, o
+                                            Zadara Cloud Platform usa uma combinação de hardware padrão da indústria
+                                            e software Zadara patenteado para oferecer velocidade, segurança
+                                            e escalabilidade de classe empresarial - junto com a conveniência
+                                            da nuvem. Opere com confiança. Qualquer tipo de dados. Qualquer
+                                            protocolo. Qualquer local. Com Zadara, seu sistema de armazenamento
+                                            e gerenciamento de dados está sempre em sincronia com suas
                                             necessidades.
                                         </HexagonParagraph>
                                     </HexagonContainer>
@@ -188,18 +188,18 @@ const Vmware: React.FC = () => {
                                             Veeam + Pláttano + Zadara = Aliança de Sucesso!
                                         </HexagonParagraph>
                                         <HexagonParagraph>
-                                            Combine <strong>Veeam</strong> e <strong>Zadara </strong> 
-                                            para impulsionar a disponibilidade de aplicativos e dados em 
-                                            um modelo público flexível de backup como serviço 100% OpEx &#8212; 
-                                            incluindo imutabilidade de dados &#8212; no local, em seu data center 
+                                            Combine <strong>Veeam</strong> e <strong>Zadara </strong>
+                                            para impulsionar a disponibilidade de aplicativos e dados em
+                                            um modelo público flexível de backup como serviço 100% OpEx &#8212;
+                                            incluindo imutabilidade de dados &#8212; no local, em seu data center
                                             e na nuvem.
                                         </HexagonParagraph>
                                         <HexagonParagraph>
-                                            A <strong>Pláttano</strong> realizou a parceria com a Zadara, pensando 
-                                            lá na frente. Mais uma tecnologia robusta, pronta para entrar em seu 
-                                            ecosistema e auxiliando na proteção off-site de seu datacenter. 
-                                            Vamos proteger seu dado com toda a disponibilidade, resiliência e segurança 
-                                            possível. 
+                                            A <strong>Pláttano</strong> realizou a parceria com a Zadara, pensando
+                                            lá na frente. Mais uma tecnologia robusta, pronta para entrar em seu
+                                            ecosistema e auxiliando na proteção off-site de seu datacenter.
+                                            Vamos proteger seu dado com toda a disponibilidade, resiliência e segurança
+                                            possível.
                                         </HexagonParagraph>
                                     </HexagonContainer>
                                 </Column>
@@ -230,12 +230,12 @@ const Vmware: React.FC = () => {
                                         </HexagonParagraph>
                                         <HexagonParagraph>
                                             <strong>
-                                                Obtenha o armazenamento como serviço da Zadara no local, 
+                                                Obtenha o armazenamento como serviço da Zadara no local,
                                                 em sua instalação de colocation e na nuvem pública.
                                             </strong>
                                         </HexagonParagraph>
 
-                                        
+
                                     </HexagonContainer>
                                 </Column>
                                 <Column

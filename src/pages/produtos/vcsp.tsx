@@ -1,8 +1,6 @@
 import React, { useState } from 'react'
 import Head from 'next/head'
 
-import Router from 'next/router';
-
 import ScrollLock from 'react-scrolllock'
 
 import Row from '../../styles/Row'
@@ -10,6 +8,7 @@ import Column from '../../styles/Column'
 import Grid from '../../styles/Grid'
 
 import Header from '../../components/Header'
+
 import {
     GeneralText,
     HexagonContainer,
@@ -31,11 +30,10 @@ import UpdatesBoxIcon from '../../assets/11-support/updatesbox/updatesBoxIcon'
 import CapexBoxIcon from '../../assets/11-support/capexbox/capexBoxIcon'
 import Footer from '../../components/Footer'
 
-
 const Suporte: React.FC = () => {
     const [active, SetActive] = useState('initial')
     const [mobile, SetMobile] = useState(false)
-    
+
     const openHandler = () => {
         if (active === 'active') {
             SetActive('not-active')
@@ -126,18 +124,18 @@ const Suporte: React.FC = () => {
                                             Cloud Service Provider
                                         </HexagonTitle>
                                         <HexagonParagraph>
-                                            Tenha um ambiente 100% seguro e protegido 
-                                            com o Veeam suportado pelos especialistas 
-                                            da Pláttano. Troque as aquisições e compras 
-                                            complexas e <b> pague mensalmente</b> de acordo com 
-                                            o seu consumo de licenças (<b>opEx</b>). Esse é um 
-                                            novo conceito de utilização de licenciamento 
-                                            e vem se tornando um padrão a cada dia. Além 
-                                            de contratar a melhor solução, você ainda terá 
-                                            suporte total junto ao nosso time de engenheiros 
-                                            para manter seu ambiente monitorado e gerido. Diga 
-                                            adeus às aberturas de chamados junto aos fabricantes 
-                                            e libere seu time de TI para focar no que realmente 
+                                            Tenha um ambiente 100% seguro e protegido
+                                            com o Veeam suportado pelos especialistas
+                                            da Pláttano. Troque as aquisições e compras
+                                            complexas e <b> pague mensalmente</b> de acordo com
+                                            o seu consumo de licenças (<b>opEx</b>). Esse é um
+                                            novo conceito de utilização de licenciamento
+                                            e vem se tornando um padrão a cada dia. Além
+                                            de contratar a melhor solução, você ainda terá
+                                            suporte total junto ao nosso time de engenheiros
+                                            para manter seu ambiente monitorado e gerido. Diga
+                                            adeus às aberturas de chamados junto aos fabricantes
+                                            e libere seu time de TI para focar no que realmente
                                             importa: o seu negócio.
                                         </HexagonParagraph>
                                     </HexagonContainer>

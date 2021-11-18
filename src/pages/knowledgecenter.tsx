@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import Head from 'next/head'
 import { useRouter } from 'next/router'
 
@@ -24,10 +24,8 @@ import {
 } from '../styles/TextElements'
 
 import { ButtonElement } from '../styles/Buttons'
-import News from '../components/News'
-import Email from '../components/Email'
-import Footer from '../components/Footer'
 
+import Footer from '../components/Footer'
 import Ebooks from '../components/Ebooks'
 
 const Knowledgecenter: React.FC = () => {
@@ -109,8 +107,8 @@ const Knowledgecenter: React.FC = () => {
                                 <Column
                                     size={1}
                                     maxWidth={622}
-                                    marginLeft={2}  
-                                    marginRight={2}  
+                                    marginLeft={2}
+                                    marginRight={2}
                                 >
                                     <HexagonContainer changedMediaQueries="mobileOn" height="auto">
                                         <HexagonTitle>
@@ -133,8 +131,8 @@ const Knowledgecenter: React.FC = () => {
                                 <Column
                                     size={1}
                                     maxWidth={622}
-                                    marginRight={2}   
-                                    collapse="mobileOn" 
+                                    marginRight={2}
+                                    collapse="mobileOn"
                                 >
                                     <HexagonContainer changedMediaQueries="mobileOn" height="auto">
                                         <HexagonTitle>
@@ -159,7 +157,7 @@ const Knowledgecenter: React.FC = () => {
                                 <Column
                                     size={1}
                                     maxWidth={622}
-                                    marginRight={2}   
+                                    marginRight={2}
                                     marginLeft={2}
                                 >
                                     <HexagonContainer changedMediaQueries="mobileOn">
@@ -209,7 +207,7 @@ const Knowledgecenter: React.FC = () => {
                                             Blog
                                         </HexagonTitle>
                                         <HexagonParagraph>
-                                            Acesse o blog da Pláttano Technologies e acompanhe 
+                                            Acesse o blog da Pláttano Technologies e acompanhe
                                             todas as as novidades.
                                         </HexagonParagraph>
 
@@ -224,56 +222,6 @@ const Knowledgecenter: React.FC = () => {
                                     </HexagonContainer>
                                 </Column>
                             </Row>
-                        </section>
-
-                        <section>
-                            <Row background={true} collapse="mobileOff">
-                                <Column
-                                    size={1}
-                                    collapse="mobileOn"
-                                    maxWidth={622}
-                                    marginLeft={2}
-                                    marginRight={2}
-                                >
-                                    <News />
-                                </Column>
-                            </Row>
-                            <div
-                                style={{
-                                    background:
-                                        'linear-gradient(117.16deg, #F08F08 6.49%, #F08F08 6.49%, #E66B00 95.65%)'
-                                }}
-                            >
-                                <Row collapse="mobileOff">
-                                    <Column
-                                        size={1}
-                                        marginRight={2}
-                                        marginLeft={2}
-                                    >
-                                        <News />
-                                    </Column>
-                                </Row>
-                                <Row>
-                                    <Column
-                                        size={1}
-                                        collapse="mobileOn"
-                                        maxWidth={622}
-                                        marginLeft={2}
-                                        marginRight={2}
-                                    >
-                                        <News />
-                                    </Column>
-
-                                    <Column
-                                        size={1}
-                                        maxWidth={622}
-                                        marginRight={2}
-                                        marginLeft={2}
-                                    >
-                                        <Email />
-                                    </Column>
-                                </Row>
-                            </div>
                         </section>
 
                         <section>

@@ -8,9 +8,6 @@ import Row from '../styles/Row'
 import Column from '../styles/Column'
 import Grid from '../styles/Grid'
 
-import News from '../components/News'
-import Email from '../components/Email'
-
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 
@@ -33,7 +30,7 @@ import { ButtonElement } from '../styles/Buttons'
 const Sobre: React.FC = () => {
     const [active, SetActive] = useState('initial')
     const [mobile, SetMobile] = useState(false)
-    
+
     const openHandler = () => {
         if (active === 'active') {
             SetActive('not-active')
@@ -132,18 +129,18 @@ const Sobre: React.FC = () => {
                                                     BaaS
                                                 </b>
                                             </Link>
-                                            <b>)</b> . Nossa equipe é certificada 
-                                            nas versões atuais da ferramenta, e 
-                                            treinada para gerenciar ambientes 
+                                            <b>)</b> . Nossa equipe é certificada
+                                            nas versões atuais da ferramenta, e
+                                            treinada para gerenciar ambientes
                                             internos e em nuvem.
 
                                         </HexagonParagraph>
                                         <HexagonParagraph>
-                                            Vamos ser objetivos? Quem quer construir 
-                                            e manter um site secundário, quando se pode 
-                                            enviar seus backups para um ambiente externo 
-                                            num provedor de serviços confiável. Deixe 
-                                            que os especialistas e engenheiros Veeam da 
+                                            Vamos ser objetivos? Quem quer construir
+                                            e manter um site secundário, quando se pode
+                                            enviar seus backups para um ambiente externo
+                                            num provedor de serviços confiável. Deixe
+                                            que os especialistas e engenheiros Veeam da
                                             {' '}<b>Pláttano</b> o construam e o gerenciem.
 
                                         </HexagonParagraph>
@@ -208,12 +205,12 @@ const Sobre: React.FC = () => {
                                                     DRaaS
                                                 </b>
                                             </Link>{' '}
-                                            da Pláttano Technologies com a 
-                                            tecnologia da Veeam integra seu 
-                                            ambiente local como uma extensão 
-                                            da infraestrutura de nuvem, fornecendo 
-                                            recursos de replicação e failover seguros 
-                                            e robustos para a recuperação de desastres 
+                                            da Pláttano Technologies com a
+                                            tecnologia da Veeam integra seu
+                                            ambiente local como uma extensão
+                                            da infraestrutura de nuvem, fornecendo
+                                            recursos de replicação e failover seguros
+                                            e robustos para a recuperação de desastres
                                             em instantes.
                                         </HexagonParagraph>
 
@@ -277,56 +274,6 @@ const Sobre: React.FC = () => {
                         </section>
 
                         <section>
-                            <Row background={true} collapse="mobileOff">
-                                <Column
-                                    size={1}
-                                    collapse="mobileOn"
-                                    maxWidth={622}
-                                    marginLeft={2}
-                                    marginRight={2}
-                                >
-                                    <News />
-                                </Column>
-                            </Row>
-                            <div
-                                style={{
-                                    background:
-                                        'linear-gradient(117.16deg, #F08F08 6.49%, #F08F08 6.49%, #E66B00 95.65%)'
-                                }}
-                            >
-                                <Row collapse="mobileOff">
-                                    <Column
-                                        size={1}
-                                        marginRight={2}
-                                        marginLeft={2}
-                                    >
-                                        <News />
-                                    </Column>
-                                </Row>
-                                <Row>
-                                    <Column
-                                        size={1}
-                                        collapse="mobileOn"
-                                        maxWidth={622}
-                                        marginLeft={2}
-                                        marginRight={2}
-                                    >
-                                        <News />
-                                    </Column>
-
-                                    <Column
-                                        size={1}
-                                        maxWidth={622}
-                                        marginRight={2}
-                                        marginLeft={2}
-                                    >
-                                        <Email />
-                                    </Column>
-                                </Row>
-                            </div>
-                        </section>
-
-                        <section>
                             <Row>
                                 <Column
                                     size={1}
@@ -358,12 +305,12 @@ const Sobre: React.FC = () => {
                                         <HexagonTitle>Veeam</HexagonTitle>
                                         <h2>Proteção é nosso objetivo</h2>
                                         <HexagonParagraph>
-                                            Nossa expertise vai além do licenciamento e auxílio em 
-                                            renovações de suporte. Somos uma empresa <strong>referência </strong> 
-                                            junto à Veeam Software, e nosso corpo técnico é capaz de entregar 
-                                            com excelência projetos de todos os portes, com acompanhamento em 
-                                            todas as etapas, desde a aquisição do melhor produto até a implementação 
-                                            e gestão em seu ambiente. Somos parceiros nivel GOLD, VCSP 
+                                            Nossa expertise vai além do licenciamento e auxílio em
+                                            renovações de suporte. Somos uma empresa <strong>referência </strong>
+                                            junto à Veeam Software, e nosso corpo técnico é capaz de entregar
+                                            com excelência projetos de todos os portes, com acompanhamento em
+                                            todas as etapas, desde a aquisição do melhor produto até a implementação
+                                            e gestão em seu ambiente. Somos parceiros nivel GOLD, VCSP
                                             e <strong>VASP</strong>.
                                         </HexagonParagraph>
 

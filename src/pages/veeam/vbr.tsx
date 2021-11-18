@@ -1,14 +1,14 @@
 import React, { useState } from 'react'
 import Head from 'next/head'
 
-import Router from 'next/router';
-
 import ScrollLock from 'react-scrolllock'
 
 import Row from '../../styles/Row'
 import Column from '../../styles/Column'
 import Grid from '../../styles/Grid'
+
 import Header from '../../components/Header'
+
 import {
     EntireContainer,
     HexagonContainer,
@@ -17,6 +17,7 @@ import {
     MainGeometricContainer,
     PolygonContainer
 } from '../../styles/Containers'
+
 import {
     HexagonParagraph,
     HexagonTitle,
@@ -29,8 +30,6 @@ import {
 import Trapezio from '../../assets/trapezio'
 import TrapezioWhite from '../../assets/trapeziowhite'
 import Software from '../../components/13-vbrPage/Software'
-import News from '../../components/News'
-import Email from '../../components/Email'
 import Footer from '../../components/Footer'
 
 const Vbr: React.FC = () => {
@@ -750,56 +749,6 @@ const Vbr: React.FC = () => {
                                     <Software />
                                 </Column>
                             </Row>
-                        </section>
-
-                        <section>
-                            <Row background={true} collapse="mobileOff">
-                                <Column
-                                    size={1}
-                                    collapse="mobileOn"
-                                    maxWidth={622}
-                                    marginLeft={2}
-                                    marginRight={2}
-                                >
-                                    <News />
-                                </Column>
-                            </Row>
-                            <div
-                                style={{
-                                    background:
-                                        'linear-gradient(117.16deg, #F08F08 6.49%, #F08F08 6.49%, #E66B00 95.65%)'
-                                }}
-                            >
-                                <Row collapse="mobileOff">
-                                    <Column
-                                        size={1}
-                                        marginRight={2}
-                                        marginLeft={2}
-                                    >
-                                        <News />
-                                    </Column>
-                                </Row>
-                                <Row>
-                                    <Column
-                                        size={1}
-                                        collapse="mobileOn"
-                                        maxWidth={622}
-                                        marginLeft={2}
-                                        marginRight={2}
-                                    >
-                                        <News />
-                                    </Column>
-
-                                    <Column
-                                        size={1}
-                                        maxWidth={622}
-                                        marginRight={2}
-                                        marginLeft={2}
-                                    >
-                                        <Email />
-                                    </Column>
-                                </Row>
-                            </div>
                         </section>
 
                         <section>
