@@ -107,42 +107,19 @@ const Footer: React.FC = () => {
                     <Column
                         size={1}
                         maxWidth={402.67}
-                        // maxWidth={293}
                         marginTop={2}
                         marginLeft={2}
                     >
                         <Link href="/">
-                            <img 
-                                src="../assets/footer/plattanowhite-icon.svg" 
-                                alt="Pláttano Logo" 
-                                style={{ 
+                            <img
+                                src="../assets/footer/plattanowhite-icon.svg"
+                                alt="Pláttano Logo"
+                                style={{
                                     cursor: 'pointer',
                                 }}
                             />
                         </Link>
                     </Column>
-                    {/* <Column
-                        size={1}
-                        maxWidth={293}
-                        marginTop={2}
-                        marginLeft={2}
-                    >
-                        <FooterContainer>
-                            <TitleFooter>Serviços</TitleFooter>
-                            <Link href="/">
-                                <a>Licenciamentos</a>
-                            </Link>
-                            <Link href="/suporte">
-                                <a>Suporte</a>
-                            </Link>
-                            <Link href="/">
-                                <a>Consultoria</a>
-                            </Link>
-                            <Link href="/">
-                                <a>Implementação</a>
-                            </Link>
-                        </FooterContainer>
-                    </Column> */}
                     <Column
                         size={1}
                         maxWidth={402.67}
@@ -158,7 +135,7 @@ const Footer: React.FC = () => {
                             <Link href="/produtos/draas">
                                 <a>DRaaS</a>
                             </Link>
-                            <Link href="/produtos/vcsp">
+                            <Link href="/produtos/baas">
                                 <a>Intelligent Backup</a>
                             </Link>
                             <Link href="/vmware">
