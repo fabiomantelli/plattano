@@ -123,7 +123,6 @@ const Footer: React.FC = () => {
                     <Column
                         size={1}
                         maxWidth={402.67}
-                        // maxWidth={293}
                         marginTop={2}
                         marginLeft={2}
                     >
@@ -135,8 +134,8 @@ const Footer: React.FC = () => {
                             <Link href="/produtos/draas">
                                 <a>DRaaS</a>
                             </Link>
-                            <Link href="/produtos/baas">
-                                <a>Intelligent Backup</a>
+                            <Link href="/produtos/vcsp">
+                                <a>Licenciamento</a>
                             </Link>
                             <Link href="/vmware">
                                 <a>VMware</a>
@@ -155,7 +154,6 @@ const Footer: React.FC = () => {
                     <Column
                         size={1}
                         maxWidth={402.67}
-                        // maxWidth={293}
                         marginTop={2}
                         marginRight={2}
                         marginLeft={2}
