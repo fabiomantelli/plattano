@@ -80,7 +80,7 @@ const Vmware: React.FC = () => {
                                             }}
                                         />
                                         <img
-                                            src="/assets/18-zadara/zadara-image.png"
+                                            src="/assets/18-zadara/zadara-logo.svg"
                                             alt="Exagrid"
                                             style={{
                                                 position: 'absolute',
