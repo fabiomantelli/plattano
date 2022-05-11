@@ -106,7 +106,7 @@ const Knowledgecenter: React.FC = () => {
                             <Row>
                                 <Column
                                     size={1}
-                                    maxWidth={622}
+                                    maxWidth={402.67}
                                     marginLeft={2}
                                     marginRight={2}
                                 >
@@ -130,11 +130,61 @@ const Knowledgecenter: React.FC = () => {
                                 </Column>
                                 <Column
                                     size={1}
-                                    maxWidth={622}
+                                    maxWidth={402.67}
                                     marginRight={2}
                                     collapse="mobileOn"
                                 >
                                     <HexagonContainer changedMediaQueries="mobileOn" height="auto">
+                                        <HexagonTitle>
+                                            Compliance
+                                        </HexagonTitle>
+                                        <HexagonParagraph>
+                                            Código de ética e conduta
+                                        </HexagonParagraph>
+
+                                        <ButtonElement>
+                                            <a
+                                                href="https://plattano-site.s3.amazonaws.com/knowledge-center/CODIGO_ETICA_CONDUTA.pdf"
+                                                target="_blank"
+                                                rel="noreferrer"
+                                                style={{ textDecoration: 'none', color: '#fff'}}
+                                            >Ética</a>
+                                        </ButtonElement>
+                                    </HexagonContainer>
+                                </Column>
+                                <Column
+                                    size={1}
+                                    maxWidth={402.67}
+                                    marginRight={2}
+                                    collapse="mobileOn"
+                                >
+                                    <HexagonContainer changedMediaQueries="mobileOn" height="auto">
+                                        <HexagonTitle>
+                                            Política de Privacidade
+                                        </HexagonTitle>
+                                        <HexagonParagraph>
+                                            Tratamento e uso de dados pessoais
+                                        </HexagonParagraph>
+
+                                        <ButtonElement>
+                                            <a
+                                                href="https://plattano-site.s3.amazonaws.com/knowledge-center/POLITICA_EXTERNA_DE_PRIVACIDADE_DE_DADOS.pdf"
+                                                target="_blank"
+                                                rel="noreferrer"
+                                                style={{ textDecoration: 'none', color: '#fff'}}
+                                            >Privacidade</a>
+                                        </ButtonElement>
+                                    </HexagonContainer>
+                                </Column>
+                            </Row>
+                            <Row collapse="mobileOff">
+                                <Column
+                                    size={1}
+                                    maxWidth={622}
+                                    marginRight={2}
+                                    marginLeft={2}
+                                >
+                                    <HexagonContainer changedMediaQueries="mobileOn">
                                         <HexagonTitle>
                                             Compliance
                                         </HexagonTitle>
@@ -162,19 +212,19 @@ const Knowledgecenter: React.FC = () => {
                                 >
                                     <HexagonContainer changedMediaQueries="mobileOn">
                                         <HexagonTitle>
-                                            Compliance
+                                            Política de Privacidade
                                         </HexagonTitle>
                                         <HexagonParagraph>
-                                            Código de ética e conduta
+                                            Tratamento e uso de dados pessoais
                                         </HexagonParagraph>
 
                                         <ButtonElement>
                                             <a
-                                                href="https://www.veeam.com/br"
+                                                href="https://plattano-site.s3.amazonaws.com/knowledge-center/POLITICA_EXTERNA_DE_PRIVACIDADE_DE_DADOS.pdf"
                                                 target="_blank"
                                                 rel="noreferrer"
                                                 style={{ textDecoration: 'none', color: '#fff'}}
-                                            >Ética</a>
+                                            >Privacidade</a>
                                         </ButtonElement>
                                     </HexagonContainer>
                                 </Column>
