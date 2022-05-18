@@ -69,7 +69,7 @@ const Home: React.FC = () => {
                                 <Column size={1}>
                                     <ModernityContainer>
                                         <MainTitle>
-                                            Modernidade para seu Datacenter
+                                            MModernidade para seu Datacenter
                                         </MainTitle>
                                         <MainSubTitle>
                                             Tenha acesso às melhores e mais

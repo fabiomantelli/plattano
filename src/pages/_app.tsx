@@ -5,24 +5,24 @@ import GlobalStyle from '../styles/global'
 import { ThemeProvider } from 'styled-components'
 import theme from '../styles/theme'
 
-import GoogleTagManager from '../components/GoogleTagManager'
+// import GoogleTagManager from '../components/GoogleTagManager'
 
 import { useEffect } from "react";
 import { useRouter } from "next/router";
-import * as gtag from "../lib/gtag";
+// import * as gtag from "../lib/gtag";
 
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
     const router = useRouter();
 
-    useEffect(() => {
-        const handleRouteChange = (url: URL) => {
-        gtag.pageview(url);
-        };
-        router.events.on("routeChangeComplete", handleRouteChange);
-        return () => {
-        router.events.off("routeChangeComplete", handleRouteChange);
-        };
-    }, [router.events]);
+    // useEffect(() => {
+    //     const handleRouteChange = (url: URL) => {
+    //     gtag.pageview(url);
+    //     };
+    //     router.events.on("routeChangeComplete", handleRouteChange);
+    //     return () => {
+    //     router.events.off("routeChangeComplete", handleRouteChange);
+    //     };
+    // }, [router.events]);
 
 
     useEffect(() => {
@@ -31,17 +31,18 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
                 var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);
                 var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
         })(window,document,'https://cdn.bitrix24.com.br/b17869893/crm/form/loader_27.js');
+        // })(window,document,'https://cdn.bitrix24.com.br/b17869893/crm/form/loader_27.js');
         }
     }, [])
 
     return (
         <>
-            <GoogleTagManager>
+            {/* <GoogleTagManager> */}
                 <ThemeProvider theme={theme}>
                         <Component {...pageProps} />
                     <GlobalStyle />
                 </ThemeProvider>
-            </GoogleTagManager>
+            {/* </GoogleTagManager> */}
 
             <script data-b24-form="auto/27/m0ebno" data-skip-moving="true" />
         </>

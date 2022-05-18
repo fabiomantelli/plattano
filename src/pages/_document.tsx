@@ -1,6 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 import { ServerStyleSheet } from 'styled-components'
-import { useEffect } from 'react'
 
 import { GTM_ID } from '../lib/gtm'
 import { GA_TRACKING_ID } from '../lib/gtag'
