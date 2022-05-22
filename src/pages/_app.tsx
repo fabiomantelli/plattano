@@ -8,45 +8,54 @@ import theme from '../styles/theme'
 // import GoogleTagManager from '../components/GoogleTagManager'
 
 import { useEffect } from "react";
-import { useRouter } from "next/router";
+// import { useRouter } from "next/router";
+
+import FloatingWhatsApp from 'react-floating-whatsapp'
+
 // import * as gtag from "../lib/gtag";
 
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
-    const router = useRouter();
+  // const router = useRouter();
 
-    // useEffect(() => {
-    //     const handleRouteChange = (url: URL) => {
-    //     gtag.pageview(url);
-    //     };
-    //     router.events.on("routeChangeComplete", handleRouteChange);
-    //     return () => {
-    //     router.events.off("routeChangeComplete", handleRouteChange);
-    //     };
-    // }, [router.events]);
+  // useEffect(() => {
+  //     const handleRouteChange = (url: URL) => {
+  //     gtag.pageview(url);
+  //     };
+  //     router.events.on("routeChangeComplete", handleRouteChange);
+  //     return () => {
+  //     router.events.off("routeChangeComplete", handleRouteChange);
+  //     };
+  // }, [router.events]);
 
 
-    useEffect(() => {
-        if (typeof window !== 'undefined') {
-            (function(w,d,u){
-                var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);
-                var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
-        })(window,document,'https://cdn.bitrix24.com.br/b17869893/crm/form/loader_27.js');
-        // })(window,document,'https://cdn.bitrix24.com.br/b17869893/crm/form/loader_27.js');
-        }
-    }, [])
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      (function (w, d, u) {
+        var s = d.createElement('script'); s.async = true; s.src = u + '?' + (Date.now() / 180000 | 0);
+        var h = d.getElementsByTagName('script')[0]; h.parentNode.insertBefore(s, h);
+      })(window, document, 'https://cdn.bitrix24.com.br/b17869893/crm/form/loader_27.js');
+    }
+  }, [])
 
-    return (
-        <>
-            {/* <GoogleTagManager> */}
-                <ThemeProvider theme={theme}>
-                        <Component {...pageProps} />
-                    <GlobalStyle />
-                </ThemeProvider>
-            {/* </GoogleTagManager> */}
+  return (
+    <>
+      {/* <GoogleTagManager> */}
+      <ThemeProvider theme={theme}>
+        <Component {...pageProps} />
+        <GlobalStyle />
 
-            <script data-b24-form="auto/27/m0ebno" data-skip-moving="true" />
-        </>
-    )
+      </ThemeProvider>
+      <FloatingWhatsApp phoneNumber='+554899610729' accountName='Pláttano Technologies' 
+        allowClickAway={true} 
+        chatMessage="Olá, como podemos ajudar?" 
+        avatar='/assets/avatar_call_center.png' 
+        statusMessage="Responderemos o mais breve possível."
+      /> 
+      {/* </GoogleTagManager>*/}
+
+      <script data-b24-form="auto/27/m0ebno" data-skip-moving="true" />
+    </>
+  )
 }
 
 export default MyApp

@@ -21,8 +21,9 @@
     "@fortawesome/react-fontawesome": "^0.1.11",
     "next": "9.5.2",
     "next-react-svg": "^1.1.2",
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-floating-whatsapp": "^4.0.5",
     "react-markdown": "^5.0.2",
     "react-scrolllock": "^5.0.1",
     "styled-components": "^5.2.0"
