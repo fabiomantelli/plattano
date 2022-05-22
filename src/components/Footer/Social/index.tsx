@@ -1,5 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 import {
     faFacebook,
     faInstagram,
@@ -8,6 +9,7 @@ import {
 } from '@fortawesome/free-brands-svg-icons'
 import { Container } from './styles'
 import { ContainerIcons } from './styles.icons'
+import { IconProp } from '@fortawesome/fontawesome-svg-core'
 
 const Social: React.FC = () => {
     return (
@@ -20,7 +22,7 @@ const Social: React.FC = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <FontAwesomeIcon icon={faInstagram} size="2x" />
+                        <FontAwesomeIcon icon={faInstagram as IconProp} size="2x" />
                     </a>
                     &nbsp;&nbsp;
                     <a
@@ -28,7 +30,7 @@ const Social: React.FC = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <FontAwesomeIcon icon={faFacebook} size="2x" />
+                        <FontAwesomeIcon icon={faFacebook as IconProp} size="2x" />
                     </a>
                     &nbsp;&nbsp;
                     <a
@@ -36,7 +38,7 @@ const Social: React.FC = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <FontAwesomeIcon icon={faTwitter} size="2x" />
+                        <FontAwesomeIcon icon={faTwitter as IconProp} size="2x" />
                     </a>
                     &nbsp;&nbsp;
                     <a
@@ -44,7 +46,7 @@ const Social: React.FC = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <FontAwesomeIcon icon={faLinkedin} size="2x" />
+                        <FontAwesomeIcon icon={faLinkedin as IconProp} size="2x" />
                     </a>
                 </ContainerIcons>
             </Container>
