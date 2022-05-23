@@ -49,7 +49,7 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
         allowClickAway={true} 
         chatMessage="Olá, como podemos ajudar?" 
         avatar='/assets/avatar_call_center.png' 
-        statusMessage="Responderemos o mais breve possível."
+        statusMessage="On-line"
       /> 
       {/* </GoogleTagManager>*/}
 
