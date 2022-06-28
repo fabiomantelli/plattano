@@ -97,7 +97,7 @@ const Home: React.FC = () => {
                 >
                   <ImageContainer>
                     <img
-                      src="/assets/1-index/team-image.png"
+                      src="/assets/home/team-image.webp"
                       alt="Team Image"
                     />
                   </ImageContainer>
@@ -171,7 +171,7 @@ const Home: React.FC = () => {
                 >
                   <ImageContainer>
                     <img
-                      src="/assets/datacenter/datacenter-image.png"
+                      src="/assets/home/datacenter-image.webp"
                       alt="Datacenter Image"
                     />
                   </ImageContainer>
@@ -332,7 +332,7 @@ const Home: React.FC = () => {
                 >
                   <ImageContainer>
                     <img
-                      src="/assets/about/about-image.png"
+                      src="/assets/home/reason.webp"
                       alt="About Image"
                     />
                   </ImageContainer>

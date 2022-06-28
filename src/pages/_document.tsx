@@ -37,6 +37,10 @@ export default class MyDocuments extends Document {
 
       <Html>
         <Head>
+
+
+
+          
           {/* Google Tag Manager - Global base code */}
           {/* <script
             dangerouslySetInnerHTML={{

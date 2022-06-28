@@ -1,3 +1,5 @@
+import Link from 'next/link'
+import Image from 'next/image'
 import React from 'react'
 
 import Row from '../../styles/Row'
@@ -8,7 +10,6 @@ import Hamburguer from '../Hamburguer'
 import MobileMenu from '../MobileMenu'
 
 import { Container } from './styles'
-import Link from 'next/link'
 
 interface IHeader {
     active: string
@@ -34,7 +35,7 @@ const Header: React.FC<IHeader> = props => {
                 >
                     <Link href="/">
                         <img 
-                            src="../assets/header/plattano-logo.svg" 
+                            src="../assets/header/plattano.avif" 
                             alt="Pláttano Logo" 
                             style={{ position: 
                                 'relative', 
