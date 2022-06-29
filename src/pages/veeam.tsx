@@ -94,7 +94,7 @@ const Veeam: React.FC = () => {
                       }}
                     />
                     <img
-                      src="/assets/veeam/veeam.webp"
+                      src="/assets/veeam/veeam.svg"
                       alt="Veeam"
                       style={{
                         position: 'absolute',

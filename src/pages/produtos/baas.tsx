@@ -860,7 +860,7 @@ const Baas: React.FC = () => {
                                 >
                                     <BenefitContainer>
                                         <HexagonTitle>
-                                            375,000 clientes já podem fazer
+                                            375.000 clientes já podem fazer
                                             backup para a sua nuvem
                                         </HexagonTitle>
                                     </BenefitContainer>
