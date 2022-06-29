@@ -6,7 +6,7 @@ function SupportBoxIcon(): JSX.Element {
     return (
         <Container>
             <img
-                src="/assets/10-draas/support-icon.png"
+                src="/assets/produtos/draas/support-icon.svg"
                 alt="Support Box Icon"
             />
         </Container>
