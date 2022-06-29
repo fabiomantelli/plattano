@@ -8,7 +8,7 @@ import Row from '../styles/Row'
 import Column from '../styles/Column'
 import Grid from '../styles/Grid'
 
-import Forbes from '../components/5-partners/Forbes'
+import Forbes from '../components/partners/Forbes'
 
 import Header from '../components/Header'
 import Footer from '../components/Footer'

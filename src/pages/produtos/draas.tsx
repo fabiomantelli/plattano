@@ -25,13 +25,13 @@ import {
   Title
 } from '../../styles/TextElements'
 
-import Drsimple from '../../components/10-draas/Drsimple'
-import DrSimpleText from '../../components/10-draas/DrsimpleText'
-import ProcessBoxIcon from '../../assets/10-draas/processbox/processboxicon'
-import SupportBoxIcon from '../../assets/10-draas/supportbox/supportboxicon'
-import RecoveryBoxIcon from '../../assets/10-draas/recoverybox/recoveryboxicon'
-import ProtectionBoxIcon from '../../assets/10-draas/protectionbox/protectionboxicon'
-import DisasterBoxIcon from '../../assets/10-draas/disaster/disasterboxicon'
+import Drsimple from '../../components/Draas/Drsimple'
+import DrSimpleText from '../../components/Draas/DrsimpleText'
+import ProcessBoxIcon from '../../assets/draas/processbox/processboxicon'
+import SupportBoxIcon from '../../assets/draas/supportbox/supportboxicon'
+import RecoveryBoxIcon from '../../assets/draas/recoverybox/recoveryboxicon'
+import ProtectionBoxIcon from '../../assets/draas/protectionbox/protectionboxicon'
+import DisasterBoxIcon from '../../assets/draas/disaster/disasterboxicon'
 
 const Draas: React.FC = () => {
   const [active, SetActive] = useState('initial')

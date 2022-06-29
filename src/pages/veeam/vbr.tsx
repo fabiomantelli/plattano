@@ -29,7 +29,7 @@ import {
 
 import Trapezio from '../../assets/trapezio'
 import TrapezioWhite from '../../assets/trapeziowhite'
-import Software from '../../components/13-vbrPage/Software'
+import Software from '../../components/vbr/Software'
 import Footer from '../../components/Footer'
 
 const Vbr: React.FC = () => {
@@ -87,7 +87,7 @@ const Vbr: React.FC = () => {
                                         </PolygonContainer>
 
                                         <img
-                                            src="/assets/13-vbr/vbr-image.png"
+                                            src="/assets/veeam/vbr/vbr.webp"
                                             alt="Workspace One Image"
                                             style={{
                                                 position: 'absolute',
@@ -248,8 +248,8 @@ const Vbr: React.FC = () => {
                                 >
                                     <ImageContainer>
                                         <img
-                                            src="/assets/13-vbr/advantage.png"
-                                            alt="Advantage Image"
+                                            src="/assets/veeam/vbr/advantage.webp"
+                                            alt="Advantage"
                                         />
                                     </ImageContainer>
                                 </Column>
@@ -323,8 +323,8 @@ const Vbr: React.FC = () => {
                                 >
                                     <ImageContainer>
                                         <img
-                                            src="/assets/13-vbr/modernization.png"
-                                            alt="Modernization Image"
+                                            src="/assets/veeam/vbr/modernization.webp"
+                                            alt="Modernization"
                                         />
                                     </ImageContainer>
                                 </Column>
@@ -762,8 +762,8 @@ const Vbr: React.FC = () => {
                                 >
                                     <ImageContainer>
                                         <img
-                                            src="/assets/13-vbr/backup.png"
-                                            alt="Backup Image"
+                                            src="/assets/veeam/vbr/backup.webp"
+                                            alt="Backup"
                                         />
                                     </ImageContainer>
                                 </Column>

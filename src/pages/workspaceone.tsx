@@ -76,8 +76,8 @@ const Workspaceone: React.FC = () => {
                     </PolygonContainer>
 
                     <img
-                      src="/assets/12-workspaceone/workspace-image.png"
-                      alt="Workspace One Image"
+                      src="/assets/workspaceone/workspace.webp"
+                      alt="Workspace One"
                       style={{
                         position: 'absolute',
                         right: 0,
@@ -122,8 +122,8 @@ const Workspaceone: React.FC = () => {
                 >
                   <ImageContainer>
                     <img
-                      src="/assets/12-workspaceone/vmwareworkspaceone.png"
-                      alt="VMware WorkSpace One Image"
+                      src="/assets/workspaceone/vmware-workspace.webp"
+                      alt="VMware WorkSpace"
                     />
                   </ImageContainer>
                 </Column>

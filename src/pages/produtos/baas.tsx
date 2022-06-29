@@ -28,12 +28,12 @@ import {
 } from '../../styles/TextElements'
 
 import Trapezio from '../../assets/trapezio'
-import HexagonIcon from '../../components/9-baas/HexagonIcon'
-import CloudBackup from '../../components/9-baas/CloudBackup'
-import EnhanceBoxIcon from '../../assets/9-baas/enhance/enhanceboxicon'
-import DiscoverBoxIcon from '../../assets/9-baas/discoverbox/discoverboxIcon'
-import AccomplishBoxIcon from '../../assets/9-baas/accomplishbox/accomplishBoxIcon'
-import TryBoxIcon from '../../assets/9-baas/trybox/tryIcon'
+import HexagonIcon from '../../components/Baas/HexagonIcon'
+import CloudBackup from '../../components/Baas/CloudBackup'
+import EnhanceBoxIcon from '../../assets/baas/enhance/enhanceboxicon'
+import DiscoverBoxIcon from '../../assets/baas/discoverbox/discoverboxIcon'
+import AccomplishBoxIcon from '../../assets/baas/accomplishbox/accomplishBoxIcon'
+import TryBoxIcon from '../../assets/baas/trybox/tryIcon'
 import Footer from '../../components/Footer'
 
 const Baas: React.FC = () => {

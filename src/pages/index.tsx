@@ -10,8 +10,8 @@ import Grid from '../styles/Grid'
 
 import Header from '../components/Header'
 
-import Reference from '../components/1-indexPage/Reference'
-import Services from '../components/1-indexPage/Services'
+import Reference from '../components/home/Reference'
+import Services from '../components/home/Services'
 
 import Footer from '../components/Footer'
 import {
@@ -30,7 +30,7 @@ import {
 } from '../styles/TextElements'
 
 import { ButtonElement } from '../styles/Buttons'
-import Consulting from '../components/1-indexPage/Consulting'
+import Consulting from '../components/home/Consulting'
 
 const Home: React.FC = () => {
   const [active, SetActive] = useState('initial')

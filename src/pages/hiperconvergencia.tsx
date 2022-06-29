@@ -29,10 +29,10 @@ import {
   Title
 } from '../styles/TextElements'
 
-import StorageBoxIcon from '../assets/8-hyperconvergence/storagebox/storageIcon'
-import CapexBoxIcon from '../assets/8-hyperconvergence/capexbox/capexboxIcon'
-import AlreadyBoxIcon from '../assets/8-hyperconvergence/alreadybox/alreadyboxIcon'
-import EvolutionBoxIcon from '../assets/8-hyperconvergence/evolutionbox/evolutionBoxIcon'
+import StorageBoxIcon from '../assets/hyperconvergencia/storagebox/storageIcon'
+import CapexBoxIcon from '../assets/hyperconvergencia/capexbox/capexboxIcon'
+import CloudBoxIcon from '../assets/hyperconvergencia/cloudbox/cloudboxIcon'
+import EvolutionBoxIcon from '../assets/hyperconvergencia/evolutionbox/evolutionBoxIcon'
 
 const Hiperconvergencia: React.FC = () => {
   const [active, SetActive] = useState('initial')
@@ -89,8 +89,8 @@ const Hiperconvergencia: React.FC = () => {
                       </SubTitle>
                     </PolygonContainer>
                     <img
-                      src="/assets/8-hyperconvergence/hyperconvergence-background.png"
-                      alt="Hyperconvergence Image"
+                      src="/assets/hiperconvergencia/background.webp"
+                      alt="Hyperconvergence"
                       style={{
                         position: 'absolute',
                         width: '100%',
@@ -99,8 +99,8 @@ const Hiperconvergencia: React.FC = () => {
                       }}
                     />
                     <img
-                      src="/assets/8-hyperconvergence/hyperconvergence-image.png"
-                      alt="Hyperconvergence Image"
+                      src="/assets/hiperconvergencia/hyperconvergence.webp"
+                      alt="Hyperconvergence"
                       style={{
                         position: 'absolute',
                         right: 0,
@@ -146,8 +146,8 @@ const Hiperconvergencia: React.FC = () => {
                 >
                   <ImageContainer>
                     <img
-                      src="/assets/8-hyperconvergence/hci-image.png"
-                      alt="HCI Image"
+                      src="/assets/hiperconvergencia/hci.webp"
+                      alt="HCI"
                     />
                   </ImageContainer>
                 </Column>
@@ -226,8 +226,8 @@ const Hiperconvergencia: React.FC = () => {
                 >
                   <ImageContainer>
                     <img
-                      src="/assets/8-hyperconvergence/virtualize-image.png"
-                      alt="Virtualize Image"
+                      src="/assets/hiperconvergencia/storage.webp"
+                      alt="Storage"
                     />
                   </ImageContainer>
                 </Column>
@@ -244,8 +244,8 @@ const Hiperconvergencia: React.FC = () => {
                 >
                   <ImageContainer>
                     <img
-                      src="/assets/8-hyperconvergence/infrastructure-image.png"
-                      alt="Infrastructure Image"
+                      src="/assets/hiperconvergencia/infrastructure.webp"
+                      alt="Infrastructure"
                     />
                   </ImageContainer>
                 </Column>
@@ -316,8 +316,8 @@ const Hiperconvergencia: React.FC = () => {
                 >
                   <ImageContainer>
                     <img
-                      src="/assets/8-hyperconvergence/infrastructure2-image.png"
-                      alt="Infrastructure2 Image"
+                      src="/assets/hiperconvergencia/infrastructure2.webp"
+                      alt="Infrastructure2"
                     />
                   </ImageContainer>
                 </Column>
@@ -399,8 +399,8 @@ const Hiperconvergencia: React.FC = () => {
                 >
                   <ImageContainer>
                     <img
-                      src="/assets/8-hyperconvergence/environment-image.png"
-                      alt="Environment Image"
+                      src="/assets/hiperconvergencia/vsan.webp"
+                      alt="VSan"
                     />
                   </ImageContainer>
                 </Column>
@@ -489,7 +489,7 @@ const Hiperconvergencia: React.FC = () => {
                   maxWidth={1280}
                 >
                   <BoxItemsContainer>
-                    <AlreadyBoxIcon />
+                    <CloudBoxIcon />
                     <div>
                       <h1 style={{ color: '#F48200' }}>Pronto para a nuvem</h1>
                       <br />
