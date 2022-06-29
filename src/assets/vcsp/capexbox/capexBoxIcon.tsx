@@ -5,7 +5,7 @@ import { Container } from './styles'
 function CapexBoxIcon(): JSX.Element {
     return (
         <Container>
-            <img src="/assets/11-support/capex-icon.png" alt="Capex Box Icon" />
+            <img src="/assets/produtos/vcsp/capex-icon.svg" alt="Capex Box Icon" />
         </Container>
     )
 }
