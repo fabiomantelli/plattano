@@ -6,7 +6,7 @@ function AccomplishBoxIcon(): JSX.Element {
     return (
         <Container>
             <img
-                src="/assets/9-baas/accomplish-icon.png"
+                src="/assets/produtos/baas/accomplish-icon.svg"
                 alt="Accomplish Box Icon"
             />
         </Container>

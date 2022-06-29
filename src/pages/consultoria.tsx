@@ -66,7 +66,7 @@ const Consultoria: React.FC = () => {
                 >
                   <MainContainer
                     changedMediaQueries="tabletOn"
-                    url="/assets/7-consultancy/consultancy-background.png"
+                    url="/assets/consultoria/consultancy-background.webp"
                     backgroundSize="cover"
                   >
                     <Title>Consultoria</Title>
@@ -105,8 +105,8 @@ const Consultoria: React.FC = () => {
                 >
                   <ImageContainer>
                     <img
-                      src="/assets/7-consultancy/dontknow-image.png"
-                      alt="Dont Know Image"
+                      src="/assets/consultoria/start-your-project.webp"
+                      alt="Start Your Project"
                     />
                   </ImageContainer>
                 </Column>
@@ -188,8 +188,8 @@ const Consultoria: React.FC = () => {
                 >
                   <ImageContainer>
                     <img
-                      src="/assets/7-consultancy/addvalue-image.png"
-                      alt="Add Value Image"
+                      src="/assets/consultoria/add-value.webp"
+                      alt="Add Value"
                     />
                   </ImageContainer>
                 </Column>
@@ -206,8 +206,8 @@ const Consultoria: React.FC = () => {
                 >
                   <ImageContainer>
                     <img
-                      src="/assets/7-consultancy/updated-image.png"
-                      alt="Updated Image"
+                      src="/assets/consultoria/updated.webp"
+                      alt="Updated"
                     />
                   </ImageContainer>
                 </Column>
@@ -288,8 +288,8 @@ const Consultoria: React.FC = () => {
                 >
                   <ImageContainer>
                     <img
-                      src="/assets/7-consultancy/referencecompany-image.png"
-                      alt="Reference Company Image"
+                      src="/assets/consultoria/reference-company.webp"
+                      alt="Reference Company"
                     />
                   </ImageContainer>
                 </Column>

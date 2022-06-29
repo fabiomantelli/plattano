@@ -19,11 +19,9 @@ import {
   HexagonTitle,
   Title
 } from '../styles/TextElements'
-import { ButtonElement } from '../styles/Buttons'
 
 import Trapezio from '../assets/trapezio'
 import Footer from '../components/Footer'
-import Link from 'next/link'
 
 const Vmware: React.FC = () => {
   const [active, SetActive] = useState('initial')
@@ -70,8 +68,8 @@ const Vmware: React.FC = () => {
                       <Title>ExaGrid</Title>
                     </PolygonContainer>
                     <img
-                      src="/assets/17-exagrid/background.png"
-                      alt="Background Image"
+                      src="/assets/exagrid/background.webp"
+                      alt="Background"
                       style={{
                         position: 'absolute',
                         width: '100%',
@@ -80,7 +78,7 @@ const Vmware: React.FC = () => {
                       }}
                     />
                     <img
-                      src="/assets/17-exagrid/exagrid-logo.svg"
+                      src="/assets/exagrid/exagrid.svg"
                       alt="Exagrid"
                       style={{
                         position: 'absolute',
@@ -145,8 +143,8 @@ const Vmware: React.FC = () => {
                 >
                   <ImageContainer>
                     <img
-                      src="/assets/17-exagrid/innovation.png"
-                      alt="Innovation Image"
+                      src="/assets/exagrid/innovation.webp"
+                      alt="Innovation"
                     />
                   </ImageContainer>
                 </Column>
@@ -163,8 +161,8 @@ const Vmware: React.FC = () => {
                 >
                   <ImageContainer>
                     <img
-                      src="/assets/17-exagrid/backup.png"
-                      alt="Backup Image"
+                      src="/assets/exagrid/backup.webp"
+                      alt="Backup"
                     />
                   </ImageContainer>
                 </Column>
@@ -247,8 +245,8 @@ const Vmware: React.FC = () => {
                 >
                   <ImageContainer>
                     <img
-                      src="/assets/17-exagrid/appliance.png"
-                      alt="Appliance Image"
+                      src="/assets/exagrid/appliance.webp"
+                      alt="Appliance"
                     />
                   </ImageContainer>
                 </Column>

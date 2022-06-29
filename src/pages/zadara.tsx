@@ -70,8 +70,8 @@ const Vmware: React.FC = () => {
                       <Title>Zadara</Title>
                     </PolygonContainer>
                     <img
-                      src="/assets/18-zadara/background.png"
-                      alt="Background Image"
+                      src="/assets/zadara/background.webp"
+                      alt="Background"
                       style={{
                         position: 'absolute',
                         width: '100%',
@@ -80,8 +80,8 @@ const Vmware: React.FC = () => {
                       }}
                     />
                     <img
-                      src="/assets/18-zadara/zadara-logo.svg"
-                      alt="Exagrid"
+                      src="/assets/zadara/zadara.svg"
+                      alt="Zadara"
                       style={{
                         position: 'absolute',
                         right: 0,
@@ -150,8 +150,8 @@ const Vmware: React.FC = () => {
                 >
                   <ImageContainer>
                     <img
-                      src="/assets/18-zadara/construct.png"
-                      alt="Construct Image"
+                      src="/assets/zadara/construct.webp"
+                      alt="Construct"
                     />
                   </ImageContainer>
                 </Column>
@@ -168,8 +168,8 @@ const Vmware: React.FC = () => {
                 >
                   <ImageContainer>
                     <img
-                      src="/assets/18-zadara/partnership.png"
-                      alt="Partnership Image"
+                      src="/assets/zadara/partnership.webp"
+                      alt="Partnership"
                     />
                   </ImageContainer>
                 </Column>
@@ -246,8 +246,8 @@ const Vmware: React.FC = () => {
                 >
                   <ImageContainer>
                     <img
-                      src="/assets/18-zadara/usecases.png"
-                      alt="Use Cases Image"
+                      src="/assets/zadara/use-cases.webp"
+                      alt="Use Cases"
                     />
                   </ImageContainer>
                 </Column>

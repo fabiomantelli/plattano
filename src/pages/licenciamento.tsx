@@ -63,7 +63,7 @@ const Licenciamento: React.FC = () => {
                 >
                   <MainContainer
                     changedMediaQueries="tabletOn"
-                    url="/assets/14-licensing/licensing-background.png"
+                    url="/assets/licenciamento/licensing-background.webp"
                     backgroundSize="cover"
                   >
                     <Title>
@@ -139,8 +139,8 @@ const Licenciamento: React.FC = () => {
                 >
                   <ImageContainer>
                     <img
-                      src="/assets/14-licensing/weneeded.png"
-                      alt="We Needed Image"
+                      src="/assets/licenciamento/we-need.webp"
+                      alt="We Needed"
                     />
                   </ImageContainer>
                 </Column>
@@ -158,8 +158,8 @@ const Licenciamento: React.FC = () => {
                 >
                   <ImageContainer>
                     <img
-                      src="/assets/14-licensing/renovation.png"
-                      alt="Renovation Image"
+                      src="/assets/licenciamento/renovation.webp"
+                      alt="Renovation"
                     />
                   </ImageContainer>
                 </Column>

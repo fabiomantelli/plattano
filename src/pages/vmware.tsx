@@ -70,8 +70,8 @@ const Vmware: React.FC = () => {
                       <Title>VMware</Title>
                     </PolygonContainer>
                     <img
-                      src="/assets/15-vmware/vmware-background.png"
-                      alt="VMware Background Image"
+                      src="/assets/vmware/background.webp"
+                      alt="VMware Background"
                       style={{
                         position: 'absolute',
                         width: '100%',
@@ -80,8 +80,8 @@ const Vmware: React.FC = () => {
                       }}
                     />
                     <img
-                      src="/assets/15-vmware/vmware-image.png"
-                      alt="DRaaS Image"
+                      src="/assets/vmware/vmware.svg"
+                      alt="VMware"
                       style={{
                         position: 'absolute',
                         right: 0,
@@ -145,8 +145,8 @@ const Vmware: React.FC = () => {
                 >
                   <ImageContainer>
                     <img
-                      src="/assets/15-vmware/hyperconvergence.png"
-                      alt="Hyperconvergence Image"
+                      src="/assets/vmware/hyperconvergence.webp"
+                      alt="Hyperconvergence"
                     />
                   </ImageContainer>
                 </Column>
@@ -163,8 +163,8 @@ const Vmware: React.FC = () => {
                 >
                   <ImageContainer>
                     <img
-                      src="/assets/15-vmware/workspaceone.png"
-                      alt="Workspace One Image"
+                      src="/assets/vmware/workspace.webp"
+                      alt="Workspace One"
                     />
                   </ImageContainer>
                 </Column>
@@ -239,8 +239,8 @@ const Vmware: React.FC = () => {
                 >
                   <ImageContainer>
                     <img
-                      src="/assets/15-vmware/vmware-vsphere.png"
-                      alt="vSphere Image"
+                      src="/assets/vmware/vsphere.webp"
+                      alt="vSphere"
                     />
                   </ImageContainer>
                 </Column>

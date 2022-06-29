@@ -6,7 +6,7 @@ function ProtectionBoxIcon(): JSX.Element {
     return (
         <Container>
             <img
-                src="/assets/10-draas/protection-icon.png"
+                src="/assets/produtos/draas/protection-icon.svg"
                 alt="Protection Box Icon"
             />
         </Container>

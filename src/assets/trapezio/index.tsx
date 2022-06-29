@@ -4,7 +4,7 @@ import { Container } from './styles'
 function ProfessionalServices2Trapezio(): JSX.Element {
     return (
         <Container>
-            <img src="/assets/trapezio-icon.png" alt="Trapezio Image" />
+            <img src="/assets/trapezio-icon.webp" alt="Trapezio Icon" />
         </Container>
     )
 }

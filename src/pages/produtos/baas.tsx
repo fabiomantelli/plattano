@@ -92,8 +92,8 @@ const Baas: React.FC = () => {
                                             </SubTitle>
                                         </PolygonContainer>
                                         <img
-                                            src="/assets/8-hyperconvergence/hyperconvergence-background.png"
-                                            alt="Hyperconvergence Image"
+                                            src="/assets/produtos/baas/background.webp"
+                                            alt="Background"
                                             style={{
                                                 position: 'absolute',
                                                 width: '100%',
@@ -102,7 +102,7 @@ const Baas: React.FC = () => {
                                             }}
                                         />
                                         <img
-                                            src="/assets/9-baas/notebook.png"
+                                            src="/assets/produtos/baas/notebook.webp"
                                             alt="Notebook"
                                             style={{
                                                 position: 'absolute',
@@ -324,7 +324,7 @@ const Baas: React.FC = () => {
                                 >
                                     <ImageContainer>
                                         <img
-                                            src="/assets/9-baas/protect.png"
+                                            src="/assets/produtos/baas/protect.webp"
                                             alt="Protect"
                                         />
                                     </ImageContainer>
@@ -342,7 +342,7 @@ const Baas: React.FC = () => {
                                 >
                                     <ImageContainer>
                                         <img
-                                            src="/assets/9-baas/backup.png"
+                                            src="/assets/produtos/baas/backup.webp"
                                             alt="Backup"
                                         />
                                     </ImageContainer>
@@ -408,7 +408,7 @@ const Baas: React.FC = () => {
                                 >
                                     <ImageContainer>
                                         <img
-                                            src="/assets/9-baas/backup-recovery.png"
+                                            src="/assets/produtos/baas/backup-recovery.webp"
                                             alt="Protect"
                                         />
                                     </ImageContainer>

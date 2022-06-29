@@ -6,7 +6,7 @@ export const Container = styled.div`
     flex-direction: column;
     justify-content: flex-end;
     padding: 2rem;
-    background-image: url('/assets/9-baas/cloudbackup.png');
+    background-image: url('/assets/produtos/baas/cloud-backup.webp');
     background-repeat: no-repeat;
     background-size: auto auto;
     background-position: cover;

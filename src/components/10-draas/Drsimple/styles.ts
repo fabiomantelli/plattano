@@ -5,7 +5,7 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     padding: 2rem;
-    background-image: url('/assets/10-draas/dr-image.png');
+    background-image: url('/assets/produtos/draas/dr.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

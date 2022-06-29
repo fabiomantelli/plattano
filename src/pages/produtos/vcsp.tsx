@@ -24,10 +24,10 @@ import {
 } from '../../styles/TextElements'
 
 import Trapezio from '../../assets/trapezio'
-import SupportBoxIcon from '../../assets/11-support/supportbox/supportBoxIcon'
-import PurposelessBoxIcon from '../../assets/11-support/purposelessbox/purposelessBoxIcon'
-import UpdatesBoxIcon from '../../assets/11-support/updatesbox/updatesBoxIcon'
-import CapexBoxIcon from '../../assets/11-support/capexbox/capexBoxIcon'
+import SupportBoxIcon from '../../assets/vcsp/supportbox/supportBoxIcon'
+import FidelityBoxIcon from '../../assets/vcsp/fidelitybox/fidelityBoxIcon'
+import UpdatesBoxIcon from '../../assets/vcsp/updatesbox/updatesBoxIcon'
+import CapexBoxIcon from '../../assets/vcsp/capexbox/capexBoxIcon'
 import Footer from '../../components/Footer'
 
 const Suporte: React.FC = () => {
@@ -76,7 +76,7 @@ const Suporte: React.FC = () => {
                                 >
                                     <MainContainer
                                         changedMediaQueries="tabletOn"
-                                        url="/assets/11-support/support-background.png"
+                                        url="/assets/produtos/vcsp/support.webp"
                                         backgroundSize="cover"
                                     >
                                         <Title style={{ fontSize: '3.5rem'}}>
@@ -148,8 +148,8 @@ const Suporte: React.FC = () => {
                                 >
                                     <ImageContainer>
                                         <img
-                                            src="/assets/11-support/veeamcloud.png"
-                                            alt="Veeam Cloud Image"
+                                            src="/assets/produtos/vcsp/cloud-service-provider.webp"
+                                            alt="Cloud Service Provider"
                                         />
                                     </ImageContainer>
                                 </Column>
@@ -202,7 +202,7 @@ const Suporte: React.FC = () => {
                                         height="auto"
                                         changedMediaQueries="mobileOn"
                                     >
-                                        <PurposelessBoxIcon />
+                                        <FidelityBoxIcon />
                                         <SupportTitle>
                                             Sem Fidelidade
                                         </SupportTitle>
@@ -282,7 +282,7 @@ const Suporte: React.FC = () => {
                                         height="auto"
                                         changedMediaQueries="mobileOn"
                                     >
-                                        <PurposelessBoxIcon />
+                                        <FidelityBoxIcon />
                                         <SupportTitle>
                                             Sem Fidelidade
                                         </SupportTitle>
@@ -376,7 +376,7 @@ const Suporte: React.FC = () => {
                                         height="auto"
                                         changedMediaQueries="mobileOn"
                                     >
-                                        <PurposelessBoxIcon />
+                                        <FidelityBoxIcon />
                                         <SupportTitle>
                                             Sem Fidelidade
                                         </SupportTitle>

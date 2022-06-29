@@ -6,7 +6,7 @@ function RecoveryBoxIcon(): JSX.Element {
     return (
         <Container>
             <img
-                src="/assets/10-draas/recovery-icon.png"
+                src="/assets/produtos/draas/recovery-icon.svg"
                 alt="Recovery Box Icon"
             />
         </Container>

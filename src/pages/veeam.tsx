@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import Head from 'next/head'
 
 import ScrollLock from 'react-scrolllock'
@@ -84,8 +84,8 @@ const Veeam: React.FC = () => {
                       </SubTitle>
                     </PolygonContainer>
                     <img
-                      src="/assets/16-veeam/veeam-background.png"
-                      alt="VMware Background Image"
+                      src="/assets/veeam/background.webp"
+                      alt="Background"
                       style={{
                         position: 'absolute',
                         width: '100%',
@@ -94,8 +94,8 @@ const Veeam: React.FC = () => {
                       }}
                     />
                     <img
-                      src="/assets/16-veeam/veeam-image.png"
-                      alt="DRaaS Image"
+                      src="/assets/veeam/veeam.webp"
+                      alt="Veeam"
                       style={{
                         position: 'absolute',
                         right: 0,
@@ -175,8 +175,8 @@ const Veeam: React.FC = () => {
                 >
                   <ImageContainer>
                     <img
-                      src="/assets/16-veeam/veeamreplication.png"
-                      alt="Veeam Replication Image"
+                      src="/assets/veeam/replication.webp"
+                      alt="Veeam Replication"
                     />
                   </ImageContainer>
                 </Column>
@@ -193,8 +193,8 @@ const Veeam: React.FC = () => {
                 >
                   <ImageContainer>
                     <img
-                      src="/assets/16-veeam/veeamavailability.png"
-                      alt="Veeam Availability Image"
+                      src="/assets/veeam/availability.webp"
+                      alt="Veeam Availability"
                     />
                   </ImageContainer>
                 </Column>
@@ -265,8 +265,8 @@ const Veeam: React.FC = () => {
                 >
                   <ImageContainer>
                     <img
-                      src="/assets/16-veeam/veeambackup.png"
-                      alt="Veeam Backup Image"
+                      src="/assets/veeam/backup.webp"
+                      alt="Veeam Backup"
                     />
                   </ImageContainer>
                 </Column>

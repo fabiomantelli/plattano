@@ -6,7 +6,7 @@ function DiscoverBoxIcon(): JSX.Element {
     return (
         <Container>
             <img
-                src="/assets/9-baas/discover-icon.png"
+                src="/assets/produtos/baas/discovery-icon.svg"
                 alt="Discover Box Icon"
             />
         </Container>

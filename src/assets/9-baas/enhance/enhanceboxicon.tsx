@@ -5,7 +5,7 @@ import { Container } from './styles'
 function EnhanceBoxIcon(): JSX.Element {
     return (
         <Container>
-            <img src="/assets/9-baas/enhance-icon.png" alt="Enhance Box Icon" />
+            <img src="/assets/produtos/baas/enhance-icon.svg" alt="Enhance Box Icon" />
         </Container>
     )
 }
