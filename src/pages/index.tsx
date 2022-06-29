@@ -210,7 +210,7 @@ const Home: React.FC = () => {
                 >
                   <img
                     style={{ padding: '2rem 0 0 2rem' }}
-                    src="/assets/1-index/consulting-icon.png"
+                    src="/assets/home/consulting.svg"
                     alt="Consulting Icon"
                   />
                   <Consulting />
@@ -224,7 +224,7 @@ const Home: React.FC = () => {
                 >
                   <img
                     style={{ padding: '2rem 0 0 2rem' }}
-                    src="/assets/1-index/reference-icon.png"
+                    src="/assets/home/reference.svg"
                     alt="Reference Icon"
                   />
                   <Reference />
@@ -239,7 +239,7 @@ const Home: React.FC = () => {
                 >
                   <img
                     style={{ padding: '2rem 0 0 2rem' }}
-                    src="/assets/1-index/services-icon.png"
+                    src="/assets/home/services.svg"
                     alt="Reference Icon"
                   />
                   <Services />
@@ -264,7 +264,7 @@ const Home: React.FC = () => {
                       marginLeft: 'auto',
                       marginRight: 'auto'
                     }}
-                    src="/assets/1-index/consulting-icon.png"
+                    src="/assets/home/consulting.svg"
                     alt="Consulting Icon"
                   />
                   <Consulting />
@@ -289,7 +289,7 @@ const Home: React.FC = () => {
                       marginLeft: 'auto',
                       marginRight: 'auto'
                     }}
-                    src="/assets/1-index/reference-icon.png"
+                    src="/assets/home/reference.svg"
                     alt="Reference Icon"
                   />
                   <Reference />
@@ -314,7 +314,7 @@ const Home: React.FC = () => {
                       marginLeft: 'auto',
                       marginRight: 'auto'
                     }}
-                    src="/assets/1-index/services-icon.png"
+                    src="/assets/home/services.svg"
                     alt="Reference Icon"
                   />
                   <Services />

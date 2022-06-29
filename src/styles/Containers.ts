@@ -234,11 +234,11 @@ export const ModernityContainer = styled.div`
     align-items: center;
     text-align: center;
     height: calc(100vh - 70px);
-    background-image: url('/assets/1-index/management-background.png');
+    background-image: url('/assets/home/modernity-background.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-position: 0 230px;
+    background-position: 0 400px;
     padding: 2rem;
 
     @media only screen and (max-width: 42.98em) {

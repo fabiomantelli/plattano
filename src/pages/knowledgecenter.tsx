@@ -76,7 +76,7 @@ const Knowledgecenter: React.FC = () => {
                 >
                   <MainContainer
                     changedMediaQueries="tabletOn"
-                    url="/assets/knowledge-center/knowledgecenter-image.png"
+                    url="/assets/knowledge-center/knowledgecenter.webp"
                     backgroundSize="cover"
                   >
                     <Title>
@@ -241,8 +241,8 @@ const Knowledgecenter: React.FC = () => {
                 >
                   <ImageContainer>
                     <img
-                      src="/assets/knowledge-center/documentation.png"
-                      alt="Documentation Image"
+                      src="/assets/knowledge-center/documentation.webp"
+                      alt="Documentation"
                     />
                   </ImageContainer>
                 </Column>
