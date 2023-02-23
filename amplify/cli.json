@@ -17,5 +17,8 @@
     "codegen": {
       "useappsyncmodelgenplugin": true
     }
+  },
+  "debug": {
+    "shareProjectConfig": false
   }
 }
