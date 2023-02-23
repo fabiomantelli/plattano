@@ -30,11 +30,11 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
-      (function(w,d,u){
-        var s=d.createElement('script');
-        s.async=true;s.src=u+'?'+(Date.now()/180000|0);
-        var h=d.getElementsByTagName('script')[0];
-        h.parentNode.insertBefore(s,h);
+      (function (w, d, u) {
+        var s = d.createElement('script');
+        s.async = true; s.src = u + '?' + (Date.now() / 180000 | 0);
+        var h = d.getElementsByTagName('script')[0];
+        h.parentNode.insertBefore(s, h);
       })(
         window,
         document,
@@ -51,15 +51,15 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
         <GlobalStyle />
 
       </ThemeProvider>
-      <FloatingWhatsApp phoneNumber='+554899610729' accountName='Pláttano Technologies' 
-        allowClickAway={true} 
-        chatMessage="Olá, como podemos ajudar?" 
-        avatar='/assets/avatar_call_center.png' 
+      <FloatingWhatsApp phoneNumber='+554831979877' accountName='Pláttano Technologies'
+        allowClickAway={true}
+        chatMessage="Olá, como podemos ajudar?"
+        avatar='/assets/avatar_call_center.png'
         statusMessage="On-line"
-      /> 
+      />
       {/* </GoogleTagManager>*/}
 
-      
+
     </>
   )
 }
