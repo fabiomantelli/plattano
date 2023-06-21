@@ -39,11 +39,13 @@ next.config.js
 #amplify-do-not-edit-begin
 amplify/\#current-cloud-backend
 amplify/.config/local-*
+amplify/README.md
 amplify/logs
 amplify/mock-data
 amplify/mock-api-resources
 amplify/backend/amplify-meta.json
 amplify/backend/.temp
+amplify/hooks
 build/
 dist/
 node_modules/
@@ -57,3 +59,4 @@ amplifytools.xcconfig
 .secret-*
 **.sample
 #amplify-do-not-edit-end
+local-aws-info.json.bak
