@@ -19,6 +19,6 @@
     }
   },
   "debug": {
-    "shareProjectConfig": true
+    "shareProjectConfig": false
   }
 }
