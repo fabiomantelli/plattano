@@ -38,7 +38,7 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
       })(
         window,
         document,
-        'https://cdn.bitrix24.com.br/b17869893/crm/site_button/loader_7_8e3ev9.js');
+        'https://cdn.bitrix24.com.br/b17869893/crm/form/loader_27.js');
     }
   }, [])
 
@@ -51,12 +51,12 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
         <GlobalStyle />
 
       </ThemeProvider>
-      {/* <FloatingWhatsApp phoneNumber='+554831979877' accountName='Pláttano Technologies'
+      <FloatingWhatsApp phoneNumber='+554831979877' accountName='Pláttano Technologies'
         allowClickAway={true}
         chatMessage="Olá, como podemos ajudar?"
         avatar='/assets/avatar_call_center.png'
         statusMessage="On-line"
-      /> */}
+      />
       {/* </GoogleTagManager>*/}
 
 
